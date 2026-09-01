@@ -3240,8 +3240,90 @@ RECIPES = [
         "community_reviews": [
             {"name": "Birgitta Nilsson", "date": "Idag", "rating": 5, "comment": "Underbar köttsoppa! Klimpen blev så mjuk och god och köttet föll sönder i munnen.", "verified": True}
         ]
+    },
+    {
+        "slug": "klassiska-pannbiffar-med-lok-graddsas",
+        "file": "klassiska-pannbiffar-med-lok-graddsas.html",
+        "img": "pannbiff",
+        "title": "Klassiska Pannbiffar med Karamelliserad Lök & Gräddsås",
+        "card_title": "Pannbiff med Lök",
+        "sub": "Saftiga pannbiffar med mjukstekt karamelliserad lök, gräddsås & lingon",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Enkel",
+        "time": 40,
+        "prep_time": "PT15M",
+        "cook_time": "PT25M",
+        "total_time": "PT40M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "25 min",
+        "time_str": "40 min",
+        "calories": 520,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 680,
+        "desc": "En av Sveriges mest älskade husmansklassiker! Saftiga och smakrika pannbiffar gjorda på nötfärs eller blandfärs, serverade med ett generöst berg av smörstekt karamelliserad gul lök, en silkeslen gräddsås, kokt potatis och rårörda lingon.",
+        "long_desc": "Pannbiff med lök är själva definitionen av svensk tröstmat. Hemligheten bakom extra saftiga biffar är att låta ströbröd svälla i mjölk och grädde, samt att steka löken långsamt på svag värme så att dess naturliga sötma utvecklas.",
+        "keywords": "pannbiff, pannbiff med lök, pannbiff recept, bästa pannbiffarna, saftig pannbiff, pannbiff med gräddsås, klassisk husmanskost",
+        "alt": "Närbild på gyllenbruna saftiga pannbiffar täckta av karamelliserad lök, krämig gräddsås, nykokt dillpotatis och rårörda lingon",
+        "equipment": ["Gjutjärnsstekpanna", "Bunke till färs", "Stekspade"],
+        "drink_pairing": "En fyllig svensk lager, enbärsdricka eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Saftiga Pannbiffar", "items": [
+                {"val": 600, "unit": "g", "name": "nötfärs eller blandfärs (av god kvalitet)"},
+                {"val": 0.75, "unit": "dl", "name": "ströbröd"},
+                {"val": 1.5, "unit": "dl", "name": "mjölk eller gräddmjölk"},
+                {"val": 1, "unit": "st", "name": "stort ägg"},
+                {"val": 1, "unit": "msk", "name": "koncentrerad kalvfond eller oxfond"},
+                {"val": 1, "unit": "msk", "name": "kinesisk soja (för färg och umami)"},
+                {"val": 1, "unit": "tsk", "name": "dijonsenap"},
+                {"val": 1, "unit": "tsk", "name": "salt & nymalen svartpeppar"},
+                {"val": 0.5, "unit": "tsk", "name": "nystött kryddpeppar (ger klassisk smak)"},
+                {"val": 3, "unit": "msk", "name": "smör (att steka i)"}
+            ]},
+            {"group": "Karamelliserad Stekt Lök", "items": [
+                {"val": 4, "unit": "st", "name": "stora gula lökar (skivade i tunna ringar)"},
+                {"val": 3, "unit": "msk", "name": "smör"},
+                {"val": 1, "unit": "tsk", "name": "strösocker eller ljus sirap (framhäver karamelliseringen)"},
+                {"val": 0.5, "unit": "tsk", "name": "salt & svartpeppar"}
+            ]},
+            {"group": "Krämig Gräddsås", "items": [
+                {"val": 3, "unit": "dl", "name": "vispgrädde"},
+                {"val": 1.5, "unit": "dl", "name": "vatten (att vispa ur pannan med)"},
+                {"val": 2, "unit": "msk", "name": "koncentrerad kalvfond"},
+                {"val": 1, "unit": "msk", "name": "kinesisk soja"},
+                {"val": 1, "unit": "msk", "name": "svartvinbärsgelé eller lingonsylt"},
+                {"val": 1, "unit": "msk", "name": "maizena (utrört i lite vatten, för redning)"}
+            ]},
+            {"group": "Klassisk Servering", "items": [
+                {"val": 4, "unit": "portioner", "name": "kokt delikatesspotatis eller potatismos"},
+                {"val": 2, "unit": "dl", "name": "rårörda lingon"},
+                {"val": 1, "unit": "burk", "name": "pressgurka eller inlagd gurka"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Låt ströbrödet svälla", "text": "Blanda ströbröd, mjölk, kalvfond, soja och dijonsenap i en bunke. Låt stå och svälla i ca 8–10 minuter.", "timer": 8},
+            {"step": 2, "title": "Karamellisera löken", "text": "Hetta upp 3 msk smör i en stekpanna. Stek den skivade löken på medellåg värme under regelbunden omrörning i ca 15–20 minuter tills den är helt mjuk, gyllenbrun och söt. Tillsätt lite sirap/socker och salt mot slutet. Lägg upp löken på ett fat och håll varm.", "timer": 18},
+            {"step": 3, "title": "Blanda färsen & forma biffar", "text": "Tillsätt ägg, salt, svartpeppar, kryddpeppar och färsen till ströbrödsblandningen. Blanda snabbt ihop till en smidig smet (arbeta inte för länge). Forma till 6–8 fina runda, platta pannbiffar med fuktiga händer.", "timer": 5},
+            {"step": 4, "title": "Stek pannbiffarna gyllene", "text": "Hetta upp smör i samma stekpanna på medelhög värme. Stek biffarna i ca 3–4 minuter per sida tills de har en fin mörkbrun stekyta och är genomstekta. Lyft ur biffarna och lägg dem tillsammans med löken under folie.", "timer": 8},
+            {"step": 5, "title": "Koka den krämiga gräddsåsen", "text": "Häll vatten i stekpannan och vispa ur alla goda stekskyar. Tillsätt vispgrädde, kalvfond, soja och gelé. Låt sjuda i 3–4 minuter. Red av med lite maizena till önskad krämig konsistens. Smaka av med salt och svartpeppar.", "timer": 4},
+            {"step": 6, "title": "Servera med alla tillbehör", "text": "Lägg pannbiffarna på varma tallrikar, toppa med det generösa berget av karamelliserad lök och ringla över den heta gräddsåsen. Servera med nykokt potatis, rårörda lingon och pressgurka.", "timer": None}
+        ],
+        "pro_tips": "Stek löken långsamt på svag värme – det tar minst 15 minuter för löken att utveckla sina naturliga sockerarter och bli oemotståndligt söt och karamelliserad.",
+        "nutrition": {"calories": "520 kcal", "protein": "36g", "carbs": "18g", "fat": "34g", "sugar": "8g"},
+        "faqs": [
+            {"q": "Vad är skillnaden mellan pannbiff och köttbullar?", "a": "Pannbiffar är större och plattare än köttbullar, och serveras traditionellt med ett stort berg av mjukstekt karamelliserad lök istället för enbart gräddsås."},
+            {"q": "Varför blir pannbiffarna torra?", "a": "Överarbeta inte färssmeten och stek inte biffarna för länge. Genom att använda gräddmjölk i ströbrödsblandningen behåller biffarna sin saftighet perfekt."}
+        ],
+        "community_reviews": [
+            {"name": "Mats Haglund", "date": "Idag", "rating": 5, "comment": "Bästa pannbiffarna! Den långsamt stekta löken och den mustiga såsen var ren magi.", "verified": True}
+        ]
     }
 ]
+
 
 
 
