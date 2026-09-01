@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakta Svenska Recept | Frågor, Recepttips & Feedback</title>
+  <meta name="description" content="Har du frågor om ett recept eller vill samarbeta med vårt provkök? Kontakta oss här.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://svenska-recept.se/kontakt.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/recipe.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <img src="assets/images/logo.svg" alt="Svenska Recept Provkök" class="site-logo-img" width="220" height="44">
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Hem</a>
+        <a href="recept.html">Alla Recept</a>
+        <a href="kategorier/husmanskost.html">Husmanskost</a>
+        <a href="kategorier/fika-och-bakning.html">Fika & Bakning</a>
+        <a href="kategorier/hogtider-och-smorgasbord.html">Högtider</a>
+      </nav>
+      <div class="header-actions">
+        <a href="recept.html" class="favorites-header-btn" title="Sparade favoritrecept">
+          <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> <span class="fav-text">Favoriter</span> <span class="favorites-badge-count">0</span>
+        </a>
+        <a href="recept.html" class="btn-icon-action" aria-label="Sök recept">
+          <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.5"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg> Sök
+        </a>
+        <button class="mobile-menu-btn" aria-label="Meny">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section-padding" style="max-width: 760px;">
+    <div style="margin-bottom: 2rem; text-align: center;">
+      <h1 class="hero-search-title-label" style="font-size: 2.5rem;">Kontakta Provköket</h1>
+      <p style="color: var(--color-text-muted);">Vi älskar att svara på matlagningsfrågor, ta emot receptförslag och samarbeten.</p>
+    </div>
+
+    <div style="background: #FFFFFF; padding: 2.5rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);">
+      <form onsubmit="event.preventDefault(); alert('Tack för ditt meddelande! Vi återkopplar inom 24 timmar.'); this.reset();">
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display:block; font-weight:600; margin-bottom:0.5rem;">Ditt namn</label>
+          <input type="text" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);">
+        </div>
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display:block; font-weight:600; margin-bottom:0.5rem;">E-postadress</label>
+          <input type="email" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);">
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <label style="display:block; font-weight:600; margin-bottom:0.5rem;">Meddelande</label>
+          <textarea rows="5" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);"></textarea>
+        </div>
+        <button type="submit" class="btn-koket-search" style="width:100%; justify-content:center; padding:1rem; font-size:1.05rem;">Skicka meddelande</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Svenska Recept. Alla rättigheter förbehållna.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/recipe-engine.js"></script>
+</body>
+</html>

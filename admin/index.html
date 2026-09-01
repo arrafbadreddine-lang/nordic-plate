@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receptskapare & Schemagenerator | Svenska Recept Admin</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/recipe.css">
+  <style>
+    .admin-container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .admin-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 2rem;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+    .form-group label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--color-primary);
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      outline: none;
+      background: var(--color-bg-subtle);
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      background: #FFFFFF;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(24, 48, 89, 0.1);
+    }
+    .dynamic-list-item {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      background: var(--color-bg-subtle);
+      padding: 0.75rem;
+      border-radius: var(--radius-sm);
+    }
+    .btn-delete {
+      background: #FFEBEE;
+      color: #C62828;
+      border: 1px solid #FFCDD2;
+      border-radius: 4px;
+      padding: 0.5rem 0.75rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn-add {
+      background: var(--color-bg-subtle);
+      border: 1px dashed var(--color-primary);
+      color: var(--color-primary);
+      padding: 0.6rem 1.2rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 0.5rem;
+    }
+    .admin-banner {
+      background: linear-gradient(135deg, #183059 0%, #2B4C7E 100%);
+      color: #fff;
+      padding: 2rem;
+      border-radius: var(--radius-lg);
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .generated-code-box {
+      background: #1E293B;
+      color: #E2E8F0;
+      padding: 1.5rem;
+      border-radius: var(--radius-sm);
+      font-family: monospace;
+      font-size: 0.85rem;
+      max-height: 400px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      margin-top: 1.5rem;
+      display: none;
+    }
+  </style>
+</head>
+<body style="background-color: var(--color-bg-main);">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="site-logo">
+        <span class="site-logo-badge">KÖKET</span>
+        Svenska<span>Recept</span> Admin
+      </a>
+      <div style="display:flex; gap:1rem;">
+        <a href="../recept.html" class="btn-secondary" style="padding:0.4rem 1rem;">Visa Receptkatalogen</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="admin-container">
+    <div class="admin-banner">
+      <div>
+        <h1 style="color:#fff; font-size:1.8rem; margin-bottom:0.25rem;">Skapa Nytt Recept med Google Recept-Schema</h1>
+        <p style="color:#CBD5E1; font-size:0.95rem; margin:0;">Fyll i formuläret nedan för att generera en färdig HTML-sida med 100 % giltig JSON-LD för Google Recipe Gallery.</p>
+      </div>
+      <button class="btn-primary" onclick="skapaReceptFil()" style="background:var(--color-accent); color:var(--color-primary);">⚡ Generera & Ladda Ner Receptfil</button>
+    </div>
+
+    <!-- Formulär -->
+    <div class="admin-card">
+      <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--color-border-light); padding-bottom: 0.5rem;">1. Receptnamn & SEO-information</h2>
+      
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Receptrubrik (SEO-optimerad titel)</label>
+          <input type="text" id="receptNamn" value="Klassisk Kardemummakaka med Pärlsocker">
+        </div>
+        <div class="form-group">
+          <label>Underrubrik / Svenskt Smeknamn</label>
+          <input type="text" id="receptUndertitel" value="Saftig sockerkaka med nystött kardemumma">
+        </div>
+        <div class="form-group">
+          <label>Kategori</label>
+          <select id="receptKategori">
+            <option value="fika-och-bakning">Fika & Bakning</option>
+            <option value="husmanskost">Klassisk Husmanskost</option>
+            <option value="hogtider-och-smorgasbord">Högtider & Smörgåsbord</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Filnamn / URL-slug (utan .html)</label>
+          <input type="text" id="receptSlug" value="klassisk-kardemummakaka-parlsocker">
+        </div>
+        <div class="form-group full">
+          <label>Beskrivning (Google Snippet & Ingress)</label>
+          <textarea id="receptIngress" rows="3">En underbart saftig och doftande kardemummakaka med nystötta kardemummakärnor, smör och ett krispigt täcke av pärlsocker.</textarea>
+        </div>
+      </div>
+
+      <h2 style="margin: 2rem 0 1.5rem; border-bottom: 2px solid var(--color-border-light); padding-bottom: 0.5rem;">2. Tider, Portioner & Näringsvärde</h2>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Arbetstid (minuter)</label>
+          <input type="number" id="arbetstid" value="15">
+        </div>
+        <div class="form-group">
+          <label>Ugnstid / Tillagningstid (minuter)</label>
+          <input type="number" id="ugnstid" value="35">
+        </div>
+        <div class="form-group">
+          <label>Portioner / Mängd</label>
+          <input type="text" id="portionerMGD" value="8 bitar">
+        </div>
+        <div class="form-group">
+          <label>Kost / Specialkost</label>
+          <select id="kostTag">
+            <option value="Vegetariskt">Vegetariskt</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Glutenfritt">Glutenfritt</option>
+            <option value="Husmanskost">Klassisk</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Kalorier (kcal per portion)</label>
+          <input type="number" id="kalorier" value="320">
+        </div>
+        <div class="form-group">
+          <label>Protein (g)</label>
+          <input type="text" id="protein" value="5g">
+        </div>
+        <div class="form-group">
+          <label>Fett (g)</label>
+          <input type="text" id="fett" value="15g">
+        </div>
+        <div class="form-group">
+          <label>Kolhydrater (g)</label>
+          <input type="text" id="kolhydrater" value="42g">
+        </div>
+      </div>
+
+      <h2 style="margin: 2rem 0 1.5rem; border-bottom: 2px solid var(--color-border-light); padding-bottom: 0.5rem;">3. Ingredienser (Svenska Mått)</h2>
+      <div id="ingredienser-box">
+        <div class="dynamic-list-item">
+          <input type="number" step="any" placeholder="Mängd" value="100" class="ing-val" style="width: 100px;">
+          <input type="text" placeholder="Enhet (g, dl, msk, st)" value="g" class="ing-enhet" style="width: 100px;">
+          <input type="text" placeholder="Ingrediensens namn" value="smör (smält och avsvalnat)" class="ing-namn" style="flex:1;">
+          <button class="btn-delete" onclick="this.parentElement.remove()">✕</button>
+        </div>
+        <div class="dynamic-list-item">
+          <input type="number" step="any" placeholder="Mängd" value="2" class="ing-val" style="width: 100px;">
+          <input type="text" placeholder="Enhet (g, dl, msk, st)" value="st" class="ing-enhet" style="width: 100px;">
+          <input type="text" placeholder="Ingrediensens namn" value="ägg (rumstempererade)" class="ing-namn" style="flex:1;">
+          <button class="btn-delete" onclick="this.parentElement.remove()">✕</button>
+        </div>
+        <div class="dynamic-list-item">
+          <input type="number" step="any" placeholder="Mängd" value="2" class="ing-val" style="width: 100px;">
+          <input type="text" placeholder="Enhet (g, dl, msk, st)" value="dl" class="ing-enhet" style="width: 100px;">
+          <input type="text" placeholder="Ingrediensens namn" value="strösocker" class="ing-namn" style="flex:1;">
+          <button class="btn-delete" onclick="this.parentElement.remove()">✕</button>
+        </div>
+        <div class="dynamic-list-item">
+          <input type="number" step="any" placeholder="Mängd" value="1" class="ing-val" style="width: 100px;">
+          <input type="text" placeholder="Enhet (g, dl, msk, st)" value="msk" class="ing-enhet" style="width: 100px;">
+          <input type="text" placeholder="Ingrediensens namn" value="kardemummakärnor (nystötta)" class="ing-namn" style="flex:1;">
+          <button class="btn-delete" onclick="this.parentElement.remove()">✕</button>
+        </div>
+      </div>
+      <button class="btn-add" onclick="laggTillIngrediens()">+ Lägg till ingrediens</button>
+
+      <h2 style="margin: 2rem 0 1.5rem; border-bottom: 2px solid var(--color-border-light); padding-bottom: 0.5rem;">4. Gör så här (Instruktioner)</h2>
+      <div id="steg-box">
+        <div class="dynamic-list-item" style="flex-direction: column; align-items: stretch;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <input type="text" placeholder="Stegrubrik" value="1. Förbered ugn & form" class="steg-rubrik" style="font-weight:bold; flex:1; margin-right:1rem;">
+            <input type="number" placeholder="Timer (min)" value="0" class="steg-timer" style="width:110px; margin-right:1rem;">
+            <button class="btn-delete" onclick="this.parentElement.parentElement.remove()">✕</button>
+          </div>
+          <textarea placeholder="Beskrivning av momentet..." class="steg-text" rows="2" style="margin-top:0.5rem;">Sätt ugnen på 175°C. Smörj och bröa en sockerkaksform (ca 1.5 liter).</textarea>
+        </div>
+        <div class="dynamic-list-item" style="flex-direction: column; align-items: stretch;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <input type="text" placeholder="Stegrubrik" value="2. Grädda i ugn" class="steg-rubrik" style="font-weight:bold; flex:1; margin-right:1rem;">
+            <input type="number" placeholder="Timer (min)" value="35" class="steg-timer" style="width:110px; margin-right:1rem;">
+            <button class="btn-delete" onclick="this.parentElement.parentElement.remove()">✕</button>
+          </div>
+          <textarea placeholder="Beskrivning av momentet..." class="steg-text" rows="2" style="margin-top:0.5rem;">Häll smeten i formen, strö över pärlsocker och grädda i nedre delen av ugnen i ca 35 minuter.</textarea>
+        </div>
+      </div>
+      <button class="btn-add" onclick="laggTillSteg()">+ Lägg till steg</button>
+
+      <div style="margin-top: 3rem; text-align: center;">
+        <button class="btn-primary" onclick="skapaReceptFil()" style="font-size: 1.15rem; padding: 1rem 2.5rem; background: var(--color-accent); color: var(--color-primary);">⚡ Generera & Ladda Ner HTML-Recept</button>
+      </div>
+
+      <div id="output-box" class="generated-code-box"></div>
+    </div>
+  </main>
+
+  <script>
+    function laggTillIngrediens() {
+      const container = document.getElementById('ingredienser-box');
+      const div = document.createElement('div');
+      div.className = 'dynamic-list-item';
+      div.innerHTML = `
+        <input type="number" step="any" placeholder="Mängd" class="ing-val" style="width: 100px;">
+        <input type="text" placeholder="Enhet" value="dl" class="ing-enhet" style="width: 100px;">
+        <input type="text" placeholder="Ingrediensens namn" class="ing-namn" style="flex:1;">
+        <button class="btn-delete" onclick="this.parentElement.remove()">✕</button>
+      `;
+      container.appendChild(div);
+    }
+
+    function laggTillSteg() {
+      const container = document.getElementById('steg-box');
+      const div = document.createElement('div');
+      div.className = 'dynamic-list-item';
+      div.style.cssText = 'flex-direction: column; align-items: stretch;';
+      div.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <input type="text" placeholder="Stegrubrik" class="steg-rubrik" style="font-weight:bold; flex:1; margin-right:1rem;">
+          <input type="number" placeholder="Timer (min)" class="steg-timer" style="width:110px; margin-right:1rem;">
+          <button class="btn-delete" onclick="this.parentElement.parentElement.remove()">✕</button>
+        </div>
+        <textarea placeholder="Beskrivning..." class="steg-text" rows="2" style="margin-top:0.5rem;"></textarea>
+      `;
+      container.appendChild(div);
+    }
+
+    function skapaReceptFil() {
+      const namn = document.getElementById('receptNamn').value;
+      const undertitel = document.getElementById('receptUndertitel').value;
+      const kat = document.getElementById('receptKategori').value;
+      const slug = document.getElementById('receptSlug').value || 'nytt-recept';
+      const ingress = document.getElementById('receptIngress').value;
+      const arbetstid = document.getElementById('arbetstid').value || '15';
+      const ugnstid = document.getElementById('ugnstid').value || '25';
+      const totalTid = parseInt(arbetstid) + parseInt(ugnstid);
+      const portText = document.getElementById('portionerMGD').value;
+      const kost = document.getElementById('kostTag').value;
+      const cal = document.getElementById('kalorier').value;
+      const protein = document.getElementById('protein').value;
+      const fett = document.getElementById('fett').value;
+      const kolh = document.getElementById('kolhydrater').value;
+
+      let katNamn = 'Fika & Bakning';
+      if (kat === 'husmanskost') katNamn = 'Klassisk Husmanskost';
+      if (kat === 'hogtider-och-smorgasbord') katNamn = 'Högtider & Smörgåsbord';
+
+      // Ingredienser
+      const ingItems = document.querySelectorAll('#ingredienser-box .dynamic-list-item');
+      let ingSchema = [];
+      let ingHtml = '';
+      ingItems.forEach(item => {
+        const val = item.querySelector('.ing-val').value;
+        const enhet = item.querySelector('.ing-enhet').value;
+        const text = item.querySelector('.ing-namn').value;
+        if (text) {
+          ingSchema.push(`${val} ${enhet} ${text}`.trim());
+          ingHtml += `
+            <li class="ingredient-item ingrediens-rad">
+              <input type="checkbox" class="ingredient-checkbox ingrediens-kryssruta">
+              <span><span class="amount ingrediens-mangd" data-grund-val="${val}">${val}</span> ${enhet} ${text}</span>
+            </li>`;
+        }
+      });
+
+      // Steg
+      const stegItems = document.querySelectorAll('#steg-box .dynamic-list-item');
+      let stegSchema = [];
+      let stegHtml = '';
+      stegItems.forEach((item, i) => {
+        const rubrik = item.querySelector('.steg-rubrik').value;
+        const timer = item.querySelector('.steg-timer').value;
+        const desc = item.querySelector('.steg-text').value;
+        if (desc) {
+          stegSchema.push({
+            "@type": "HowToStep",
+            "name": rubrik,
+            "text": desc,
+            "url": `https://nordicplate.com/recept/${slug}.html#steg${i+1}`
+          });
+          const timerBtn = timer && parseInt(timer) > 0 ? `<button class="step-timer-btn steg-timer-knapp" data-minuter="${timer}">⏱️ Starta ${timer} min timer</button>` : '';
+          stegHtml += `
+            <li class="instruction-step instruktions-steg" id="steg${i+1}">
+              <div class="step-title">${rubrik}</div>
+              <p class="step-desc">${desc}</p>
+              ${timerBtn}
+            </li>`;
+        }
+      });
+
+      const html = `<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${namn} | Svenska Recept</title>
+  <meta name="description" content="${ingress}">
+  <link rel="canonical" href="https://nordicplate.com/recept/${slug}.html">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/recipe.css">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Hem", "item": "https://nordicplate.com/" },
+          { "@type": "ListItem", "position": 2, "name": "${katNamn}", "item": "https://nordicplate.com/kategorier/${kat}.html" },
+          { "@type": "ListItem", "position": 3, "name": "${namn}", "item": "https://nordicplate.com/recept/${slug}.html" }
+        ]
+      },
+      {
+        "@type": "Recipe",
+        "name": "${namn}",
+        "headline": "${undertitel}",
+        "image": [
+          "https://nordicplate.com/assets/images/recept/${slug}-16x9.jpg",
+          "https://nordicplate.com/assets/images/recept/${slug}-4x3.jpg",
+          "https://nordicplate.com/assets/images/recept/${slug}-1x1.jpg"
+        ],
+        "description": "${ingress}",
+        "keywords": "${namn.toLowerCase()}, svenskt recept, ${undertitel.toLowerCase()}",
+        "author": { "@type": "Person", "name": "Astrid Lindqvist", "url": "https://nordicplate.com/om-oss.html" },
+        "publisher": { "@type": "Organization", "name": "Svenska Recept & Matglädje", "logo": { "@type": "ImageObject", "url": "https://nordicplate.com/assets/images/logo.png" } },
+        "datePublished": "2026-08-21",
+        "prepTime": "PT${arbetstid}M",
+        "cookTime": "PT${ugnstid}M",
+        "totalTime": "PT${totalTid}M",
+        "recipeYield": "${portText}",
+        "recipeCategory": "${katNamn}",
+        "recipeCuisine": "Svensk",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "${cal} kcal",
+          "fatContent": "${fett}",
+          "carbohydrateContent": "${kolh}",
+          "proteinContent": "${protein}"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.95",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "recipeIngredient": ${JSON.stringify(ingSchema, null, 2)},
+        "recipeInstructions": ${JSON.stringify(stegSchema, null, 2)}
+      }
+    ]
+  }
+  <\/script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="site-logo"><div class="site-logo-icon">🇸🇪</div><div class="site-logo-text">Svenska<span>Recept</span></div></a>
+      <nav class="site-nav">
+        <a href="../index.html">Hem</a>
+        <a href="../recept.html">Alla Recept</a>
+        <a href="../kategorier/husmanskost.html">Husmanskost</a>
+        <a href="../kategorier/fika-och-bakning.html">Fika & Bakning</a>
+        <a href="../kategorier/hogtider-och-smorgasbord.html">Högtider</a>
+        <a href="../om-oss.html">Om Provköket</a>
+      </nav>
+      <div class="header-actions"><a href="../recept.html" class="btn-search-trigger">🔍 Sök...</a></div>
+    </div>
+  </header>
+
+  <nav class="breadcrumb-nav" aria-label="Brödsmulor">
+    <div class="container">
+      <ol class="breadcrumb-list">
+        <li><a href="../index.html">Hem</a></li>
+        <li><a href="../kategorier/${kat}.html">${katNamn}</a></li>
+        <li aria-current="page">${namn}</li>
+      </ol>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="recipe-page-header">
+      <div class="recipe-header-grid">
+        <div>
+          <span class="hero-tag">${katNamn}</span>
+          <h1 class="recipe-title">${namn}</h1>
+          <p class="recipe-swedish-title">${undertitel}</p>
+          <p class="recipe-lead">${ingress}</p>
+          <div class="recipe-author-bar">
+            <div class="recipe-author-avatar">AL</div>
+            <div><strong>Recept av Astrid Lindqvist</strong> • Provlagat i Stockholm</div>
+            <div class="recipe-rating">★ 4.95 (50 omdömen)</div>
+          </div>
+          <div class="recipe-header-actions">
+            <a href="#recept-kort" class="btn-primary">↓ Till Receptet</a>
+            <button class="btn-secondary" onclick="window.print()">🖨️ Skriv ut recept</button>
+          </div>
+        </div>
+        <div class="recipe-hero-image-wrap"><div class="recipe-hero-art">🍰</div></div>
+      </div>
+    </header>
+
+    <div class="recipe-meta-grid">
+      <div class="meta-item"><span class="meta-label">Arbetstid</span><span class="meta-value">${arbetstid} min</span></div>
+      <div class="meta-item"><span class="meta-label">Ugnstid</span><span class="meta-value">${ugnstid} min</span></div>
+      <div class="meta-item"><span class="meta-label">Total tid</span><span class="meta-value">${totalTid} min</span></div>
+      <div class="meta-item"><span class="meta-label">Mängd</span><span class="meta-value">${portText}</span></div>
+      <div class="meta-item"><span class="meta-label">Kost</span><span class="meta-value">${kost}</span></div>
+      <div class="meta-item"><span class="meta-label">Kök</span><span class="meta-value">Svenskt</span></div>
+    </div>
+
+    <div id="recept-kort" class="recipe-box">
+      <div class="recipe-box-header">
+        <div><h2>${namn}</h2></div>
+        <div class="recipe-controls">
+          <div class="servings-scaler">
+            <button class="servings-btn portions-btn decrease" aria-label="Minska">−</button>
+            <span class="servings-display portions-display" data-base-portioner="8" data-current-portioner="8" data-enhet-text="portioner">${portText}</span>
+            <button class="servings-btn portions-btn increase" aria-label="Öka">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-body-grid">
+        <div class="recipe-ingredients-wrap">
+          <h3>Ingredienser <span>🛒</span></h3>
+          <ul class="ingredients-list">${ingHtml}</ul>
+        </div>
+        <div class="recipe-instructions-wrap">
+          <h3>Gör så här <span>👩‍🍳</span></h3>
+          <ol class="instructions-list">${stegHtml}</ol>
+        </div>
+      </div>
+
+      <div class="nutrition-card">
+        <h4>Näringsvärde (Per portion)</h4>
+        <div class="nutrition-grid">
+          <div class="nutrition-item"><div class="nutr-label">Energi</div><div class="nutr-val">${cal} kcal</div></div>
+          <div class="nutrition-item"><div class="nutr-label">Protein</div><div class="nutr-val">${protein}</div></div>
+          <div class="nutrition-item"><div class="nutr-label">Fett</div><div class="nutr-val">${fett}</div></div>
+          <div class="nutrition-item"><div class="nutr-label">Kolhydrater</div><div class="nutr-val">${kolh}</div></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom"><div>© 2026 Svenska Recept. Alla rättigheter förbehållna.</div></div></div>
+  </footer>
+  <script src="../assets/js/recipe-engine.js"><\/script>
+</body>
+</html>`;
+
+      const blob = new Blob([html], { type: 'text/html' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `${slug}.html`;
+      a.click();
+
+      const out = document.getElementById('output-box');
+      out.style.display = 'block';
+      out.textContent = `✅ Skapade "${slug}.html" med 100% Google Recipe Schema!\n\nFör att publicera receptet:\n1. Spara filen i din "recept/"-mapp på Cloudways eller lokalt.\n2. Lägg till länken i sitemap.xml.\n\nKällkod:\n\n` + html;
+    }
+  </script>
+</body>
+</html>

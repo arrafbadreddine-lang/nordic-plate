@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Nordic Plate</title>
+  <meta name="description" content="Get in touch with the Nordic Plate editorial team. Submit recipe questions, feedback, or partnership inquiries.">
+  <link rel="canonical" href="https://nordicplate.com/contact.html">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/recipe.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <div class="site-logo-icon">🇸🇪</div>
+        <div class="site-logo-text">Nordic<span>Plate</span></div>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">All Recipes</a>
+        <a href="categories/classic-husmanskost.html">Husmanskost</a>
+        <a href="categories/fika-and-baking.html">Fika & Baking</a>
+        <a href="categories/holiday-and-smorgasbord.html">Smörgåsbord</a>
+        <a href="about.html">About & E-E-A-T</a>
+      </nav>
+      <div class="header-actions">
+        <a href="recipes.html" class="btn-search-trigger">🔍 Search recipes...</a>
+        <button class="mobile-menu-btn" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb-list">
+        <li><a href="index.html">Home</a></li>
+        <li aria-current="page">Contact Us</li>
+      </ol>
+    </div>
+  </nav>
+
+  <main class="container content-container section-padding" style="padding-top: 1rem;">
+    <article class="content-block">
+      <h1 style="font-size: 2.4rem; margin-bottom: 0.5rem;">Contact the Nordic Plate Kitchen</h1>
+      <p style="color: var(--color-text-muted); font-size: 1.05rem;">
+        Have a question about a Swedish recipe, measurement conversion, or want to suggest a traditional dish? We’d love to hear from you.
+      </p>
+
+      <div style="background: #FFF; border: 1px solid var(--color-border); border-radius: 12px; padding: 2rem; margin-top: 2rem; box-shadow: var(--shadow-sm);">
+        <form onsubmit="event.preventDefault(); alert('Tack så mycket! Your message has been received.'); this.reset();">
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display:block; font-weight:600; margin-bottom:0.4rem;" for="name">Your Name</label>
+            <input type="text" id="name" required style="width:100%; padding:0.75rem; border:1px solid var(--color-border); border-radius:6px;">
+          </div>
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display:block; font-weight:600; margin-bottom:0.4rem;" for="email">Email Address</label>
+            <input type="email" id="email" required style="width:100%; padding:0.75rem; border:1px solid var(--color-border); border-radius:6px;">
+          </div>
+          <div style="margin-bottom: 1.5rem;">
+            <label style="display:block; font-weight:600; margin-bottom:0.4rem;" for="msg">Message / Question</label>
+            <textarea id="msg" rows="5" required style="width:100%; padding:0.75rem; border:1px solid var(--color-border); border-radius:6px;"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="border:none; cursor:pointer;">Send Message (Skicka) →</button>
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Nordic Plate. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about.html">About E-E-A-T</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/recipe-engine.js"></script>
+</body>
+</html>

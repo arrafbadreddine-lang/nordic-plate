@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Authentic Swedish Recipes | Nordic Plate Recipe Directory</title>
+  <meta name="description" content="Explore our complete library of tested Swedish recipes with Google Recipe Schema markup: Husmanskost, Fika cakes, buns, and holiday smörgåsbord classics.">
+  <link rel="canonical" href="https://nordicplate.com/recipes.html">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/recipe.css">
+</head>
+<body>
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <div class="site-logo-icon">🇸🇪</div>
+        <div class="site-logo-text">Nordic<span>Plate</span></div>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="recipes.html" class="active">All Recipes</a>
+        <a href="categories/classic-husmanskost.html">Husmanskost</a>
+        <a href="categories/fika-and-baking.html">Fika & Baking</a>
+        <a href="categories/holiday-and-smorgasbord.html">Smörgåsbord</a>
+        <a href="about.html">About & E-E-A-T</a>
+      </nav>
+      <div class="header-actions">
+        <a href="recipes.html" class="btn-search-trigger">🔍 Search recipes...</a>
+        <button class="mobile-menu-btn" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="hero-section" style="padding: 3rem 0 2.5rem;">
+    <div class="container hero-content">
+      <span class="hero-tag">Culinary Catalog</span>
+      <h1 class="hero-title">Swedish <span>Recipe Library</span></h1>
+      <p class="hero-subtitle">
+        Every recipe tested for authentic Swedish flavor, kitchen-verified measurements, and full Google Recipe rich results compliance.
+      </p>
+    </div>
+  </section>
+
+  <!-- Breadcrumbs -->
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb-list">
+        <li><a href="index.html">Home</a></li>
+        <li aria-current="page">All Recipes</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- Main Directory & Filter Section -->
+  <main class="container section-padding" style="padding-top: 1rem;">
+    <!-- Interactive Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-search-wrap">
+          <span class="filter-search-icon">🔍</span>
+          <input type="text" id="recipe-search-input" class="filter-search-input" placeholder="Search by name, Swedish term (e.g. kanelbulle), ingredient...">
+        </div>
+        <div class="filter-buttons-group">
+          <button class="filter-chip active" data-category="all">All Recipes</button>
+          <button class="filter-chip" data-category="husmanskost">Husmanskost</button>
+          <button class="filter-chip" data-category="fika">Fika & Baking</button>
+          <button class="filter-chip" data-category="smorgasbord">Smörgåsbord</button>
+          <button class="filter-chip" data-category="under-30">⚡ Under 30 Mins</button>
+          <button class="filter-chip" data-category="vegetarian">🌱 Vegetarian</button>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: 0.875rem; color: var(--color-text-muted);">
+        <span id="search-results-count">Showing 12 recipes</span>
+        <span>⚡ Real-time instant filtering</span>
+      </div>
+    </div>
+
+    <div id="no-results-msg" style="display:none; text-align:center; padding: 3rem; background: #fff; border-radius: 12px; border: 1px dashed var(--color-border);">
+      <h3>No Swedish recipes found matching your query</h3>
+      <p style="color: var(--color-text-muted);">Try searching for "cardamom", "pork", "lingonberry", or browse all categories above.</p>
+    </div>
+
+    <!-- 12 Recipe Cards Grid -->
+    <div class="recipe-grid">
+      <!-- 1. Meatballs -->
+      <article class="recipe-card" data-category="husmanskost" data-time="45" data-ingredients="beef pork allspice cream lingonberries onion">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🧆</div>
+          <span class="recipe-card-badge">Husmanskost</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.95 (328)</span><span>45 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/authentic-swedish-meatballs-graddsas.html">Authentic Swedish Meatballs with Gräddsås</a></h3>
+          <p class="recipe-card-swedish-name">Köttbullar med Gräddsås och Rårörda Lingon</p>
+          <p class="recipe-card-desc">Tender beef and pork meatballs scented with ground allspice, seared in butter with silky cream gravy.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 45 min</div><div class="recipe-stats-item">🔥 580 kcal</div><div class="recipe-stats-item">👥 4 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 2. Kladdkaka -->
+      <article class="recipe-card" data-category="fika" data-time="25" data-diet="vegetarian" data-ingredients="chocolate cocoa butter sugar eggs flour">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🍰</div>
+          <span class="recipe-card-badge">Fika Favorite</span>
+          <span class="recipe-card-diet-badge">Vegetarian</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.98 (412)</span><span>25 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/swedish-kladdkaka-gooey-chocolate-cake.html">Authentic Swedish Kladdkaka</a></h3>
+          <p class="recipe-card-swedish-name">Klassisk Kladdkaka</p>
+          <p class="recipe-card-desc">The crown jewel of Swedish Fika: a 6-ingredient sticky chocolate cake with a wafer-thin crust and gooey center.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 25 min</div><div class="recipe-stats-item">🔥 310 kcal</div><div class="recipe-stats-item">👥 8 slices</div></div>
+        </div>
+      </article>
+
+      <!-- 3. Kanelbullar -->
+      <article class="recipe-card" data-category="fika" data-time="120" data-diet="vegetarian" data-ingredients="cardamom cinnamon pearl sugar yeast butter milk flour">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🥨</div>
+          <span class="recipe-card-badge">Fika Classic</span>
+          <span class="recipe-card-diet-badge">Vegetarian</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.96 (512)</span><span>2 hours</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/classic-swedish-kanelbullar-cinnamon-buns.html">Classic Swedish Kanelbullar</a></h3>
+          <p class="recipe-card-swedish-name">Kanelbullar med Kardemumma</p>
+          <p class="recipe-card-desc">Bakery-style cinnamon buns in freshly ground cardamom dough, twisted into knots with crunchy pearl sugar.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 2 hours</div><div class="recipe-stats-item">🔥 240 kcal</div><div class="recipe-stats-item">👥 16 buns</div></div>
+        </div>
+      </article>
+
+      <!-- 4. Västerbottensostpaj -->
+      <article class="recipe-card" data-category="smorgasbord" data-time="55" data-diet="vegetarian" data-ingredients="vasterbotten cheese pie crust eggs cream dill">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🥧</div>
+          <span class="recipe-card-badge">Midsummer Icon</span>
+          <span class="recipe-card-diet-badge">Vegetarian</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.94 (219)</span><span>55 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/traditional-swedish-vasterbottensostpaj.html">Traditional Swedish Västerbottensostpaj</a></h3>
+          <p class="recipe-card-swedish-name">Klassisk Västerbottensostpaj</p>
+          <p class="recipe-card-desc">Flaky butter shortcrust filled with sharp aged Swedish Västerbotten cheese and cream custard.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 55 min</div><div class="recipe-stats-item">🔥 460 kcal</div><div class="recipe-stats-item">👥 6 slices</div></div>
+        </div>
+      </article>
+
+      <!-- 5. Wallenbergare -->
+      <article class="recipe-card" data-category="husmanskost" data-time="30" data-ingredients="veal egg yolks cream breadcrumbs peas butter">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🥩</div>
+          <span class="recipe-card-badge">Husmanskost</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.92 (164)</span><span>30 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/authentic-swedish-wallenbergare.html">Authentic Swedish Wallenbergare</a></h3>
+          <p class="recipe-card-swedish-name">Wallenbergare med Brynt Smör</p>
+          <p class="recipe-card-desc">Delicate veal patties whipped with cream and egg yolks, coated in breadcrumbs and served with browned butter.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 30 min</div><div class="recipe-stats-item">🔥 620 kcal</div><div class="recipe-stats-item">👥 4 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 6. Raggmunk -->
+      <article class="recipe-card" data-category="husmanskost" data-time="35" data-ingredients="potato pork belly bacon flour milk lingonberries">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🥞</div>
+          <span class="recipe-card-badge">Husmanskost</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.91 (194)</span><span>35 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/crispy-swedish-raggmunk-potato-pancakes.html">Crispy Swedish Raggmunk</a></h3>
+          <p class="recipe-card-swedish-name">Raggmunk med Stekt Fläsk</p>
+          <p class="recipe-card-desc">Grated potato pancakes pan-fried in butter until crispy, served with thick salted pork and lingonberries.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 35 min</div><div class="recipe-stats-item">🔥 520 kcal</div><div class="recipe-stats-item">👥 4 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 7. Toast Skagen -->
+      <article class="recipe-card" data-category="smorgasbord" data-time="20" data-ingredients="shrimp prawns mayonnaise dill horseradish toast roe">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🍤</div>
+          <span class="recipe-card-badge">Premier Starter</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.97 (284)</span><span>20 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/swedish-toast-skagen-shrimp-toast.html">Authentic Swedish Toast Skagen</a></h3>
+          <p class="recipe-card-swedish-name">Klassisk Toast Skagen</p>
+          <p class="recipe-card-desc">Cold-water prawns in dill and horseradish mayonnaise, mounted on butter-fried toast with bleak roe.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 20 min</div><div class="recipe-stats-item">🔥 380 kcal</div><div class="recipe-stats-item">👥 4 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 8. Janssons Frestelse -->
+      <article class="recipe-card" data-category="husmanskost" data-time="70" data-ingredients="potatoes sprats ansjovis onions cream breadcrumbs">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🍲</div>
+          <span class="recipe-card-badge">Holiday Classic</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.93 (175)</span><span>70 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/traditional-swedish-janssons-frestelse.html">Traditional Jansson's Temptation</a></h3>
+          <p class="recipe-card-swedish-name">Janssons Frestelse</p>
+          <p class="recipe-card-desc">Potato matchstick gratin with caramelized onions, Swedish spiced sprats, and heavy cream.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 70 min</div><div class="recipe-stats-item">🔥 440 kcal</div><div class="recipe-stats-item">👥 6 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 9. Gravlax -->
+      <article class="recipe-card" data-category="smorgasbord" data-time="15" data-ingredients="salmon dill mustard salt sugar pepper">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🍣</div>
+          <span class="recipe-card-badge">Smörgåsbord Hero</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.96 (341)</span><span>48h cure</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/authentic-swedish-gravlax-salmon.html">Authentic Swedish Gravlax</a></h3>
+          <p class="recipe-card-swedish-name">Gravad Lax med Hovmästarsås</p>
+          <p class="recipe-card-desc">Silky dill-cured salmon with balanced salt/sugar ratio and sweet mustard-dill sauce.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 48h cure</div><div class="recipe-stats-item">🔥 280 kcal</div><div class="recipe-stats-item">👥 8 servings</div></div>
+        </div>
+      </article>
+
+      <!-- 10. Toscakaka -->
+      <article class="recipe-card" data-category="fika" data-time="55" data-diet="vegetarian" data-ingredients="almonds butter sugar flour eggs milk vanilla">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🥮</div>
+          <span class="recipe-card-badge">Fika Baking</span>
+          <span class="recipe-card-diet-badge">Vegetarian</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.94 (188)</span><span>55 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/swedish-toscakaka-almond-caramel-cake.html">Authentic Swedish Tosca Cake</a></h3>
+          <p class="recipe-card-swedish-name">Toscakaka med Mandeltopping</p>
+          <p class="recipe-card-desc">Vanilla sponge cake topped with a crunchy bubbling caramelized flaked almond glaze.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 55 min</div><div class="recipe-stats-item">🔥 390 kcal</div><div class="recipe-stats-item">👥 8 slices</div></div>
+        </div>
+      </article>
+
+      <!-- 11. Semlor -->
+      <article class="recipe-card" data-category="fika" data-time="120" data-diet="vegetarian" data-ingredients="cardamom almond paste mandelmassa cream milk yeast">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🧁</div>
+          <span class="recipe-card-badge">Seasonal Icon</span>
+          <span class="recipe-card-diet-badge">Vegetarian</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.95 (243)</span><span>2 hours</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/swedish-semlor-cardamom-cream-buns.html">Authentic Swedish Semlor</a></h3>
+          <p class="recipe-card-swedish-name">Klassiska Semlor</p>
+          <p class="recipe-card-desc">Cardamom buns hollowed and filled with almond paste and billowing whipped cream.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 2 hours</div><div class="recipe-stats-item">🔥 380 kcal</div><div class="recipe-stats-item">👥 10 buns</div></div>
+        </div>
+      </article>
+
+      <!-- 12. Rårörda Lingon -->
+      <article class="recipe-card" data-category="husmanskost" data-time="10" data-diet="vegan" data-ingredients="lingonberries sugar wild berries condiment">
+        <div class="recipe-card-media">
+          <div class="recipe-art">🍒</div>
+          <span class="recipe-card-badge">Essential Condiment</span>
+          <span class="recipe-card-diet-badge">Vegan / GF</span>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-meta-top"><span class="recipe-rating">★ 4.99 (156)</span><span>10 mins</span></div>
+          <h3 class="recipe-card-title"><a href="recipes/homemade-rarorda-lingon-lingonberries.html">Easy Homemade Rårörda Lingon</a></h3>
+          <p class="recipe-card-swedish-name">Rårörda Lingon</p>
+          <p class="recipe-card-desc">Raw wild lingonberries stirred with sugar in 10 minutes. The essential companion for Swedish meatballs.</p>
+          <div class="recipe-card-footer"><div class="recipe-stats-item">⏱️ 10 min</div><div class="recipe-stats-item">🔥 65 kcal</div><div class="recipe-stats-item">👥 8 servings</div></div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>🇸🇪 Nordic Plate</h3>
+          <p>Authentic Swedish culinary heritage, traditional Husmanskost recipes, and modern Fika pastries engineered with tested precision.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="recipes.html">All Recipes</a></li>
+            <li><a href="categories/classic-husmanskost.html">Classic Husmanskost</a></li>
+            <li><a href="categories/fika-and-baking.html">Fika & Baking</a></li>
+            <li><a href="categories/holiday-and-smorgasbord.html">Holiday & Smörgåsbord</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Popular Recipes</h4>
+          <ul>
+            <li><a href="recipes/authentic-swedish-meatballs-graddsas.html">Swedish Meatballs</a></li>
+            <li><a href="recipes/swedish-kladdkaka-gooey-chocolate-cake.html">Swedish Kladdkaka</a></li>
+            <li><a href="recipes/classic-swedish-kanelbullar-cinnamon-buns.html">Kanelbullar Buns</a></li>
+            <li><a href="recipes/traditional-swedish-vasterbottensostpaj.html">Västerbottensostpaj</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Culinary Standards</h4>
+          <p style="font-size: 0.85rem; color: #94A3B8;">All recipes are kitchen-tested in Stockholm, Sweden, respecting authentic Swedish measurement standards (dl, g) and US equivalents.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Nordic Plate. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about.html">About E-E-A-T</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/recipe-engine.js"></script>
+  <script src="assets/js/search-filter.js"></script>
+</body>
+</html>

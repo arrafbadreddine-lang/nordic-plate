@@ -1,0 +1,1215 @@
+/**
+ * Svenska Recept - Warm, Inviting Nordic Food Design System
+ * 
+ * Palette:
+ * - Warm Cinnamon Terracotta (#C05621) - warm, friendly, culinary & appetizing
+ * - Fresh Nordic Herb Green (#2D6A4F) - natural, fresh & organic
+ * - Honey Amber Gold (#F59E0B) - ratings & highlights
+ * - Crisp White Background (#FFFFFF / #FAFAF8)
+ * - Nordic Slate Headings (#1E293B)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap');
+
+:root {
+  /* Warm Culinary Nordic Palette (Friendly, Warm & Cozy) */
+  --brand-primary: #C05621;         /* Warm Cinnamon Terracotta */
+  --brand-primary-hover: #9C4215;   /* Deep Warm Amber */
+  --brand-primary-soft: #FFF7ED;    /* Soft Warm Oat Cream */
+  --brand-primary-border: #FED7AA;  /* Soft Warm Peach/Oat */
+  
+  --koket-red: var(--brand-primary);
+  --koket-red-hover: var(--brand-primary-hover);
+  --koket-red-soft: var(--brand-primary-soft);
+
+  --brand-green: #2D6A4F;           /* Fresh Nordic Herb Green */
+  --brand-green-hover: #1B4332;
+  --brand-green-soft: #F0FDF4;
+
+  --koket-gold: #F59E0B;            /* Honey Amber Gold */
+  
+  --color-primary: #1E293B;         /* Nordic Slate Charcoal */
+  --color-accent: var(--brand-primary);
+  --color-accent-hover: var(--brand-primary-hover);
+  
+  --color-bg-main: #FAFAF8;         /* Warm Clean Canvas */
+  --color-bg-card: #FFFFFF;         /* Crisp Pure White */
+  --color-bg-subtle: #F5F3EF;       /* Soft Linen */
+  --color-bg-dark: #1E293B;
+
+  --color-text-main: #27272A;
+  --color-text-muted: #52525B;
+  --color-text-light: #A1A1AA;
+  
+  --color-border: #E4E4E7;
+  --color-border-light: #F4F4F5;
+  --color-success: #15803D;
+  --color-success-bg: #F0FDF4;
+
+  /* Typography */
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* Radii & Shadows */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.12);
+
+  --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   RESET & BASE STYLES
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section-padding {
+  padding: 3.5rem 0;
+}
+
+/* ==========================================================================
+   FRIENDLY ICONS (STRICT 16px SIZING & FONT-WEIGHT MATCH)
+   ========================================================================== */
+
+.svg-icon,
+svg.svg-icon {
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  display: inline-block;
+  vertical-align: -0.15em;
+  pointer-events: none;
+  flex-shrink: 0;
+  stroke-width: 1.55;
+}
+
+.icon-star {
+  color: var(--koket-gold);
+  fill: var(--koket-gold);
+  width: 14px !important;
+  height: 14px !important;
+  max-width: 14px !important;
+  max-height: 14px !important;
+  min-width: 14px !important;
+  min-height: 14px !important;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION
+   ========================================================================== */
+
+.site-header {
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow-subtle);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Premium Scandinavian Brand Logo */
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.site-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-logo:hover .site-logo-img {
+  transform: translateY(-1px) scale(1.02);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.site-nav a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+  padding: 0.5rem 0.25rem;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--brand-primary);
+}
+
+.site-nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2.5px;
+  background: var(--brand-primary);
+  border-radius: 2px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+/* Compact Warm Favorite Pill */
+.favorites-header-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--brand-primary-soft);
+  color: var(--brand-primary);
+  border: 1px solid var(--brand-primary-border);
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  line-height: 1;
+}
+
+.favorites-header-btn:hover {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+}
+
+.favorites-badge-count {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--radius-full);
+  min-width: 18px;
+  text-align: center;
+}
+
+.favorites-header-btn:hover .favorites-badge-count {
+  background: #FFFFFF;
+  color: var(--brand-primary);
+}
+
+.btn-icon-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-icon-action:hover {
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.75rem;
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   HERO SEARCH: "Vad vill du laga idag?"
+   ========================================================================== */
+
+.hero-koket-search-section {
+  background: linear-gradient(180deg, #FFFFFF 0%, var(--color-bg-main) 100%);
+  border-bottom: 1px solid var(--color-border);
+  padding: 3rem 0 2.5rem;
+  text-align: center;
+}
+
+.hero-search-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.hero-search-title-label {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-search-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.75rem;
+}
+
+/* Big Pill Search Box */
+.koket-search-form {
+  position: relative;
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.koket-search-input-box {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 0.35rem 0.45rem 0.35rem 1.4rem;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.05);
+  transition: var(--transition);
+}
+
+.koket-search-input-box:focus-within {
+  border-color: var(--brand-primary);
+  box-shadow: 0 8px 28px rgba(192, 86, 33, 0.15);
+}
+
+.koket-search-input-box .search-icon {
+  color: var(--color-text-muted);
+  margin-right: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+.koket-search-input-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1.05rem;
+  font-family: var(--font-body);
+  color: var(--color-text-main);
+  background: transparent;
+  min-width: 0;
+}
+
+.koket-search-input-box input::placeholder {
+  color: #A1A1AA;
+}
+
+.btn-koket-search {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  border: none;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+}
+
+.btn-koket-search:hover {
+  background: var(--brand-primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Warm Quick Search Tip Chips */
+.koket-quick-tips-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.koket-tip-chip {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  padding: 0.4rem 0.95rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.825rem;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  box-shadow: var(--shadow-subtle);
+}
+
+.koket-tip-chip:hover {
+  background: var(--brand-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.koket-tip-chip.alt-blue {
+  background: var(--brand-green);
+}
+.koket-tip-chip.alt-blue:hover {
+  background: var(--brand-green-hover);
+}
+
+/* ==========================================================================
+   MOSAIC HERO GRID (EDITORIAL TILES)
+   ========================================================================== */
+
+.mosaic-section {
+  padding: 2.5rem 0 3.5rem;
+}
+
+.mosaic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* 2 Large items spanning 2 columns */
+.mosaic-item-large {
+  grid-column: span 2;
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 380px;
+  background: #000;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.mosaic-item-large:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.mosaic-item-large img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+  opacity: 0.88;
+}
+
+.mosaic-item-large:hover img {
+  transform: scale(1.04);
+  opacity: 0.95;
+}
+
+.mosaic-item-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.85) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+.mosaic-tag {
+  display: inline-block;
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  margin-bottom: 0.6rem;
+  align-self: flex-start;
+}
+
+.mosaic-title-large {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #FFFFFF;
+  margin-bottom: 0.4rem;
+}
+
+.mosaic-desc-large {
+  font-size: 0.95rem;
+  color: #E2E8F0;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 4 Square items spanning 1 column */
+.mosaic-item-square {
+  grid-column: span 1;
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 220px;
+  background: #000;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.mosaic-item-square:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.mosaic-item-square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+  opacity: 0.85;
+}
+
+.mosaic-item-square:hover img {
+  transform: scale(1.06);
+  opacity: 0.95;
+}
+
+.mosaic-item-square .mosaic-item-overlay {
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.85) 100%);
+}
+
+.mosaic-title-square {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   RECIPE CARDS (WARM, INVITING STYLING)
+   ========================================================================== */
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.recipe-card {
+  background: #FFFFFF;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  width: 100%;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary-border);
+}
+
+.recipe-card-media {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-color: var(--color-bg-subtle);
+  overflow: hidden;
+}
+
+.recipe-card-media a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.recipe-card:hover .recipe-card-img {
+  transform: scale(1.05);
+}
+
+.recipe-card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(30, 41, 59, 0.9);
+  backdrop-filter: blur(4px);
+  color: #FFFFFF;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Interactive Warm Heart Button on Card */
+.card-heart-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  color: #A1A1AA;
+  z-index: 5;
+}
+
+.card-heart-btn:hover {
+  color: var(--brand-primary);
+  background: #FFFFFF;
+  transform: scale(1.1);
+}
+
+.card-heart-btn.is-saved {
+  color: var(--brand-primary);
+  fill: var(--brand-primary);
+  background: #FFFFFF;
+}
+
+.card-heart-btn svg {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.recipe-card-body {
+  padding: 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.recipe-meta-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+  color: var(--color-primary);
+}
+
+.recipe-card-title a:hover {
+  color: var(--brand-primary);
+}
+
+.recipe-card-swedish-name {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.recipe-card-desc {
+  font-size: 0.925rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+}
+
+.recipe-card-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border-light);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.825rem;
+  color: var(--color-text-muted);
+}
+
+.recipe-stats-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* ==========================================================================
+   HORIZONTAL RECIPE CAROUSEL
+   ========================================================================== */
+
+.carousel-section {
+  padding: 3.5rem 0;
+}
+
+.carousel-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.carousel-title-group h2 {
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  color: var(--color-primary);
+  letter-spacing: -0.01em;
+  margin-bottom: 0.25rem;
+}
+
+.carousel-title-group p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.carousel-arrow-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-subtle);
+  transition: var(--transition);
+}
+
+.carousel-arrow-btn:hover {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  border-color: var(--brand-primary);
+  transform: scale(1.05);
+}
+
+.carousel-arrow-btn svg {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.carousel-track-wrapper {
+  position: relative;
+  padding: 0.5rem 0.25rem 1.25rem;
+  margin: -0.5rem -0.25rem -1.25rem;
+}
+
+.recipe-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 0.75rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.recipe-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-card {
+  flex: 0 0 300px;
+  scroll-snap-align: start;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.carousel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary-border);
+}
+
+.carousel-card-media {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  background: var(--color-bg-subtle);
+}
+
+.carousel-card-media a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.carousel-card:hover .carousel-card-media img {
+  transform: scale(1.05);
+}
+
+.carousel-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.carousel-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.825rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.carousel-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+  line-height: 1.35;
+}
+
+.carousel-card-title a:hover {
+  color: var(--brand-primary);
+}
+
+.carousel-card-desc {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.carousel-card-footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-border-light);
+  padding-top: 0.75rem;
+}
+
+/* ==========================================================================
+   FILTER-CHIPS
+   ========================================================================== */
+
+.filter-chips-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.filter-chip {
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  padding: 0.5rem 1.15rem;
+  border-radius: var(--radius-full);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-chip:hover {
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
+}
+
+.filter-chip.active {
+  background: var(--brand-primary);
+  color: #FFFFFF;
+  border-color: var(--brand-primary);
+}
+
+/* ==========================================================================
+   KÖKSTIMER MODAL
+   ========================================================================== */
+
+.timer-modal {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  animation: slide-up 0.3s ease;
+}
+
+@keyframes slide-up {
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* ==========================================================================
+   SIDFOT (FOOTER)
+   ========================================================================== */
+
+.site-footer {
+  background: var(--color-bg-dark);
+  color: #CBD5E1;
+  padding: 4rem 0 2rem;
+  margin-top: 4rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand h3 {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-brand p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #94A3B8;
+}
+
+.footer-col h4 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-col a {
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #64748B;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-legal-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-legal-links a:hover {
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+
+@media (max-width: 990px) {
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+    flex-direction: column;
+    padding: 1.25rem 1rem;
+    gap: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+  }
+  
+  .site-nav.open {
+    display: flex;
+  }
+  
+  .mobile-menu-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .header-actions .btn-icon-action {
+    display: none;
+  }
+  
+  .mosaic-grid {
+    grid-template-columns: 1fr;
+  }
+  .mosaic-item-large {
+    grid-column: span 1;
+    height: 280px;
+  }
+  .mosaic-item-square {
+    grid-column: span 1;
+    height: 180px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .header-inner {
+    height: 64px;
+    gap: 0.5rem;
+  }
+
+  .site-logo {
+    gap: 0.45rem;
+  }
+
+  .site-logo-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+
+  .site-logo-icon svg.logo-chef-svg {
+    width: 18px !important;
+    height: 18px !important;
+    max-width: 18px !important;
+    max-height: 18px !important;
+  }
+
+  .site-logo-text {
+    font-size: 1.15rem;
+  }
+
+  /* Compact Favorite Button on Mobile */
+  .favorites-header-btn {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .favorites-header-btn .fav-text {
+    display: none;
+  }
+
+  .favorites-badge-count {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    font-size: 0.65rem;
+    padding: 0.05rem 0.35rem;
+    min-width: 16px;
+    border: 1.5px solid #FFFFFF;
+    line-height: 1.2;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .carousel-card {
+    flex: 0 0 250px;
+  }
+
+  .koket-search-input-box {
+    padding: 0.35rem 0.4rem 0.35rem 0.85rem;
+  }
+
+  .btn-koket-search {
+    padding: 0.55rem 0.9rem;
+    font-size: 0.825rem;
+  }
+
+  .filter-chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    justify-content: center;
+  }
+
+  .filter-chip {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+    border-radius: var(--radius-full);
+  }
+
+  .recipe-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .section-hero {
+    padding: 2rem 0 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .site-logo-text {
+    font-size: 1.05rem;
+  }
+
+  .site-logo-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .site-logo-icon svg.logo-chef-svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .favorites-header-btn {
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+
