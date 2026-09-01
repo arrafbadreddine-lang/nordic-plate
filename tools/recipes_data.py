@@ -3321,8 +3321,279 @@ RECIPES = [
         "community_reviews": [
             {"name": "Mats Haglund", "date": "Idag", "rating": 5, "comment": "Bästa pannbiffarna! Den långsamt stekta löken och den mustiga såsen var ren magi.", "verified": True}
         ]
+    },
+    {
+        "slug": "klassisk-fiskgratang-torsk-rakor-duchessemos",
+        "file": "klassisk-fiskgratang-torsk-rakor-duchessemos.html",
+        "img": "fiskgratang",
+        "title": "Klassisk Fiskgratäng med Torsk, Räkor & Spritsat Duchessemos",
+        "card_title": "Klassisk Fiskgratäng",
+        "sub": "Ugnsgratinerad torskrygg med krämig vitvinssås, räkor & duchessemos",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Fisk & Skaldjur",
+        "difficulty": "Medel",
+        "time": 45,
+        "prep_time": "PT20M",
+        "cook_time": "PT25M",
+        "total_time": "PT45M",
+        "prep_time_str": "20 min",
+        "cook_time_str": "25 min",
+        "time_str": "45 min",
+        "calories": 480,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 620,
+        "desc": "En älskad svensk söndagsklassiker och lyxig vardagsrätt! Mjäll torskrygg eller sej i en ljuvlig sås gjord på fiskfond, vitt vin, dill och grädde, omgiven av gyllene spritsat duchessemos och toppad med färska handskalade räkor.",
+        "long_desc": "Fiskgratäng med spritsat potatismos och räkor är en av Sveriges mest ikoniska rätter. Knepet för ett perfekt duchessemos som håller formen vid gratinering är att blanda ner äggulor och en klick smör i det varma moset.",
+        "keywords": "fiskgratäng, fiskgratäng med räkor, fiskgratäng recept, klassisk fiskgratäng, fiskgratäng torsk, fiskgratäng duchessemos, godaste fiskgratängen",
+        "alt": "Närbild på en ugnsform med klassisk fiskgratäng med spritsat gyllenbrunt duchessemos, torskrygg i krämig dillsås och handskalade räkor",
+        "equipment": ["Ugnsfast form", "Spritspåse med stjärntyll", "Kastrull & visp", "Potatispress"],
+        "drink_pairing": "Ett friskt torrt vitt vin som Chablis, Sauvignon Blanc eller en ljus lager.",
+        "ingredients": [
+            {"group": "Fisk & Sås", "items": [
+                {"val": 600, "unit": "g", "name": "torskrygg eller sejfilé (färsk eller tinad, i portionsbitar)"},
+                {"val": 300, "unit": "g", "name": "räkor med skal (skalade till ca 100g handskalade räkor)"},
+                {"val": 2.5, "unit": "dl", "name": "vispgrädde eller matlagningsgrädde"},
+                {"val": 1.5, "unit": "dl", "name": "mjölk eller fiskbuljong"},
+                {"val": 1, "unit": "dl", "name": "torrt vitt vin eller 1 msk citronsaft"},
+                {"val": 2, "unit": "msk", "name": "koncentrerad fiskfond eller hummerfond"},
+                {"val": 2, "unit": "msk", "name": "smör & 2 msk vetemjöl (till bottenredning)"},
+                {"val": 3, "unit": "msk", "name": "färsk dill (finhackad)"},
+                {"val": 1, "unit": "tsk", "name": "salt & vitpeppar"}
+            ]},
+            {"group": "Spritsat Duchessemos", "items": [
+                {"val": 900, "unit": "g", "name": "mjölig potatis (t.ex. King Edward)"},
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 2, "unit": "st", "name": "äggulor"},
+                {"val": 1, "unit": "dl", "name": "varm mjölk eller grädde"},
+                {"val": 1, "unit": "krm", "name": "riven muskotnöt, salt & vitpeppar"}
+            ]},
+            {"group": "Garnering", "items": [
+                {"val": 1, "unit": "kruka", "name": "färsk dill"},
+                {"val": 1, "unit": "st", "name": "citron (i klyftor)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka & gör duchessemoset", "text": "Skala och koka potatisen mjuk i saltat vatten. Häll av och pressa med potatispress. Rör ner smör, äggulor och varm mjölk. Smaka av med salt, vitpeppar och lite riven muskotnöt. Fyll en spritspåse med stjärntyll.", "timer": 20},
+            {"step": 2, "title": "Förbered ugnen & fisken", "text": "Sätt ugnen på 225°C över-/undervärme eller grill. Salta och peppra torskbitarna lätt och lägg dem i mitten av en smord ugnsform.", "timer": 5},
+            {"step": 3, "title": "Koka den krämiga vitvinssåsen", "text": "Smält 2 msk smör i en kastrull och vispa ner vetemjöl. Späd under vispning med vitt vin, fiskfond, mjölk och grädde. Låt sjuda i ca 5 minuter till en slät, krämig sås. Vänd ner hackad dill och smaka av med salt, vitpeppar och eventuellt lite citronsaft.", "timer": 6},
+            {"step": 4, "title": "Spritsa moset & häll på såsen", "text": "Spritsa vackra rosetter eller rader av duchessemos längs formens kanter runt fisken. Häll den heta dillsåsen över fisken i mitten.", "timer": 5},
+            {"step": 5, "title": "Gratinera i ugnen", "text": "Gratinera mitt i ugnen i ca 15–18 minuter tills fisken är genomkokt (innertemperatur 50°C) och potatismoset har fått vackra gyllenbruna toppar.", "timer": 16},
+            {"step": 6, "title": "Toppa med handskalade räkor & servera", "text": "Ta ut gratängen och toppa genast med rikligt med handskalade räkor, färsk dill och citronklyftor (lägg inte räkorna i ugnen då de blir sega). Servera direkt!", "timer": None}
+        ],
+        "pro_tips": "Lägg aldrig räkorna på fisken innan den går in i ugnen – strö dem alltid över direkt vid servering på den heta gratängen så håller de sig saftiga, krispiga och mjuka.",
+        "nutrition": {"calories": "480 kcal", "protein": "38g", "carbs": "32g", "fat": "22g", "sugar": "4g"},
+        "faqs": [
+            {"q": "Kan man använda fryst fisk?", "a": "Ja, tina torskryggen eller sejen långsamt och torka av den noggrant med hushållspapper så att såsen inte blir vattnig."},
+            {"q": "Kan fiskgratäng förberedas i förväg?", "a": "Du kan koka moset och såsen i förväg. Montera gratängen och baka den precis före middagen för krispigaste potatistoppar."}
+        ],
+        "community_reviews": [
+            {"name": "Helena Sjöberg", "date": "Idag", "rating": 5, "comment": "Maken och barnen slickade formen ren! Såsen var gudomlig och moset höll formen perfekt.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassiskt-rotmos-rimmad-flasklagg",
+        "file": "klassiskt-rotmos-rimmad-flasklagg.html",
+        "img": "rotmos",
+        "title": "Klassiskt Rotmos med Rimmad Fläsklägg & Skånsk Senap",
+        "card_title": "Klassiskt Rotmos med Fläsklägg",
+        "sub": "Gyllene rotmos på kålrot och morot med smältande mör rimmad fläsklägg",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 120,
+        "prep_time": "PT15M",
+        "cook_time": "PT105M",
+        "total_time": "PT120M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "1 tim 45 min",
+        "time_str": "2 timmar",
+        "calories": 540,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 580,
+        "desc": "En av de mest uråldriga och älskade svenska husmansrätterna! Långkokt rimmad fläsklägg som faller isär av mörhet, serverad med ett krämigt, gyllene rotmos smaksatt med den smakrika kokspadet, smör och grov skånsk senap.",
+        "long_desc": "Rotmos och fläsklägg är höjdpunkten av klassisk svensk husmanskost under hösten och vintern. Genom att späda det mosade rotmoset med lite av fläskläggets salta buljong får moset en oslagbar mustig och djup smak.",
+        "keywords": "rotmos, rotmos med fläsklägg, rimmad fläsklägg med rotmos, rotmos recept, klassiskt rotmos, fläsklägg recept, svensk husmanskost rotmos",
+        "alt": "Närbild på en djup tallrik med krämigt gyllene rotmos toppat med skivad mör rimmad fläsklägg, grov senap och persilja",
+        "equipment": ["Stor gryta (4–5 liter)", "Potatisstöt eller elvisp", "Skumslev"],
+        "drink_pairing": "En svensk julöl, fyllig lager eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Långkokt Rimmad Fläsklägg", "items": [
+                {"val": 1.2, "unit": "kg", "name": "rimmad fläsklägg med ben"},
+                {"val": 1.5, "unit": "liter", "name": "vatten (så det täcker köttet)"},
+                {"val": 1, "unit": "st", "name": "gul lök (skalad & i klyftor)"},
+                {"val": 8, "unit": "st", "name": "kryddpepparkorn"},
+                {"val": 8, "unit": "st", "name": "vitpepparkorn"},
+                {"val": 2, "unit": "st", "name": "lagerblad"}
+            ]},
+            {"group": "Gyllene Rotmos", "items": [
+                {"val": 800, "unit": "g", "name": "kålrot (skalad & skuren i mindre bitar)"},
+                {"val": 300, "unit": "g", "name": "morötter (skalade & skivade)"},
+                {"val": 500, "unit": "g", "name": "mjölig potatis (skalad & i bitar)"},
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 2, "unit": "dl", "name": "kokspad från fläskläggen"},
+                {"val": 1, "unit": "krm", "name": "riven muskotnöt, salt & vitpeppar"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 4, "unit": "msk", "name": "stark och söt skånsk senap (eller dijonsenap)"},
+                {"val": 1, "unit": "kruka", "name": "färsk persilja"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka fläskläggen & skumma", "text": "Lägg den rimmade fläskläggen i en stor gryta och häll på vatten så det täcker. Koka upp och skumma av ytan noga. Lägg i lökklyftor, kryddpeppar, vitpeppar och lagerblad. Sänk värmen, sätt på lock och sjud sakta i ca 1.5–2 timmar tills köttet släpper lätt från benet.", "timer": 90},
+            {"step": 2, "title": "Koka rotfrukterna", "text": "Skala och skär kålrot och morötter i bitar. Koka i saltat vatten i ca 25 minuter. Tillsätt sedan potatisbitarna och koka ytterligare 15–20 minuter tills allt är helt mjukt. Sila av men spara lite kokvatten.", "timer": 40},
+            {"step": 3, "title": "Stöt rotmoset", "text": "Stöt kålrot, morötter och potatis med en potatisstöt eller elvisp. Klicka i smör och späd med ca 1.5–2 dl av det heta kokspadet från fläskläggen till en härligt luftig och krämig konsistens. Smaka av med lite muskotnöt, vitpeppar och eventuellt lite mer salt.", "timer": 5},
+            {"step": 4, "title": "Skär upp fläskläggen", "text": "Lyft upp den möra fläskläggen ur buljongen. Skär bort svålen och skär det saftiga köttet i fina bitar eller skivor.", "timer": 5},
+            {"step": 5, "title": "Servera och njut", "text": "Lägg upp det rykande heta rotmoset i djupa tallrikar, toppa med det möra fläsklägget, en rejäl klick god skånsk senap och finhackad persilja.", "timer": None}
+        ],
+        "pro_tips": "Koka kålroten och morötterna 25 minuter innan du lägger i potatisen – eftersom kålrot tar längre tid att koka blir då alla rotfrukter perfekt mjuka samtidigt utan att potatisen kokar sönder.",
+        "nutrition": {"calories": "540 kcal", "protein": "42g", "carbs": "36g", "fat": "24g", "sugar": "12g"},
+        "faqs": [
+            {"q": "Vad gör man om fläskläggen är för salt?", "a": "Om köttet är hårt rimmat kan du låta det ligga i blöt i kallt vatten i ca 1 timme före kokning."},
+            {"q": "Kan man använda rimmad bog eller fläsk istället?", "a": "Ja, rimmad fläskbog, rimmad skinka eller tjocka skivor rimmat sidfläsk passar också alldeles utmärkt till rotmos."}
+        ],
+        "community_reviews": [
+            {"name": "Lars-Göran Nilsson", "date": "Idag", "rating": 5, "comment": "Husman när den är som bäst! Rotmoset fick fantastisk smak av kokspadet och köttet var otroligt mört.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassiska-svenska-chokladbollar-parlsocker",
+        "file": "klassiska-svenska-chokladbollar-parlsocker.html",
+        "img": "chokladbollar",
+        "title": "Klassiska Svenska Chokladbollar med Kaffe & Pärlsocker",
+        "card_title": "Klassiska Chokladbollar",
+        "sub": "Krämiga chokladbollar med havregryn, bryggkaffe & pärlsocker",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Mycket enkel",
+        "time": 15,
+        "prep_time": "PT15M",
+        "cook_time": "PT0M",
+        "total_time": "PT15M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "0 min",
+        "time_str": "15 min",
+        "calories": 140,
+        "portions_num": 20,
+        "portions_unit": "chokladbollar",
+        "rating": 4.99,
+        "review_count": 890,
+        "desc": "Sveriges mest bakade och älskade fika! Krämiga och fylliga chokladbollar gjorda på äkta rumsvarmt smör, havregryn, kakao, vaniljsocker och en skvätt starkt kaffe, rullade i krispigt pärlsocker eller riven kokos.",
+        "long_desc": "Chokladbollar är en absolut grundpelare i svensk fikakultur. Hemligheten bakom de allra godaste och krämigaste chokladbollarna är att vispa smör och socker fluffigt med elvisp och mixa en del av havregrynen lätt så att smeten blir härligt fudgy.",
+        "keywords": "chokladbollar, chokladbollar recept, bästa chokladbollarna, baka chokladbollar, enkla chokladbollar, klassiska chokladbollar, chokladbollar med kaffe",
+        "alt": "Närbild på en hög med runda svenska chokladbollar rullade i vitt pärlsocker med kaffekopp och kaffebönor i bakgrunden",
+        "equipment": ["Bunke & elvisp", "Djup tallrik till pärlsocker"],
+        "drink_pairing": "En kopp nybryggt svenskt bryggkaffe eller ett glas iskall mjölk.",
+        "ingredients": [
+            {"group": "Klassisk Chokladbollssmet", "items": [
+                {"val": 150, "unit": "g", "name": "smör (rumsvarmt & mjukt)"},
+                {"val": 1.5, "unit": "dl", "name": "strösocker"},
+                {"val": 4, "unit": "dl", "name": "havregryn"},
+                {"val": 3, "unit": "msk", "name": "kakao av god kvalitet"},
+                {"val": 1, "unit": "msk", "name": "vaniljsocker"},
+                {"val": 3, "unit": "msk", "name": "starkt kallt bryggkaffe (eller espresso)"},
+                {"val": 1, "unit": "krm", "name": "flingsalt (förstärker chokladsmaken)"}
+            ]},
+            {"group": "Garnering / Rullning", "items": [
+                {"val": 1.5, "unit": "dl", "name": "pärlsocker eller riven kokos"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Vispa smör och socker fluffigt", "text": "Rör eller vispa rumsvarmt smör och strösocker poröst och vitt med elvisp i en bunke i ca 2–3 minuter.", "timer": 3},
+            {"step": 2, "title": "Tillsätt smaksättning", "text": "Tillsätt kakao, vaniljsocker, flingsalt och kallt kaffe. Vispa ihop till en jämn chokladsmet.", "timer": 2},
+            {"step": 3, "title": "Blanda i havregrynen", "text": "Mixa gärna hälften av havregrynen lätt med stavmixer för extra krämighet. Rör ner alla havregryn i smeten och arbeta ihop väl. Om smeten känns för mjuk, ställ bunken i kylen i 15 minuter.", "timer": 3},
+            {"step": 4, "title": "Rulla till bollar", "text": "Forma smeten till ca 20 jämna bollar med händerna.", "timer": 5},
+            {"step": 5, "title": "Rulla i pärlsocker eller kokos", "text": "Häll pärlsocker eller kokos på ett fat och rulla bollarna så de blir helt täckta.", "timer": 3},
+            {"step": 6, "title": "Kyl och servera", "text": "Ställ chokladbollarna i kylskåp i minst 30 minuter innan servering så de stelnar och blir härligt sega och fylliga.", "timer": None}
+        ],
+        "pro_tips": "Vispa smöret och sockret vitt och pösigt innan du tillsätter havregrynen, och mixa hälften av havregrynen fint – det ger den där krämiga konditorikänslan!",
+        "nutrition": {"calories": "140 kcal", "protein": "2g", "carbs": "16g", "fat": "8g", "sugar": "9g"},
+        "faqs": [
+            {"q": "Kan man baka chokladbollar utan kaffe?", "a": "Ja, du kan enkelt ersätta kaffet med 3 msk mjölk, apelsinjuice eller kallt vatten."},
+            {"q": "Hur länge håller chokladbollar?", "a": "Chokladbollar håller sig i kylskåp i upp till 2 veckor och går dessutom utmärkt att frysa in i månader."}
+        ],
+        "community_reviews": [
+            {"name": "Camilla Ekström", "date": "Idag", "rating": 5, "comment": "Bästa receptet på chokladbollar! Att vispa smöret och mixa havregrynen gjorde enorm skillnad.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassiska-mazariner-mandelmassa-glasyr",
+        "file": "klassiska-mazariner-mandelmassa-glasyr.html",
+        "img": "mazariner",
+        "title": "Klassiska Mazariner med Saftig Mandelkräm & Glasyr",
+        "card_title": "Klassiska Mazariner",
+        "sub": "Frasiga mördegskakor fyllda med mandelfyllning & vit sockerglasyr",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Medel",
+        "time": 45,
+        "prep_time": "PT25M",
+        "cook_time": "PT20M",
+        "total_time": "PT45M",
+        "prep_time_str": "25 min",
+        "cook_time_str": "20 min",
+        "time_str": "45 min",
+        "calories": 260,
+        "portions_num": 12,
+        "portions_unit": "mazariner",
+        "rating": 4.98,
+        "review_count": 640,
+        "desc": "Klassikernas klassiker på det svenska kafferepet! Spröda mördegsformar fyllda med en saftig och fyllig mandelmassa och smörkräm, toppade med en skinande vit sockerglasyr.",
+        "long_desc": "Mazariner är ett av Sveriges äldsta och mest uppskattade bakverk. Den perfekta balansen mellan den spröda mördegsbottnen, den mjuka mandelfyllningen och den söta krispiga glasyren gör dem till en oslagbar favorit.",
+        "keywords": "mazariner, mazariner recept, baka mazariner, klassiska mazariner, hembakta mazariner, mandelmazariner, mazariner med glasyr",
+        "alt": "Närbild på en delad klassisk mazarin som visar den saftiga mandelkrämsfyllningen, spröda mördegskanten och vita glasyren på ett porslinsfat",
+        "equipment": ["Mazarinformar (ovala eller runda metallformar)", "Kavel", "Elvisp"],
+        "drink_pairing": "En god kopp bryggkaffe eller en kopp Earl Grey te.",
+        "ingredients": [
+            {"group": "Spröd Mördeg", "items": [
+                {"val": 3, "unit": "dl", "name": "vetemjöl"},
+                {"val": 125, "unit": "g", "name": "kallt smör (i kuber)"},
+                {"val": 0.5, "unit": "dl", "name": "florsocker eller strösocker"},
+                {"val": 1, "unit": "st", "name": "äggula"},
+                {"val": 1, "unit": "msk", "name": "kallt vatten"}
+            ]},
+            {"group": "Saftig Mandelfyllning", "items": [
+                {"val": 200, "unit": "g", "name": "mandelmassa (riven)"},
+                {"val": 75, "unit": "g", "name": "smör (rumsvarmt)"},
+                {"val": 2, "unit": "st", "name": "stora ägg"},
+                {"val": 0.5, "unit": "tsk", "name": "bittermandelarom eller 2 rivna bittermandlar"}
+            ]},
+            {"group": "Vit Glasyr", "items": [
+                {"val": 2, "unit": "dl", "name": "florsocker"},
+                {"val": 1.5, "unit": "msk", "name": "vatten eller färskpressad citronsaft"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Gör mördegen & kyl", "text": "Nyp snabbt ihop mjöl, socker och kallt smör i en bunke. Tillsätt äggula och kallt vatten och arbeta snabbt ihop till en smidig deg. Platta till, slå in i plastfolie och låt vila i kylen i ca 30 minuter.", "timer": 30},
+            {"step": 2, "title": "Klä formarna", "text": "Sätt ugnen på 200°C. Kavla ut mördegen eller tryck ut den i 12 smorda mazarinformar så att botten och kanter täcks jämnt.", "timer": 10},
+            {"step": 3, "title": "Rör mandelfyllningen", "text": "Riv mandelmassan grovt och rör samman med rumsvarmt smör. Tillsätt äggen ett i taget under omrörning till en slät smet. Droppa i lite bittermandelarom för den karaktäristiska smaken.", "timer": 5},
+            {"step": 4, "title": "Fyll formarna & grädda", "text": "Klicka mandelfyllningen i de mördegsklädda formarna (fyll inte ända upp till kanten). Grädda mitt i ugnen i ca 15–18 minuter tills mazarinen fått fin gyllenbrun färg.", "timer": 16},
+            {"step": 5, "title": "Låt svalna och stjälp upp", "text": "Låt kakorna svalna i formarna några minuter. Stjälp försiktigt upp dem på ett galler och låt svalna helt.", "timer": 10},
+            {"step": 6, "title": "Glasera och låt stelna", "text": "Rör ihop florsocker och vatten/citronsaft till en trögflytande vit glasyr. Bred ut ett jämnt lager glasyr ovanpå varje mazarin och låt stelna.", "timer": None}
+        ],
+        "pro_tips": "Låt mazarinen svalna helt innan du brer på glasyren – annars smälter glasyren och sugs upp av kakan istället för att bilda ett blankt, vackert täcke.",
+        "nutrition": {"calories": "260 kcal", "protein": "5g", "carbs": "32g", "fat": "14g", "sugar": "18g"},
+        "faqs": [
+            {"q": "Kan man frysa in mazariner?", "a": "Ja, mazariner går utmärkt att frysa in både med och utan glasyr. De tinar snabbt i rumstemperatur."},
+            {"q": "Måste man ha mazarinformar i metall?", "a": "Metallformar ger absolut frasigast kant, men det går också att baka mazariner i stadiga muffinsformar eller en muffinsplåt."}
+        ],
+        "community_reviews": [
+            {"name": "Kerstin Berg", "date": "Idag", "rating": 5, "comment": "Riktiga konditorimazariner! Så spröda och mandelfyllningen var fantastiskt saftig.", "verified": True}
+        ]
     }
 ]
+
 
 
 
