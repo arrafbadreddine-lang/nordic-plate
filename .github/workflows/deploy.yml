@@ -15,50 +15,47 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy over SSH
-        uses: appleboy/ssh-action@v1.2.0
-        with:
-          host: ${{ secrets.CLOUDWAYS_HOST }}
-          username: ${{ secrets.CLOUDWAYS_USER }}
-          key: ${{ secrets.CLOUDWAYS_SSH_KEY }}
-          port: 22
-          command_timeout: 10m
-          script_stop: true
-          script: |
-            set -euo pipefail
+      - name: Checkout
+        uses: actions/checkout@v5
 
-            APP_DIR="${{ vars.CLOUDWAYS_APP_PATH }}"
-            REPO_URL="https://github.com/arrafbadreddine-lang/nordic-plate.git"
-
-            if [ -z "$APP_DIR" ]; then
-              echo "ERROR: repository variable CLOUDWAYS_APP_PATH is not set."
+      # A truncated or failed checkout combined with --delete could wipe the
+      # live site. Refuse to sync anything that does not look like the site.
+      - name: Sanity check the checkout
+        run: |
+          set -euo pipefail
+          for required in index.html recept.html robots.txt recept kategorier assets; do
+            if [ ! -e "$required" ]; then
+              echo "ERROR: '$required' missing from checkout - refusing to sync."
               exit 1
             fi
+          done
+          count=$(find . -type f -not -path './.git/*' | wc -l)
+          echo "Checkout looks valid: $count files."
+          if [ "$count" -lt 100 ]; then
+            echo "ERROR: only $count files - refusing to sync."
+            exit 1
+          fi
 
-            if [ ! -d "$APP_DIR" ]; then
-              echo "ERROR: $APP_DIR does not exist on the server."
-              exit 1
-            fi
+      - name: Install SSH key
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "${{ secrets.CLOUDWAYS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
 
-            cd "$APP_DIR"
-            echo "Working directory: $(pwd)"
+      - name: Deploy via rsync
+        run: |
+          set -euo pipefail
+          rsync -az --delete --stats --human-readable --itemize-changes \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='.gitignore' \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new" \
+            ./ \
+            "${{ secrets.CLOUDWAYS_USER }}@${{ secrets.CLOUDWAYS_HOST }}:${{ vars.CLOUDWAYS_APP_PATH }}/"
+          echo "Static site deployed. Nothing to build, nothing to restart."
 
-            # The app folder is owned by the application user, not the master
-            # user this deploy runs as, so git needs it whitelisted.
-            git config --global --add safe.directory "$APP_DIR" || true
-            git config --global --add safe.directory "$(pwd -P)" || true
-
-            if [ ! -d .git ]; then
-              echo "--- First run: bootstrapping git repository ---"
-              git init
-            fi
-
-            git remote remove origin 2>/dev/null || true
-            git remote add origin "$REPO_URL"
-
-            echo "--- Pulling latest code ---"
-            git fetch --depth=1 origin main
-            git reset --hard origin/main
-
-            echo "Static site - nothing to build, nothing to restart."
-            echo "Deployment finished."
+      - name: Remove SSH key
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
