@@ -47,7 +47,11 @@ jobs:
       - name: Deploy via rsync
         run: |
           set -euo pipefail
-          rsync -az --delete --stats --human-readable --itemize-changes \
+          # public_html is owned by the application user, not by the master
+          # user we connect as, so rsync cannot set times or permissions on
+          # the directories themselves. Skip those rather than exiting 23.
+          rsync -az --delete --omit-dir-times --no-perms \
+            --stats --human-readable --itemize-changes \
             --exclude='.git/' \
             --exclude='.github/' \
             --exclude='.gitignore' \
