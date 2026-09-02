@@ -3591,8 +3591,339 @@ RECIPES = [
         "community_reviews": [
             {"name": "Kerstin Berg", "date": "Idag", "rating": 5, "comment": "Riktiga konditorimazariner! Så spröda och mandelfyllningen var fantastiskt saftig.", "verified": True}
         ]
+    },
+    {
+        "slug": "klassisk-rulltarta-hallonsylt",
+        "file": "klassisk-rulltarta-hallonsylt.html",
+        "img": "rulltarta",
+        "title": "Klassisk Rulltårta med Hallonsylt & Strösocker",
+        "card_title": "Klassisk Rulltårta",
+        "sub": "Saftig sockerkaksbotten rullad med frisk hallonsylt & pärlande socker",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Enkel",
+        "time": 20,
+        "prep_time": "PT15M",
+        "cook_time": "PT5M",
+        "total_time": "PT20M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "5 min",
+        "time_str": "20 min",
+        "calories": 190,
+        "portions_num": 10,
+        "portions_unit": "skivor",
+        "rating": 4.99,
+        "review_count": 780,
+        "desc": "Sveriges snabbaste och mest klassiska fikakaka! En luftig, saftig sockerkaksbotten som gräddas på bara 5 minuter, breds med frisk hallonsylt eller jordgubbssylt och rullas ihop till en vacker spiral.",
+        "long_desc": "Rulltårta är den perfekta kakan när du får oväntat fikabesök. Hemligheten för att rulltårtan inte ska spricka är att stjälpa upp den direkt på ett sockrat bakplåtspapper och rulla ihop den medan kakan fortfarande är ljummen.",
+        "keywords": "rulltårta, rulltårta recept, drömrulltårta, klassisk rulltårta, snabb rulltårta, rulltårta med hallonsylt, saftig rulltårta",
+        "alt": "Närbild på en skivad gyllene rulltårta med hallonsyltfyllning och strösocker på ett rustikt träfat med färska hallon",
+        "equipment": ["Långpanna (ca 30x40 cm)", "Bakplåtspapper", "Elvisp"],
+        "drink_pairing": "En kopp bryggkaffe, te eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Luftig Rulltårtsbotten", "items": [
+                {"val": 3, "unit": "st", "name": "stora ägg"},
+                {"val": 1.5, "unit": "dl", "name": "strösocker"},
+                {"val": 2, "unit": "dl", "name": "vetemjöl (eller potatismjöl för glutenfritt)"},
+                {"val": 1, "unit": "tsk", "name": "bakpulver"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker"},
+                {"val": 2, "unit": "msk", "name": "mjölk eller vatten"}
+            ]},
+            {"group": "Fyllning & Rullning", "items": [
+                {"val": 2, "unit": "dl", "name": "fast hallonsylt eller jordgubbssylt av god kvalitet"},
+                {"val": 2, "unit": "msk", "name": "strösocker (att strö på pappret)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & förbered plåt", "text": "Sätt ugnen på 250°C över-/undervärme. Lägg ett bakplåtspapper i en långpanna (ca 30x40 cm) och smörj det lätt med neutral olja.", "timer": 5},
+            {"step": 2, "title": "Vispa ägg och socker pösigt", "text": "Vispa ägg och strösocker med elvisp i minst 4–5 minuter tills det blir riktigt vitt, tjockt och pösigt.", "timer": 5},
+            {"step": 3, "title": "Vänd ner mjölblandningen", "text": "Blanda vetemjöl, bakpulver och vaniljsocker. Sikta ner i smeten och vänd försiktigt runt med en slickepott tillsammans med mjölken till en jämn, luftig smet.", "timer": 2},
+            {"step": 4, "title": "Bred ut och grädda blixtsnabbt", "text": "Bred ut smeten jämnt i långpannan. Grädda mitt i ugnen i exakt 4–5 minuter tills kakan fått en vacker gyllengul färg. Vakta noga så den inte bränns!", "timer": 5},
+            {"step": 5, "title": "Stjälp upp och bred på sylt", "text": "Strö strösocker på ett nytt bakplåtspapper på köksbänken. Stjälp genast upp den heta kakan på det sockrade pappret. Pensla det övre pappret med lite kallt vatten och dra försiktigt bort det. Bred genast ut hallonsylten i ett jämnt lager över kakan.", "timer": 3},
+            {"step": 6, "title": "Rulla ihop och låt svalna", "text": "Rulla ihop kakan från långsidan med hjälp av det undre bakplåtspappret. Låt rulltårtan svalna med skarven nedåt i pappret. Skär i fina tjocka skivor och njut!", "timer": None}
+        ],
+        "pro_tips": "Pensla bakplåtspappret med lite kallt vatten efter att du stjälpt upp kakan – ångan gör att pappret lossnar lekande lätt utan att kakan fastnar!",
+        "nutrition": {"calories": "190 kcal", "protein": "3g", "carbs": "36g", "fat": "3g", "sugar": "24g"},
+        "faqs": [
+            {"q": "Varför spricker rulltårtan när man rullar den?", "a": "Rulltårtan spricker om den gräddats för länge och blivit torr, eller om man väntar för länge med att rulla den. Rulla alltid ihop den medan den fortfarande är varm och mjuk."},
+            {"q": "Kan man göra rulltårta glutenfri?", "a": "Ja, ersätt bara vetemjölet med 1.5 dl potatismjöl – kakan blir då naturligt glutenfri och extra fluffig och elastisk."}
+        ],
+        "community_reviews": [
+            {"name": "Ewa Andersson", "date": "Idag", "rating": 5, "comment": "Otroligt saftig och perfekt rullad! Tog 15 minuter från start till fikabordet.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-pytt-i-panna-stekt-agg-rodbetor",
+        "file": "klassisk-pytt-i-panna-stekt-agg-rodbetor.html",
+        "img": "pyttipanna",
+        "title": "Klassisk Pytt i Panna med Stekt Ägg & Inlagda Rödbetor",
+        "card_title": "Klassisk Pytt i Panna",
+        "sub": "Frasigt råstekt potatis med mört kött, karamelliserad lök & stekt ägg",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Enkel",
+        "time": 30,
+        "prep_time": "PT10M",
+        "cook_time": "PT20M",
+        "total_time": "PT30M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "20 min",
+        "time_str": "30 min",
+        "calories": 530,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 690,
+        "desc": "En klassisk svensk vardagshjälte och husmansfavorit! Små fina tärningar av stekt potatis, saftigt nötkött, rökt skinka och söt karamelliserad lök, serverad rykande het ur gjutjärnspannan med stekt ägg och inlagda rödbetor.",
+        "long_desc": "Hemgjord pytt i panna är ljusår bättre än den frysta varianten. Hemligheten bakom en perfekt krispig pytt är att tärna alla ingredienser i fina små kuber (ca 8 mm) och steka potatisen separat i rikligt med smör så att den blir riktigt frasig och gyllene.",
+        "keywords": "pyttipanna, pytt i panna recept, hemgjord pyttipanna, klassisk pytt i panna, pyttipanna stekt ägg, svensk pyttipanna",
+        "alt": "Närbild på en gjutjärnspanna med krispig pytt i panna toppad med ett stekt ägg med krämig gula, hackad persilja och inlagda rödbetor",
+        "equipment": ["Gjutjärnsstekpanna", "Skärbräda & vass kniv", "Stekspade"],
+        "drink_pairing": "En kall svensk öl, must eller ett glas iskall mjölk.",
+        "ingredients": [
+            {"group": "Pytt i Panna", "items": [
+                {"val": 800, "unit": "g", "name": "fast potatis (skalad & fint tärnad i 8 mm bitar)"},
+                {"val": 300, "unit": "g", "name": "tillagat nötkött (t.ex. oxfilé, stek eller rostbiff, tärnat)"},
+                {"val": 200, "unit": "g", "name": "rökt sidfläsk eller rökt skinka (fint tärnat)"},
+                {"val": 2, "unit": "st", "name": "gula lökar (finhackade)"},
+                {"val": 50, "unit": "g", "name": "smör och 2 msk rapsolja (att steka i)"},
+                {"val": 1, "unit": "tsk", "name": "flingsalt & nymalen svartpeppar"},
+                {"val": 1, "unit": "msk", "name": "kinesisk soja eller worcestershiresås (frivilligt)"}
+            ]},
+            {"group": "Klassiska Tillbehör", "items": [
+                {"val": 4, "unit": "st", "name": "färska ägg (stekta sunny-side up)"},
+                {"val": 1, "unit": "burk", "name": "inlagda rödbetor (tärnade)"},
+                {"val": 1, "unit": "kruka", "name": "färsk bladpersilja (finhackad)"},
+                {"val": 1, "unit": "flaska", "name": "HP-sås eller skånsk senap"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Tärna alla ingredienser", "text": "Skala potatisen och skär den i små fina tärningar (ca 8x8 mm). Skär även köttet, fläsket och löken i motsvarande små tärningar.", "timer": 10},
+            {"step": 2, "title": "Råstek potatisen frasig", "text": "Hetta upp hälften av smöret och oljan i en stor gjutjärnspanna. Stek potatistärningarna på medelvärme under omrörning i ca 12–15 minuter tills de är genomstekta och har fått en gyllene krispig yta. Salta lätt och häll över i en skål.", "timer": 15},
+            {"step": 3, "title": "Stek löken, fläsket och köttet", "text": "Lägg i resterande smör i pannan. Stek löken och det rökta fläsket tills löken är mjuk och gyllene. Tillsätt det tärnade nötköttet och låt steka med i 3–4 minuter så att allt får fin färg och smak.", "timer": 6},
+            {"step": 4, "title": "Blanda ihop pytten", "text": "Vänd tillbaka den krispiga potatisen i pannan. Blanda om väl och låt allt bli rykande varmt tillsammans i 2 minuter. Smaka av med salt, svartpeppar och eventuellt några droppar soja.", "timer": 3},
+            {"step": 5, "title": "Stek äggen", "text": "Stek äggen i en separat panna med smör så att vitan stelnar men äggulan förblir rinnig och krämig.", "timer": 3},
+            {"step": 6, "title": "Servera och njut", "text": "Toppa pytten med de nystekta äggen, strö över rikligt med färsk persilja och servera direkt ur pannan med inlagda rödbetor och HP-sås.", "timer": None}
+        ],
+        "pro_tips": "Stek potatisen separat först innan du blandar ihop den med köttet och löken – då förblir potatisbitarna underbart krispiga istället för att bli mjuka och ångade.",
+        "nutrition": {"calories": "530 kcal", "protein": "34g", "carbs": "38g", "fat": "28g", "sugar": "6g"},
+        "faqs": [
+            {"q": "Kan man använda kokt potatis från gårdagen?", "a": "Ja, överbliven kokt kall potatis fungerar utmärkt! Den steker dessutom ännu snabbare och blir härligt gyllene."},
+            {"q": "Vilket kött passar bäst i pytt i panna?", "a": "En blandning av nötkött (oxfilé, biff eller stek) och rökt sidfläsk eller god korv ger den allra bästa balansen mellan sälta och mustighet."}
+        ],
+        "community_reviews": [
+            {"name": "Johan Ström", "date": "Idag", "rating": 5, "comment": "Äkta hemgjord pyttipanna slår allt! Potatisen blev superkrispig och äggulan band ihop allt magiskt.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-skomakarlada-biff-bacon-potatismos",
+        "file": "klassisk-skomakarlada-biff-bacon-potatismos.html",
+        "img": "skomakarlada",
+        "title": "Klassisk Skomakarlåda med Biff, Rödvinssås & Knaperstekt Bacon",
+        "card_title": "Klassisk Skomakarlåda",
+        "sub": "Smörstekt biff på fluffigt potatismos med mustig rödvinssås, purjolök & bacon",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 40,
+        "prep_time": "PT15M",
+        "cook_time": "PT25M",
+        "total_time": "PT40M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "25 min",
+        "time_str": "40 min",
+        "calories": 590,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 590,
+        "desc": "En genuin svensk krogklassiker som alltid imponerar! Mör utbankad biff som steks hastigt och vilar på en bädd av hemlagat lent potatismos, omsluten av en mustig rödvinssås och krönt med knaperstekt bacon och mjuk purjolök.",
+        "long_desc": "Skomakarlåda har anor från tidigt 1900-tal på Stockholms klassiska restauranger. Rätten fick sitt namn för att biffarna bankades ut tunna som skosulor. Tillsammans med rödvinssås, bacon och purjolök blir det en oemotståndlig smakkombination.",
+        "keywords": "skomakarlåda, skomakarlåda recept, klassisk skomakarlåda, skomakarlåda biff, svensk husmanskost skomakarlåda, biff med potatismos och rödvinssås",
+        "alt": "Närbild på en elegant tallrik skomakarlåda med nystekt biff över krämigt potatismos, mörk rödvinssås och toppad med knaperstekt bacon och purjolök",
+        "equipment": ["Gjutjärnsstekpanna", "Kastrull till mos", "Köttbankare"],
+        "drink_pairing": "Ett fylligt rött vin som Syrah, Cabernet Sauvignon eller en mörk svensk lager.",
+        "ingredients": [
+            {"group": "Biff & Topping", "items": [
+                {"val": 600, "unit": "g", "name": "lövbiff eller utbankad ryggbiff (4 portionsbitar)"},
+                {"val": 140, "unit": "g", "name": "bacon eller rökt sidfläsk (tärnat)"},
+                {"val": 1, "unit": "st", "name": "purjolök (strimlad, gärna både vit och grön del)"},
+                {"val": 40, "unit": "g", "name": "smör (att steka i)"},
+                {"val": 1, "unit": "tsk", "name": "flingsalt & nymalen grov svartpeppar"}
+            ]},
+            {"group": "Mustig Rödvinssås", "items": [
+                {"val": 2.5, "unit": "dl", "name": "fylligt rött vin"},
+                {"val": 2.5, "unit": "dl", "name": "vatten + 2 msk koncentrerad kalvfond eller oxfond"},
+                {"val": 1, "unit": "st", "name": "schalottenlök (finhackad)"},
+                {"val": 1, "unit": "msk", "name": "tomatpuré & 1 tsk torkad timjan"},
+                {"val": 1, "unit": "msk", "name": "smör (att blanka av såsen med)"},
+                {"val": 1, "unit": "tsk", "name": "maizena (utrört i lite vatten)"}
+            ]},
+            {"group": "Lent Potatismos", "items": [
+                {"val": 900, "unit": "g", "name": "mjölig potatis"},
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 1.5, "unit": "dl", "name": "varm mjölk eller grädde"},
+                {"val": 1, "unit": "krm", "name": "riven muskotnöt, salt & vitpeppar"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka potatismoset", "text": "Skala och koka potatisen mjuk i saltat vatten. Häll av och stöt potatisen slät med smör och varm mjölk. Smaka av med salt, vitpeppar och en nypa muskotnöt. Håll varmt.", "timer": 20},
+            {"step": 2, "title": "Koka den mustiga rödvinssåsen", "text": "Fräs finhackad schalottenlök och tomatpuré i lite smör i en kastrull. Häll på rött vin, vatten, kalvfond och timjan. Låt koka ihop och reducera till hälften (ca 10 minuter). Red av med maizena och vispa i en klick kallt smör för fin glans.", "timer": 12},
+            {"step": 3, "title": "Stek bacon och purjolök", "text": "Knaperstek det tärnade baconet i en stekpanna. Tillsätt den strimlade purjolöken mot slutet och låt den mjukna och bli glansig i baconfettet. Lägg upp på ett fat och håll varmt.", "timer": 6},
+            {"step": 4, "title": "Stek biffarna snabbt på hög värme", "text": "Hetta upp smör i pannan tills det tystnar och får nötbrun färg. Stek biffarna snabbt på hög värme i ca 1 minut per sida så de får fin stekyta men förblir saftiga och rosa i mitten. Salta och peppra.", "timer": 3},
+            {"step": 5, "title": "Montera och servera", "text": "Lägg en generös portion potatismos mitt på varma tallrikar. Placera en nystekt biff ovanpå moset, ringla den heta rödvinssåsen runt om och toppa köttet med det knaperstekta baconet och purjolöken.", "timer": None}
+        ],
+        "pro_tips": "Stek biffarna i rykande het panna i högst 1 minut per sida – eftersom biffarna är tunna blir de torra om de steks för länge.",
+        "nutrition": {"calories": "590 kcal", "protein": "44g", "carbs": "36g", "fat": "28g", "sugar": "5g"},
+        "faqs": [
+            {"q": "Varför heter det skomakarlåda?", "a": "Namnet kommer från att biffarna traditionellt bankades ut med köttklubba så att de liknade formen av en skosula."},
+            {"q": "Kan man använda ryggbiff eller oxfilé?", "a": "Ja, finare bitar av ryggbiff eller oxfilé skurna i skivor och lätt utbankade ger en fantastiskt mör och lyxig skomakarlåda."}
+        ],
+        "community_reviews": [
+            {"name": "Fredrik Viklund", "date": "Idag", "rating": 5, "comment": "Krogkänsla hemma! Rödvinssåsen var helt fantastisk och bacon/purjo-toppingen lyfte hela rätten.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassiskt-dillkott-hogrev-sotsur-dillsas",
+        "file": "klassiskt-dillkott-hogrev-sotsur-dillsas.html",
+        "img": "dillkott",
+        "title": "Klassiskt Dillkött på Högrev med Sötsur Dillsås & Morötter",
+        "card_title": "Klassiskt Dillkött",
+        "sub": "Långkokt mört högrev i en krämig sötsur dillsås med morötter & potatis",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 90,
+        "prep_time": "PT15M",
+        "cook_time": "PT75M",
+        "total_time": "PT90M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "1 tim 15 min",
+        "time_str": "1 tim 30 min",
+        "calories": 460,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 510,
+        "desc": "En tidlös svensk husmansklenod! Långkokt, smältande mört högrev eller kalvkött som sjuder i en aromatisk buljong med morötter, serverat i en krämig och fyllig sötsur dillsås med rikligt av färskhackad dill och kokt potatis.",
+        "long_desc": "Dillkött är en klassiker med anor från det gamla svenska bondesamhället. Den unika smaken skapas av balansen mellan ättika, socker och färsk dill som kokas ihop med den mustiga köttbuljongen och grädde.",
+        "keywords": "dillkött, dillkött recept, klassiskt dillkött, dillkött högrev, dillkött kalv, sötsur dillsås, svensk husmanskost dillkött",
+        "alt": "Närbild på en skål klassiskt dillkött med möra högrevsbitar och morötter i krämig grönprickig dillsås med nykokt potatis",
+        "equipment": ["Stor gryta", "Kastrull till dillsås", "Skumslev"],
+        "drink_pairing": "Ett friskt vitt vin som Riesling, ljus lageröl eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Köttkok & Buljong", "items": [
+                {"val": 800, "unit": "g", "name": "högrev, grytbitar av kalv eller märgpipa (i 3 cm kuber)"},
+                {"val": 1.2, "unit": "liter", "name": "vatten (så det täcker köttet)"},
+                {"val": 2, "unit": "st", "name": "morötter (slantade)"},
+                {"val": 1, "unit": "st", "name": "gul lök (i klyftor)"},
+                {"val": 6, "unit": "st", "name": "vitpepparkorn & 6 kryddpepparkorn"},
+                {"val": 2, "unit": "st", "name": "lagerblad & dillstjälkar från dillkrukan"},
+                {"val": 1.5, "unit": "tsk", "name": "salt"}
+            ]},
+            {"group": "Krämig Sötsur Dillsås", "items": [
+                {"val": 4, "unit": "dl", "name": "silad köttbuljong (från köttkoket)"},
+                {"val": 1.5, "unit": "dl", "name": "vispgrädde"},
+                {"val": 2, "unit": "msk", "name": "smör & 2 msk vetemjöl"},
+                {"val": 1.5, "unit": "msk", "name": "ättiksprit (12%) eller vitvinsvinäger"},
+                {"val": 2, "unit": "msk", "name": "strösocker (justera efter smak för sötsur balans)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill (rikligt finhackad)"},
+                {"val": 1, "unit": "krm", "name": "salt & vitpeppar"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 4, "unit": "portioner", "name": "nykokt delikatesspotatis med dill"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka köttet & skumma", "text": "Lägg köttbitarna i en gryta med vatten och salt. Koka upp och skumma noga av ytan. Lägg i lök, dillstjälkar, pepparkorn och lagerblad. Sjud under lock på svag värme i ca 1 timme.", "timer": 60},
+            {"step": 2, "title": "Tillsätt morötterna", "text": "Lägg i morotsslantar och sjud ytterligare 15–20 minuter tills köttet är smältande mört. Sila av och spara 4 dl av den goda buljongen.", "timer": 20},
+            {"step": 3, "title": "Gör dillsåsen", "text": "Smält smöret i en kastrull och vispa i vetemjölet. Späd under vispning med den heta köttbuljongen och grädden. Låt sjuda sakta i ca 5 minuter till en slät krämig sås.", "timer": 5},
+            {"step": 4, "title": "Smaka av sötsurt", "text": "Smaka av såsen med ättika, strösocker, salt och vitpeppar. Såsen ska ha en tydlig och frisk balans mellan sötma och syra.", "timer": 2},
+            {"step": 5, "title": "Vänd ner köttet och dillen", "text": "Lägg det möra köttet och morötterna i den heta såsen. Vänd ner rikligt med finhackad färsk dill precis före servering så att dillen behåller sin vackra gröna färg och arom.", "timer": 2},
+            {"step": 6, "title": "Servera med nykokt potatis", "text": "Häll upp dillköttet i en djup skål och servera rykande hett med nykokt potatis.", "timer": None}
+        ],
+        "pro_tips": "Spara stjälkarna från dillen och låt dem koka med i köttbuljongen – då drar köttet åt sig dillarom redan under kokningen!",
+        "nutrition": {"calories": "460 kcal", "protein": "38g", "carbs": "22g", "fat": "24g", "sugar": "8g"},
+        "faqs": [
+            {"q": "Kan man använda lamm istället för nötkött?", "a": "Ja, dillkött på lamm (lammstek eller lammbog) är en klassisk svensk variation som kallas dill-lamm och smakar helt underbart."},
+            {"q": "Går dillkött att frysa?", "a": "Ja, dillkött fryser utmärkt. Tillsätt gärna lite extra färsk dill vid uppvärmning för nylagad fräschör."}
+        ],
+        "community_reviews": [
+            {"name": "Ingrid Holmgren", "date": "Idag", "rating": 5, "comment": "Precis som min mormor lagade det! Den sötsura dillsåsen var helt perfekt avvägd.", "verified": True}
+        ]
+    },
+    {
+        "slug": "gammaldags-appelkram-kanel-kall-mjolk",
+        "file": "gammaldags-appelkram-kanel-kall-mjolk.html",
+        "img": "appelkram",
+        "title": "Gammaldags Äppelkräm med Kanel & Iskall Mjölk",
+        "card_title": "Gammaldags Äppelkräm",
+        "sub": "Höstens godaste äppelkräm med svenska äpplen, kanel & söt vanilj",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt / Vegansk",
+        "difficulty": "Mycket enkel",
+        "time": 20,
+        "prep_time": "PT10M",
+        "cook_time": "PT10M",
+        "total_time": "PT20M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "10 min",
+        "time_str": "20 min",
+        "calories": 130,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 670,
+        "desc": "En klassisk svensk höstfavorit som väcker barndomsminnen! Hemgjord äppelkräm kokt på svenska syrliga höstäpplen, kanelstång, vanilj och socker, redd till perfekt silkeslen konsistens och serverad med iskall mjölk.",
+        "long_desc": "Gammaldags äppelkräm är det absolut godaste sättet att ta tillvara på höstens äppelskörd. Den äts lika gärna som ett enkelt mellanmål som till efterrätt med en skvätt grädde eller mjölk.",
+        "keywords": "äppelkräm, äppelkräm recept, gammaldags äppelkräm, hemgjord äppelkräm, äppelkräm med kanel, svensk fruktkräm",
+        "alt": "Närbild på en glasskål med gyllenbrun äppelkräm toppad med kanel där kall mjölk hälls över i vackra vita mönster",
+        "equipment": ["Kastrull", "Skalkniv & skärbräda", "Liten skål till potatismjöl"],
+        "drink_pairing": "Ett glas iskall lantmjölk eller en klick vispad grädde.",
+        "ingredients": [
+            {"group": "Äppelkräm", "items": [
+                {"val": 600, "unit": "g", "name": "svenska äpplen (t.ex. Ingrid Marie, skalade, urkärnade & tärnade)"},
+                {"val": 5, "unit": "dl", "name": "vatten"},
+                {"val": 0.75, "unit": "dl", "name": "strösocker (justera efter äpplenas syra)"},
+                {"val": 1, "unit": "st", "name": "hel kanelstång"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker eller 0.5 tsk mald kanel"},
+                {"val": 2.5, "unit": "msk", "name": "potatismjöl (utrört i 3 msk kallt vatten)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 4, "unit": "dl", "name": "iskall färsk mjölk eller ovispad grädde"},
+                {"val": 1, "unit": "krm", "name": "mald kanel & lite strösocker"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Förbered äpplena", "text": "Skala, kärna ur och skär äpplena i ca 2 cm stora tärningar.", "timer": 5},
+            {"step": 2, "title": "Koka äppelkompotten", "text": "Lägg äppelbitar, vatten, strösocker och kanelstång i en kastrull. Koka upp och låt sjuda på medelvärme i ca 6–8 minuter tills äppelbitarna börjar mjukna men fortfarande håller ihop.", "timer": 8},
+            {"step": 3, "title": "Rör ut potatismjölet", "text": "Dra kastrullen från värmen och plocka ur kanelstången. Rör ut potatismjölet i 3 msk kallt vatten i ett glas.", "timer": 2},
+            {"step": 4, "title": "Red krämen", "text": "Häll ner potatismjölsblandningen i en fin stråle under ständig omrörning. Sätt tillbaka kastrullen på plattan och låt krämen precis koka upp så att första kokbubblan syns – ta genast av från värmen (koka inte vidare då krämen kan bli seg).", "timer": 2},
+            {"step": 5, "title": "Sockra ytan för att undvika skinn", "text": "Rör i vaniljsockret. Häll upp krämen i en skål eller portionsskålar och strö lite strösocker över ytan så bildas inget skinn.", "timer": 2},
+            {"step": 6, "title": "Servera ljummen eller kall", "text": "Servera äppelkrämen ljummen eller väl kyld med ett generöst glas iskall mjölk eller en skvätt grädde.", "timer": None}
+        ],
+        "pro_tips": "Ta alltid kastrullen från plattan direkt när första kokbubblan syns efter redningen – om krämen kokar för länge med potatismjöl bryts stärkelsen ner och krämen blir tunn och seg.",
+        "nutrition": {"calories": "130 kcal", "protein": "1g", "carbs": "32g", "fat": "0g", "sugar": "26g"},
+        "faqs": [
+            {"q": "Varför blir krämen vattnig efter en stund?", "a": "Om man stoppar en sked med saliv i krämen bryter enzymerna ner potatismjölsredningen. Använd alltid en ren sked vid servering."},
+            {"q": "Kan man frysa in äppelkräm?", "a": "Kräm redd med potatismjöl tappar konsistensen om den fryses. Förvara den istället i en tät burk i kylen där den håller i upp till 5 dagar."}
+        ],
+        "community_reviews": [
+            {"name": "Birgit Lindell", "date": "Idag", "rating": 5, "comment": "Barndom i en skål! Perfekt syra och med iskall mjölk till var det oslagbart gott.", "verified": True}
+        ]
     }
 ]
+
 
 
 
