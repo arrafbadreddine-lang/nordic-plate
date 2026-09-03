@@ -3996,7 +3996,7 @@ RECIPES = [
     {
         "slug": "klassisk-inlagd-sill-1-2-3-lag",
         "file": "klassisk-inlagd-sill-1-2-3-lag.html",
-        "img": "inlagdsill",
+        "img": "inlagdsill-v2",
         "title": "Klassisk Inlagd Sill med Rödlök, Morot & Kryddpeppar (1-2-3 Lag)",
         "card_title": "Klassisk Inlagd Sill",
         "sub": "Traditionell inlagd sill i klar 1-2-3 ättikslag med krispig rödlök & dill",
