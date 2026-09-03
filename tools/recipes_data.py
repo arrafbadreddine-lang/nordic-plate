@@ -3921,8 +3921,345 @@ RECIPES = [
         "community_reviews": [
             {"name": "Birgit Lindell", "date": "Idag", "rating": 5, "comment": "Barndom i en skål! Perfekt syra och med iskall mjölk till var det oslagbart gott.", "verified": True}
         ]
+    },
+    {
+        "slug": "saftig-morotskaka-cream-cheese-frosting",
+        "file": "saftig-morotskaka-cream-cheese-frosting.html",
+        "img": "morotskaka",
+        "title": "Saftig Morotskaka med Krämig Cream Cheese-frosting & Valnötter",
+        "card_title": "Saftig Morotskaka",
+        "sub": "Klassisk kryddig morotskaka med syrlig färskostglasyr & rostade valnötter",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Enkel",
+        "time": 45,
+        "prep_time": "PT20M",
+        "cook_time": "PT25M",
+        "total_time": "PT45M",
+        "prep_time_str": "20 min",
+        "cook_time_str": "25 min",
+        "time_str": "45 min",
+        "calories": 340,
+        "portions_num": 12,
+        "portions_unit": "bitar",
+        "rating": 4.99,
+        "review_count": 17,
+        "desc": "Sveriges mest älskade kafékaka i en oemotståndligt saftig version! Mjuk kryddkaka fylld med finrivna morötter, kanel, kardemumma och ingefära, krönt med ett tjockt lager syrlig cream cheese-frosting med lime och hackade valnötter.",
+        "long_desc": "Morotskaka är en tidlös favorit till fikat. Tricket för en otroligt saftig kaka som håller i flera dagar är att använda neutral olja istället för smör i smeten samt att inte snåla på de finrivna morötterna.",
+        "keywords": "morotskaka, saftig morotskaka, morotskaka recept, glasyr till morotskaka, morotskaka i långpanna, bästa morotskakan, cream cheese frosting morotskaka",
+        "alt": "Närbild på en saftig bit morotskaka med tjock vit cream cheese-frosting, rivet limeskal och hackade valnötter på ett fikafat",
+        "equipment": ["Springform (ca 24 cm) eller liten långpanna", "Rivjärn", "Elvisp"],
+        "drink_pairing": "En krämig cappuccino, bryggkaffe eller en kopp chaite.",
+        "ingredients": [
+            {"group": "Saftig Morotskakesmet", "items": [
+                {"val": 3, "unit": "st", "name": "stora ägg"},
+                {"val": 2.5, "unit": "dl", "name": "strösocker eller ljust muskovadosocker"},
+                {"val": 1.5, "unit": "dl", "name": "neutral rapsolja"},
+                {"val": 3.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 1, "unit": "msk", "name": "mald kanel"},
+                {"val": 1, "unit": "tsk", "name": "mald kardemumma & 0.5 tsk mald ingefära"},
+                {"val": 1.5, "unit": "tsk", "name": "bakpulver & 1 tsk bikarbonat"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker & 1 nypa salt"},
+                {"val": 4.5, "unit": "dl", "name": "morötter (finrivna, ca 4 st)"}
+            ]},
+            {"group": "Krämig Cream Cheese-frosting", "items": [
+                {"val": 200, "unit": "g", "name": "färskost / cream cheese (t.ex. Philadelphia)"},
+                {"val": 75, "unit": "g", "name": "smör (rumsvarmt & mjukt)"},
+                {"val": 2.5, "unit": "dl", "name": "florsocker"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker"},
+                {"val": 1, "unit": "st", "name": "lime eller citron (fint rivet skal)"}
+            ]},
+            {"group": "Garnering", "items": [
+                {"val": 0.5, "unit": "dl", "name": "valnötter (rostade & grovt hackade)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & förbered formen", "text": "Sätt ugnen på 175°C över-/undervärme. Smörj och bröa en springform (ca 24 cm) eller klä den med bakplåtspapper.", "timer": 5},
+            {"step": 2, "title": "Vispa ägg & socker", "text": "Vispa ägg och strösocker poröst och vitt med elvisp i ca 3 minuter. Tillsätt rapsoljan och de finrivna morötterna.", "timer": 4},
+            {"step": 3, "title": "Blanda de torra ingredienserna", "text": "Blanda vetemjöl, kanel, kardemumma, ingefära, bakpulver, bikarbonat, vaniljsocker och salt i en separat skål. Vänd försiktigt ner i äggsmeten med en slickepott till en jämn smet.", "timer": 3},
+            {"step": 4, "title": "Grädda gyllenbrun", "text": "Häll smeten i formen och grädda mitt i ugnen i ca 35–40 minuter tills kakan är genomgräddad och en provsticka kommer ut torr. Låt svalna helt.", "timer": 38},
+            {"step": 5, "title": "Vispa frostingen", "text": "Vispa rumsvarmt smör och florsocker vitt och krämigt med elvisp. Tillsätt kylskåpskall färskost, vaniljsocker och rivet limeskal. Vispa snabbt ihop till en fluffig och bredbar frosting.", "timer": 4},
+            {"step": 6, "title": "Bred på frosting & dekorera", "text": "Bred ut frostingen i ett generöst, vågigt lager över den kalla kakan. Toppa med hackade rostade valnötter och lite extra rivet limeskal. Skär i fina bitar och njut!", "timer": None}
+        ],
+        "pro_tips": "Vispa inte frostingen för länge efter att du tillsatt färskosten – då kan den bli rinnig. Vispa smöret och florsockret fluffigt först, vänd sedan snabbt ner färskosten tills frostingen precis gått ihop.",
+        "nutrition": {"calories": "340 kcal", "protein": "4g", "carbs": "42g", "fat": "18g", "sugar": "28g"},
+        "faqs": [
+            {"q": "Hur förvaras morotskaka bäst?", "a": "Morotskaka med cream cheese-frosting förvaras i kylskåp under lock eller plastfolie. Den håller sig fantastiskt saftig i upp till 5 dagar."},
+            {"q": "Kan man frysa morotskaka?", "a": "Ja, kakan går utmärkt att frysa in både med och utan frosting i portionsbitar."}
+        ],
+        "community_reviews": [
+            {"name": "Elin Blomqvist", "date": "Idag", "rating": 5, "comment": "Världens godaste morotskaka! Limeskalet i frostingen gav en helt fantastisk fräschör.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-inlagd-sill-1-2-3-lag",
+        "file": "klassisk-inlagd-sill-1-2-3-lag.html",
+        "img": "inlagdsill",
+        "title": "Klassisk Inlagd Sill med Rödlök, Morot & Kryddpeppar (1-2-3 Lag)",
+        "card_title": "Klassisk Inlagd Sill",
+        "sub": "Traditionell inlagd sill i klar 1-2-3 ättikslag med krispig rödlök & dill",
+        "category": "Högtider & Smörgåsbord",
+        "cat_slug": "hogtider-och-smorgasbord",
+        "cat_key": "smorgasbord",
+        "diet": "Fisk & Skaldjur",
+        "difficulty": "Enkel",
+        "time": 15,
+        "prep_time": "PT15M",
+        "cook_time": "PT0M",
+        "total_time": "PT15M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "0 min",
+        "time_str": "15 min (+ 24 tim lag)",
+        "calories": 180,
+        "portions_num": 8,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 14,
+        "desc": "Själva grundbulten på det svenska smörgåsbordet, till midsommar, jul och påsk! Fast och fin urvattnad sill i en perfekt balanserad klassisk 1-2-3 ättikslag med skivad rödlök, krispig morot, kryddpeppar och dill.",
+        "long_desc": "Inlagd sill är en uråldrig svensk tradition som bevarar havets rikedomar. Med den gyllene formeln 1 del ättiksprit (12%), 2 delar socker och 3 delar vatten får du en klar, krispig och harmonisk sillinläggning som slår alla köpeburkar.",
+        "keywords": "inlagd sill, inlagd sill recept, 1 2 3 lag sill, klassisk inlagd sill, sill recept midsommar, sill till julbord, hemgjord inlagd sill",
+        "alt": "Närbild på en glasburk fylld med glänsande inlagd sill, lila rödlöksringar, morotsslantar, kryddpepparkorn och färsk dill",
+        "equipment": ["Glasburk med lock (ca 1 liter)", "Kastrull till lagen", "Skärbräda"],
+        "drink_pairing": "En kall svensk pilsner eller lager med en snaps (t.ex. O.P. Anderson eller Hallands Fläder).",
+        "ingredients": [
+            {"group": "Klassisk 1-2-3 Ättikslag", "items": [
+                {"val": 1, "unit": "dl", "name": "ättiksprit (12%)"},
+                {"val": 2, "unit": "dl", "name": "strösocker"},
+                {"val": 3, "unit": "dl", "name": "vatten"},
+                {"val": 10, "unit": "st", "name": "kryddpepparkorn (lätt krossade)"},
+                {"val": 8, "unit": "st", "name": "vitpepparkorn"},
+                {"val": 2, "unit": "st", "name": "lagerblad"}
+            ]},
+            {"group": "Sill & Grönsaker", "items": [
+                {"val": 2, "unit": "burkar", "name": "5-minuterssill eller urvattnade sillfiléer (à 420g / avrunnen vikt ca 400g)"},
+                {"val": 1, "unit": "st", "name": "stor rödlök (skivad i tunna ringar)"},
+                {"val": 1, "unit": "st", "name": "morot (skalad & skuren i tunna slantar)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill (grovhackad)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 8, "unit": "portioner", "name": "kokt färskpotatis med dill, gräddfil & knäckebröd med prästost"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka 1-2-3 lagen", "text": "Blanda ättiksprit, strösocker, vatten, lätt krossad kryddpeppar, vitpeppar och lagerblad i en kastrull. Koka upp tills sockret har löst sig helt. Låt lagen svalna helt till kylskåpstemperatur (viktigt!).", "timer": 5},
+            {"step": 2, "title": "Skär sill och grönsaker", "text": "Skölj och låt sillfiléerna rinna av. Skär dem i ca 2 cm sneda bitar. Skiva rödlöken i tunna ringar och moroten i fina slantar. Hacka dillen grovt.", "timer": 5},
+            {"step": 3, "title": "Varva i glasburk", "text": "Varva sillbitar, rödlöksringar, morotsslantar och dill i en väl rengjord glasburk.", "timer": 3},
+            {"step": 4, "title": "Slå på den kalla lagen", "text": "Häll den helt kalla 1-2-3 lagen över sillen så att allting täcks. Sätt på locket och ställ i kylen.", "timer": 2},
+            {"step": 5, "title": "Låt mogna & servera", "text": "Låt sillen stå i kylen i minst 24 timmar innan servering så att smakerna mognar och sillen blir härligt fast och smakrik. Servera med kokt potatis, gräddfil och knäckebröd.", "timer": None}
+        ],
+        "pro_tips": "Låt alltid ättikslagen svalna helt innan du slår den över sillen – om lagen är varm blir sillköttet mjukt och mosigt istället för krispigt och spänstigt!",
+        "nutrition": {"calories": "180 kcal", "protein": "12g", "carbs": "20g", "fat": "6g", "sugar": "19g"},
+        "faqs": [
+            {"q": "Hur länge håller hemgjord inlagd sill?", "a": "Inlagd sill i 1-2-3 lag håller sig fräsch och krispig i kylskåp i minst 2–3 veckor."},
+            {"q": "Kan man använda 5-minuterssill?", "a": "Ja, 5-minuterssill är färdigurvattnad och kan läggas direkt i den kalla lagen och avnjutas redan efter några timmar."}
+        ],
+        "community_reviews": [
+            {"name": "Gunnar Wallin", "date": "Idag", "rating": 5, "comment": "Perfekt balans i 1-2-3 lagen! Krispig lök och fast god sill. Blev succé på middagsbordet.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-smalandsk-ostkaka-sylt-gradda",
+        "file": "klassisk-smalandsk-ostkaka-sylt-gradda.html",
+        "img": "ostkaka",
+        "title": "Klassisk Småländsk Ostkaka med Bittermandel & Sylt",
+        "card_title": "Småländsk Ostkaka",
+        "sub": "Genuin småländsk ostkaka med keso, mandel & lättvispad grädde",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt / Glutenfritt",
+        "difficulty": "Medel",
+        "time": 60,
+        "prep_time": "PT15M",
+        "cook_time": "PT45M",
+        "total_time": "PT60M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "45 min",
+        "time_str": "1 timme",
+        "calories": 280,
+        "portions_num": 8,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 18,
+        "desc": "Smålands stolthet och en av Sveriges mest ikoniska desserter! En gyllenbakad, saftig ostkaka med härlig textur på keso, hackad sötmandel, bittermandel, grädde och ägg, serverad ljummen med hallonsylt eller hjortronsylt och vispgrädde.",
+        "long_desc": "Småländsk ostkaka har anor sedan medeltiden. Denna populära och enkla hembakta variant görs på keso vilket ger den autentiska gryniga konsistensen och underbara mandelaromen utan att behöva ysta mjölk från grunden.",
+        "keywords": "ostkaka, småländsk ostkaka, ostkaka recept, ostkaka keso, baka ostkaka, hemgjord ostkaka, ostkaka med sylt och grädde",
+        "alt": "Närbild på en bit gyllene småländsk ostkaka med mandelbitar, röd hallonsylt och en klick vispad grädde på ett fint porslinsfat",
+        "equipment": ["Ugnsform (ca 2 liter)", "Bunke & visp", "Skärbräda till mandel"],
+        "drink_pairing": "En god kopp svenskt kaffe eller ett glas sött dessertvin.",
+        "ingredients": [
+            {"group": "Småländsk Ostkaka", "items": [
+                {"val": 500, "unit": "g", "name": "keso (naturell cottage cheese, 4% fett)"},
+                {"val": 4, "unit": "st", "name": "stora ägg"},
+                {"val": 3, "unit": "dl", "name": "vispgrädde eller standardmjölk"},
+                {"val": 0.75, "unit": "dl", "name": "strösocker"},
+                {"val": 0.5, "unit": "dl", "name": "vetemjöl eller mandelmjöl (för glutenfritt)"},
+                {"val": 50, "unit": "g", "name": "sötmandel (skållad & grovhackad)"},
+                {"val": 2, "unit": "st", "name": "bittermandlar (finrivna, eller 3 droppar bittermandelarom)"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker & 1 krm salt"}
+            ]},
+            {"group": "Klassisk Servering", "items": [
+                {"val": 2, "unit": "dl", "name": "vispgrädde (lättvispad)"},
+                {"val": 1.5, "unit": "dl", "name": "hallonsylt, jordgubbssylt eller hjortronsylt"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & smörj formen", "text": "Sätt ugnen på 175°C över-/undervärme. Smörj en ugnsfast form (ca 1.5–2 liter) med smör.", "timer": 5},
+            {"step": 2, "title": "Vispa ägg, socker & mjöl", "text": "Vispa ihop ägg och strösocker lätt i en bunke. Vispa ner mjölet, vaniljsockret och saltet så att det inte bildas klumpar.", "timer": 3},
+            {"step": 3, "title": "Tillsätt grädde, mandel & keso", "text": "Tillsätt grädden, den hackade sötmandeln, den rivna bittermandeln och keson. Rör ihop till en jämn smet.", "timer": 4},
+            {"step": 4, "title": "Grädda i ugnen", "text": "Häll smeten i den smorda formen. Grädda mitt i ugnen i ca 45–50 minuter tills ostkakan har stannat i mitten och fått en vacker gyllenbrun yta.", "timer": 48},
+            {"step": 5, "title": "Låt sätta sig & servera", "text": "Ta ut ostkakan och låt den svalna något så att den sätter sig (ostkaka ska serveras ljummen, inte brännhet). Servera med en klick lättvispad grädde och god sylt.", "timer": 10}
+        ],
+        "pro_tips": "Missa inte bittermandeln – det är just den lilla nypan riven bittermandel som ger den äkta, karakteristiska småländska ostkakesmaken!",
+        "nutrition": {"calories": "280 kcal", "protein": "14g", "carbs": "16g", "fat": "18g", "sugar": "12g"},
+        "faqs": [
+            {"q": "Ska ostkaka ätas varm eller kall?", "a": "Småländsk ostkaka smakar allra bäst ljummen. Värm den gärna en kort stund i ugnen eller mikron om den varit i kylen."},
+            {"q": "Kan man frysa ostkaka?", "a": "Ja, ostkaka går utmärkt att frysa både hel och i portionsbitar. Tina i kylskåp och ljumma i ugnen före servering."}
+        ],
+        "community_reviews": [
+            {"name": "Astrid Lindberg", "date": "Idag", "rating": 5, "comment": "Underbart god och så enkel att göra med keso! Bittermandeln gav precis den rätta smaken.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-lapskojs-hogrev-potatismos-rodbetor",
+        "file": "klassisk-lapskojs-hogrev-potatismos-rodbetor.html",
+        "img": "lapskojs",
+        "title": "Klassisk Lapskojs på Långkokt Nötkött & Smörigt Potatismos",
+        "card_title": "Klassisk Lapskojs",
+        "sub": "Mustig sjömansklassiker med trådigt mört nötkött, smörbrunn & rödbetor",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 90,
+        "prep_time": "PT15M",
+        "cook_time": "PT75M",
+        "total_time": "PT90M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "1 tim 15 min",
+        "time_str": "1 tim 30 min",
+        "calories": 490,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 12,
+        "desc": "En genuin sjömansfavorit och en av Sveriges mest nostalgiska husmansrätter! Långkokt, trådigt mört nötkött eller rimmat oxbringa som mosas ihop med fluffigt potatismos, kokspad, smör och kryddpeppar, krönt med en smältande smörbrunn och inlagda rödbetor.",
+        "long_desc": "Lapskojs (från engelskans lobscouse) har lagats i århundraden på svenska fartyg och i hemmen. Den perfekta balansen mellan det salta, möra köttet och det krämiga potatismoset gör den till ultimat svensk komfortmat.",
+        "keywords": "lapskojs, lapskojs recept, klassisk lapskojs, lapskojs nötkött, svensk husmanskost lapskojs, lapskojs högrev, lapskojs med rödbetor",
+        "alt": "Närbild på en djup tallrik krämig lapskojs med trådigt mört kött, en gyllene smält smörbrunn i mitten, persilja och tärnade rödbetor",
+        "equipment": ["Gryta till köttkok", "Potatisstöt eller elvisp", "Kastrull till potatis"],
+        "drink_pairing": "En god svensk lageröl, enbärsdricka eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Köttkok & Buljong", "items": [
+                {"val": 600, "unit": "g", "name": "rimmad oxbringa eller högrev (i bitar)"},
+                {"val": 1, "unit": "liter", "name": "vatten (så det täcker köttet)"},
+                {"val": 1, "unit": "st", "name": "gul lök (i klyftor)"},
+                {"val": 6, "unit": "st", "name": "kryddpepparkorn & 6 vitpepparkorn"},
+                {"val": 2, "unit": "st", "name": "lagerblad"},
+                {"val": 1, "unit": "tsk", "name": "salt (mindre om köttet är rimmat)"}
+            ]},
+            {"group": "Smörigt Potatismos", "items": [
+                {"val": 900, "unit": "g", "name": "mjölig potatis (skalad & i bitar)"},
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 1.5, "unit": "dl", "name": "kokspad från köttkoket (eller mjölk)"},
+                {"val": 1, "unit": "krm", "name": "vitpeppar & nymalen kryddpeppar"}
+            ]},
+            {"group": "Klassisk Servering", "items": [
+                {"val": 50, "unit": "g", "name": "smör (smält, att hälla i smörbrunnen)"},
+                {"val": 1, "unit": "burk", "name": "inlagda rödbetor (tärnade)"},
+                {"val": 1, "unit": "kruka", "name": "färsk kruspersilja (finhackad)"},
+                {"val": 4, "unit": "skivor", "name": "knäckebröd med lagrad ost"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka köttet mört", "text": "Lägg köttet i en gryta med vatten, salt, lök, pepparkorn och lagerblad. Koka upp och skumma av. Sjud under lock på svag värme i ca 1–1.5 timme tills köttet är så mört att det trådar sig vid beröring. Sila av och spara den smakrika buljongen.", "timer": 75},
+            {"step": 2, "title": "Koka potatisen", "text": "Skala och skär potatisen i bitar. Koka mjuk i lättsaltat vatten i ca 15–20 minuter. Häll av vattnet.", "timer": 20},
+            {"step": 3, "title": "Finfördela köttet", "text": "Dra isär det varma köttet i fina trådar med två gafflar eller hacka det fint med kniv.", "timer": 5},
+            {"step": 4, "title": "Mosa ihop lapskojsen", "text": "Stöt potatisen grovt med potatisstöt. Tillsätt smör, det strimlade köttet och späd med ca 1.5–2 dl av den heta köttbuljongen till önskad krämig konsistens. Smaka av med vitpeppar och lite mald kryddpeppar.", "timer": 5},
+            {"step": 5, "title": "Gör smörbrunn & servera", "text": "Lägg upp lapskojsen på varma tallrikar. Gör en fördjupning i mitten med baksidan av en sked och häll i en klick smält smör (smörbrunn). Toppa med färsk persilja och servera med inlagda rödbetor och knäckebröd.", "timer": None}
+        ],
+        "pro_tips": "Använd buljongen från köttkoket för att späda moset istället för bara mjölk – det ger lapskojsen dess djupa, mustiga och oemotståndliga köttsmak!",
+        "nutrition": {"calories": "490 kcal", "protein": "34g", "carbs": "36g", "fat": "22g", "sugar": "4g"},
+        "faqs": [
+            {"q": "Kan man använda corned beef (konserverat kött)?", "a": "Ja, att göra 'snabb-lapskojs' på burk-nötkött (corned beef) rört i potatismos är en klassisk svensk vardagssnabbis som tar under 20 minuter."},
+            {"q": "Kan man frysa lapskojs?", "a": "Ja, lapskojs fryser fantastiskt bra. Värm på med en extra klick smör och lite mjölk i kastrull."}
+        ],
+        "community_reviews": [
+            {"name": "Sven-Olof Karlsson", "date": "Idag", "rating": 5, "comment": "Riktig husmansklassiker! Mörkt kött och fluffigt mos med smörbrunnen gjorde succé hos familjen.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-kottbullsmacka-rodbetssallad-ragbrod",
+        "file": "klassisk-kottbullsmacka-rodbetssallad-ragbrod.html",
+        "img": "kottbullsmacka",
+        "title": "Klassisk Köttbullsmacka med Krämig Rödbetssallad på Rågbröd",
+        "card_title": "Klassisk Köttbullsmacka",
+        "sub": "Saftiga köttbullar på mörkt surdegsrågbröd med hemgjord rödbetssallad",
+        "category": "Högtider & Smörgåsbord",
+        "cat_slug": "hogtider-och-smorgasbord",
+        "cat_key": "smorgasbord",
+        "diet": "Smörgåsbord",
+        "difficulty": "Enkel",
+        "time": 20,
+        "prep_time": "PT15M",
+        "cook_time": "PT5M",
+        "total_time": "PT20M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "5 min",
+        "time_str": "20 min",
+        "calories": 480,
+        "portions_num": 4,
+        "portions_unit": "mackor",
+        "rating": 4.99,
+        "review_count": 16,
+        "desc": "Kungen av svenska smörgåsar och en självklar fikafavorit! Skivade saftiga smörstekta köttbullar på en bädd av krispigt salladsblad och hemgjord krämig rödbetssallad på ett grovt danskt rågbröd eller kavring, toppad med gurka och dill.",
+        "long_desc": "Köttbullsmacka med rödbetssallad är en svensk kaféklassiker. Hemligheten bakom den ultimata mackan är att göra egen snabb rödbetssallad med syrligt äpple, majonnäs och crème fraiche samt att servera köttbullarna nystekta och ljumma.",
+        "keywords": "köttbullsmacka, köttbullesmörgås, rödbetssallad med köttbullar, köttbullar på rågbröd, smörgås med köttbullar, köttbullsmacka recept",
+        "alt": "Närbild på en öppen köttbullsmacka med mörkt rågbröd, rosa krämig rödbetssallad, gyllenbruna köttbullar, hyvlad gurka och färsk dill",
+        "equipment": ["Stekpanna till köttbullar", "Skärbräda", "Osthyvel / mandolin till gurka"],
+        "drink_pairing": "En kall svensk lättöl, must eller en god kopp kaffe.",
+        "ingredients": [
+            {"group": "Krämig Hemgjord Rödbetssallad", "items": [
+                {"val": 300, "unit": "g", "name": "inlagda rödbetor (tärnade i små bitar & avrunna)"},
+                {"val": 0.5, "unit": "st", "name": "syrligt svenskt äpple (skalat & fint tärnat)"},
+                {"val": 1, "unit": "dl", "name": "crème fraiche eller gräddfil"},
+                {"val": 2, "unit": "msk", "name": "äkta majonnäs"},
+                {"val": 1, "unit": "tsk", "name": "dijonsenap & 1 tsk spad från rödbetorna"},
+                {"val": 1, "unit": "krm", "name": "salt & nymalen svartpeppar"}
+            ]},
+            {"group": "Köttbullar & Bröd", "items": [
+                {"val": 20, "unit": "st", "name": "svenska köttbullar (hemgjorda eller färska)"},
+                {"val": 4, "unit": "skivor", "name": "mörkt danskt rågbröd, surdegsbröd eller kavring"},
+                {"val": 2, "unit": "msk", "name": "smör (att bre på brödet och steka köttbullarna i)"}
+            ]},
+            {"group": "Garnering", "items": [
+                {"val": 4, "unit": "blad", "name": "krispig krispsallad eller huvudsallad"},
+                {"val": 0.5, "unit": "st", "name": "färsk gurka (hyvlad i långa band med osthyvel)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill & klippt gräslök"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Rör ihop rödbetssalladen", "text": "Blanda crème fraiche, majonnäs, dijonsenap, rödbetsspad, salt och peppar i en skål. Vänd ner de tärnade avrunna rödbetorna och äppeltärningarna. Ställ i kylen så att smakerna sätter sig.", "timer": 6},
+            {"step": 2, "title": "Värm och stek köttbullarna", "text": "Hetta upp en klick smör i en stekpanna och stek köttbullarna i några minuter tills de är genomvarma och har fått fin gyllene färg. Halvera dem gärna om du föredrar att de ligger stadigt på mackan.", "timer": 5},
+            {"step": 3, "title": "Smöra rågbrödet & lägg på sallad", "text": "Bred ett jämnt lager smör på rågbrödsskivorna. Lägg ett krispigt salladsblad på varje bröd.", "timer": 2},
+            {"step": 4, "title": "Lägg på rödbetssallad & köttbullar", "text": "Fördela ett generöst lager krämig rödbetssallad över salladsbladen. Toppa med 5 köttbullar per smörgås.", "timer": 3},
+            {"step": 5, "title": "Garnera & servera", "text": "Toppa mackorna med hyvlade gurkband, rikligt med färsk dill och klippt gräslök. Servera genast!", "timer": None}
+        ],
+        "pro_tips": "Låt alltid de inlagda rödbetorna rinna av noga i en sil innan du blandar dem med majonnäsen och crème fraichen – då blir rödbetssalladen krämig och tjock istället för rinnig.",
+        "nutrition": {"calories": "480 kcal", "protein": "22g", "carbs": "44g", "fat": "24g", "sugar": "14g"},
+        "faqs": [
+            {"q": "Vilket bröd är godast till köttbullsmacka?", "a": "Ett mörkt danskt rågbröd med solrosfrön eller en mjuk och mustig svensk kavring ger den absolut bästa smakkombinationen mot de saftiga köttbullarna och den sötsyrliga rödbetssalladen."},
+            {"q": "Kan man förbereda rödbetssalladen i förväg?", "a": "Ja, hemgjord rödbetssallad blir nästan ännu godare om den får stå i kylskåp över natten och håller i ca 5 dagar."}
+        ],
+        "community_reviews": [
+            {"name": "Maria Lindqvist", "date": "Idag", "rating": 5, "comment": "Den godaste köttbullsmackan jag ätit! Äpplet i rödbetssalladen gav en så krispig och god smak.", "verified": True}
+        ]
     }
 ]
+
 
 
 
