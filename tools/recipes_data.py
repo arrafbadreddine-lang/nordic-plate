@@ -4257,8 +4257,394 @@ RECIPES = [
         "community_reviews": [
             {"name": "Maria Lindqvist", "date": "Idag", "rating": 5, "comment": "Den godaste köttbullsmackan jag ätit! Äpplet i rödbetssalladen gav en så krispig och god smak.", "verified": True}
         ]
+    },
+    {
+        "slug": "klassiska-hallongrottor-smor-vanilj",
+        "file": "klassiska-hallongrottor-smor-vanilj.html",
+        "img": "hallongrottor",
+        "title": "Klassiska Hallongrottor med Äkta Smör & Vanilj",
+        "card_title": "Klassiska Hallongrottor",
+        "sub": "Möra, spröda mördegskakor fyllda med söt hallonsylt & vanilj",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Mycket enkel",
+        "time": 25,
+        "prep_time": "PT15M",
+        "cook_time": "PT10M",
+        "total_time": "PT25M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "10 min",
+        "time_str": "25 min",
+        "calories": 140,
+        "portions_num": 20,
+        "portions_unit": "kakor",
+        "rating": 4.99,
+        "review_count": 9,
+        "desc": "En av Sveriges mest älskade småkakor till kafferepet! Möra och spröda mördegskakor bakade på äkta smör och vaniljsocker med en djup grop fylld av bubblande söt hallonsylt.",
+        "long_desc": "Hallongrottor är fantastiskt enkla att baka och blir alltid succé på fikabordet. Tricket för att få dem så där underbart spröda och smältande i munnen är att använda lite marsanpulver eller potatismjöl i mördegen och baka dem i små veckade pappersformar.",
+        "keywords": "hallongrottor, hallongrottor recept, spröda hallongrottor, syltkakor, baka hallongrottor, klassiska hallongrottor, bästa hallongrottorna",
+        "alt": "Närbild på nygräddade spröda hallongrottor i pappersformar fyllda med glänsande röd hallonsylt på en träskärbräda",
+        "equipment": ["Muffinsplåt eller vanlig ugnsplåt", "Små kakformar av papper (ca 20 st)", "Bunke & fingrar/elvisp"],
+        "drink_pairing": "En kopp nybryggt svenskt kaffe eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Spröd Mördeg", "items": [
+                {"val": 200, "unit": "g", "name": "äkta smör (rumsvarmt)"},
+                {"val": 1, "unit": "dl", "name": "strösocker"},
+                {"val": 4.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 1, "unit": "dl", "name": "marsanpulver (kallvispad) eller potatismjöl"},
+                {"val": 1.5, "unit": "tsk", "name": "vaniljsocker"},
+                {"val": 1, "unit": "tsk", "name": "bakpulver"}
+            ]},
+            {"group": "Fyllning", "items": [
+                {"val": 1, "unit": "dl", "name": "fast hallonsylt av god kvalitet"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & ställ ut formar", "text": "Sätt ugnen på 200°C över-/undervärme (180°C varmluft). Placera ut ca 20 små kakformar på en plåt.", "timer": 5},
+            {"step": 2, "title": "Nyp ihop mördegen", "text": "Blanda vetemjöl, marsanpulver, strösocker, vaniljsocker och bakpulver i en bunke. Tillsätt det tärnade rumstempererade smöret och arbeta snabbt ihop till en smidig deg med händerna eller matberedare.", "timer": 5},
+            {"step": 3, "title": "Rulla bollar & gör gropar", "text": "Rulla degen till ca 20 jämna bollar och lägg en i varje form. Gör en djup fördjupning i mitten av varje boll med tummen eller änden av en träslev.", "timer": 5},
+            {"step": 4, "title": "Klicka i sylten", "text": "Klicka i ca 1 tsk hallonsylt i varje grop (fyll inte för mycket så det svämmar över).", "timer": 3},
+            {"step": 5, "title": "Grädda i ugnen", "text": "Grädda mitt i ugnen i ca 10–12 minuter tills kakorna är ljust gyllene i kanterna. Låt svalna helt på galler så blir de underbart spröda.", "timer": 11}
+        ],
+        "pro_tips": "Tillsätt marsanpulver i degen! Det ger en fantastisk vaniljsmak och gör mördegen extra mör och spröd utan att den flyter ut.",
+        "nutrition": {"calories": "140 kcal", "protein": "1g", "carbs": "18g", "fat": "7g", "sugar": "9g"},
+        "faqs": [
+            {"q": "Varför flyter hallongrottor ut i ugnen?", "a": "Om smöret varit för varmt eller om degen bearbetats för länge kan kakorna flyta ut. Använd alltid pappersformar och ställ gärna plåten i kylen i 10 minuter före gräddning."},
+            {"q": "Kan man frysa hallongrottor?", "a": "Ja, hallongrottor går utmärkt att frysa och tinar snabbt i rumstemperatur på 15 minuter."}
+        ],
+        "community_reviews": [
+            {"name": "Karin Ekström", "date": "Idag", "rating": 5, "comment": "Så spröda och goda! Marsanpulvret gjorde verkligen underverk för konsistensen.", "verified": True}
+        ]
+    },
+    {
+        "slug": "skansk-aggakaka-stekt-flask-lingon",
+        "file": "skansk-aggakaka-stekt-flask-lingon.html",
+        "img": "aggakaka",
+        "title": "Skånsk Äggakaka med Knaperstekt Fläsk & Rårörda Lingon",
+        "card_title": "Skånsk Äggakaka",
+        "sub": "Fluffig och gyllenbrun äggakaka stekt i fläskflott med rårörda lingon",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Enkel",
+        "time": 30,
+        "prep_time": "PT10M",
+        "cook_time": "PT20M",
+        "total_time": "PT30M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "20 min",
+        "time_str": "30 min",
+        "calories": 540,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 8,
+        "desc": "Skånes mest berömda nationalrätt och en kunglig husmansklassiker! En tjock, fluffig äggpannkaka som steks gyllenbrun och saftig i gjutjärnspanna, toppad med knaperstekt sidfläsk och sötsyrliga rårörda lingon.",
+        "long_desc": "Skånsk äggakaka är en stolt sydsvensk tradition som skiljer sig från vanlig ugnspannkaka genom att den steks långsamt på spisen i det smakrika fläskflottet. Tricket är att skrapa smeten från botten under stekningen så att den blir tjock, porös och oemotståndligt saftig.",
+        "keywords": "äggakaka, skånsk äggakaka, äggakaka recept, äggakaka fläsk, skånsk husmanskost, steka äggakaka, äggakaka med lingon",
+        "alt": "Närbild på en gjutjärnspanna med tjock skånsk äggakaka toppad med knaperstekta fläskskivor, rårörda lingon och gräslök",
+        "equipment": ["Gjutjärnsstekpanna (ca 26–28 cm)", "Bunke & visp", "Stekspade & tallrik till vändning"],
+        "drink_pairing": "En kall skånsk lageröl, lättöl eller ett stort glas kall mjölk.",
+        "ingredients": [
+            {"group": "Skånsk Äggakakesmet", "items": [
+                {"val": 5, "unit": "st", "name": "stora ägg"},
+                {"val": 5, "unit": "dl", "name": "standardmjölk"},
+                {"val": 2.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 1, "unit": "tsk", "name": "strösocker"},
+                {"val": 0.5, "unit": "tsk", "name": "salt"},
+                {"val": 25, "unit": "g", "name": "smör (till stekning)"}
+            ]},
+            {"group": "Fläsk & Servering", "items": [
+                {"val": 400, "unit": "g", "name": "rimmat eller rökt sidfläsk (skivat i tjocka skivor)"},
+                {"val": 2, "unit": "dl", "name": "rårörda lingon"},
+                {"val": 2, "unit": "msk", "name": "färsk gräslök (fint klippt)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Knaperstek fläsket", "text": "Stek fläskskivorna knapriga i en gjutjärnspanna på medelvärme. Lägg upp fläsket på ett fat och håll varmt. Spara allt det goda fläskflottet i pannan!", "timer": 8},
+            {"step": 2, "title": "Vispa ihop smeten", "text": "Vispa hälften av mjölken med vetemjöl, socker och salt till en klumpfri smet. Vispa ner resten av mjölken och knäck i äggen ett i taget. Vispa till en slät smet.", "timer": 4},
+            {"step": 3, "title": "Hetta upp pannan med fläskflott", "text": "Tillsätt en klick smör i pannan med det varma fläskflottet. Häll i äggakakesmeten.", "timer": 2},
+            {"step": 4, "title": "Stek och skrapa från botten", "text": "Stek på medellåg värme och dra med en stekspade från botten och kanterna mot mitten så att lös smet rinner ner. När kakan börjar stanna och fått fin färg under (ca 8–10 minuter) är det dags att vända.", "timer": 9},
+            {"step": 5, "title": "Vänd äggakakan", "text": "Stjälp upp äggakakan på en stor tallrik eller ett grytlock, klicka i lite extra smör i pannan och låt kakan glida tillbaka med den ogräddade sidan nedåt. Stek i ytterligare 4–5 minuter tills den är genomstekt och gyllene.", "timer": 5},
+            {"step": 6, "title": "Servera med fläsk och lingon", "text": "Toppa äggakakan med det knaperstekta fläsket och klippt gräslök. Servera rykande het direkt ur pannan med massor av rårörda lingon!", "timer": None}
+        ],
+        "pro_tips": "Skrapa botten försiktigt under de första minuterna så att äggsmeten koagulerar jämnt – det är hemligheten som gör äggakakan så där fantastiskt hög och fluffig!",
+        "nutrition": {"calories": "540 kcal", "protein": "26g", "carbs": "34g", "fat": "34g", "sugar": "12g"},
+        "faqs": [
+            {"q": "Vad är skillnaden mellan äggakaka och ugnspannkaka?", "a": "Äggakaka steks i gjutjärnspanna på spisen i fläskflott med fler ägg i proportion till mjölket, vilket ger en fluffigare textur och rikare smak än ugnspannkaka."},
+            {"q": "Hur vänder man en äggakaka enklast?", "a": "Låt den glida över på en flat tallrik eller ett platt lock, lägg pannan uppochner över tallriken och vänd runt med ett snabbt grepp."}
+        ],
+        "community_reviews": [
+            {"name": "Nils-Arne Svensson", "date": "Idag", "rating": 5, "comment": "Äkta skånsk husmanskost! Blev otroligt fluffig och fläskflottet gav perfekt smak.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-gubbrora-ansjovis-agg-kavring",
+        "file": "klassisk-gubbrora-ansjovis-agg-kavring.html",
+        "img": "gubbrora",
+        "title": "Klassisk Gubbröra med Ansjovis, Ägg & Brynt Smör på Kavring",
+        "card_title": "Klassisk Gubbröra",
+        "sub": "Krämig klassiker med kokta ägg, kryddig ansjovis, gräslök & dill på mörkt bröd",
+        "category": "Högtider & Smörgåsbord",
+        "cat_slug": "hogtider-och-smorgasbord",
+        "cat_key": "smorgasbord",
+        "diet": "Fisk & Skaldjur",
+        "difficulty": "Enkel",
+        "time": 15,
+        "prep_time": "PT15M",
+        "cook_time": "PT0M",
+        "total_time": "PT15M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "0 min",
+        "time_str": "15 min",
+        "calories": 290,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 7,
+        "desc": "En tidlös svensk krog- och smörgåsbordsklassiker! Hackade hårdkokta ägg blandade med kryddiga ansjovisfiléer, rödlök, gräslök, dill och lite brynt smör eller crème fraiche, serverad på smörstekt kavring.",
+        "long_desc": "Gubbröra är en av Sveriges mest älskade förrätter och vickningsrätter. Den varma eller kalla röran har perfekt sälta från den klassiska svenska ansjovisen och friskhet från massor av färska örter.",
+        "keywords": "gubbröra, gubbröra recept, klassisk gubbröra, gubbröra med ansjovis, gubbröra på kavring, gubbröra ägg, förrätt gubbröra",
+        "alt": "Närbild på klassisk gubbröra med hackade ägg, ansjovis, gräslök och dill upplagd på skivor av mörk kavring i en skål",
+        "equipment": ["Äggskärare eller kniv", "Bunke", "Stekpanna till kavring"],
+        "drink_pairing": "En kall svensk pilsner eller snaps (t.ex. Aalborg eller Skåne Akvavit).",
+        "ingredients": [
+            {"group": "Klassisk Gubbröra", "items": [
+                {"val": 5, "unit": "st", "name": "hårdkokta ägg (skalade & hackade)"},
+                {"val": 1, "unit": "burk", "name": "ansjovisfiléer (à 125g / avrunnen vikt ca 80g, fint skurna)"},
+                {"val": 1, "unit": "msk", "name": "ansjovisspad (från burken)"},
+                {"val": 0.5, "unit": "st", "name": "finhackad rödlök"},
+                {"val": 1, "unit": "kruka", "name": "färsk gräslök (fint klippt)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill (finhackad)"},
+                {"val": 2, "unit": "msk", "name": "crème fraiche eller majonnäs (eller 25g brynt smör för varm gubbröra)"},
+                {"val": 1, "unit": "krm", "name": "nymalen svartpeppar"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 4, "unit": "skivor", "name": "mörk kavring eller rågbröd (smörstekta eller rostade)"},
+                {"val": 20, "unit": "g", "name": "smör"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka och hacka äggen", "text": "Koka äggen hårdkokta (ca 9 minuter). Spola i kallt vatten, skala och hacka i fina tärningar med kniv eller äggskärare på två leddar.", "timer": 9},
+            {"step": 2, "title": "Skär ansjovis & örter", "text": "Låt ansjovisen rinna av men spara 1 msk av spadet. Skär filéerna i små bitar. Finhacka rödlöken, dillen och klipp gräslöken fint.", "timer": 4},
+            {"step": 3, "title": "Blanda röran försiktigt", "text": "Lägg de hackade äggen, ansjovisen, rödlöken och örterna i en skål. Tillsätt crème fraiche (eller avsvalnat brynt smör), ansjovisspad och lite nymalen svartpeppar. Vänd runt försiktigt så äggen inte mosas helt.", "timer": 2},
+            {"step": 4, "title": "Smörstek kavringen", "text": "Stek kavringsskivorna frasiga i en klick smör i en stekpanna.", "timer": 3},
+            {"step": 5, "title": "Montera & servera", "text": "Lägg ett generöst berg av gubbröra på de nystekta kavringsskivorna. Garnera med en dillvippa och servera genast!", "timer": None}
+        ],
+        "pro_tips": "Tillsätt 1 matsked av det kryddiga ansjovisspadet i röran – det knyter ihop alla smaker och ger den där äkta, djupa krogsmaken!",
+        "nutrition": {"calories": "290 kcal", "protein": "16g", "carbs": "18g", "fat": "17g", "sugar": "4g"},
+        "faqs": [
+            {"q": "Ska gubbröra serveras varm eller kall?", "a": "Klassisk gubbröra kan serveras både kall (med crème fraiche/majonnäs) och varm (där hackade ägg och ansjovis vänds ner i brynt smör i stekpannan). Båda är fantastiska!"},
+            {"q": "Kan man förbereda gubbröra i förväg?", "a": "Ja, gubbröran kan röras ihop några timmar innan servering och förvaras i kylen. Lägg dock upp på brödet precis före servering så brödet förblir frasigt."}
+        ],
+        "community_reviews": [
+            {"name": "Lars Håkansson", "date": "Idag", "rating": 5, "comment": "Underbart god gubbröra! Smörstekt kavring under röran gjorde hela skillnaden.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-blabarspaj-knackigt-smultacke",
+        "file": "klassisk-blabarspaj-knackigt-smultacke.html",
+        "img": "blabarspaj",
+        "title": "Klassisk Blåbärspaj med Knäckigt Smultäcke & Vaniljsås",
+        "card_title": "Klassisk Blåbärspaj",
+        "sub": "Sötsyrliga vilda blåbär under ett knaprigt havresmultäcke med äkta vaniljsås",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Mycket enkel",
+        "time": 30,
+        "prep_time": "PT10M",
+        "cook_time": "PT20M",
+        "total_time": "PT30M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "20 min",
+        "time_str": "30 min",
+        "calories": 260,
+        "portions_num": 6,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 10,
+        "desc": "Sommarens och höstens godaste bärpaj! Saftiga vilda blåbär pudrade med potatismjöl och socker under ett gyllenbakat, knäckigt smultäcke på havregryn och smör, serverad med len vaniljsås eller vaniljglass.",
+        "long_desc": "Blåbärspaj är en svensk fikaikon som går blixtsnabbt att slänga ihop. Kombinationen av de syrliga, färgstarka blåbären och det frasiga havresmulskalet med kardemumma är oemotståndlig.",
+        "keywords": "blåbärspaj, blåbärspaj recept, knäckig blåbärspaj, smulpaj med blåbär, enkel blåbärspaj, blåbärssmulpaj, blåbärspaj med vaniljsås",
+        "alt": "Närbild på en portion ugnsbakad blåbärspaj med mörka blåbär, knaprigt havresmule och krämig vaniljsås som rinner ner över tallriken",
+        "equipment": ["Pajform (ca 24–26 cm)", "Bunke till smuldeg"],
+        "drink_pairing": "En kopp kaffe, te eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Blåbärsfyllning", "items": [
+                {"val": 500, "unit": "g", "name": "färska eller frysta blåbär (gärna vilda svenska skogsblåbär)"},
+                {"val": 0.5, "unit": "dl", "name": "strösocker"},
+                {"val": 1.5, "unit": "msk", "name": "potatismjöl (binder vätskan)"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker eller 0.5 tsk nymalen kardemumma"}
+            ]},
+            {"group": "Knäckigt Havresmultäcke", "items": [
+                {"val": 125, "unit": "g", "name": "smör (kallt & tärnat)"},
+                {"val": 2, "unit": "dl", "name": "havregryn"},
+                {"val": 1.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 1, "unit": "dl", "name": "strösocker eller råsocker"},
+                {"val": 1, "unit": "nypa", "name": "flingsalt"}
+            ]},
+            {"group": "Tillbehör", "items": [
+                {"val": 3, "unit": "dl", "name": "äkta vaniljsås, vaniljglass eller lättvispad grädde"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & förbered formen", "text": "Sätt ugnen på 200°C över-/undervärme (180°C varmluft). Smörj en pajform lätt med smör.", "timer": 5},
+            {"step": 2, "title": "Blanda bären", "text": "Lägg blåbären i pajformen. Strö över strösocker, potatismjöl och kardemumma/vaniljsocker och blanda runt så att bären täcks.", "timer": 3},
+            {"step": 3, "title": "Nyp ihop smultäcket", "text": "Blanda havregryn, vetemjöl, socker och en nypa salt i en bunke. Tillsätt det kalla tärnade smöret och nyp snabbt ihop med fingertopparna till en smulig massa.", "timer": 4},
+            {"step": 4, "title": "Fördela smuldegen & grädda", "text": "Fördela smuldegen jämnt över blåbären. Grädda mitt i ugnen i ca 20–25 minuter tills pajen bubblar och smultäcket har fått en vacker gyllenbrun knaprig färg.", "timer": 22},
+            {"step": 5, "title": "Servera ljummen", "text": "Låt pajen sätta sig i 5–10 minuter. Servera ljummen med rikligt med kall vaniljsås eller god vaniljglass.", "timer": None}
+        ],
+        "pro_tips": "Glöm inte potatismjölet! Blåbär släpper massor av vätska under gräddningen och potatismjölet gör att bärsåsen blir härligt simmig istället för soppig.",
+        "nutrition": {"calories": "260 kcal", "protein": "3g", "carbs": "36g", "fat": "12g", "sugar": "22g"},
+        "faqs": [
+            {"q": "Kan man använda frysta blåbär direkt från frysen?", "a": "Ja, frysta blåbär fungerar utmärkt! Tina dem inte innan, blanda bara direkt med potatismjölet och sockret och grädda eventuellt 3–5 minuter längre."},
+            {"q": "Hur får man smultäcket extra knäckigt?", "a": "Byt ut hälften av strösockret mot råsocker eller farinsocker och tillsätt 1 msk ljus sirap i smuldegen för en extra knäckig karamellton."}
+        ],
+        "community_reviews": [
+            {"name": "Sofia Bergström", "date": "Idag", "rating": 5, "comment": "Underbart god och frasig smulpaj! Vaniljsåsen till de varma blåbären var ren perfektion.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-biff-lindstrom-rodbetor-kapris",
+        "file": "klassisk-biff-lindstrom-rodbetor-kapris.html",
+        "img": "bifflindstrom",
+        "title": "Klassisk Biff Lindström med Rödbetor, Kapris & Stekt Ägg",
+        "card_title": "Klassisk Biff Lindström",
+        "sub": "Saftiga pannbiffar med inlagda rödbetor, kapris, lök & stekt delikatesspotatis",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Enkel",
+        "time": 30,
+        "prep_time": "PT15M",
+        "cook_time": "PT15M",
+        "total_time": "PT30M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "15 min",
+        "time_str": "30 min",
+        "calories": 520,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 6,
+        "desc": "En klassisk svensk kroglegendar! Saftiga biffar på nötfärs smaksatta med finhackade inlagda rödbetor, syrlig kapris, lök och dijonsenap, stekta till perfekt krispig yta och serverade med stekt ägg, skysås och råstekt potatis.",
+        "long_desc": "Biff Lindström skapades på Hotell Witt i Kalmar 1862 av kapten Henrik Lindström. Kombinationen av den salta kaprisen, de sötsyrliga rödbetorna och det saftiga nötköttet gör den till en av Sveriges mest harmoniska och älskade kötträtter.",
+        "keywords": "biff lindström, biff lindström recept, klassisk biff lindström, pannbiff lindström, svensk husmanskost biff lindström, biff lindström kapris rödbetor",
+        "alt": "Närbild på en saftig nystekt Biff Lindström toppad med stekt ägg med rinnande gula, skysås, kapris och råstekt potatis",
+        "equipment": ["Gjutjärnsstekpanna", "Bunke", "Skärbräda"],
+        "drink_pairing": "En fyllig svensk lageröl, porter eller ett medelfylligt rött vin (t.ex. Barbera eller Pinot Noir).",
+        "ingredients": [
+            {"group": "Biff Lindström-färs", "items": [
+                {"val": 500, "unit": "g", "name": "nötfärs av hög kvalitet (gärna 10–12% fett)"},
+                {"val": 1, "unit": "dl", "name": "inlagda rödbetor (fint tärnade)"},
+                {"val": 3, "unit": "msk", "name": "kapris (avrunnen & grovhackad)"},
+                {"val": 1, "unit": "st", "name": "gul lök (finhackad & lätt mjukstekt i smör)"},
+                {"val": 1, "unit": "st", "name": "äggula"},
+                {"val": 0.5, "unit": "dl", "name": "vispgrädde eller mjölk"},
+                {"val": 2, "unit": "msk", "name": "ströbröd"},
+                {"val": 1, "unit": "tsk", "name": "dijonsenap & 1 tsk salt"},
+                {"val": 1, "unit": "krm", "name": "nymalen svartpeppar"},
+                {"val": 30, "unit": "g", "name": "smör (att steka i)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 4, "unit": "st", "name": "stekta ägg (sunny side up med lös gula)"},
+                {"val": 4, "unit": "portioner", "name": "råstekt eller ugnsrostad tärnad potatis"},
+                {"val": 2, "unit": "dl", "name": "stekt skysås eller rödvinssås"},
+                {"val": 1, "unit": "kruka", "name": "färsk kruspersilja"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Förbered lök & färsbas", "text": "Finhacka löken och fräs den mjuk och glansig i lite smör utan att den tar färg. Blanda ströbröd, grädde, äggula och dijonsenap i en bunke och låt svälla i 5 minuter.", "timer": 6},
+            {"step": 2, "title": "Blanda färsen", "text": "Tillsätt nötfärsen, salt och peppar i ströbrödsblandningen. Rör ihop snabbt och vänd sedan försiktigt ner de tärnade rödbetorna, den hackade kaprisen och den stekta löken så att biffarna inte blir sega.", "timer": 4},
+            {"step": 3, "title": "Forma biffarna", "text": "Forma färsen till 4 stora, fina runda biffar med fuktade händer.", "timer": 3},
+            {"step": 4, "title": "Stek gyllenbruna", "text": "Hetta upp rikligt med smör i en gjutjärnspanna. Stek biffarna på medelhög värme i ca 3–4 minuter per sida tills de har fått en härlig, djupbrun stekyta och är genomstekta men fortfarande saftiga inuti.", "timer": 7},
+            {"step": 5, "title": "Vispa ur pannan & stek ägg", "text": "Lyft ur biffarna och håll varma. Vispa ur pannan med lite vatten eller fond för en god steksky. Stek äggen i en separat panna med smör.", "timer": 3},
+            {"step": 6, "title": "Lägg upp och servera", "text": "Servera Biff Lindström toppad med stekt ägg, extra kapris, skysås och råstekt potatis. Strö över persilja och njut!", "timer": None}
+        ],
+        "pro_tips": "Vänd ner rödbetorna och kaprisen allra sist och arbeta inte färsen för länge – då behåller biffarna sin vackra marmorering och förblir otroligt saftiga och luftiga!",
+        "nutrition": {"calories": "520 kcal", "protein": "34g", "carbs": "28g", "fat": "31g", "sugar": "6g"},
+        "faqs": [
+            {"q": "Varför heter det Biff Lindström?", "a": "Rätten beställdes första gången av kapten Henrik Lindström på Hotell Witt i Kalmar år 1862, som bad köket blanda ingredienserna han var van vid från Ryssland i biffarna."},
+            {"q": "Kan man använda blandfärs istället för nötfärs?", "a": "Klassisk Biff Lindström görs på ren nötfärs, men blandfärs fungerar också bra och ger en mild och saftig biff."}
+        ],
+        "community_reviews": [
+            {"name": "Anders Wallén", "date": "Idag", "rating": 5, "comment": "Bästa Biff Lindström jag ätit! Perfekt balans med kaprisen och rödbetorna, otroligt saftig.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-senapssill-hovmastarsas-dill",
+        "file": "klassisk-senapssill-hovmastarsas-dill.html",
+        "img": "senapssill",
+        "title": "Klassisk Senapssill i Krämig Hovmästarsås med Färsk Dill",
+        "card_title": "Klassisk Senapssill",
+        "sub": "Gyllene, krämig senapssill med söt svensk senap, dijon, ättika & rikligt med dill",
+        "category": "Högtider & Smörgåsbord",
+        "cat_slug": "hogtider-och-smorgasbord",
+        "cat_key": "smorgasbord",
+        "diet": "Fisk & Skaldjur",
+        "difficulty": "Enkel",
+        "time": 15,
+        "prep_time": "PT15M",
+        "cook_time": "PT0M",
+        "total_time": "PT15M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "0 min",
+        "time_str": "15 min (+ 4 tim vila)",
+        "calories": 210,
+        "portions_num": 8,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 8,
+        "desc": "En oumbärlig favorit på midsommarlunchen, julbordet och påskbuffén! Fasta, fina sillbitar i en fyllig, gyllengul senapssås smaksatt med söt svensk senap, skarp dijonsenap, ättika, rapsolja och mängder av finhackad färsk dill.",
+        "long_desc": "Hemgjord senapssill slår köpt burksill med hästlängder. Genom att vispa ihop en emulsion på god senap, socker, ättika och neutral rapsolja omsluts varje sillbit av en silkeslen, gyllene hovmästarsåsliknande dressing.",
+        "keywords": "senapssill, senapssill recept, klassisk senapssill, hemgjord senapssill, krämig senapssill, senapssill med dill, sill recept julbord",
+        "alt": "Närbild på en skål med klassisk krämig senapssill i gyllene dillsås med en glasburk och knäckebröd på ett träbord",
+        "equipment": ["Skål & visp", "Glasburk med lock (ca 1 liter)", "Skärbräda"],
+        "drink_pairing": "En svensk pilsner eller en krispig akvavit (t.ex. Lysholm Linie eller Läckö Slott).",
+        "ingredients": [
+            {"group": "Krämig Senapssås", "items": [
+                {"val": 3, "unit": "msk", "name": "svensk sötstark senap (t.ex. Slotts eller Johnnys)"},
+                {"val": 1, "unit": "msk", "name": "dijonsenap (ger fin syra & sting)"},
+                {"val": 1.5, "unit": "msk", "name": "strösocker eller råsocker"},
+                {"val": 1, "unit": "msk", "name": "ättiksprit (12%) eller vitvinsvinäger"},
+                {"val": 1, "unit": "dl", "name": "neutral rapsolja"},
+                {"val": 2, "unit": "msk", "name": "crème fraiche eller gräddfil (för extra krämighet)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill (finhackad)"},
+                {"val": 1, "unit": "krm", "name": "salt & vitpeppar"}
+            ]},
+            {"group": "Sill", "items": [
+                {"val": 2, "unit": "burkar", "name": "5-minuterssill (à 420g / avrunnen vikt ca 400g, sköljd & avrunnen)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 8, "unit": "portioner", "name": "kokt färskpotatis med dill, gräddfil, hackat ägg & knäckebröd med lagrad ost"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Skär sillen", "text": "Låt 5-minuterssillen rinna av väl i en sil. Skär filéerna i ca 2 cm sneda portionsbitar.", "timer": 3},
+            {"step": 2, "title": "Vispa senapsbasen", "text": "Vispa ihop söt senap, dijonsenap, strösocker, ättika, salt och vitpeppar i en skål tills sockret lösts upp.", "timer": 3},
+            {"step": 3, "title": "Droppa i oljan", "text": "Tillsätt rapsoljan i en tunn, fin stråle under konstant vispning så att såsen tjocknar och emulgerar till en krämig, majonnäsliknande konsistens.", "timer": 4},
+            {"step": 4, "title": "Rör ner crème fraiche & rikligt med dill", "text": "Rör ner crème fraiche och all finhackad färsk dill.", "timer": 2},
+            {"step": 5, "title": "Vänd ner sillen & låt dra", "text": "Vänd försiktigt ner sillbitarna i senapssåsen. Häll upp i en ren glasburk och sätt på locket. Låt stå i kylen i minst 4–6 timmar (gärna över natten) så att sillen drar åt sig alla härliga smaker.", "timer": 3},
+            {"step": 6, "title": "Servera och njut", "text": "Servera den krämiga senapssillen med nykokt dillpotatis, kokt ägghalva och knäckebröd.", "timer": None}
+        ],
+        "pro_tips": "Droppa i rapsoljan långsamt i början precis som när du gör majonnäs – då binder såsen perfekt och blir härligt tjock och glänsande!",
+        "nutrition": {"calories": "210 kcal", "protein": "10g", "carbs": "8g", "fat": "15g", "sugar": "7g"},
+        "faqs": [
+            {"q": "Hur länge håller hemgjord senapssill i kylen?", "a": "Senapssill håller sig utmärkt i en tät glasburk i kylskåp i ca 10–14 dagar."},
+            {"q": "Kan man göra senapssillen utan crème fraiche?", "a": "Ja, traditionell skånsk senapssås görs enbart på senap, ättika, socker och olja. Crème fraiche är ett modernt tillskott för extra krämighet som kan uteslutas om man vill ha en renare hovmästarsås-känsla."}
+        ],
+        "community_reviews": [
+            {"name": "Helena Nyström", "date": "Idag", "rating": 5, "comment": "Den absolut godaste senapssillen jag någonsin smakat! Såsen blev fantastiskt krämig och perfekt balanserad.", "verified": True}
+        ]
     }
 ]
+
 
 
 
