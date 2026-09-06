@@ -4642,8 +4642,406 @@ RECIPES = [
         "community_reviews": [
             {"name": "Helena Nyström", "date": "Idag", "rating": 5, "comment": "Den absolut godaste senapssillen jag någonsin smakat! Såsen blev fantastiskt krämig och perfekt balanserad.", "verified": True}
         ]
+    },
+    {
+        "slug": "klassiska-frasiga-vafflor-sylt-gradda",
+        "file": "klassiska-frasiga-vafflor-sylt-gradda.html",
+        "img": "vafflor",
+        "title": "Klassiska Frasiga Våfflor med Sylt & Vispad Grädde",
+        "card_title": "Klassiska Frasiga Våfflor",
+        "sub": "Extremt frasiga hjärtvåfflor med kolsyrat vatten, smör & jordgubbssylt",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Mycket enkel",
+        "time": 20,
+        "prep_time": "PT10M",
+        "cook_time": "PT10M",
+        "total_time": "PT20M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "10 min",
+        "time_str": "20 min",
+        "calories": 280,
+        "portions_num": 8,
+        "portions_unit": "våfflor",
+        "rating": 4.99,
+        "review_count": 9,
+        "desc": "Sveriges godaste och frasigaste våfflor! Hemligheten bakom den oslagbara krispigheten är en kombination av smält smör, iskallt kolsyrat vatten och bakpulver, serverade gyllenbruna med vispgrädde och bärsylt.",
+        "long_desc": "Frasiga våfflor är en älskad klassiker till både helgfrukost, fika och Våffeldagen. Genom att använda iskallt bubbelvatten (eller sodavatten) i smeten bildas tusentals små ångbubblor under gräddningen som gör våfflorna spröda som glas utan att bli mjuka.",
+        "keywords": "våfflor, frasiga våfflor, våffelrecept, frasvåfflor, bästa våfflorna, klassiska våfflor, våfflor med kolsyrat vatten, baka våfflor",
+        "alt": "Närbild på gyllenbruna frasiga hjärtvåfflor toppade med vispgrädde, röd jordgubbssylt och florsocker på en rustik tallrik",
+        "equipment": ["Våffeljärn", "Bunke & visp", "Gallerkorg/avsvalningsgaller"],
+        "drink_pairing": "En god kopp kaffe, te eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Frasig Våffelsmet", "items": [
+                {"val": 3.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 2, "unit": "tsk", "name": "bakpulver"},
+                {"val": 1, "unit": "tsk", "name": "vaniljsocker & 0.5 tsk salt"},
+                {"val": 100, "unit": "g", "name": "äkta smör (smält & lätt avsvalnat)"},
+                {"val": 2, "unit": "dl", "name": "standardmjölk (kylskåpskall)"},
+                {"val": 2.5, "unit": "dl", "name": "iskallt kolsyrat vatten (t.ex. Ramlösa eller Vichy)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 2.5, "unit": "dl", "name": "vispgrädde (lättvispad)"},
+                {"val": 2, "unit": "dl", "name": "jordgubbssylt, hallonsylt eller hjortronsylt"},
+                {"val": 1, "unit": "msk", "name": "florsocker (att pudra över)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Blanda de torra ingredienserna", "text": "Blanda vetemjöl, bakpulver, vaniljsocker och salt i en rymlig bunke.", "timer": 2},
+            {"step": 2, "title": "Vispa i mjölk och smält smör", "text": "Smält smöret och låt det svalna något. Vispa ner mjölken och det smälta smöret i mjölblandningen till en tjock, klumpfri smet.", "timer": 3},
+            {"step": 3, "title": "Tillsätt kolsyrat vatten", "text": "Vänd ner det iskalla kolsyrade vattnet allra sist med en slickepott eller lätt hand med vispen så att kolsyrebubblorna bevaras i smeten.", "timer": 2},
+            {"step": 4, "title": "Hetta upp våffeljärnet", "text": "Pensla våffeljärnet med lite smör inför den första laggen (därefter behövs oftast inget extra fett då smeten innehåller rikligt med smör).", "timer": 3},
+            {"step": 5, "title": "Grädda gyllenbruna & frasiga", "text": "Häll i ca 1 dl smet per våffla. Grädda i ca 2–3 minuter tills våfflan är djupt gyllenbrun och ångan avtar.", "timer": 3},
+            {"step": 6, "title": "Lägg på galler & servera", "text": "Lägg de färdiggräddade våfflorna på ett ugnsgaller (lägg dem aldrig på hög, då mjuknar de av ångan!). Servera genast med lättvispad grädde och god sylt.", "timer": None}
+        ],
+        "pro_tips": "Lägg aldrig nystekta våfflor på hög – lägg dem istället på ett galler! Ångan från en stapel gör dem mjuka och svampiga på nolltid.",
+        "nutrition": {"calories": "280 kcal", "protein": "5g", "carbs": "32g", "fat": "15g", "sugar": "8g"},
+        "faqs": [
+            {"q": "Varför blir våfflorna inte frasiga?", "a": "Det beror oftast på att järnet inte varit tillräckligt varmt eller att våfflorna staplats på varandra efter gräddning. Kolsyrat vatten i smeten och ett galler för avsvalning garanterar krispighet."},
+            {"q": "Kan man spara våffelsmet i kylen?", "a": "Ja, men om smeten stått en stund bör du vispa i en extra skvätt kolsyrat vatten precis före gräddning för att återställa bubblorna."}
+        ],
+        "community_reviews": [
+            {"name": "Emma Lindberg", "date": "Idag", "rating": 5, "comment": "De frasigaste våfflorna jag någonsin bakat! Kolsyrat vatten gjorde verkligen magisk skillnad.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-saftig-sockerkaka-citron-vanilj",
+        "file": "klassisk-saftig-sockerkaka-citron-vanilj.html",
+        "img": "sockerkaka",
+        "title": "Klassisk Saftig Sockerkaka med Citron & Vanilj",
+        "card_title": "Klassisk Sockerkaka",
+        "sub": "Hög och saftig sockerkaka med brynt smör, vanilj & frisk citron",
+        "category": "Fika & Bakning",
+        "cat_slug": "fika-och-bakning",
+        "cat_key": "fika",
+        "diet": "Vegetariskt",
+        "difficulty": "Mycket enkel",
+        "time": 40,
+        "prep_time": "PT10M",
+        "cook_time": "PT30M",
+        "total_time": "PT40M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "30 min",
+        "time_str": "40 min",
+        "calories": 220,
+        "portions_num": 12,
+        "portions_unit": "skivor",
+        "rating": 4.99,
+        "review_count": 8,
+        "desc": "Sveriges mest bakade grundkaka som aldrig slår fel! En hög, gyllene sockerkaka med mjuk saftig textur, subtil ton av brynt smör, vanilj och frisk citronzest.",
+        "long_desc": "En perfekt sockerkaka ska vara hög, fluffig och fuktig inuti utan att bli torr. Hemligheten är att vispa ägg och socker extremt poröst i minst 5 minuter samt tillsätta hett brynt smör och kokhett vatten som frigör fukt och arom i mjölstärkelsen.",
+        "keywords": "sockerkaka, saftig sockerkaka, sockerkaka recept, klassisk sockerkaka, sockerkaka med citron, bästa sockerkakan, baka sockerkaka",
+        "alt": "Närbild på en klassisk saftig sockerkaka bakad i räfflad kransform med en skuren skiva pudrad med florsocker på en träskärbräda",
+        "equipment": ["Sockerkaksform (ca 1.5–2 liter)", "Elvisp", "Kastrull"],
+        "drink_pairing": "En kopp nybryggt kaffe, ett glas kall mjölk eller en kopp Earl Grey-te.",
+        "ingredients": [
+            {"group": "Sockerkakssmet", "items": [
+                {"val": 3, "unit": "st", "name": "stora ägg"},
+                {"val": 2.5, "unit": "dl", "name": "strösocker"},
+                {"val": 3.5, "unit": "dl", "name": "vetemjöl"},
+                {"val": 2, "unit": "tsk", "name": "bakpulver"},
+                {"val": 2, "unit": "tsk", "name": "vaniljsocker"},
+                {"val": 1, "unit": "st", "name": "ekologisk citron (finrivet skal)"},
+                {"val": 75, "unit": "g", "name": "smör (gärna lätt brynt)"},
+                {"val": 1, "unit": "dl", "name": "kokhett vatten eller mjölk"},
+                {"val": 1, "unit": "krm", "name": "salt"}
+            ]},
+            {"group": "Form & Garnering", "items": [
+                {"val": 15, "unit": "g", "name": "smör & 2 msk ströbröd (till formen)"},
+                {"val": 1, "unit": "msk", "name": "florsocker (att sikta över vid servering)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Sätt ugnen & bröa formen", "text": "Sätt ugnen på 175°C över-/undervärme. Smörj en sockerkaksform (ca 1.5–2 liter) noga med smör och bröa med ströbröd.", "timer": 5},
+            {"step": 2, "title": "Bryn smöret & koka vatten", "text": "Smält smöret i en kastrull och låt det gärna puttra tills det tystnar och doftar nötigt (brynt smör). Häll i 1 dl vatten och låt sjuda upp.", "timer": 4},
+            {"step": 3, "title": "Vispa ägg och socker pösigt", "text": "Vispa ägg och strösocker med elvisp i minst 4–5 minuter tills det blir riktigt vitt, tjockt och pösigt.", "timer": 5},
+            {"step": 4, "title": "Blanda torra ingredienser", "text": "Blanda vetemjöl, bakpulver, vaniljsocker, rivet citronskal och salt. Sikta ner i äggsmeten.", "timer": 2},
+            {"step": 5, "title": "Vänd ner smörvätskan", "text": "Tillsätt det heta smörvattnet och vänd försiktigt runt smeten med en slickepott till en jämn, silkeslen smet.", "timer": 2},
+            {"step": 6, "title": "Grädda i ugnen", "text": "Häll smeten i formen och grädda i nedre delen av ugnen i ca 30–35 minuter. Känn med en provsticka – den ska komma ut helt torr. Låt svalna 10 minuter i formen innan du stjälper upp den på ett fat.", "timer": 32}
+        ],
+        "pro_tips": "Tillsätt det heta smörvattnet direkt i smeten – värmen gör att sockerkakan stiger fantastiskt i ugnen och förblir saftig i flera dagar utan att torka!",
+        "nutrition": {"calories": "220 kcal", "protein": "4g", "carbs": "34g", "fat": "8g", "sugar": "20g"},
+        "faqs": [
+            {"q": "Varför blir sockerkakan torr?", "a": "Sockerkakan blir oftast torr om den gräddats för länge eller på för hög temperatur. Ta ut kakan så fort stickan är torr och låt den svalna under formen för att behålla fukten."},
+            {"q": "Kan man smaksätta med annat än citron?", "a": "Ja, 1 tsk nymalen kardemumma eller 2 msk kakao (marmorkaka) är underbara klassiska varianter."}
+        ],
+        "community_reviews": [
+            {"name": "Göran Holmberg", "date": "Idag", "rating": 5, "comment": "Otroligt saftig! Det brynta smöret och citronskalet gav den godaste sockerkaka jag smakat.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-kottfarslasagne-bechamelsas",
+        "file": "klassisk-kottfarslasagne-bechamelsas.html",
+        "img": "lasagne",
+        "title": "Klassisk Köttfärslasagne med Krämig Bechamelsås & Ost",
+        "card_title": "Klassisk Köttfärslasagne",
+        "sub": "Mustig långputtrad köttfärssås, silkeslen bechamel & gyllene osttäcke",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 60,
+        "prep_time": "PT25M",
+        "cook_time": "PT35M",
+        "total_time": "PT60M",
+        "prep_time_str": "25 min",
+        "cook_time_str": "35 min",
+        "time_str": "1 timme",
+        "calories": 590,
+        "portions_num": 6,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 10,
+        "desc": "En storfavorit på det svenska middagsbordet! Vackra lager av mustig köttfärssås med tomat och vitlök, silkeslen bechamelsås smaksatt med muskotnöt, färska eller torkade lasagneplattor och rikligt med smält gyllene ost.",
+        "long_desc": "Köttfärslasagne är den ultimata tröstmaten som hela familjen älskar. Hemligheten bakom en perfekt saftig lasagne är att inte snåla med den krämiga bechamelsåsen så att pastaplattorna kan suga upp all smak och bli perfekt mjuka i ugnen.",
+        "keywords": "lasagne, lasagne recept, köttfärslasagne, klassisk lasagne, bästa lasagnen, lasagne al forno, krämig lasagne bechamelsås",
+        "alt": "Närbild på en saftig skuren bit köttfärslasagne med synliga lager av köttfärssås, krämig vit bechamel och bubblande gratinerad ost",
+        "equipment": ["Ugnsfast form (ca 20x30 cm)", "Stekpanna", "Kastrull & visp till bechamel"],
+        "drink_pairing": "Ett italienskt rödvin som Chianti eller Ripasso, eller en kall mineralvatten med citron.",
+        "ingredients": [
+            {"group": "Mustig Köttfärssås", "items": [
+                {"val": 600, "unit": "g", "name": "nötfärs eller blandfärs"},
+                {"val": 1, "unit": "st", "name": "gul lök (finhackad)"},
+                {"val": 2, "unit": "klyftor", "name": "vitlök (pressade)"},
+                {"val": 2, "unit": "msk", "name": "tomatpuré"},
+                {"val": 500, "unit": "g", "name": "krossade tomater av god kvalitet"},
+                {"val": 2, "unit": "msk", "name": "oxfond eller kalvfond"},
+                {"val": 1, "unit": "msk", "name": "torkad oregano & basilika"},
+                {"val": 1, "unit": "tsk", "name": "salt & nymalen svartpeppar"},
+                {"val": 2, "unit": "msk", "name": "smör eller olivolja till stekning"}
+            ]},
+            {"group": "Silkeslen Bechamelsås", "items": [
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 0.75, "unit": "dl", "name": "vetemjöl"},
+                {"val": 8, "unit": "dl", "name": "standardmjölk"},
+                {"val": 1, "unit": "krm", "name": "riven muskotnöt, salt & vitpeppar"},
+                {"val": 1, "unit": "dl", "name": "riven ost (i såsen för extra fyllighet)"}
+            ]},
+            {"group": "Montering & Gratinering", "items": [
+                {"val": 12, "unit": "st", "name": "torkade lasagneplattor (eller färska)"},
+                {"val": 2.5, "unit": "dl", "name": "riven lagrad ost (t.ex. Prästost eller mozzarella)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka köttfärssåsen", "text": "Fräs finhackad lök och vitlök i smör tills de mjuknat. Tillsätt färsen och bryn den smulig. Rör i tomatpuré, krossade tomater, fond, oregano och basilika. Låt puttra på svag värme i minst 15 minuter. Smaka av med salt och peppar.", "timer": 18},
+            {"step": 2, "title": "Vispa den krämiga bechamelsåsen", "text": "Smält smöret i en kastrull och vispa ner vetemjölet. Späd med mjölken under kraftig vispning så inga klumpar bildas. Låt sjuda sakta i ca 5 minuter till en tjock sås. Rör ner 1 dl riven ost och smaksätt med muskotnöt, salt och vitpeppar.", "timer": 7},
+            {"step": 3, "title": "Sätt ugnen & förbered formen", "text": "Sätt ugnen på 200°C över-/undervärme (180°C varmluft). Smörj en ugnsform lätt.", "timer": 3},
+            {"step": 4, "title": "Varva lasagnen", "text": "Börja med ett lager bechamelsås i botten på formen. Lägg på lasagneplattor, följt av köttfärssås och bechamel. Upprepa i 3–4 lager och avsluta med bechamelsås över det översta lagret plattor.", "timer": 5},
+            {"step": 5, "title": "Toppa med ost & grädda", "text": "Strö över den rivna osten i ett jämnt täcke. Grädda mitt i ugnen i ca 30–35 minuter tills lasagnen är genomgräddad och fått en bubblande, gyllenbrun yta.", "timer": 32},
+            {"step": 6, "title": "Låt sätta sig & servera", "text": "Låt lasagnen vila i ca 10–15 minuter före servering så sätter den sig och blir lätt och vacker att skära upp i fina bitar. Servera med en krispig tomatsallad.", "timer": 10}
+        ],
+        "pro_tips": "Låt lasagnen vila i minst 10–15 minuter efter att du tagit ut den ur ugnen! Då stannar såsen och varje bit håller formen perfekt utan att flyta ut på tallriken.",
+        "nutrition": {"calories": "590 kcal", "protein": "36g", "carbs": "44g", "fat": "30g", "sugar": "8g"},
+        "faqs": [
+            {"q": "Varför blir lasagnen rinnig?", "a": "Det beror oftast på att man skär upp den direkt när den kommer ur ugnen. Lasagne behöver vila i 10–15 minuter för att suga upp vätskan och sätta sig."},
+            {"q": "Kan man frysa lasagne?", "a": "Ja, lasagne lämpar sig exceptionellt bra för infrysning och blir nästan godare att värma upp dagen efter."}
+        ],
+        "community_reviews": [
+            {"name": "Johanna Lundkvist", "date": "Idag", "rating": 5, "comment": "Otroligt god och krämig lasagne! Bechamelsåsen med en nypa muskot lyfte verkligen hela rätten.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-stekt-stromming-potatismos-lingon",
+        "file": "klassisk-stekt-stromming-potatismos-lingon.html",
+        "img": "stektstromming",
+        "title": "Klassisk Stekt Strömming med Potatismos & Rårörda Lingon",
+        "card_title": "Stekt Strömming",
+        "sub": "Smörstekt rågpanerad strömming fylld med dill, serverad med lent mos",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Fisk & Skaldjur",
+        "difficulty": "Enkel",
+        "time": 30,
+        "prep_time": "PT15M",
+        "cook_time": "PT15M",
+        "total_time": "PT30M",
+        "prep_time_str": "15 min",
+        "cook_time_str": "15 min",
+        "time_str": "30 min",
+        "calories": 480,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 7,
+        "desc": "En av Sveriges mest genuina och älskade kustklassiker! Dubbla strömmingsflundror fyllda med rikligt av färsk dill och lite dijonsenap, vända i grovt rågmjöl och stekta i rikligt med smör till krispig perfektion med fluffigt potatismos och lingon.",
+        "long_desc": "Stekt strömming med potatismos är själva sinnebilden av svensk fisk-husmanskost. Det krispiga rågmjölsskalet, det saftiga vita fiskköttet och kontrasten mot det lena potatismoset och de syrliga rårörda lingonen skapar en oslagbar smakbalans.",
+        "keywords": "stekt strömming, stekt strömming recept, stekt strömming med potatismos, rågmjölspanerad strömming, svensk husmanskost fisk, strömmingsflundror",
+        "alt": "Närbild på gyllenbrun krispigt stekt strömming serverad med krämigt potatismos, rårörda lingon och färsk dill på en keramiktallrik",
+        "equipment": ["Gjutjärnsstekpanna", "Potatisstöt eller elvisp", "Tallrik till panering"],
+        "drink_pairing": "En kall svensk lageröl, lättöl eller ett glas kall mjölk.",
+        "ingredients": [
+            {"group": "Strömmingsflundror", "items": [
+                {"val": 600, "unit": "g", "name": "strömmingsfiléer (rensade & urvattnade)"},
+                {"val": 1, "unit": "kruka", "name": "färsk dill (finhackad)"},
+                {"val": 2, "unit": "tsk", "name": "dijonsenap eller svensk sötstark senap (frivilligt)"},
+                {"val": 1.5, "unit": "dl", "name": "grovt rågmjöl (till panering)"},
+                {"val": 1, "unit": "tsk", "name": "salt & vitpeppar"},
+                {"val": 50, "unit": "g", "name": "smör (att steka i)"}
+            ]},
+            {"group": "Fluffigt Potatismos", "items": [
+                {"val": 900, "unit": "g", "name": "mjölig potatis (skalad & kokt mjuk)"},
+                {"val": 50, "unit": "g", "name": "smör"},
+                {"val": 1.5, "unit": "dl", "name": "varm standardmjölk"},
+                {"val": 1, "unit": "krm", "name": "muskotnöt, salt & vitpeppar"}
+            ]},
+            {"group": "Klassiska Tillbehör", "items": [
+                {"val": 2, "unit": "dl", "name": "rårörda lingon"},
+                {"val": 1, "unit": "st", "name": "citron (i klyftor)"},
+                {"val": 1, "unit": "dl", "name": "smält smör (att ringla över moset)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Koka potatismoset", "text": "Koka potatisen mjuk i lättsaltat vatten. Häll av och stöt slät med smör och varm mjölk. Smaka av med salt, vitpeppar och en nypa muskot. Håll varmt.", "timer": 18},
+            {"step": 2, "title": "Fyll strömmingsflundrorna", "text": "Lägg ut hälften av filéerna med skinnsidan nedåt på en skärbräda. Salta och peppra lätt, bred eventuellt på en tunn sträng senap och toppa med rikligt av finhackad dill. Lägg över resterande filéer med skinnsidan uppåt som 'dubbla flundror'.", "timer": 5},
+            {"step": 3, "title": "Panera i rågmjöl", "text": "Blanda rågmjöl, salt och vitpeppar på en flat tallrik. Vänd strömmingsflundrorna noggrant i mjölet så att de täcks helt.", "timer": 3},
+            {"step": 4, "title": "Stek gyllenbruna i smör", "text": "Hetta upp rikligt med smör i en stekpanna tills det tystnar. Stek strömmingen på medelhög värme i ca 2.5–3 minuter per sida tills paneringen är krispig och gyllenbrun.", "timer": 6},
+            {"step": 5, "title": "Servera rykande hett", "text": "Servera den nystekta strömmingen direkt med fluffigt potatismos, rårörda lingon, en citronklyfta och extra smält smör.", "timer": None}
+        ],
+        "pro_tips": "Använd grovt rågmjöl till paneringen istället för vetemjöl eller ströbröd – det ger den autentiska rustika smaken och ett fantastiskt krispigt skal!",
+        "nutrition": {"calories": "480 kcal", "protein": "32g", "carbs": "38g", "fat": "22g", "sugar": "9g"},
+        "faqs": [
+            {"q": "Hur får man strömmingen extra krispig?", "a": "Stek i rikligt med riktigt smör på god medelhög värme och lägg inte för många flundror i pannan samtidigt så att pannan inte kyls ner."},
+            {"q": "Går det bra att äta ryggfenan?", "a": "Vid stekning på god värme mjuknar strömmingens fina ben och ryggfena så pass att de är helt ätbara och ger god smak och krisp."}
+        ],
+        "community_reviews": [
+            {"name": "Bengt Sjöberg", "date": "Idag", "rating": 5, "comment": "Underbar strömming! Rågpaneringen blev fantastiskt knaprig och moset var lent och fluffigt.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-sjomansbiff-hogrev-potatis-ol",
+        "file": "klassisk-sjomansbiff-hogrev-potatis-ol.html",
+        "img": "sjomansbiff",
+        "title": "Klassisk Sjömansbiff på Högrev, Potatis & Mörkt Öl",
+        "card_title": "Klassisk Sjömansbiff",
+        "sub": "Långkokt mört högrev varvat med potatis och karamelliserad lök i ölsky",
+        "category": "Husmanskost",
+        "cat_slug": "husmanskost",
+        "cat_key": "husmanskost",
+        "diet": "Husmanskost",
+        "difficulty": "Medel",
+        "time": 90,
+        "prep_time": "PT20M",
+        "cook_time": "PT70M",
+        "total_time": "PT90M",
+        "prep_time_str": "20 min",
+        "cook_time_str": "1 tim 10 min",
+        "time_str": "1 tim 30 min",
+        "calories": 510,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.98,
+        "review_count": 6,
+        "desc": "En klassisk svensk sjömansgryta som värmer i höstrusket! Skivor av brynt nötkött som varvas med skivad potatis och karamelliserad lök i en gjutjärnsgryta och får sjuda sakta i mörkt öl och mustig buljong tills köttet är smältande mört.",
+        "long_desc": "Sjömansbiff har anor från de svenska handelsfartygen där kocken lagade allt i en och samma gryta med råvaror som tålde att lagras till sjöss: nötkött, potatis, lök och öl. Potatisen suger åt sig all den mustiga kött- och ölbouillonen och blir otroligt smakrik.",
+        "keywords": "sjömansbiff, sjömansbiff recept, klassisk sjömansbiff, sjömansbiff högrev, sjömansbiff öl, svensk husmanskost sjömansbiff, köttgryta med öl och potatis",
+        "alt": "Närbild på en gjutjärnsgryta med klassisk sjömansbiff med möra skivor av högrev, potatisskivor och lök i mustig mörk ölsky med persilja",
+        "equipment": ["Gjutjärnsgryta med lock (ca 3–4 liter)", "Skärbräda & kockkniv", "Stekpanna"],
+        "drink_pairing": "En mörk svensk lager, porter eller ett glas kallt mineralvatten.",
+        "ingredients": [
+            {"group": "Sjömansbiff", "items": [
+                {"val": 600, "unit": "g", "name": "högrev, innanlår eller rostbiff (skuret i ca 1 cm tjocka skivor)"},
+                {"val": 900, "unit": "g", "name": "fast potatis (skalad & skuren i 1 cm skivor)"},
+                {"val": 3, "unit": "st", "name": "gula lökar (skivade)"},
+                {"val": 33, "unit": "cl", "name": "mörkt öl (t.ex. porter, stout eller mörk lager)"},
+                {"val": 3, "unit": "dl", "name": "oxbuljong eller kalvbuljong"},
+                {"val": 2, "unit": "st", "name": "lagerblad"},
+                {"val": 8, "unit": "st", "name": "kryddpepparkorn & 8 vitpepparkorn"},
+                {"val": 1, "unit": "tsk", "name": "timjan & 1.5 tsk salt"},
+                {"val": 40, "unit": "g", "name": "smör (till stekning)"}
+            ]},
+            {"group": "Servering", "items": [
+                {"val": 1, "unit": "kruka", "name": "färsk bladpersilja (finhackad)"},
+                {"val": 2, "unit": "dl", "name": "inlagda rödbetor eller saltgurka"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Bryn köttet snabbt", "text": "Banka ut köttskivorna lätt. Hetta upp smör i en stekpanna och bryn köttskivorna snabbt på hög värme så de får fin färg på båda sidor. Salta och peppra. Lägg över på ett fat.", "timer": 6},
+            {"step": 2, "title": "Karamellisera löken", "text": "Fräs den skivade löken i samma stekpanna tills den mjuknar och får en gyllenbrun färg. Vispa ur pannan med lite av buljongen.", "timer": 6},
+            {"step": 3, "title": "Varva grytan", "text": "Smörj botten på en gjutjärnsgryta. Börja med ett lager skivad potatis i botten. Lägg på brynt kött och stekt lök. Lägg i lagerblad, kryddpeppar och vitpeppar. Upprepa och avsluta med ett snyggt lager potatisskivor överst.", "timer": 6},
+            {"step": 4, "title": "Häll på öl och buljong", "text": "Slå på det mörka ölet och den varma buljongen så att vätskan nästan täcker potatisen.", "timer": 2},
+            {"step": 5, "title": "Sjud sakta under lock", "text": "Koka upp och sänk värmen till lägsta. Låt sjuda sakta under lock i ca 60–75 minuter tills köttet är smältande mört och potatisen mjuk utan att koka sönder.", "timer": 70},
+            {"step": 6, "title": "Garnera & servera", "text": "Strö rikligt med färsk persilja över grytan. Servera rykande het direkt ur grytan med inlagda rödbetor och knäckebröd.", "timer": None}
+        ],
+        "pro_tips": "Välj ett smakrikt mörkt öl som inte är för beskt – en svensk porter, bayersk dunkel eller mörk lager ger grytan en underbar djup maltig sötma!",
+        "nutrition": {"calories": "510 kcal", "protein": "38g", "carbs": "36g", "fat": "22g", "sugar": "5g"},
+        "faqs": [
+            {"q": "Kan man laga sjömansbiff i ugnen?", "a": "Ja, ställ grytan med lock i ugnen på 175°C i ca 1.5 timme. Det ger en mycket jämn och varsam tillagning."},
+            {"q": "Vilken potatissort är bäst i sjömansbiff?", "a": "Använd en fast potatissort (t.ex. Asterix eller Folva) så att potatisskivorna behåller formen och inte förvandlas till mos under långkoket."}
+        ],
+        "community_reviews": [
+            {"name": "Carl-Johan Berg", "date": "Idag", "rating": 5, "comment": "Underbart mustig gryta! Köttet blev så mört att det föll isär och ölbouillonen var otroligt god.", "verified": True}
+        ]
+    },
+    {
+        "slug": "klassisk-kantarelltoast-vasterbottensost",
+        "file": "klassisk-kantarelltoast-vasterbottensost.html",
+        "img": "kantarelltoast",
+        "title": "Klassisk Kantarelltoast med Västerbottensost & Vitlök",
+        "card_title": "Klassisk Kantarelltoast",
+        "sub": "Smörstekta skogskantareller på frasigt levainbröd med riven Västerbottensost",
+        "category": "Högtider & Smörgåsbord",
+        "cat_slug": "hogtider-och-smorgasbord",
+        "cat_key": "smorgasbord",
+        "diet": "Vegetariskt",
+        "difficulty": "Enkel",
+        "time": 15,
+        "prep_time": "PT10M",
+        "cook_time": "PT5M",
+        "total_time": "PT15M",
+        "prep_time_str": "10 min",
+        "cook_time_str": "5 min",
+        "time_str": "15 min",
+        "calories": 360,
+        "portions_num": 4,
+        "portions_unit": "portioner",
+        "rating": 4.99,
+        "review_count": 9,
+        "desc": "Skogens guld på en frasig smörstekt levainskiva! Färska gyllene kantareller som steks i rikligt med smör med finhackad schalottenlök, en aning grädde och toppas med rikligt av riven lagrad Västerbottensost och persilja.",
+        "long_desc": "Kantarelltoast är en av Sveriges mest hyllade förrätter och fikatilltugg under sensommaren och hösten. Tricket för perfekt stekta kantareller är att först svetta ur vätskan i en torr panna innan man tillsätter generöst med smör, lök och en skvätt grädde.",
+        "keywords": "kantarelltoast, kantarelltoast recept, kantarellmacka, toast med kantareller, steka kantareller, kantareller västerbottensost, förrätt kantareller",
+        "alt": "Närbild på en krispig smörstekt kantarelltoast med gyllene kantareller, riven Västerbottensost, nymalen svartpeppar och färsk persilja",
+        "equipment": ["Stekpanna", "Skärbräda & svampborste", "Osthyvel/rivjärn"],
+        "drink_pairing": "Ett glas torrt vitt vin (Chardonnay eller Chablis), en ljus lager eller en god cider.",
+        "ingredients": [
+            {"group": "Krämiga Kantareller", "items": [
+                {"val": 500, "unit": "g", "name": "färska kantareller (rensade & ansade)"},
+                {"val": 2, "unit": "st", "name": "schalottenlökar (finhackade)"},
+                {"val": 1, "unit": "klyfta", "name": "vitlök (finriven eller pressad)"},
+                {"val": 50, "unit": "g", "name": "äkta smör (till stekning)"},
+                {"val": 0.5, "unit": "dl", "name": "vispgrädde (ger krämighet som binder ihop svampen)"},
+                {"val": 1, "unit": "krm", "name": "salt & nymalen svartpeppar"},
+                {"val": 0.5, "unit": "kruka", "name": "färsk bladpersilja (finhackad)"}
+            ]},
+            {"group": "Bröd & Topping", "items": [
+                {"val": 4, "unit": "skivor", "name": "levainbröd eller surdegsbröd"},
+                {"val": 30, "unit": "g", "name": "smör (att steka brödet i)"},
+                {"val": 1.5, "unit": "dl", "name": "Västerbottensost (finriven eller hyvlad)"}
+            ]}
+        ],
+        "instructions": [
+            {"step": 1, "title": "Rensa svampen", "text": "Borsta kantarellerna rena från skräp och jord. Riv större svampar i mindre munsbitar längs med fibrerna.", "timer": 5},
+            {"step": 2, "title": "Ånga ur vätskan i torr panna", "text": "Lägg svampen i en torr stekpanna på medelhög värme. Låt vätskan som svampen släpper koka in helt.", "timer": 4},
+            {"step": 3, "title": "Stek i smör med lök", "text": "Tillsätt smör, finhackad schalottenlök och vitlök i pannan. Fräs under omrörning i ca 4–5 minuter tills kantarellerna fått fin gyllene färg och löken är mjuk.", "timer": 5},
+            {"step": 4, "title": "Tillsätt grädde & örter", "text": "Häll i grädden och låt koka in i ca 1 minut så att svampen blir glansig och krämig. Smaka av med salt, nymalen svartpeppar och vänd ner hälften av persiljan.", "timer": 2},
+            {"step": 5, "title": "Smörstek levainbrödet", "text": "Stek levainskivorna gyllenbruna och krispiga i en separat panna med rikligt med smör.", "timer": 3},
+            {"step": 6, "title": "Montera & toppa med ost", "text": "Lägg de smörstekta bröden på tallrikar. Fördela de varma kantarellerna över bröden, toppa med massor av riven Västerbottensost och garnera med färsk persilja och lite extra flingsalt.", "timer": None}
+        ],
+        "pro_tips": "Låt alltid kantarellernas egen vätska koka in i en torr panna innan du lägger i smöret – då steks svampen krispig istället för att kokas sladdrig!",
+        "nutrition": {"calories": "360 kcal", "protein": "12g", "carbs": "26g", "fat": "24g", "sugar": "2g"},
+        "faqs": [
+            {"q": "Kan man använda frysta eller torkade kantareller?", "a": "Ja, tinade frysta kantareller eller blötlagda torkade kantareller fungerar fint. Pressa bara ur överflödig vätska innan stekning."},
+            {"q": "Varför just Västerbottensost på kantarelltoast?", "a": "Den fylliga sältan, syran och nötigheten i lagrad Västerbottensost gifter sig perfekt med kantarellens smöriga skogssmak."}
+        ],
+        "community_reviews": [
+            {"name": "Sara Hällgren", "date": "Idag", "rating": 5, "comment": "Höstens absoluta höjdpunkt! Kombinationen av smörstekta kantareller och Västerbottensost på levain är himmelsk.", "verified": True}
+        ]
     }
 ]
+
 
 
 
