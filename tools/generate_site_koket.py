@@ -23,6 +23,17 @@ OUTPUT_CATEGORIES_DIR = os.path.join(BASE_DIR, "kategorier")
 os.makedirs(OUTPUT_RECIPES_DIR, exist_ok=True)
 os.makedirs(OUTPUT_CATEGORIES_DIR, exist_ok=True)
 
+GA_MEASUREMENT_ID = "G-PLHFZ6JJEY"
+GA_TAG_HTML = f'''  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+
+    gtag('config', '{GA_MEASUREMENT_ID}');
+  </script>'''
+
 # Strict 16px font-weight matching icons
 ICON_SEARCH = '<svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.5"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>'
 ICON_HEART = '<svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>'
@@ -356,6 +367,7 @@ def render_recipe_page(r):
     html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
+{GA_TAG_HTML}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{r['title']} | Svenska Recept</title>
@@ -612,6 +624,7 @@ def generate_homepage():
     html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
+{GA_TAG_HTML}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Svenska Recept – 100% Provlagad Svensk Mat & Bageri</title>
@@ -734,6 +747,7 @@ def generate_catalog():
     html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
+{GA_TAG_HTML}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alla Svenska Recept – Sök & Filtrera | Svenska Recept</title>
@@ -801,6 +815,7 @@ def generate_categories():
         html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
+{GA_TAG_HTML}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{cat['title']} – Bästa Provlagade Recepten | Svenska Recept</title>
