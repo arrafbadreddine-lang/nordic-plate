@@ -6097,6 +6097,566 @@ RECIPES = [
         'time_str': '30 min',
         'title': 'Klassiska Isterband med Krämig Dillstuvad Potatis & Rödbetor',
         'total_time': 'PT30M'},
+    {       'alt': 'Klassiska gyllene saffranslussekatter med russin på ett keramikfat med linneduk',
+        'calories': 175,
+        'card_title': 'Klassiska Lussekatter',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Årets absolut godaste lussekatter! Kesellan gjorde dem så '
+                                                        'otroligt saftiga och mjuka, inte alls torra som lussebullar '
+                                                        'kan bli.',
+                                             'date': 'Idag',
+                                             'name': 'Anna Lindblom',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Tipset att blötlägga russinen och mortla saffranet med lite '
+                                                        'sprit gjorde enorm skillnad. Bäst i test!',
+                                             'date': 'I förrgår',
+                                             'name': 'Mårten Wallin',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT10M',
+        'cook_time_str': '10 min',
+        'desc': 'Sveriges godaste lussekatter och saffransbullar bakade med kesella, äkta smör och saffran. Extra '
+                'saftiga som inte blir torra.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett glas varm kryddig glögg med mandel och russin eller en kopp nybryggt kaffe med mjölk.',
+        'equipment': ['Hushållsassistent eller stor bunke', 'Bakplåtar med bakplåtspapper', 'Bakpensel', 'Mortel'],
+        'faqs': [       {       'a': 'Saffran torkar naturligt ut jäsdegar. Genom att tillsätta kesella och inte '
+                                     'överarbeta med för mycket mjöl i degen behåller lussekatterna sin saftighet i '
+                                     'flera dagar.',
+                                'q': 'Varför blir lussekatter ofta torra och hur undviker man det?'},
+                        {       'a': 'Ja, absolut! Frys in dem så fort de har svalnat helt efter gräddning. Tina i '
+                                     'rumstemperatur eller värm dem hastigt i ugnen på 150°C i 3-4 minuter så smakar '
+                                     'de som nybakade.',
+                                'q': 'Kan man frysa in lussekatter?'}],
+        'file': 'klassiska-lussekatter-saffransbullar-kesella.html',
+        'img': 'lussekatter',
+        'ingredients': [       {       'group': 'Saffransdeg (ca 30 bullar)',
+                                       'items': [       {'name': 'färsk jäst (för söta degar)', 'unit': 'g', 'val': 50},
+                                                        {       'name': 'standardmjölk (fingervarm, 37°C)',
+                                                                'unit': 'dl',
+                                                                'val': 5},
+                                                        {'name': 'saffran (2 kuvert)', 'unit': 'g', 'val': 1},
+                                                        {       'name': 'konjak, rom eller hett vatten (att lösa upp '
+                                                                        'saffranet i)',
+                                                                'unit': 'msk',
+                                                                'val': 1},
+                                                        {       'name': 'rumsvarmt äkta smör (i klickar)',
+                                                                'unit': 'g',
+                                                                'val': 150},
+                                                        {       'name': 'kesella / kvarg (10% fetthalt, ger fantastisk '
+                                                                        'saftighet)',
+                                                                'unit': 'g',
+                                                                'val': 250},
+                                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                                        {'name': 'salt', 'unit': 'tsk', 'val': 0.5},
+                                                        {       'name': 'vetemjöl special (cirka 850g, arbeta inte i '
+                                                                        'för mycket mjöl)',
+                                                                'unit': 'dl',
+                                                                'val': 14}]},
+                               {       'group': 'Garnering & Pensling',
+                                       'items': [       {       'name': 'ägg (uppvispat till pensling)',
+                                                                'unit': 'st',
+                                                                'val': 1},
+                                                        {       'name': 'mörka russin (blötlagda i hett vatten i 30 '
+                                                                        'minuter)',
+                                                                'unit': 'dl',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Stöt saffranet i en mortel tillsammans med en tesked strösocker. Rör '
+                                                'ut i 1 msk konjak eller hett vatten och låt stå och dra i minst 15 '
+                                                'minuter för maximal färg och smak.',
+                                        'timer': 15,
+                                        'title': 'Lös upp saffranet'},
+                                {       'step': 2,
+                                        'text': 'Värm mjölken till fingervarmt (37°C). Smula jästen i en degbunke och '
+                                                'häll över mjölken. Rör tills jästen lösts upp. Tillsätt det upplösta '
+                                                'saffranet, kesella, socker och salt.',
+                                        'timer': None,
+                                        'title': 'Sätt degen'},
+                                {       'step': 3,
+                                        'text': 'Klicka i det mjuka smöret. Tillsätt vetemjölet lite i taget och '
+                                                'arbeta degen kraftigt i maskin i cirka 10 minuter (eller 15 min för '
+                                                'hand) tills den är smidig och glansig. Täck med bakduk och jäs i '
+                                                '45–60 minuter till dubbel storlek.',
+                                        'timer': 50,
+                                        'title': 'Arbeta in smör och mjöl'},
+                                {       'step': 4,
+                                        'text': 'Stjälp upp degen på ett lätt mjölat bakbord. Dela i ca 30 lika stora '
+                                                'bitar. Rulla varje bit till en ca 20 cm lång sträng och snurra '
+                                                'ändarna åt motsatt håll till traditionella S-formade lussekatter. '
+                                                'Lägg på bakplåtspapper.',
+                                        'timer': None,
+                                        'title': 'Baka ut lussekatterna'},
+                                {       'step': 5,
+                                        'text': 'Tryck ner blötlagda russin djupt i varje snurr. Låt jäsa under bakduk '
+                                                'i ca 30–40 minuter. Pensla med uppvispat ägg och grädda mitt i ugnen '
+                                                'på 225°C i 6–8 minuter tills de har fin gyllenbrun färg. Låt svalna '
+                                                'på galler under bakduk.',
+                                        'timer': 8,
+                                        'title': 'Jäs, dekorera och grädda'}],
+        'keywords': 'lussekatter recept, saftiga lussekatter med kesella, saffransbullar recept, lussebullar, baka '
+                    'lussekatter advent',
+        'long_desc': 'Det ultimata receptet på klassiska svenska lussekatter till advent och lucia. Hemligheten bakom '
+                     'de saftigaste saffransbullarna är kesella (kvarg) i degen och att mortla saffranet med lite '
+                     'socker och konjak eller rom så smaken och den gyllene färgen blommar ut maximalt.',
+        'nutrition': {'calories': '175 kcal', 'carbs': '28g', 'fat': '5g', 'protein': '5g', 'sugar': '9g'},
+        'portions_num': 30,
+        'portions_unit': 'bullar',
+        'prep_time': 'PT60M',
+        'prep_time_str': '60 min',
+        'pro_tips': 'Blötlägg alltid russinen i hett vatten i 30 minuter före gräddning! Torra russin suger fukt ur '
+                    'bullen under gräddningen och bränns lätt vid i ugnen.',
+        'rating': 4.98,
+        'review_count': 9,
+        'slug': 'klassiska-lussekatter-saffransbullar-kesella',
+        'sub': 'Saftiga saffranskusar med kesella & russin',
+        'time': 90,
+        'time_str': '90 min',
+        'title': 'Klassiska Lussekatter – Saftiga Saffransbullar med Kesella',
+        'total_time': 'PT90M'},
+    {       'alt': 'Klassisk ugnsbakad julskinka med gyllene senapsgriljering och nejlikor på en träskärbräda',
+        'calories': 260,
+        'card_title': 'Klassisk Julskinka',
+        'cat_key': 'smorgasbord',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [       {       'comment': 'Den absolut saftigaste julskinkan jag lyckats med! Tricket '
+                                                        'med potatismjöl i senapen gjorde att griljeringen satt '
+                                                        'perfekt utan att lossna.',
+                                             'date': 'Idag',
+                                             'name': 'Lennart Berggren',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Underbar smak med kombinationen av skånsk och sötstark senap. '
+                                                        'En favorit till jul!',
+                                             'date': 'I förrgår',
+                                             'name': 'Eva-Karin T.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT105M',
+        'cook_time_str': '105 min',
+        'desc': 'Recept på perfekt ugnsbakad julskinka med klassisk senapsgriljering på grov skånsk senap, äggula och '
+                'ströbröd. Saftig och mör.',
+        'diet': 'Klassisk',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En kryddig svensk julöl, klassisk kall julmust eller en god kryddad julsnaps.',
+        'equipment': ['Digital ugnstermometer', 'Långpanna med galler', 'Aluminiumfolie', 'Liten skål och pensel'],
+        'faqs': [       {       'a': 'Ta ut skinkan vid 68-70°C om du vill ha den maximalt saftig och mör. Föredrar du '
+                                     'en mer traditionell fast skinka tar du ut den vid 74°C.',
+                                'q': 'Vid vilken innertemperatur är julskinkan klar?'},
+                        {       'a': 'Låt skinkan bli helt kall i kylskåp före servering. Använd en lång, vass '
+                                     'skinkkniv och skär tunna, fina skivor tvärs över muskeltrådarna.',
+                                'q': 'Hur skär man julskinkan snyggast?'}],
+        'file': 'klassisk-julskinka-ugnsbakad-senapsgriljering.html',
+        'img': 'julskinka',
+        'ingredients': [       {       'group': 'Ugnsbakning',
+                                       'items': [       {'name': 'rimmad julskinka (med svål)', 'unit': 'kg', 'val': 3},
+                                                        {       'name': 'vatten (i botten av formen)',
+                                                                'unit': 'dl',
+                                                                'val': 1}]},
+                               {       'group': 'Klassisk Senapsgriljering',
+                                       'items': [       {'name': 'äggula', 'unit': 'st', 'val': 1},
+                                                        {'name': 'skånsk grovkornig senap', 'unit': 'msk', 'val': 2},
+                                                        {       'name': 'svensk sötstark senap (t.ex. Slotts eller '
+                                                                        'Apotekets)',
+                                                                'unit': 'msk',
+                                                                'val': 2},
+                                                        {'name': 'dijonsenap', 'unit': 'msk', 'val': 1},
+                                                        {'name': 'strösocker eller honung', 'unit': 'tsk', 'val': 1},
+                                                        {       'name': 'potatismjöl (håller griljeringen fast på '
+                                                                        'skinkan)',
+                                                                'unit': 'msk',
+                                                                'val': 1},
+                                                        {'name': 'ströbröd', 'unit': 'msk', 'val': 3},
+                                                        {       'name': 'hela kryddnejlikor (till dekoration)',
+                                                                'unit': 'st',
+                                                                'val': 20}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 125°C. Spola av skinkan i kallt vatten och torka av med '
+                                                'hushållspapper. Stick in en digital ugnstermometer så att spetsen '
+                                                'hamnar mitt i skinkans tjockaste del.',
+                                        'timer': None,
+                                        'title': 'Förbered och stick in termometern'},
+                                {       'step': 2,
+                                        'text': 'Lägg skinkan med svålen uppåt på ett ugnsgaller över en långpanna med '
+                                                'lite vatten i botten. Slå gärna aluminiumfolie löst över. Baka tills '
+                                                'termometern visar 68–70°C (tar ca 1–1,5 timme per kilo).',
+                                        'timer': 90,
+                                        'title': 'Baka i ugnen'},
+                                {       'step': 3,
+                                        'text': 'Ta ut skinkan och låt den svalna något (temperaturen stiger ca 2 '
+                                                'grader under vilan). Skär försiktigt bort svålen med en vass kniv men '
+                                                'lämna kvar ett tunt, jämnt lager fett.',
+                                        'timer': 15,
+                                        'title': 'Låt vila och skär bort svålen'},
+                                {       'step': 4,
+                                        'text': 'Höj ugnstemperaturen till 225°C. Rör ihop äggula, de tre '
+                                                'senapssorterna, socker och potatismjöl i en liten skål. Bred '
+                                                'blandningen i ett jämnt lager över fettkappan. Strö över ströbröd och '
+                                                'stick eventuellt i kryddnejlikor i ett rutmönster.',
+                                        'timer': None,
+                                        'title': 'Rör ihop griljeringen'},
+                                {       'step': 5,
+                                        'text': 'Ställ in skinkan mitt i ugnen i cirka 10–15 minuter tills '
+                                                'griljeringen har fått en vacker gyllenbrun och knaprig yta. Passa '
+                                                'noga så ströbrödet inte bränns. Låt svalna helt före uppskärning.',
+                                        'timer': 12,
+                                        'title': 'Griljera gyllenbrun'}],
+        'keywords': 'julskinka recept, griljera julskinka, ugnsbaka julskinka innertemperatur, klassisk julskinka '
+                    'senapsgriljering, julbord skinka',
+        'long_desc': 'Julbordets okrönte konung! Här lär du dig baka en rimmad julskinka i ugnen till perfekt '
+                     'innertemperatur (ca 70–72°C) för maximal saftighet, följt av en gyllene och frasig griljering på '
+                     'svensk sötstark senap, äggula och ströbröd.',
+        'nutrition': {'calories': '260 kcal', 'carbs': '4g', 'fat': '12g', 'protein': '32g', 'sugar': '3g'},
+        'portions_num': 12,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Tillsätt en matsked potatismjöl i senapssmeten! Det binder fukten och gör att griljeringen sitter '
+                    'som berget på skinkan utan att glida av vid uppskärning.',
+        'rating': 4.96,
+        'review_count': 10,
+        'slug': 'klassisk-julskinka-ugnsbakad-senapsgriljering',
+        'sub': 'Saftig julskinka med knaprig senapsgriljering',
+        'time': 120,
+        'time_str': '120 min',
+        'title': 'Klassisk Julskinka – Ugnsbakad med Knaprig Senapsgriljering',
+        'total_time': 'PT120M'},
+    {       'alt': 'Spröda hjärtformade svenska pepparkakor staplade på ett fat omgivna av kanelstänger och stjärnanis',
+        'calories': 35,
+        'card_title': 'Klassiska Pepparkakor',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Underbart lättarbetad deg och kakorna blev fantastiskt spröda '
+                                                        'och kryddiga. Precis som mormor bakade dem!',
+                                             'date': 'Idag',
+                                             'name': 'Gunilla H.',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Bästa pepparkaksreceptet! Doften i köket under gräddningen '
+                                                        'var magisk.',
+                                             'date': 'Igår',
+                                             'name': 'Stefan R.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT8M',
+        'cook_time_str': '8 min',
+        'desc': 'Mormors traditionella recept på tunna, spröda pepparkakor med kanel, ingefära, kryddnejlika och '
+                'kardemumma. Lättkavlad deg.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett glas värmande röd vinglögg, ett glas kall mjölk eller en bit krämig ädelost på '
+                         'pepparkakan.',
+        'equipment': ['Kavel', 'Pepparkaksmått', 'Plåtar med bakplåtspapper', 'Kastrull'],
+        'faqs': [       {       'a': 'Smöret och sirapen behöver stelna för att degen ska gå att kavla tunt utan att '
+                                     'klibba, och kryddornas eteriska oljor hinner mogna och ge den djupa '
+                                     'traditionella smaken.',
+                                'q': 'Varför måste pepparkaksdeg vila över natten?'},
+                        {       'a': 'Förvara dem i en plåtburk med tättslutande lock i rumstemperatur. Lägg gärna ett '
+                                     'ark smörpapper mellan lagren.',
+                                'q': 'Hur förvarar man pepparkakor bäst så de förblir spröda?'}],
+        'file': 'klassiska-sproda-pepparkakor-mormors-recept.html',
+        'img': 'pepparkakor',
+        'ingredients': [       {       'group': 'Klassisk Pepparkaksdeg (ca 80 kakor)',
+                                       'items': [       {'name': 'äkta smör', 'unit': 'g', 'val': 150},
+                                                        {'name': 'strösocker', 'unit': 'dl', 'val': 2},
+                                                        {'name': 'mörk sirap', 'unit': 'dl', 'val': 1},
+                                                        {       'name': 'vispgrädde eller standardmjölk',
+                                                                'unit': 'dl',
+                                                                'val': 1},
+                                                        {'name': 'malen kanel', 'unit': 'tsk', 'val': 2},
+                                                        {'name': 'malen ingefära', 'unit': 'tsk', 'val': 1.5},
+                                                        {'name': 'malda kryddnejlikor', 'unit': 'tsk', 'val': 1.5},
+                                                        {'name': 'färskmortlad kardemumma', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'bikarbonat', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'vetemjöl (ca 420g)', 'unit': 'dl', 'val': 7}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Mät upp smör, strösocker och mörk sirap i en kastrull. Hetta upp på '
+                                                'medelvärme under omrörning tills smöret och sockret smält helt. Ta '
+                                                'från värmen och rör ner kanel, ingefära, nejlikor och kardemumma.',
+                                        'timer': 5,
+                                        'title': 'Smält kryddsmeten'},
+                                {       'step': 2,
+                                        'text': 'Rör ner grädden och låt smeten svalna till rumstemperatur. Blanda '
+                                                'vetemjölet med bikarbonat i en separat skål. Rör ner i kryddsmeten '
+                                                'och arbeta ihop till en slät, ganska lös deg.',
+                                        'timer': None,
+                                        'title': 'Tillsätt grädde och arbeta degen'},
+                                {       'step': 3,
+                                        'text': 'Slå in degen i plastfolie och låt den vila i kylskåp i minst 1 dygn '
+                                                '(gärna upp till en vecka). Degen mognar i smak och sätter sig så den '
+                                                'blir underbart lätt att kavla.',
+                                        'timer': None,
+                                        'title': 'Vila i kylskåp'},
+                                {       'step': 4,
+                                        'text': 'Sätt ugnen på 200°C. Ta fram en bit deg i taget. Kavla ut degen '
+                                                'mycket tunt på ett lätt mjölat bakbord eller direkt på '
+                                                'bakplåtspapper. Tryck ut kakor med pepparkaksmått och lägg på plåtar.',
+                                        'timer': None,
+                                        'title': 'Kavla och ta ut figurer'},
+                                {       'step': 5,
+                                        'text': 'Grädda mitt i ugnen i cirka 5–8 minuter. Passa noga – tunna '
+                                                'pepparkakor bränns fort! Låt kakorna svalna och stelna på plåten i '
+                                                'någon minut innan du flyttar dem till ett galler.',
+                                        'timer': 6,
+                                        'title': 'Grädda varsamt'}],
+        'keywords': 'pepparkakor recept, mormors pepparkakor, spröda tunna pepparkakor, baka pepparkakor jul, '
+                    'pepparkaksdeg recept',
+        'long_desc': 'Inget sprider mer julstämning i hemmet än doften av nybakade pepparkakor! Denna klassiska '
+                     'pepparkaksdeg är underbart smidig att kavla papperstunn, håller formen i ugnen och ger oslagbart '
+                     'spröda kakor med djup smak av mörk sirap och nymalda julkryddor.',
+        'nutrition': {'calories': '35 kcal', 'carbs': '6g', 'fat': '1.5g', 'protein': '0.5g', 'sugar': '3g'},
+        'portions_num': 80,
+        'portions_unit': 'kakor',
+        'prep_time': 'PT30M',
+        'prep_time_str': '30 min',
+        'pro_tips': 'Kavla gärna degen direkt på ett ark bakplåtspapper! Lyft bort överflödig deg mellan figurerna och '
+                    'dra bara över hela papperet till plåten – då slipper kakorna deformeras vid flytt.',
+        'rating': 4.94,
+        'review_count': 8,
+        'slug': 'klassiska-sproda-pepparkakor-mormors-recept',
+        'sub': 'Tunnkavlade, spröda & doftande av julens kryddor',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Klassiska Spröda Pepparkakor – Mormors Bästa Recept',
+        'total_time': 'PT45M'},
+    {       'alt': 'Klassiska smörstekta kåldolmar med krämig gräddsås, hemlagat potatismos och rårörda lingon',
+        'calories': 590,
+        'card_title': 'Klassiska Kåldolmar',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [       {       'comment': 'Riktig svensk husmanskost av högsta klass! Sirapen på kålen '
+                                                        'gav perfekt färg och gräddsåsen blev magisk.',
+                                             'date': 'Idag',
+                                             'name': 'Klas Olofsson',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Tydliga och bra instruktioner för hur man rullar kålbladen. '
+                                                        'Blev jättegott!',
+                                             'date': 'I förrgår',
+                                             'name': 'Barbro E.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT45M',
+        'cook_time_str': '45 min',
+        'desc': 'Äkta svenska kåldolmar fyllda med saftig färs och ris, brynta i sirap och smör i ugnen. Serveras med '
+                'mustig gräddsås och lingon.',
+        'diet': 'Klassisk',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En svensk mellanmörk lageröl, en fyllig lättöl eller ett lätt rött vin som Pinot Noir.',
+        'equipment': ['Stor kastrull för kålkoking', 'Ugnsform / långpanna', 'Skärbräda & kockkniv', 'Såskastrull'],
+        'faqs': [       {       'a': 'Riset suger åt sig köttsafterna under tillagningen och gör fyllningen extra '
+                                     'saftig, mör och fyllig, precis som i traditionell husmanskost.',
+                                'q': 'Varför har man kokt ris i kåldolmar?'},
+                        {       'a': 'Ja, kåldolmar passar utmärkt att frysa in! Frys dem gärna tillsammans med skyn '
+                                     'eller såsen så förblir de saftiga vid uppvärmning.',
+                                'q': 'Kan man frysa in kåldolmar?'}],
+        'file': 'klassiska-kaldolmar-graddsas-lingon.html',
+        'img': 'kaldolmar',
+        'ingredients': [       {       'group': 'Kåldolmar',
+                                       'items': [       {'name': 'stort vitkålshuvud', 'unit': 'st', 'val': 1},
+                                                        {'name': 'blandfärs (nöt och fläsk)', 'unit': 'g', 'val': 500},
+                                                        {       'name': 'kokt kallt grötris eller rundkornigt ris',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {'name': 'standardmjölk', 'unit': 'dl', 'val': 1.5},
+                                                        {'name': 'ägg', 'unit': 'st', 'val': 1},
+                                                        {'name': 'gul lök (finriven)', 'unit': 'st', 'val': 1},
+                                                        {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'nymalen vitpeppar', 'unit': 'krm', 'val': 1.5},
+                                                        {'name': 'malen kryddpeppar', 'unit': 'krm', 'val': 1},
+                                                        {       'name': 'ljus sirap (till stekning/gratinering)',
+                                                                'unit': 'msk',
+                                                                'val': 2},
+                                                        {'name': 'äkta smör (smält)', 'unit': 'msk', 'val': 3}]},
+                               {       'group': 'Klassisk Gräddsås',
+                                       'items': [       {       'name': 'silad steksky från formen + kalvbuljong',
+                                                                'unit': 'dl',
+                                                                'val': 3},
+                                                        {'name': 'vispgrädde', 'unit': 'dl', 'val': 2},
+                                                        {       'name': 'vetemjöl (utrört i lite vatten)',
+                                                                'unit': 'msk',
+                                                                'val': 1.5},
+                                                        {'name': 'kinesisk soja', 'unit': 'tsk', 'val': 1},
+                                                        {       'name': 'svartvinbärsgelé eller rårörda lingon',
+                                                                'unit': 'msk',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Skär ut rotstocken ur vitkålshuvudet. Koka kålen i en stor gryta med '
+                                                'saltat vatten i ca 10 minuter. Plocka försiktigt av 12–16 stora, fina '
+                                                'blad efter hand som de mjuknar. Skär bort den grövsta bladnerven på '
+                                                'varje blad.',
+                                        'timer': 10,
+                                        'title': 'Koka kålbladen'},
+                                {       'step': 2,
+                                        'text': 'Blanda färs, kokt ris, riven lök, mjölk, ägg, salt, vitpeppar och '
+                                                'kryddpeppar i en bunke. Rör ihop till en smidig, jämn smet.',
+                                        'timer': None,
+                                        'title': 'Blanda färsen'},
+                                {       'step': 3,
+                                        'text': 'Lägg ca 2 matskedar färs på varje kålblad. Vik in sidorna och rulla '
+                                                'ihop till täta, fina paket. Lägg dem med skarven nedåt tätt i en '
+                                                'smord ugnsform.',
+                                        'timer': None,
+                                        'title': 'Rulla kåldolmarna'},
+                                {       'step': 4,
+                                        'text': 'Sätt ugnen på 200°C. Ringla smält smör och ljus sirap över '
+                                                'kåldolmarna. Stek mitt i ugnen i ca 40–45 minuter tills de har fått '
+                                                'en vacker mörkbrun färg. Ös dem ett par gånger med skyn.',
+                                        'timer': 40,
+                                        'title': 'Ugnsstek och karamellisera'},
+                                {       'step': 5,
+                                        'text': 'Sila av den goda stekskyn från ugnsformen ner i en kastrull. Späd med '
+                                                'buljong och vispgrädde. Vispa ner redningen och låt sjuda i 5 '
+                                                'minuter. Smaka av med soja, gelé och peppar. Servera kåldolmarna med '
+                                                'såsen, potatismos och lingon.',
+                                        'timer': 5,
+                                        'title': 'Koka gräddsåsen och servera'}],
+        'keywords': 'kåldolmar recept, klassiska kåldolmar med gräddsås, hemgjorda kåldolmar, svensk husmanskost '
+                    'kåldolmar, kåldolmar lingon potatismos',
+        'long_desc': 'Kåldolmar är en svensk husmansklassiker med historiska rötter från Karl XII:s tid. Mjuka '
+                     'vitkålsblad fylls med en saftig blandfärssmet kryddad med vitpeppar och sirap, rullas till små '
+                     'paket och ugnssteks gyllenbruna med ljus sirap och smör. Såsen vispas ur pannan med grädde till '
+                     'pur perfektion.',
+        'nutrition': {'calories': '590 kcal', 'carbs': '35g', 'fat': '40g', 'protein': '28g', 'sugar': '12g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT30M',
+        'prep_time_str': '30 min',
+        'pro_tips': 'Snåla inte med sirapen vid ugnsstekningen! Den ljusa sirapen i kombination med smöret ger den '
+                    'karamelliserade ytan och den djupa, mustiga smaken till skyn som gör gräddsåsen gudomlig.',
+        'rating': 4.93,
+        'review_count': 8,
+        'slug': 'klassiska-kaldolmar-graddsas-lingon',
+        'sub': 'Karamelliserad vitkål, blandfärs, gräddsås & lingon',
+        'time': 75,
+        'time_str': '75 min',
+        'title': 'Klassiska Kåldolmar med Gräddsås, Potatismos & Lingon',
+        'total_time': 'PT75M'},
+    {       'alt': 'Krämig gyllene pumpasoppa med virvel av grädde, rostade pumpakärnor och surdegsbröd',
+        'calories': 280,
+        'card_title': 'Krämig Pumpasoppa',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [       {       'comment': 'Underbart god höstsoppa! Att rosta pumpan först gjorde '
+                                                        'verkligen susen för smaken, och ingefäran gav perfekt sting.',
+                                             'date': 'Idag',
+                                             'name': 'Therese V.',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Lagade denna i helgen. Hela familjen tog om två gånger. '
+                                                        'Rostade pumpakärnor på toppen är ett måste!',
+                                             'date': 'I förrgår',
+                                             'name': 'Niklas Granath',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT25M',
+        'cook_time_str': '25 min',
+        'desc': 'Hösten och vinterns godaste krämiga pumpasoppa på rostad butternut- eller muskatpumpa, färsk '
+                'ingefära, grädde och rostade pumpakärnor.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett glas aromatiskt vitt vin som Riesling eller Pinot Gris, eller varm kryddig äppelmust.',
+        'equipment': ['Stavmixer eller blender', 'Plåt med bakplåtspapper', 'Soppkastrull', 'Kockkniv & skärbräda'],
+        'faqs': [       {       'a': 'Butternutpumpa är överlägset enklast att arbeta med, har en härligt nötig sötma '
+                                     'och krämig konsistens. Muskatpumpa och Hokkaido är också fantastiska alternativ.',
+                                'q': 'Vilken pumpasort är godast till soppa?'},
+                        {       'a': 'Ja, ersätt bara vispgrädden med krämig kokosgrädde eller havregrädde – '
+                                     'kokosgrädde passar dessutom fantastiskt bra ihop med ingefäran och pumpan!',
+                                'q': 'Går soppan att göra vegansk?'}],
+        'file': 'kramig-pumpasoppa-ingefara-pumpakarnor.html',
+        'img': 'pumpasoppa',
+        'ingredients': [       {       'group': 'Pumpasoppa',
+                                       'items': [       {       'name': 'butternutpumpa eller muskatpumpa (skalad, '
+                                                                        'urkärnad & tärnad)',
+                                                                'unit': 'kg',
+                                                                'val': 1},
+                                                        {'name': 'gul lök (hackad)', 'unit': 'st', 'val': 1},
+                                                        {'name': 'vitlök (finhackade)', 'unit': 'klyftor', 'val': 2},
+                                                        {'name': 'färsk ingefära (finriven)', 'unit': 'msk', 'val': 2},
+                                                        {       'name': 'chiliflakes eller cayennepeppar',
+                                                                'unit': 'krm',
+                                                                'val': 1},
+                                                        {'name': 'god grönsaksbuljong', 'unit': 'dl', 'val': 7},
+                                                        {       'name': 'vispgrädde eller kokosgrädde',
+                                                                'unit': 'dl',
+                                                                'val': 2},
+                                                        {'name': 'färskpressad citronsaft', 'unit': 'msk', 'val': 1},
+                                                        {       'name': 'olivolja eller smör till stekning',
+                                                                'unit': 'msk',
+                                                                'val': 2},
+                                                        {       'name': 'salt och nymalen svartpeppar',
+                                                                'unit': 'tsk',
+                                                                'val': 1}]},
+                               {       'group': 'Topping & Servering',
+                                       'items': [       {       'name': 'pumpakärnor (torrostade i panna med '
+                                                                        'flingsalt)',
+                                                                'unit': 'dl',
+                                                                'val': 0.5},
+                                                        {       'name': 'crème fraiche eller grädde (att ringla över)',
+                                                                'unit': 'msk',
+                                                                'val': 4},
+                                                        {'name': 'färsk timjan', 'unit': 'kvistar', 'val': 4},
+                                                        {       'name': 'gott surdegsbröd med smör',
+                                                                'unit': 'skivor',
+                                                                'val': 4}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 200°C. Vänd de tärnade pumpabitarna i 1 msk olivolja, '
+                                                'salt och peppar på en plåt med bakplåtspapper. Rosta mitt i ugnen i '
+                                                'ca 20–25 minuter tills bitarna är helt mjuka och har fått lite '
+                                                'gyllene färg.',
+                                        'timer': 22,
+                                        'title': 'Rosta pumpan'},
+                                {       'step': 2,
+                                        'text': 'Fräs hackad lök, vitlök och riven ingefära mjuk i en kastrull med '
+                                                'lite olja eller smör utan att det tar färg. Tillsätt chiliflakes.',
+                                        'timer': 4,
+                                        'title': 'Fräs lök och ingefära'},
+                                {       'step': 3,
+                                        'text': 'Lägg i den ugnsrostade pumpan i kastrullen och häll på '
+                                                'grönsaksbuljongen. Låt koka upp och sjuda sakta i ca 5 minuter så '
+                                                'smakerna gifter sig.',
+                                        'timer': 5,
+                                        'title': 'Koka ihop soppan'},
+                                {       'step': 4,
+                                        'text': 'Mixa soppan helt slät med en stavmixer eller i en blender. Rör i '
+                                                'grädden och låt soppan bli genomvarm. Smaka av med citronsaft, salt '
+                                                'och peppar.',
+                                        'timer': None,
+                                        'title': 'Mixa sammetslen'},
+                                {       'step': 5,
+                                        'text': 'Häll upp den heta soppan i skålar. Ringla över en sked crème fraiche '
+                                                'eller grädde, toppa med torrostade pumpakärnor och färsk timjan. '
+                                                'Servera med ett gott surdegsbröd.',
+                                        'timer': None,
+                                        'title': 'Garnera och servera'}],
+        'keywords': 'pumpasoppa recept, krämig pumpasoppa butternut, pumpasoppa ingefära, enkel pumpasoppa höst, soppa '
+                    'på pumpa',
+        'long_desc': 'En värmande och silkeslen pumpasoppa som är den ultimata höst- och vinterrätten under oktober, '
+                     'november och december. Pumpan rostas i ugnen för djup sötma och karamellisering, innan den mixas '
+                     'med vitlök, färsk riven ingefära, grönsaksbuljong och grädde till en sammetslen konsistens.',
+        'nutrition': {'calories': '280 kcal', 'carbs': '22g', 'fat': '20g', 'protein': '5g', 'sugar': '7g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Att rosta pumpan i ugnen först istället för att bara koka den koncentrerar smakerna och '
+                    'karamelliserar sockret i pumpan – det ger soppan en helt annan fyllighet och arom!',
+        'rating': 4.89,
+        'review_count': 7,
+        'slug': 'kramig-pumpasoppa-ingefara-pumpakarnor',
+        'sub': 'Ugnsrostad pumpa, ingefära, grädde & frön',
+        'time': 40,
+        'time_str': '40 min',
+        'title': 'Krämig Pumpasoppa med Ingefära & Rostade Pumpakärnor',
+        'total_time': 'PT40M'},
 ]
 
 
