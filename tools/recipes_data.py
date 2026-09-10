@@ -6657,6 +6657,539 @@ RECIPES = [
         'time_str': '40 min',
         'title': 'Krämig Pumpasoppa med Ingefära & Rostade Pumpakärnor',
         'total_time': 'PT40M'},
+    {       'alt': 'Klassisk krämig ris à la Malta i glasskål med apelsinklyftor och röd bärsås',
+        'calories': 310,
+        'card_title': 'Klassisk Ris à la Malta',
+        'cat_key': 'smorgasbord',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [       {       'comment': 'Bästa ris à la maltan jag ätit! Ljuvligt krämig och '
+                                                        'apelsinfiléerna gav perfekt fräschör efter julbordet.',
+                                             'date': 'Idag',
+                                             'name': 'Charlotte V.',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Underbart recept. Tricket med lite apelsinzest i grädden '
+                                                        'gjorde susen!',
+                                             'date': 'I förrgår',
+                                             'name': 'Anders Borg',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT0M',
+        'cook_time_str': '0 min',
+        'desc': 'Sveriges mest älskade juldessert! Krämig och fluffig ris à la Malta på kall risgrynsgröt, vispad '
+                'grädde, äkta vanilj och apelsinklyftor.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Mycket enkel',
+        'drink_pairing': 'Ett glas sött dessertvin som Sauternes eller portvin, eller en kopp nybryggt kaffe.',
+        'equipment': ['Elvisp', 'Stor blandskål', 'Slickepott', 'Portionsskålar eller dessertfat'],
+        'faqs': [       {       'a': "Namnet tros komma från det franska 'Riz à la Malte' där apelsin (Maltas berömda "
+                                     'citrusfrukt) ursprungligen ingick som smaksättning.',
+                                'q': 'Varför heter det Ris à la Malta?'},
+                        {       'a': 'Ja, den går alldeles utmärkt att göra 1 dygn i förväg och förvara i kylen. Vänta '
+                                     'bara med att lägga på bärsås och apelsiner till strax före servering.',
+                                'q': 'Kan man förbereda Ris à la Malta dagen innan?'}],
+        'file': 'klassisk-ris-a-la-malta-apelsin.html',
+        'img': 'risalamalta',
+        'ingredients': [       {       'group': 'Ris à la Malta',
+                                       'items': [       {       'name': 'kall färdigkokt risgrynsgröt (hemlagad eller '
+                                                                        'köpt)',
+                                                                'unit': 'g',
+                                                                'val': 500},
+                                                        {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                                        {'name': 'florsocker', 'unit': 'msk', 'val': 2},
+                                                        {       'name': 'äkta vaniljsocker eller vaniljstång (fröna)',
+                                                                'unit': 'tsk',
+                                                                'val': 1.5},
+                                                        {       'name': 'apelsinzest (finrivet apelsinskal för frisk '
+                                                                        'ton)',
+                                                                'unit': 'krm',
+                                                                'val': 1}]},
+                               {       'group': 'Servering & Garnering',
+                                       'items': [       {'name': 'apelsiner (hinnfria filéer)', 'unit': 'st', 'val': 2},
+                                                        {       'name': 'röd bärsås (hallonsås eller körsbärssås)',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {       'name': 'skållad hel mandel (traditionell '
+                                                                        'lyckomandel!)',
+                                                                'unit': 'st',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Häll den kalla vispgrädden i en bunke. Tillsätt florsocker och '
+                                                'vaniljsocker. Vispa grädden fluffig men inte alltför hård – den ska '
+                                                'vara mjuk och krämig.',
+                                        'timer': 4,
+                                        'title': 'Vispa grädden'},
+                                {       'step': 2,
+                                        'text': 'Lägg den kalla risgrynsgröten i en rymlig bunke. Rör runt med en '
+                                                'slickepott så den blir smidig och fri från hårda klumpar. Tillsätt '
+                                                'eventuellt lite finrivet apelsinskal.',
+                                        'timer': None,
+                                        'title': 'Rör upp gröten'},
+                                {       'step': 3,
+                                        'text': 'Klicka ner en tredjedel av grädden i gröten och rör ut ordentligt. '
+                                                'Vänd sedan försiktigt ner resten av vispgrädden med stora, luftiga '
+                                                'tag så ris à la maltan blir underbart lätt och porös.',
+                                        'timer': None,
+                                        'title': 'Vänd ihop'},
+                                {       'step': 4,
+                                        'text': 'Göm den skållade mandeln i skålen för den som ska få mandelgåvan! '
+                                                'Täck med plast och ställ i kylen i minst 30 minuter före servering.',
+                                        'timer': 30,
+                                        'title': 'Lägg i mandeln och kyl'},
+                                {       'step': 5,
+                                        'text': 'Skär bort skalet på apelsinerna med en vass kniv och skär ut fina '
+                                                'hinnfria klyftor. Fördela ris à la maltan i portionsglas, toppa med '
+                                                'apelsin och ringla över bärsås.',
+                                        'timer': None,
+                                        'title': 'Filéa apelsin och servera'}],
+        'keywords': 'ris a la malta recept, klassisk ris a la malta, juldessert ris a la malta, risgrynsgröt '
+                    'efterrätt, ris a la malta med apelsin',
+        'long_desc': 'Klassisk Ris à la Malta är den självklara och krönta avslutningen på det svenska julbordet. '
+                     'Kall, kokt risgrynsgröt vänds försiktigt ihop med fluffigt vispad grädde, florsocker och äkta '
+                     'vanilj. Serveras med saftiga färska apelsinfiléer eller en varm hallon- eller körsbärssås.',
+        'nutrition': {'calories': '310 kcal', 'carbs': '32g', 'fat': '19g', 'protein': '4g', 'sugar': '18g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Vispa inte grädden för hårt! Mjukvispad grädde gör att riset behåller sin silkeslena, krämiga '
+                    'konsistens utan att bli smörig eller tung.',
+        'rating': 4.96,
+        'review_count': 9,
+        'slug': 'klassisk-ris-a-la-malta-apelsin',
+        'sub': 'Krämig risdessert med äkta vanilj & apelsin',
+        'time': 20,
+        'time_str': '20 min',
+        'title': 'Klassisk Ris à la Malta med Apelsin & Bärsås',
+        'total_time': 'PT20M'},
+    {       'alt': 'Gyllene saffranskladdkaka med rinnande mitt, pudrat florsocker, färska hallon och vispgrädde',
+        'calories': 340,
+        'card_title': 'Klassisk Saffranskladdkaka',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Helt magisk kladdkaka! Hade den i kylen över natten och '
+                                                        'konsistensen var som drömmig vit chokladfudge med saffran.',
+                                             'date': 'Idag',
+                                             'name': 'Elin Sundqvist',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Gjorde denna till fikat i helgen. Alla gäster ville ha '
+                                                        'receptet!',
+                                             'date': 'Igår',
+                                             'name': 'Jonas Blom',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT15M',
+        'cook_time_str': '15 min',
+        'desc': 'Underbart kladdig och lyxig saffranskladdkaka med smält vit choklad, äkta saffran och vanilj. Bakas '
+                'snabbt på 25 minuter.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Mycket enkel',
+        'drink_pairing': 'En kopp nybryggt mörkrostat kaffe eller ett glas kryddig glögg.',
+        'equipment': ['Springform 20-22 cm', 'Kastrull', 'Slickepott eller träslev', 'Mortel'],
+        'faqs': [       {       'a': 'Kakan ska vara fast i kanten (ca 3-4 cm in) men fortfarande dallra lös i mitten. '
+                                     'Den stelnar till perfekt fudge-kladdighet när den svalnar.',
+                                'q': 'Hur vet man när saffranskladdkakan är klar?'},
+                        {       'a': 'Vit choklad ger naturlig fyllighet och sötma som dämpar saffranets bittra toner '
+                                     'och skapar en sammetslen, mjuk textur.',
+                                'q': 'Varför vit choklad i saffranskaka?'}],
+        'file': 'klassisk-saffranskladdkaka-vit-choklad.html',
+        'img': 'saffranskladdkaka',
+        'ingredients': [       {       'group': 'Saffranskladdkaka',
+                                       'items': [       {       'name': 'vit choklad av god kvalitet (hackad)',
+                                                                'unit': 'g',
+                                                                'val': 100},
+                                                        {'name': 'äkta smör', 'unit': 'g', 'val': 100},
+                                                        {'name': 'saffran (1 kuvert)', 'unit': 'g', 'val': 0.5},
+                                                        {'name': 'ekologiska ägg', 'unit': 'st', 'val': 2},
+                                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 2},
+                                                        {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'flingsalt', 'unit': 'krm', 'val': 1}]},
+                               {       'group': 'Tillbehör & Servering',
+                                       'items': [       {       'name': 'florsocker (att pudra över)',
+                                                                'unit': 'msk',
+                                                                'val': 1},
+                                                        {'name': 'vispgrädde (lättvispad)', 'unit': 'dl', 'val': 2},
+                                                        {       'name': 'färska eller tinade hallon',
+                                                                'unit': 'g',
+                                                                'val': 100}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 175°C (över- och undervärme). Smörj och bröa en '
+                                                'springform (ca 20–22 cm) med ströbröd eller kokosflingor.',
+                                        'timer': None,
+                                        'title': 'Förbered form och ugn'},
+                                {       'step': 2,
+                                        'text': 'Stöt saffranet i mortel med lite socker. Smält smöret i en kastrull '
+                                                'på låg värme. Rör ner saffranet. Ta från plattan, tillsätt den '
+                                                'hackade vita chokladen och rör tills chokladen smält helt till en '
+                                                'gyllengul sås.',
+                                        'timer': None,
+                                        'title': 'Smält smör, saffran & vit choklad'},
+                                {       'step': 3,
+                                        'text': 'Rör ner ägg och socker direkt i kastrullen med en slev. Vispa inte '
+                                                'för mycket luft i smeten! Sikta ner vetemjöl, vaniljsocker och '
+                                                'flingsalt och rör till en slät, blank smet.',
+                                        'timer': None,
+                                        'title': 'Blanda ner ägg och torra ingredienser'},
+                                {       'step': 4,
+                                        'text': 'Häll smeten i formen. Grädda mitt i ugnen i exakt 15–18 minuter. '
+                                                'Kanten ska ha stelnat men mitten ska dallra härligt när du rör på '
+                                                'formen.',
+                                        'timer': 16,
+                                        'title': 'Grädda gyllene'},
+                                {       'step': 5,
+                                        'text': 'Låt kladdkakan svalna helt i rumstemperatur eller i kylen i minst 2 '
+                                                'timmar så den blir seg och krämig. Pudra över florsocker och servera '
+                                                'med lättvispad grädde och syrliga hallon.',
+                                        'timer': 60,
+                                        'title': 'Låt sätta sig och servera'}],
+        'keywords': 'saffranskladdkaka recept, kladdkaka med saffran och vit choklad, godaste saffranskladdkakan, '
+                    'enkel saffranskladdkaka, adventsfika',
+        'long_desc': 'En gyllene favorit till adventsfikat och Kladdkakans dag! Den söta, krämiga vita chokladen '
+                     'balanserar saffranets aromatiska ton till fulländning. Med frasig yta och en rinnande, seg '
+                     'fudgekärna är detta en garanterad succé som serveras med lättvispad grädde och syrliga hallon.',
+        'nutrition': {'calories': '340 kcal', 'carbs': '41g', 'fat': '18g', 'protein': '4g', 'sugar': '29g'},
+        'portions_num': 8,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Kladdkaka med vit choklad och saffran blir som allra godast efter en natt i kylskåpet! Då sätter '
+                    'sig den vita chokladen och konsistensen blir som en fyllig, lyxig saffransfudge.',
+        'rating': 4.97,
+        'review_count': 8,
+        'slug': 'klassisk-saffranskladdkaka-vit-choklad',
+        'sub': 'Krämig vit choklad, saffran & rinnande mitt',
+        'time': 25,
+        'time_str': '25 min',
+        'title': 'Klassisk Saffranskladdkaka med Vit Choklad',
+        'total_time': 'PT25M'},
+    {       'alt': 'Klassiskt mörkt svenskt vörtbröd med russin på en skärbräda med smör och ost',
+        'calories': 210,
+        'card_title': 'Klassiskt Vörtbröd',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Underbart saftigt vörtbröd! Kryddningen med pomerans och '
+                                                        'nejlika är klockren, och sirapspenslingen gav superfin glans.',
+                                             'date': 'Idag',
+                                             'name': 'Håkan Söderberg',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Perfekt till julskinkan och god julost. Kommer definitivt '
+                                                        'baka detta varje jul framöver.',
+                                             'date': 'I förrgår',
+                                             'name': 'Ingrid Carlsson',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT45M',
+        'cook_time_str': '45 min',
+        'desc': 'Traditionellt svenskt vörtbröd med julvört eller mörkt julöl, russin, pomerans, nejlika och ingefära. '
+                'Oumbärligt till julskinkan.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En kall svensk julmust eller en mörk fyllig julöl.',
+        'equipment': ['Hushållsassistent', 'Brödform ca 1,5 liter', 'Bakpensel', 'Galler'],
+        'faqs': [       {       'a': 'Vört är extrakt från mältat korn som ger brödet dess djupa maltton och mörka '
+                                     'färg. Kan du inte hitta flytande vört i matbutiken ger en kombination av mörk '
+                                     'julöl/porter och sirap precis samma fylliga smak.',
+                                'q': 'Vad är vört och var får man tag på det?'},
+                        {       'a': 'Ja, absolut! Uteslut bara russinen om du föredrar ett helt slätt vörtbröd, öka '
+                                     'eventuellt sirapen med en matsked för balanserad sötma.',
+                                'q': 'Kan man baka vörtbröd utan russin?'}],
+        'file': 'klassisk-vortbrod-russin-julvort.html',
+        'img': 'vortbrod',
+        'ingredients': [       {       'group': 'Vörtbrödsdeg',
+                                       'items': [       {'name': 'färsk jäst', 'unit': 'g', 'val': 50},
+                                                        {       'name': 'mörk julöl, porter eller svagdricka '
+                                                                        '(fingervarm, 37°C)',
+                                                                'unit': 'cl',
+                                                                'val': 33},
+                                                        {       'name': 'julmust eller flytande vörtmix',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {'name': 'mörk sirap', 'unit': 'dl', 'val': 1},
+                                                        {'name': 'rumsvarmt äkta smör', 'unit': 'g', 'val': 75},
+                                                        {'name': 'malen pomerans', 'unit': 'msk', 'val': 1.5},
+                                                        {'name': 'malen ingefära', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'malda kryddnejlikor', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                                        {       'name': 'russin (blötlagda i hett vatten i 20 minuter)',
+                                                                'unit': 'dl',
+                                                                'val': 2},
+                                                        {'name': 'fint rågmjöl', 'unit': 'dl', 'val': 4},
+                                                        {'name': 'vetemjöl special', 'unit': 'dl', 'val': 7}]},
+                               {       'group': 'Pensling',
+                                       'items': [       {'name': 'smör (smält)', 'unit': 'msk', 'val': 1},
+                                                        {       'name': 'ljus sirap (blandas med smöret för glansig '
+                                                                        'yta)',
+                                                                'unit': 'msk',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Värm julöl och julmust till fingervarmt (37°C). Smula jästen i '
+                                                'assistentskålen och häll över vätskan. Rör tills jästen lösts upp. '
+                                                'Tillsätt sirap, pomerans, ingefära, nejlikor och salt.',
+                                        'timer': None,
+                                        'title': 'Lös upp jästen'},
+                                {       'step': 2,
+                                        'text': 'Klicka i det mjuka smöret. Tillsätt rågmjöl och det mesta av '
+                                                'vetemjölet. Arbeta degen kraftigt i maskin i ca 10–12 minuter tills '
+                                                'den är smidig och elastisk. Tillsätt de avrunna russinen mot slutet. '
+                                                'Täck och jäs i 45 minuter.',
+                                        'timer': 45,
+                                        'title': 'Knåda degen'},
+                                {       'step': 3,
+                                        'text': 'Stjälp upp degen på mjölat bakbord. Forma till en stor avlång limpa '
+                                                'eller två mindre limpor. Lägg i en smord brödform (ca 1,5 liter) '
+                                                'eller på en plåt med bakplåtspapper.',
+                                        'timer': None,
+                                        'title': 'Forma brödet'},
+                                {       'step': 4,
+                                        'text': 'Låt brödet jäsa under bakduk i cirka 30–40 minuter till nästan dubbel '
+                                                'storlek. Sätt ugnen på 200°C.',
+                                        'timer': 35,
+                                        'title': 'Andra jäsningen'},
+                                {       'step': 5,
+                                        'text': 'Grädda i nedre delen av ugnen i cirka 35–40 minuter (innertemperatur '
+                                                '96–98°C). Pensla limpan direkt med blandningen av smält smör och '
+                                                'sirap medan den är rykande het för en härligt mjuk och glansig '
+                                                'skorpa. Låt svalna på galler.',
+                                        'timer': 38,
+                                        'title': 'Grädda och pensla'}],
+        'keywords': 'vörtbröd recept, klassiskt vörtbröd med russin, baka vörtbröd jul, saftigt vörtbröd, vörtbröd '
+                    'julöl sirap',
+        'long_desc': 'Doften av nybakat vörtbröd är doften av svensk jul! Detta fylliga, saftiga matbröd bakas med '
+                     'julvört (eller mustig porter/julöl), mörk sirap, pomerans och russin. Med sin djupa mahognybruna '
+                     'färg och kryddiga sötma är en skiva ljummet vörtbröd med smör och julskinka en ren delikatess.',
+        'nutrition': {'calories': '210 kcal', 'carbs': '40g', 'fat': '4g', 'protein': '5g', 'sugar': '11g'},
+        'portions_num': 16,
+        'portions_unit': 'skivor',
+        'prep_time': 'PT45M',
+        'prep_time_str': '45 min',
+        'pro_tips': 'Pensla brödet med smält smör och en skvätt sirap precis när du tar ut det ur ugnen! Det ger den '
+                    'karakteristiska glänsande, mjuka skorpan som äkta bagerivörtbröd har.',
+        'rating': 4.92,
+        'review_count': 7,
+        'slug': 'klassisk-vortbrod-russin-julvort',
+        'sub': 'Mustig julvört, russin, pomerans & julkryddor',
+        'time': 90,
+        'time_str': '90 min',
+        'title': 'Klassiskt Vörtbröd med Russin – Julens Bästa Bröd',
+        'total_time': 'PT90M'},
+    {       'alt': 'Klassisk glänsande hemlagad rödkål med äpplen, nejlikor och lagerblad i en rustik skål',
+        'calories': 130,
+        'card_title': 'Klassisk Rödkål',
+        'cat_key': 'smorgasbord',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [       {       'comment': 'Underbart recept! Äpplena och vinägern balanserar sötman '
+                                                        'perfekt. Mycket godare än köpt burkrödkål.',
+                                             'date': 'Idag',
+                                             'name': 'Marianne Lind',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'En riktig klassiker till julskinkan och köttbullarna. Lätt '
+                                                        'att laga och doftar fantastiskt i huset.',
+                                             'date': 'I förrgår',
+                                             'name': 'Torsten E.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT45M',
+        'cook_time_str': '45 min',
+        'desc': 'Mormors klassiska recept på hemlagad rödkål bräserad med svenska äpplen, rödvinsvinäger, mörk sirap '
+                'och kryddnejlikor. Perfekt till julbord och stek.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Passar till alla klassiska julbordsdrycker, julöl, must och fylligt rött vin.',
+        'equipment': ['Gjutjärnsgryta', 'Mandolin eller kockkniv', 'Träslev'],
+        'faqs': [       {       'a': 'Vinägern ger inte bara den perfekta syrligheten som bryter mot sirapens sötma – '
+                                     'syran bevarar också kålens fantastiskt vackra, djupa rubinröda färg.',
+                                'q': 'Varför tillsätter man vinäger i rödkål?'},
+                        {       'a': 'Ja, den går alldeles utmärkt att frysa! Frys in i portionsburkar och tina '
+                                     'långsamt i kylen eller direkt i kastrull på svag värme.',
+                                'q': 'Går hemlagad rödkål att frysa?'}],
+        'file': 'klassisk-hemlagad-rodkal-applen-nejlika.html',
+        'img': 'rodkal',
+        'ingredients': [       {       'group': 'Hemlagad Rödkål',
+                                       'items': [       {       'name': 'färsk rödkål (ansad och fint strimlad)',
+                                                                'unit': 'kg',
+                                                                'val': 1},
+                                                        {       'name': 'svenska syrliga äpplen (t.ex. Ingrid Marie, '
+                                                                        'skalade och tärnade)',
+                                                                'unit': 'st',
+                                                                'val': 2},
+                                                        {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': 1},
+                                                        {'name': 'äkta smör eller ankfett', 'unit': 'g', 'val': 50},
+                                                        {'name': 'rödvinsvinäger', 'unit': 'dl', 'val': 0.5},
+                                                        {       'name': 'mörk sirap eller svartvinbärssaft',
+                                                                'unit': 'dl',
+                                                                'val': 0.75},
+                                                        {'name': 'vatten eller god äppelmust', 'unit': 'dl', 'val': 2},
+                                                        {'name': 'hela kryddnejlikor', 'unit': 'st', 'val': 8},
+                                                        {'name': 'hela kryddpepparkorn', 'unit': 'st', 'val': 5},
+                                                        {'name': 'lagerblad', 'unit': 'st', 'val': 2},
+                                                        {       'name': 'salt och nymalen svartpeppar',
+                                                                'unit': 'tsk',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Strimla rödkålen fint, gärna med en mandolin eller osthyvel. Smält '
+                                                'smöret i en stor gjutjärnsgryta på medelvärme. Fräs den hackade löken '
+                                                'och kålen i ca 5 minuter så den sjunker ihop något.',
+                                        'timer': 5,
+                                        'title': 'Strimla kålen och fräs'},
+                                {       'step': 2,
+                                        'text': 'Tillsätt rödvinsvinäger, mörk sirap, vatten (eller äppelmust), '
+                                                'nejlikor, kryddpeppar, lagerblad och salt. Rör om väl.',
+                                        'timer': None,
+                                        'title': 'Tillsätt vätska och kryddor'},
+                                {       'step': 3,
+                                        'text': 'Lägg på locket och låt kålen sjuda sakta på låg värme i cirka 35 '
+                                                'minuter. Rör om då och då och se till att den inte kokar torr.',
+                                        'timer': 35,
+                                        'title': 'Sjud på svag värme'},
+                                {       'step': 4,
+                                        'text': 'Vänd ner de tärnade äpplena i grytan. Låt sjuda vidare under lock i '
+                                                'ytterligare 10–15 minuter tills äpplena mjuknat och kålen är glansig '
+                                                'och mör.',
+                                        'timer': 12,
+                                        'title': 'Tillsätt äpplena'},
+                                {       'step': 5,
+                                        'text': 'Smaka av med eventuellt lite mer sirap för sötma eller en skvätt '
+                                                'vinäger för syra. Plocka bort lagerbladen före servering. Servera '
+                                                'varm på julbordet eller till söndagssteken.',
+                                        'timer': None,
+                                        'title': 'Smaka av och servera'}],
+        'keywords': 'rödkål recept, klassisk julrödkål, hemlagad rödkål äpplen, rödkål till julskinka, koka rödkål jul',
+        'long_desc': 'Hemlagad rödkål är ett måste på det traditionella svenska julbordet och till höstens mustiga '
+                     'söndagsstekar eller Mårtensgås. Finstimlad rödkål får sjuda långsamt tillsammans med syrliga '
+                     'äpplen, smör, rödvinsvinäger, mörk sirap och julkryddor tills den är mjuk, glansig och perfekt '
+                     'sötsyrlig.',
+        'nutrition': {'calories': '130 kcal', 'carbs': '18g', 'fat': '6g', 'protein': '2g', 'sugar': '14g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Laga rödkålen 1–2 dagar i förväg! Rödkål blir bara godare av att stå i kylen och dra åt sig '
+                    'smakerna, och är enkel att värma upp på svag värme precis före middagen.',
+        'rating': 4.91,
+        'review_count': 8,
+        'slug': 'klassisk-hemlagad-rodkal-applen-nejlika',
+        'sub': 'Sötsyrlig rödkål bräserad med äpple & sirap',
+        'time': 60,
+        'time_str': '60 min',
+        'title': 'Klassisk Hemlagad Rödkål med Äpplen & Nejlika',
+        'total_time': 'PT60M'},
+    {       'alt': 'Tunt skivad mör tjälknöl med enbärssås, färska lingon och krämig potatisgratäng',
+        'calories': 320,
+        'card_title': 'Klassisk Tjälknöl',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [       {       'comment': 'Äkta norrländsk husmanskost! Gjorde den på älgstek och lät '
+                                                        'den gå över natten. Köttet blev så mört att det smälte på '
+                                                        'tungan.',
+                                             'date': 'Idag',
+                                             'name': 'Göran Nyström',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Saltlagen med enbär och rosmarin var perfekt balanserad. Blev '
+                                                        'succé till potatisgratängen i lördags.',
+                                             'date': 'I förrgår',
+                                             'name': 'Birgitta Åkesson',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT585M',
+        'cook_time_str': '9-10 tim',
+        'desc': 'Norrländsk tjälknöl på älg- eller nötstek som ugnsbakas fryst på låg värme (75°C) och läggs i kryddig '
+                'saltlag med enbär och rosmarin. Otroligt mör.',
+        'diet': 'Klassisk',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett kraftigt, fylligt rött vin som Syrah, Ripasso eller en god svensk mörk hantverksöl.',
+        'equipment': ['Ugnsform', 'Digital ugnstermometer', 'Kastrull till lagen', 'Hög bunke eller dubbla plastpåsar'],
+        'faqs': [       {       'a': 'När en fryst köttbit bakas på mycket låg temperatur (75°C) tinar den långsamt '
+                                     'inifrån samtidigt som köttsafterna stannar kvar i muskelcellerna, vilket ger ett '
+                                     'exceptionellt mört och saftigt resultat.',
+                                'q': 'Varför måste köttet vara fryst när det sätts in i ugnen?'},
+                        {       'a': 'Tack vare saltningen håller tjälknöl sig utmärkt i 7–10 dagar i kylskåp, och den '
+                                     'går också utmärkt att frysa in i tunna skivor.',
+                                'q': 'Hur länge håller tjälknöl i kylen?'}],
+        'file': 'klassisk-tjalknol-alg-not-enbarkrydda.html',
+        'img': 'tjalknol',
+        'ingredients': [       {       'group': 'Steken',
+                                       'items': [       {       'name': 'fryst benfri älgstek, rådjurstek eller '
+                                                                        'nötstek (t.ex. fransyska eller innanlår)',
+                                                                'unit': 'kg',
+                                                                'val': 1.5}]},
+                               {       'group': 'Kryddig Saltlag',
+                                       'items': [       {'name': 'vatten', 'unit': 'liter', 'val': 1},
+                                                        {       'name': 'salt (gärna utan jod för klarare lag)',
+                                                                'unit': 'dl',
+                                                                'val': 1},
+                                                        {'name': 'strösocker', 'unit': 'msk', 'val': 1},
+                                                        {       'name': 'enbär (lätt krossade i mortel)',
+                                                                'unit': 'st',
+                                                                'val': 15},
+                                                        {'name': 'svartpepparkorn (krossade)', 'unit': 'st', 'val': 10},
+                                                        {       'name': 'färsk rosmarin eller timjan',
+                                                                'unit': 'kvistar',
+                                                                'val': 2},
+                                                        {'name': 'lagerblad', 'unit': 'st', 'val': 2}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 75°C (eller 80°C). Lägg den stenhårda, djupfrysta '
+                                                'steken i en ugnsform och ställ in i nedre delen av ugnen. Låt stå i '
+                                                'ca 2–3 timmar tills steken tinat så pass att du kan sticka in en '
+                                                'ugnstermometer mitt i köttets tjockaste del.',
+                                        'timer': 150,
+                                        'title': 'Baka steken från fryst'},
+                                {       'step': 2,
+                                        'text': 'Baka steken vidare i ugnen tills termometern visar önskad '
+                                                'innertemperatur: 65°C för rosa och saftigt, 70°C för genomstekt. '
+                                                'Detta tar totalt ca 8–10 timmar (perfekt att göra över natten).',
+                                        'timer': 360,
+                                        'title': 'Långsam ugnsbakning'},
+                                {       'step': 3,
+                                        'text': 'När det återstår en timme av stektiden: koka upp vatten, salt, '
+                                                'socker, krossade enbär, svartpeppar, rosmarin och lagerblad i en '
+                                                'kastrull. Låt koka i 3–4 minuter så saltet löser sig helt och '
+                                                'kryddorna avger smak. Låt lagen svalna något.',
+                                        'timer': 5,
+                                        'title': 'Koka saltlagen'},
+                                {       'step': 4,
+                                        'text': 'Ta ut den heta steken ur ugnen och lägg den omedelbart ner i den '
+                                                'ljumma saltlagen i en trång skål eller i dubbla plastpåsar så köttet '
+                                                'täcks helt. Låt stå och dra i kylen i ca 4–5 timmar (inte längre, då '
+                                                'kan den bli för salt).',
+                                        'timer': 240,
+                                        'title': 'Lägg steken i lagen'},
+                                {       'step': 5,
+                                        'text': 'Ta upp steken ur lagen och torka av den med hushållspapper. Skär i '
+                                                'millimetertunna, eleganta skivor tvärs över köttfibrerna. Servera med '
+                                                'krämig potatisgratäng, rårörda lingon och enbärssås.',
+                                        'timer': None,
+                                        'title': 'Skiva tunt och servera'}],
+        'keywords': 'tjälknöl recept, klassisk tjälknöl älg nöt, tjälknöl saltlag enbär, mör tjälknöl ugn, norrländsk '
+                    'tjälknöl',
+        'long_desc': 'Tjälknöl är en norrländsk uppfinning av Ragnhild Nilsson från Torpshammar som blivit en av '
+                     'Sveriges främsta vilt- och köttdelikatesser. En stenhård, djupfryst stek läggs direkt i ugnen på '
+                     'låg värme över natten, och läggs sedan varm i en kryddad saltlag med enbär och örter. Resultatet '
+                     'blir det möraste, saftigaste kött du kan tänka dig, perfekt att skära i tunna skivor.',
+        'nutrition': {'calories': '320 kcal', 'carbs': '1g', 'fat': '15g', 'protein': '42g', 'sugar': '1g'},
+        'portions_num': 8,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Låt inte steken ligga i saltlagen längre än 5 timmar! Då sugs för mycket sälta in i köttets mitt. '
+                    'Ta upp steken när den är perfekt saltad och förvara den inplastad i kylen.',
+        'rating': 4.95,
+        'review_count': 9,
+        'slug': 'klassisk-tjalknol-alg-not-enbarkrydda',
+        'sub': 'Långbakad fryst stek i kryddig saltlag',
+        'time': 600,
+        'time_str': '10 tim',
+        'title': 'Klassisk Norrländsk Tjälknöl med Potatisgratäng & Enbärssås',
+        'total_time': 'PT600M'},
 ]
 
 
