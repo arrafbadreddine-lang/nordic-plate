@@ -7190,6 +7190,555 @@ RECIPES = [
         'time_str': '10 tim',
         'title': 'Klassisk Norrländsk Tjälknöl med Potatisgratäng & Enbärssås',
         'total_time': 'PT600M'},
+    {       'alt': 'Klassisk lyxig smörgåstårta dekorerad med handskalade räkor, rökta laxrosor, äggskivor och dill',
+        'calories': 540,
+        'card_title': 'Klassisk Smörgåstårta',
+        'cat_key': 'smorgasbord',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [       {       'comment': 'Gjorde denna till mammas 60-årsfest och den blev en enorm '
+                                                        'succé! Så saftig och fyllningarna passade perfekt ihop.',
+                                             'date': 'Idag',
+                                             'name': 'Helena Malm',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Bästa smörgåstårtan jag gjort. Tricket att låta den stå över '
+                                                        'natten och garnera innan servering var guld!',
+                                             'date': 'I förrgår',
+                                             'name': 'Björn F.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT0M',
+        'cook_time_str': '0 min',
+        'desc': 'Sveriges godaste klassiska smörgåstårta med saftiga lager av räkröra, ägg och laxkräm. Rikt garnerad '
+                'med handskalade räkor, laxrosor, ägg och dill.',
+        'diet': 'Pescetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett glas kyld Champagne, torr Cava eller en frisk och krispig svensk lageröl.',
+        'equipment': ['Stort serveringsfat', 'Brödkniv', 'Palettkniv för spackling', 'Blandskålar'],
+        'faqs': [       {       'a': 'Montera själva tårtan 1 dygn i förväg så den hinner safta till sig i kylen. '
+                                     'Garnera den samma dag så skaldjuren och grönsakerna är krispiga och fräscha.',
+                                'q': 'Hur länge i förväg kan man göra smörgåstårta?'},
+                        {       'a': 'Klassisk formfranska eller landgångsbröd med avskurna kanter är oslagbart '
+                                     'eftersom det suger åt sig fukten jämnt utan att smula.',
+                                'q': 'Vilket bröd är bäst till smörgåstårta?'}],
+        'file': 'klassisk-smorgastarta-rakor-lax.html',
+        'img': 'smorgastarta',
+        'ingredients': [       {       'group': 'Brödbas (3 lager)',
+                                       'items': [       {       'name': 'formfranska eller ljust formbröd (kanterna '
+                                                                        'bortskurna)',
+                                                                'unit': 'skivor',
+                                                                'val': 18}]},
+                               {       'group': 'Fyllning 1: Räkröra',
+                                       'items': [       {       'name': 'handskalade räkor (grovhackade)',
+                                                                'unit': 'g',
+                                                                'val': 400},
+                                                        {'name': 'äkta majonnäs', 'unit': 'dl', 'val': 1.5},
+                                                        {'name': 'crème fraiche', 'unit': 'dl', 'val': 1},
+                                                        {'name': 'färsk dill (finhackad)', 'unit': 'kruka', 'val': 0.5},
+                                                        {'name': 'färskpressad citronsaft', 'unit': 'tsk', 'val': 1},
+                                                        {       'name': 'salt och nymalen vitpeppar',
+                                                                'unit': 'krm',
+                                                                'val': 1}]},
+                               {       'group': 'Fyllning 2: Ägg- och laxkräm',
+                                       'items': [       {'name': 'hårdkokta ägg (finhackade)', 'unit': 'st', 'val': 4},
+                                                        {'name': 'kallrökt lax (finhackad)', 'unit': 'g', 'val': 150},
+                                                        {       'name': 'färskost (t.ex. Philadelphia)',
+                                                                'unit': 'dl',
+                                                                'val': 1},
+                                                        {'name': 'crème fraiche', 'unit': 'dl', 'val': 1},
+                                                        {       'name': 'färsk gräslök (finhackad)',
+                                                                'unit': 'msk',
+                                                                'val': 2}]},
+                               {       'group': 'Garnering & Spackling',
+                                       'items': [       {       'name': 'färskost blandad med 1 dl crème fraiche (att '
+                                                                        'täcka tårtan med)',
+                                                                'unit': 'g',
+                                                                'val': 200},
+                                                        {       'name': 'hela handskalade räkor (att toppa med)',
+                                                                'unit': 'g',
+                                                                'val': 300},
+                                                        {       'name': 'kallrökt lax (i tunna skivor rullade till '
+                                                                        'rosor)',
+                                                                'unit': 'g',
+                                                                'val': 150},
+                                                        {'name': 'hårdkokta ägg (skivade)', 'unit': 'st', 'val': 3},
+                                                        {       'name': 'gurka (i tunna skivor eller spiraler)',
+                                                                'unit': 'st',
+                                                                'val': 1},
+                                                        {'name': 'citron (i tunna skivor)', 'unit': 'st', 'val': 1},
+                                                        {'name': 'färsk dill', 'unit': 'kruka', 'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Rör ihop alla ingredienser till fyllning 1 (räkröran) i en skål. I en '
+                                                'annan skål, rör ihop de hackade äggen, finhackad lax, färskost, crème '
+                                                'fraiche och gräslök till fyllning 2. Smaka av båda med salt och '
+                                                'peppar.',
+                                        'timer': None,
+                                        'title': 'Blanda fyllningarna'},
+                                {       'step': 2,
+                                        'text': 'Skär bort kanterna från brödskivorna. Lägg ut 6 skivor i två rader '
+                                                '(3x2) på ett stort serveringsfat. Bred ut fyllning 1 (räkröran) jämnt '
+                                                'över brödet.',
+                                        'timer': None,
+                                        'title': 'Bygg tårtans botten'},
+                                {       'step': 3,
+                                        'text': 'Lägg på nästa lager med 6 brödskivor (gärna tvärs över för '
+                                                'stabilitet). Bred ut fyllning 2 (ägg- och laxkrämen) jämnt. Täck med '
+                                                'det sista lagret brödskivor.',
+                                        'timer': None,
+                                        'title': 'Andra lagret'},
+                                {       'step': 4,
+                                        'text': 'Täck tårtan med plastfolie och låt den stå i kylen i minst 4 timmar '
+                                                '(helst över natten så brödet blir underbart saftigt). Rör ihop '
+                                                'färskost och crème fraiche och spackla tårtans ovansida och kanter '
+                                                'helt släta.',
+                                        'timer': 240,
+                                        'title': 'Kyl och spackla'},
+                                {       'step': 5,
+                                        'text': 'Dekorera toppen med ett generöst berg av handskalade räkor, laxrosor, '
+                                                'äggskivor, krispiga gurkskivor, citronskivor och rikligt med färsk '
+                                                'dill. Servera kylskåpskall!',
+                                        'timer': None,
+                                        'title': 'Garnera rikligt'}],
+        'keywords': 'smörgåstårta recept, klassisk smörgåstårta räkor lax, godaste smörgåstårtan, enkel smörgåstårta, '
+                    'smörgåstårta fest',
+        'long_desc': 'Smörgåstårtan är den ultimata svenska festmåltiden till födelsedagar, examen, dop och högtider! '
+                     'Här varvas saftigt formbröd med krämig räkröra på handskalade räkor, dill och majonnäs samt en '
+                     'silkeslen rökt laxkräm. Tårtan spacklas med färskost och dekoreras överdådigt med räkor, '
+                     'laxrosor, gurka, ägg och citron.',
+        'nutrition': {'calories': '540 kcal', 'carbs': '32g', 'fat': '30g', 'protein': '34g', 'sugar': '4g'},
+        'portions_num': 8,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT60M',
+        'prep_time_str': '60 min',
+        'pro_tips': 'Bygg alltid smörgåstårtan dagen innan festen! Då suger brödet åt sig fukten från fyllningarna och '
+                    'blir saftigt och ljuvligt. Vänta bara med själva garneringen (räkor, lax och grönt) till några '
+                    'timmar före servering.',
+        'rating': 4.97,
+        'review_count': 10,
+        'slug': 'klassisk-smorgastarta-rakor-lax',
+        'sub': 'Handskalade räkor, lax, ägg & krämig fyllning',
+        'time': 60,
+        'time_str': '60 min',
+        'title': 'Klassisk Smörgåstårta med Handskalade Räkor & Kallrökt Lax',
+        'total_time': 'PT60M'},
+    {       'alt': 'Skivad mör söndagsstek med fyllig gräddsås, kokt potatis, pressgurka och svartvinbärsgelé',
+        'calories': 580,
+        'card_title': 'Klassisk Söndagsstek',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [       {       'comment': 'Precis så här smakade söndagsmiddagarna hos mormor! Köttet '
+                                                        'blev fantastiskt mört och gräddsåsen var helt gudomlig.',
+                                             'date': 'Idag',
+                                             'name': 'Ingemar Karlsson',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Underbart traditionellt recept. Pressgurkan och gelén är ett '
+                                                        'absolut måste till!',
+                                             'date': 'I förrgår',
+                                             'name': 'Margareta W.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT70M',
+        'cook_time_str': '70 min',
+        'desc': 'Mormors traditionella söndagsstek på nötstek eller fransyska som grytsteks mör med morötter och lök. '
+                'Serveras med sammetslen gräddsås, pressgurka och gelé.',
+        'diet': 'Klassisk',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett fylligt rött vin som Côtes du Rhône, Ripasso eller en god svensk mörk lageröl.',
+        'equipment': ['Gjutjärnsgryta med lock', 'Kockkniv & skärbräda', 'Digital kökstermometer', 'Såskastrull'],
+        'faqs': [       {       'a': 'Fransyska, innanlår och rostbiff är de mest klassiska delarna. Fransyska blir '
+                                     'underbart mör när den får bräsera långsamt i gryta.',
+                                'q': 'Vilken köttdel är bäst till söndagsstek?'},
+                        {       'a': 'Koka alltid såsen direkt på den silade stekskyn från grytan! Grönsakerna, fonden '
+                                     'och köttsafterna ger en naturlig grundsmak som ingen buljongtärning kan slå.',
+                                'q': 'Hur får man såsen riktigt fyllig?'}],
+        'file': 'klassisk-sondagsstek-notstek-graddsas-gele.html',
+        'img': 'sondagsstek',
+        'ingredients': [       {       'group': 'Söndagssteken',
+                                       'items': [       {       'name': 'nötstek, fransyska eller rostbiff (bunden)',
+                                                                'unit': 'kg',
+                                                                'val': 1.2},
+                                                        {'name': 'äkta smör (till stekning)', 'unit': 'msk', 'val': 2},
+                                                        {'name': 'gul lök (i klyftor)', 'unit': 'st', 'val': 1},
+                                                        {'name': 'morötter (i grova slantar)', 'unit': 'st', 'val': 2},
+                                                        {'name': 'hela kryddpepparkorn', 'unit': 'st', 'val': 6},
+                                                        {'name': 'vitpepparkorn', 'unit': 'st', 'val': 8},
+                                                        {'name': 'lagerblad', 'unit': 'st', 'val': 2},
+                                                        {'name': 'vatten + 2 msk oxfond', 'unit': 'dl', 'val': 4},
+                                                        {'name': 'salt', 'unit': 'tsk', 'val': 1}]},
+                               {       'group': 'Gräddsås på skyn',
+                                       'items': [       {'name': 'silad steksky från grytan', 'unit': 'dl', 'val': 4},
+                                                        {'name': 'vispgrädde', 'unit': 'dl', 'val': 2.5},
+                                                        {'name': 'vetemjöl', 'unit': 'msk', 'val': 2},
+                                                        {'name': 'kinesisk soja', 'unit': 'tsk', 'val': 1},
+                                                        {'name': 'svartvinbärsgelé', 'unit': 'msk', 'val': 1.5}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Torka av köttet och krydda runt om med salt och nymalen peppar. Hetta '
+                                                'upp smör i en rymlig gjutjärnsgryta och bryn steken runt om på '
+                                                'medelhög värme så den får en vacker mörkbrun stekyta.',
+                                        'timer': 8,
+                                        'title': 'Bryn steken'},
+                                {       'step': 2,
+                                        'text': 'Lägg i lök, morot, kryddpeppar, vitpeppar och lagerblad runt köttet. '
+                                                'Häll på vatten och oxfond. Sätt på locket, sänk värmen till låg och '
+                                                'låt steken sjuda sakta i ca 60–75 minuter (innertemperatur ca 65°C '
+                                                'för rosa, 70°C för genomstekt).',
+                                        'timer': 65,
+                                        'title': 'Bräsera i grytan'},
+                                {       'step': 3,
+                                        'text': 'Lyft upp steken ur grytan och vira in den i aluminiumfolie. Låt '
+                                                'köttet vila i 15 minuter så köttsafterna stannar kvar innan du skär '
+                                                'upp det.',
+                                        'timer': 15,
+                                        'title': 'Låt köttet vila'},
+                                {       'step': 4,
+                                        'text': 'Sila av skyn ner i en såskastrull (pressa lite på grönsakerna för '
+                                                'maximal smak). Tillsätt grädde och vispa ner vetemjölet. Låt såsen '
+                                                'sjuda i 5–7 minuter. Smaka av med soja, svartvinbärsgelé och '
+                                                'vitpeppar.',
+                                        'timer': 6,
+                                        'title': 'Koka den goda gräddsåsen'},
+                                {       'step': 5,
+                                        'text': 'Skär steken i tunna, fina skivor tvärs över muskeltrådarna. Lägg upp '
+                                                'på ett varmt fat och ringla lite sås över. Servera med kokt potatis, '
+                                                'pressgurka, svartvinbärsgelé och rikligt med gräddsås.',
+                                        'timer': None,
+                                        'title': 'Skiva och servera'}],
+        'keywords': 'söndagsstek recept, nötstek med gräddsås, klassisk söndagsstek, mormors söndagsstek, grytstekt '
+                    'nötstek gelé',
+        'long_desc': 'Klassisk söndagsstek är den svenska familjemiddagens allra finaste tradition. En fin nötstek '
+                     'eller fransyska bryns i rikligt med smör och bräseras sedan långsamt på svag värme med lök, '
+                     'morot och kryddpeppar tills köttet är smältande mört. Stekskyn kokas upp med vispgrädde till en '
+                     'oemotståndlig gräddsås.',
+        'nutrition': {'calories': '580 kcal', 'carbs': '12g', 'fat': '38g', 'protein': '46g', 'sugar': '7g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Låt alltid steken vila i minst 15 minuter innan du skär i den! Då hinner köttsafterna fördela sig '
+                    'i köttet och steken förblir saftig och mör istället för att safterna rinner ut på skärbrädan.',
+        'rating': 4.94,
+        'review_count': 9,
+        'slug': 'klassisk-sondagsstek-notstek-graddsas-gele',
+        'sub': 'Mör nötstek med mustig gräddsås & pressgurka',
+        'time': 90,
+        'time_str': '90 min',
+        'title': 'Klassisk Söndagsstek med Fyllig Gräddsås, Pressgurka & Gelé',
+        'total_time': 'PT90M'},
+    {       'alt': 'Knäckiga spröda havreflarn fyllda med mörk choklad staplade på ett keramikfat med kaffekopp',
+        'calories': 95,
+        'card_title': 'Knäckiga Havreflarn',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Helt magiskt goda! Blev så där härligt knäckiga och '
+                                                        'spetsmönstrade, och med mörk choklad emellan var de '
+                                                        'oemotståndliga.',
+                                             'date': 'Idag',
+                                             'name': 'Sara Blomqvist',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Superenkla att göra och så mycket godare än köpta. Blev en '
+                                                        'favorit hos alla här hemma.',
+                                             'date': 'Igår',
+                                             'name': 'Dan Eriksson',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT8M',
+        'cook_time_str': '8 min',
+        'desc': 'Underbart spröda och knäckiga havreflarn med sirap och äkta smör, fyllda med fyllig mörk choklad. '
+                'Klassiska svenska konditorikakor.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Mycket enkel',
+        'drink_pairing': 'En kopp nybryggt svenskt bryggkaffe eller ett glas kall mjölk.',
+        'equipment': ['Plåtar med bakplåtspapper', 'Kastrull', 'Slickepott eller matskedar'],
+        'faqs': [       {       'a': 'Förvara havreflarn i en plåtburk med tätt lock i rumstemperatur eller i frysen. '
+                                     'Undvik plastburkar då plast drar åt sig fukt och gör flarnen mjuka.',
+                                'q': 'Hur förvarar man havreflarn så de inte mjuknar?'},
+                        {       'a': 'Ja! Vill du göra böjda flarn, rulla dem försiktigt runt en kavel medan de '
+                                     'fortfarande är varma och mjuka direkt från ugnen.',
+                                'q': 'Kan man böja flarnen till rör eller korgar?'}],
+        'file': 'klassiska-knackiga-havreflarn-choklad.html',
+        'img': 'havreflarn',
+        'ingredients': [       {       'group': 'Havreflarnssmet (ca 40 enkla / 20 dubbla)',
+                                       'items': [       {'name': 'äkta smör', 'unit': 'g', 'val': 75},
+                                                        {'name': 'havregryn', 'unit': 'dl', 'val': 1},
+                                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1},
+                                                        {'name': 'ljus sirap', 'unit': 'msk', 'val': 1},
+                                                        {'name': 'vispgrädde eller mjölk', 'unit': 'msk', 'val': 1},
+                                                        {'name': 'vetemjöl', 'unit': 'msk', 'val': 1},
+                                                        {'name': 'bakpulver', 'unit': 'tsk', 'val': 0.5},
+                                                        {'name': 'flingsalt', 'unit': 'krm', 'val': 1}]},
+                               {       'group': 'Chokladfyllning',
+                                       'items': [{'name': 'mörk kvalitetschoklad (55-70%)', 'unit': 'g', 'val': 100}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 200°C (över- och undervärme). Smält smöret i en '
+                                                'kastrull. Ta från värmen och rör ner havregryn, socker, sirap, '
+                                                'grädde, vetemjöl, bakpulver och flingsalt till en jämn smet.',
+                                        'timer': None,
+                                        'title': 'Smält smöret och rör ihop'},
+                                {       'step': 2,
+                                        'text': 'Lägg bakplåtspapper på plåtar. Klicka ut teskedsstora klickar med '
+                                                'mycket gott mellanrum (cirka 9–12 klickar per plåt) då flarnen flyter '
+                                                'ut rejält under gräddningen.',
+                                        'timer': None,
+                                        'title': 'Klicka ut på plåt'},
+                                {       'step': 3,
+                                        'text': 'Grädda mitt i ugnen i cirka 5–7 minuter tills flarnen har flutit ut, '
+                                                'blivit bubbligt nätmönstrade och fått en vacker gyllene '
+                                                'bärnstensfärg.',
+                                        'timer': 6,
+                                        'title': 'Grädda gyllenbruna'},
+                                {       'step': 4,
+                                        'text': 'Låt flarnen svalna på plåten i någon minut så de stelnar innan du '
+                                                'drar över bakplåtspapperet på ett galler. De blir knäckiga och '
+                                                'krispiga när de svalnat helt.',
+                                        'timer': 10,
+                                        'title': 'Låt svalna'},
+                                {       'step': 5,
+                                        'text': 'Smält chokladen över vattenbad eller försiktigt i mikron. Pensla '
+                                                'eller bred smält choklad på baksidan av hälften av flarnen och tryck '
+                                                'försiktigt fast ett annat flarn ovanpå. Låt chokladen stelna i kylen.',
+                                        'timer': 15,
+                                        'title': 'Fyll med choklad'}],
+        'keywords': 'havreflarn recept, knäckiga havreflarn, dubbla havreflarn med choklad, enkla havreflarn, baka '
+                    'havreflarn',
+        'long_desc': 'Havreflarn är en av de mest älskade småkakorna i svensk bakhistoria. De karamelliseras i ugnen '
+                     'till papperstunna, bubbliga och superknäckiga flarn som smälter på tungan. Ihopsatta två och två '
+                     'med smält mörk choklad emellan blir de fikaträffens absoluta stjärna.',
+        'nutrition': {'calories': '95 kcal', 'carbs': '12g', 'fat': '5g', 'protein': '1g', 'sugar': '8g'},
+        'portions_num': 20,
+        'portions_unit': 'dubbla flarn',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Ha ordentligt med avstånd mellan klickarna på plåten! Smeten flyter ut väldigt mycket i ugnen för '
+                    'att bilda det karakteristiska papperstunna och knäckiga spetsmönstret.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'klassiska-knackiga-havreflarn-choklad',
+        'sub': 'Spröda karamelliserade flarn fyllda med choklad',
+        'time': 25,
+        'time_str': '25 min',
+        'title': 'Klassiska Knäckiga Havreflarn med Mörk Choklad',
+        'total_time': 'PT25M'},
+    {       'alt': 'Klassiska spröda mandelmusslor fyllda med vispgrädde, hallonsylt och hjortronsylt på ett keramikfat',
+        'calories': 140,
+        'card_title': 'Klassiska Mandelmusslor',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Mormors klassiker när den är som bäst! Lätta att knacka ur '
+                                                        'formarna och så ljuvligt spröda med hjortronsylt.',
+                                             'date': 'Idag',
+                                             'name': 'Kerstin Bergström',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Perfekta till adventsfikat. Bittermandeln ger verkligen den '
+                                                        'rätta smaken!',
+                                             'date': 'Igår',
+                                             'name': 'Lars-Erik N.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT10M',
+        'cook_time_str': '10 min',
+        'desc': 'Mormors klassiska spröda mandelmusslor bakade i räfflade metallformar med skållad mandel, '
+                'bittermandel och smör. Fylls med sylt och vispgrädde.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En kopp gott svenskt bryggkaffe, varm glögg eller ett glas sött dessertvin.',
+        'equipment': ['Veckade metallformar för mandelmusslor', 'Mandelkvarn eller matberedare', 'Bakplåt'],
+        'faqs': [       {       'a': 'Bittermandeln ger den där oefterhärmliga, djupa traditionella mandeldoften som '
+                                     'kännetecknar mormors mandelmusslor. Saknar du bittermandel kan några droppar '
+                                     'bittermandelolja användas istället.',
+                                'q': 'Måste man ha bittermandel i mandelmusslor?'},
+                        {       'a': 'Musslorna kan bakas flera veckor i förväg och förvaras i en plåtburk eller '
+                                     'frysas in. Fyll dem med grädde och sylt precis före servering så de förblir '
+                                     'krispiga.',
+                                'q': 'Hur långt i förväg kan man baka mandelmusslor?'}],
+        'file': 'klassiska-mandelmusslor-sylt-gradda.html',
+        'img': 'mandelmusslor',
+        'ingredients': [       {       'group': 'Mandelmusseldegen (ca 24 st)',
+                                       'items': [       {       'name': 'sötmandel (skållad och finmald)',
+                                                                'unit': 'g',
+                                                                'val': 100},
+                                                        {       'name': 'bittermandlar (finrivna, ger den äkta doften)',
+                                                                'unit': 'st',
+                                                                'val': 2},
+                                                        {'name': 'kallt äkta smör (tärnat)', 'unit': 'g', 'val': 200},
+                                                        {       'name': 'strösocker eller florsocker',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {'name': 'äggula', 'unit': 'st', 'val': 1},
+                                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 4},
+                                                        {       'name': 'smör (smält, till att smörja formarna)',
+                                                                'unit': 'msk',
+                                                                'val': 1}]},
+                               {       'group': 'Fyllning vid servering',
+                                       'items': [       {'name': 'vispgrädde (lättvispad)', 'unit': 'dl', 'val': 2.5},
+                                                        {       'name': 'hjortronsylt eller hallonsylt',
+                                                                'unit': 'dl',
+                                                                'val': 1}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Skålla sötmandeln i kokande vatten, skala och låt torka på '
+                                                'hushållspapper. Mal sötmandeln och bittermandlarna fint i en '
+                                                'mandelkvarn eller matberedare.',
+                                        'timer': 10,
+                                        'title': 'Skålla och mal mandeln'},
+                                {       'step': 2,
+                                        'text': 'Blanda mjöl, socker och den malda mandeln i en bunke. Tillsätt det '
+                                                'kalla smöret i bitar och äggulan. Nyp snabbt ihop till en smidig '
+                                                'mördeg (arbeta inte för länge). Slå in i plastfolie och vila i kylen '
+                                                'i 30 minuter.',
+                                        'timer': 30,
+                                        'title': 'Arbeta ihop degen'},
+                                {       'step': 3,
+                                        'text': 'Sätt ugnen på 200°C. Pensla mandelmusselformarna noga med smält smör. '
+                                                'Dela degen i 24 bitar och tryck ut ett jämnt och tunt lager deg i '
+                                                'varje form med tummarna.',
+                                        'timer': None,
+                                        'title': 'Tryck ut i formarna'},
+                                {       'step': 4,
+                                        'text': 'Ställ formarna på en bakplåt. Grädda mitt i ugnen i cirka 8–10 '
+                                                'minuter tills kanterna har fått fin gyllene färg.',
+                                        'timer': 9,
+                                        'title': 'Grädda gyllenbruna'},
+                                {       'step': 5,
+                                        'text': 'Låt formarna svalna något i några minuter. Vänd formarna upp och ner '
+                                                'och knacka försiktigt i botten så kakorna lossnar. Fyll vid servering '
+                                                'med nyvispad grädde och hjortronsylt.',
+                                        'timer': 5,
+                                        'title': 'Stjälp upp och servera'}],
+        'keywords': 'mandelmusslor recept, klassiska mandelmusslor, mandelmusslor med hjortronsylt och grädde, '
+                    'julkakor mandelmusslor, spröda mandelmusslor',
+        'long_desc': 'Mandelmusslor är en av de mest traditionsrika småkakorna på det svenska julbordet och '
+                     'kafferepet. De spröda, räfflade mördegskakorna bakas med finmald mandel och en aning '
+                     'bittermandel i klassiska metallformar. Vid servering fylls de med en generös klick nyvispad '
+                     'grädde och rårörda hjortron eller hallonsylt.',
+        'nutrition': {'calories': '140 kcal', 'carbs': '14g', 'fat': '9g', 'protein': '3g', 'sugar': '6g'},
+        'portions_num': 24,
+        'portions_unit': 'mandelmusslor',
+        'prep_time': 'PT30M',
+        'prep_time_str': '30 min',
+        'pro_tips': 'Smörj formarna noggrant med smält smör före gräddning! Låt kakorna svalna i 3–5 minuter innan du '
+                    'knackar ur dem – då släpper de enkelt utan att gå sönder.',
+        'rating': 4.91,
+        'review_count': 7,
+        'slug': 'klassiska-mandelmusslor-sylt-gradda',
+        'sub': 'Spröda mördegsformar med mandel & hjortronsylt',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Klassiska Spröda Mandelmusslor med Sylt & Vispad Grädde',
+        'total_time': 'PT45M'},
+    {       'alt': 'Gyllengul gotländsk saffranspannkaka toppad med vispad grädde och mörk salmbärssylt på ett fat',
+        'calories': 310,
+        'card_title': 'Gotländsk Saffranspannkaka',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [       {       'comment': 'Underbart god gotländsk saffranspannkaka! Mandeln gav härligt '
+                                                        'krisp och salmbärssylt till är ett absolut måste.',
+                                             'date': 'Idag',
+                                             'name': 'Linnéa Gotthardsson',
+                                             'rating': 5,
+                                             'verified': True},
+                                     {       'comment': 'Perfekt recept att göra på överbliven risgrynsgröt. Hela '
+                                                        'familjen älskade den!',
+                                             'date': 'Igår',
+                                             'name': 'Oskar T.',
+                                             'rating': 5,
+                                             'verified': True}],
+        'cook_time': 'PT30M',
+        'cook_time_str': '30 min',
+        'desc': 'Äkta gotländsk saffranspannkaka på risgrynsgröt, saffran, ägg och hackad sötmandel. Serveras ljummen '
+                'med salmbärssylt och vispad grädde.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En kopp nybryggt kaffe eller varm kryddig äppelmust.',
+        'equipment': ['Ugnsfast form ca 20x30 cm', 'Blandskål och visp', 'Mortel'],
+        'faqs': [       {       'a': 'Salmbär är ett vilt bär som växer rikligt på Gotland (även kallat blåhallon). '
+                                     'Det påminner om björnbär men har en mildare, mer aromatisk syra som passar '
+                                     'perfekt till saffran.',
+                                'q': 'Vad är salmbär för något?'},
+                        {       'a': 'Ja, den är god både ljummen och kall direkt från kylskåpet, men smakerna och '
+                                     'saffransdoften blommar ut allra bäst när den serveras lätt ljummen.',
+                                'q': 'Kan man äta saffranspannkaka kall?'}],
+        'file': 'klassisk-gotlandsk-saffranspannkaka-salmbar.html',
+        'img': 'saffranspannkaka',
+        'ingredients': [       {       'group': 'Saffranspannkaka',
+                                       'items': [       {       'name': 'kall färdigkokt risgrynsgröt (hemlagad eller '
+                                                                        'köpt)',
+                                                                'unit': 'g',
+                                                                'val': 800},
+                                                        {       'name': 'saffran (1 kuvert, mortlat med lite socker)',
+                                                                'unit': 'g',
+                                                                'val': 0.5},
+                                                        {'name': 'ekologiska ägg', 'unit': 'st', 'val': 3},
+                                                        {       'name': 'vispgrädde eller standardmjölk',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {'name': 'strösocker', 'unit': 'dl', 'val': 0.75},
+                                                        {       'name': 'sötmandel (skållad & grovhackad)',
+                                                                'unit': 'g',
+                                                                'val': 50},
+                                                        {'name': 'bittermandlar (finrivna)', 'unit': 'st', 'val': 2},
+                                                        {'name': 'salt', 'unit': 'krm', 'val': 1},
+                                                        {'name': 'smör (till formen)', 'unit': 'msk', 'val': 1}]},
+                               {       'group': 'Tillbehör & Servering',
+                                       'items': [       {       'name': 'salmbärssylt (eller björnbärs- / hallonsylt)',
+                                                                'unit': 'dl',
+                                                                'val': 1.5},
+                                                        {'name': 'vispgrädde (lättvispad)', 'unit': 'dl', 'val': 2}]}],
+        'instructions': [       {       'step': 1,
+                                        'text': 'Sätt ugnen på 200°C (över- och undervärme). Smörj en ugnsfast form '
+                                                '(ca 20x30 cm) väl med smör.',
+                                        'timer': None,
+                                        'title': 'Förbered ugn och form'},
+                                {       'step': 2,
+                                        'text': 'Stöt saffranet fint i en mortel med en tesked socker. Vispa samman '
+                                                'ägg, grädde, socker, salt och det mortlade saffranet i en stor bunke.',
+                                        'timer': None,
+                                        'title': 'Stöt saffranet och vispa äggen'},
+                                {       'step': 3,
+                                        'text': 'Rör ner den kalla risgrynsgröten, den hackade sötmandeln och den '
+                                                'finrivna bittermandeln i äggblandningen. Rör om ordentligt så gröten '
+                                                'fördelas jämnt och smeten får en härligt solgul färg.',
+                                        'timer': None,
+                                        'title': 'Blanda ner gröten och mandeln'},
+                                {       'step': 4,
+                                        'text': 'Häll smeten i den smorda formen. Grädda mitt i ugnen i cirka 30–35 '
+                                                'minuter tills pannkakan har stannat helt och fått en vacker '
+                                                'gyllenbrun yta.',
+                                        'timer': 32,
+                                        'title': 'Grädda gyllene'},
+                                {       'step': 5,
+                                        'text': 'Låt pannkakan svalna något i ca 10 minuter. Skär i generösa rutor och '
+                                                'servera ljummen med en rejäl klick lättvispad grädde och äkta '
+                                                'salmbärssylt.',
+                                        'timer': 10,
+                                        'title': 'Servera ljummen'}],
+        'keywords': 'saffranspannkaka recept, gotländsk saffranspannkaka, saffranspannkaka risgrynsgröt, '
+                    'saffranspannkaka salmbärssylt, äkta gotländsk pannkaka',
+        'long_desc': 'Gotlands mest berömda delikatess! Denna traditionella saffranspannkaka görs på kall risgrynsgröt '
+                     'som blandas med saffran, ägg, grädde, socker och grovhackad sötmandel och gräddas gyllene i '
+                     'ugnen. Den serveras traditionsenligt ljummen med en stor klick vispad grädde och mörka '
+                     'gotländska salmbär (eller björnbärssylt).',
+        'nutrition': {'calories': '310 kcal', 'carbs': '36g', 'fat': '15g', 'protein': '8g', 'sugar': '16g'},
+        'portions_num': 8,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Saffranspannkaka är det ultimata sättet att ta tillvara på överbliven julgröt! Har du '
+                    'risgrynsgröt kvar från frukosten svänger du ihop denna gotländska delikatess på fem minuter.',
+        'rating': 4.93,
+        'review_count': 8,
+        'slug': 'klassisk-gotlandsk-saffranspannkaka-salmbar',
+        'sub': 'Ugnsbakad saffransgröt med hackad mandel & sylt',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Klassisk Gotländsk Saffranspannkaka med Salmbärssylt & Grädde',
+        'total_time': 'PT45M'},
 ]
 
 
