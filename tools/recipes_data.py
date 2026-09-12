@@ -483,7 +483,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'equipment': ['Gjutjärnspanna', 'Grovt rivjärn', 'Vispskål'],
         'faqs': [   {   'a': 'Fast potatis som Asterix, King Edward eller Folva ger krispigast yta och bästa '
                              'konsistens.',
-                        'q': 'Vilken potatissort är bäst till raggmunk?'}],
+                        'q': 'Vilken potatissort är bäst till raggmunk?'},
+                    {   'a': 'Ja! Häll raggmunksmeten i en välsmord långpanna (eller lägg ut det stekta fläsket i '
+                             'botten och häll smeten över) och grädda på 225°C i ca 25–30 minuter tills ytan är '
+                             'gyllenbrun och frasig. Perfekt när du lagar till många!',
+                        'q': 'Kan man göra raggmunk i långpanna?'}],
         'file': 'frasig-raggmunk-stekt-flask.html',
         'img': 'raggmunk',
         'ingredients': [   {   'group': 'Raggmunksmet',
@@ -522,7 +526,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'och en stor sked rårörda lingon.',
                                 'timer': None,
                                 'title': 'Servering'}],
-        'keywords': 'raggmunk recept, raggmunk med stekt fläsk, klassisk raggmunk potatis, svensk potatispannkaka',
+        'keywords': 'raggmunk i långpanna, raggmunk recept, raggmunk med stekt fläsk, frasig raggmunk långpanna, '
+                    'klassisk raggmunk potatis',
         'long_desc': 'Klassisk svensk husmanskost när den är som bäst. Frasiga raggmunkar med nystekt rimmat sidfläsk '
                      'och rårörda lingon.',
         'nutrition': {'calories': '520 kcal', 'carbs': '46g', 'fat': '28g', 'protein': '21g', 'sugar': '6g'},
@@ -531,7 +536,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'prep_time': 'PT15M',
         'prep_time_str': '15 min',
         'pro_tips': 'Blanda i den rivna potatisen omedelbart i smeten – kontakten med mjölk och mjöl förhindrar att '
-                    'potatisen oxiderar och blir grå.',
+                    'potatisen oxiderar. Vill du spara tid till många kan du grädda raggmunk i långpanna på 225°C i 25 '
+                    'minuter!',
         'rating': 4.91,
         'review_count': 8,
         'slug': 'frasig-raggmunk-stekt-flask',
@@ -1125,7 +1131,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                         'q': 'Går kärleksmums att frysa?'},
                     {   'a': 'Ja, du kan byta ut kaffet mot samma mängd mjölk eller kallt vatten om du bakar till barn '
                              'som inte vill ha kaffesmak.',
-                        'q': 'Kan man baka utan kaffe?'}],
+                        'q': 'Kan man baka utan kaffe?'},
+                    {   'a': 'Det är tre olika namn på exakt samma älskade långpannekaka! I södra och västra Sverige '
+                             'kallas den oftast mockarutor, i Mellansverige kärleksmums och i vissa delar av Norrland '
+                             'snoddas.',
+                        'q': 'Vad är skillnaden mellan kärleksmums, mockarutor och snoddas?'}],
         'file': 'klassiska-saftiga-karleksmums.html',
         'img': 'karleksmums',
         'ingredients': [   {   'group': 'Kakbotten',
@@ -1178,7 +1188,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                 'timer': 15,
                                 'title': 'Strö över kokos & skär i rutor'}],
         'keywords': 'kärleksmums recept, mockarutor i långpanna, snoddas, chokladkaka med kaffeglasyr, baka i '
-                    'långpanna',
+                    'långpanna, saftiga kärleksmums',
         'long_desc': 'Sveriges mest älskade fikaruta: Kärleksmums (även kallade mockarutor eller snoddas). En otroligt '
                      'saftig kaka toppad med en tjock, glänsande choklad- och kaffeglasyr som smälter i munnen.',
         'nutrition': {'calories': '265 kcal', 'carbs': '36g', 'fat': '12g', 'protein': '3.5g', 'sugar': '26g'},
@@ -1706,7 +1716,10 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                         'q': 'Kan man använda frysta eller torkade kantareller?'},
                     {   'a': 'Ja, kantarellpaj är utmärkt att baka dagen innan. Värm den lätt i ugnen på 150°C före '
                              'servering så blir den som nygräddad.',
-                        'q': 'Kan pajen förberedas dagen innan?'}],
+                        'q': 'Kan pajen förberedas dagen innan?'},
+                    {   'a': 'Ja, fint strimlad purjolök som fräses mjuk tillsammans med kantarellerna ger en mild, '
+                             'söt lökton som gifter sig enastående väl med Västerbottensostens sälta och syra.',
+                        'q': 'Passar purjolök i kantarellpaj?'}],
         'file': 'kramig-kantarellpaj-vasterbottensost.html',
         'img': 'kantarellpaj',
         'ingredients': [   {   'group': 'Frasig Pajdeg',
@@ -1761,7 +1774,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'fått en gyllenbrun vacker yta. Låt sätta sig i 15 minuter innan servering.',
                                 'timer': 25,
                                 'title': 'Grädda gyllenbrun & krämig'}],
-        'keywords': 'kantarellpaj, kantarellpaj med västerbottensost, svamppaj, kräftskiva paj, bästa kantarellpajen',
+        'keywords': 'kantarellpaj recept, krämig kantarellpaj med västerbottensost, kantarellpaj med purjolök, '
+                    'svamppaj med västerbottensost, bästa kantarellpajen, frasig kantarellpaj',
         'long_desc': 'Skogens guld möter Västerbottensost i en oslagbar smakkombination. Perfekt som huvudrätt till '
                      'höstmiddagen, på kräftskivan eller som lyxig lunch med en krispig grönsallad.',
         'nutrition': {'calories': '460 kcal', 'carbs': '22g', 'fat': '34g', 'protein': '18g', 'sugar': '3g'},
@@ -3047,7 +3061,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'prep_time': 'PT15M',
         'prep_time_str': '15 min',
         'pro_tips': 'Vill du ha soppan extra krämig? Krossa några av de kokta potatisbitarna mot grytans kant med en '
-                    'slev – stärkelsen reder då soppan naturligt.',
+                    'slev. Älskar du denna soppa? Missa inte vår klassiska potatis- och purjolökssoppa och krämiga '
+                    'trattkantarellsoppa!',
         'rating': 4.98,
         'review_count': 5,
         'slug': 'klassisk-cowboysoppa-kottfars-potatis',
@@ -10480,4 +10495,487 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 55,
         'time_str': '55 min',
         'title': 'Klassisk Ost- och Skinkpaj med Frasigt Pajskal',
-        'total_time': 'PT55M'}]
+        'total_time': 'PT55M'},
+    {   'alt': 'Rykande het mustig köttfärssoppa med potatis, morötter och köttfärs i keramikskål med surdegsbröd',
+        'calories': 380,
+        'card_title': 'Klassisk Köttfärssoppa',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Bästa köttfärssoppan jag ätit! Barnen åt massor och rotfrukterna gav '
+                                                'underbar smak.',
+                                     'date': 'Idag',
+                                     'name': 'Henrik S.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Perfekt recept till höstmiddagen. Sojan och paprikapulvret gjorde '
+                                                'verkligen skillnad!',
+                                     'date': 'Igår',
+                                     'name': 'Sara K.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Klassisk mustig köttfärssoppa med potatis, morötter, palsternacka och paprika i smakrik tomatbuljong. '
+                'En mättande och älskad vardagsfavorit för hela familjen.',
+        'diet': 'Husmanskost',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett fylligt rött vin, en kall lageröl eller ett stort glas kall mjölk.',
+        'equipment': ['Stor gryta eller kastrull', 'Skärbräda och vass kniv', 'Träslev'],
+        'faqs': [   {   'a': 'Fast potatis som Asterix eller Ditta håller formen bäst under kokningen utan att koka '
+                             'sönder.',
+                        'q': 'Vilken potatis passar bäst i köttfärssoppa?'},
+                    {   'a': 'Ja, soppan fryser utmärkt! Den är också suverän i matlådan och smakar nästan ännu bättre '
+                             'dagen efter.',
+                        'q': 'Kan man frysa köttfärssoppa?'}],
+        'file': 'klassisk-kottfarssoppa-potatis-rotfrukter.html',
+        'img': 'kottfarssoppa',
+        'ingredients': [   {   'group': 'Kött & Bas',
+                               'items': [   {'name': 'nötfärs (eller blandfärs)', 'unit': 'g', 'val': 500},
+                                            {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'vitlöksklyftor (finhackade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'smör eller olja till stekning', 'unit': 'msk', 'val': 2},
+                                            {'name': 'tomatpuré', 'unit': 'msk', 'val': 3}]},
+                           {   'group': 'Rotfrukter & Buljong',
+                               'items': [   {'name': 'potatisar (tärnade i 1.5 cm bitar)', 'unit': 'st', 'val': 4},
+                                            {'name': 'morötter (slantade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'palsternacka (tärnad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'röd paprika (tärnad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'köttbuljong (eller oxbuljong)', 'unit': 'liter', 'val': 1.2},
+                                            {'name': 'torkad timjan', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'paprikapulver', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': 1},
+                                            {'name': 'kinesisk soja', 'unit': 'msk', 'val': 1},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'nymald svartpeppar', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Till Servering',
+                               'items': [   {'name': 'crème fraiche eller gräddfil', 'unit': 'dl', 'val': 1},
+                                            {'name': 'färsk persilja (hackad)', 'unit': 'msk', 'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skala och tärna potatis, morötter och palsternacka i ca 1.5 cm stora bitar. '
+                                        'Hacka lök och vitlök fint. Kärna ur och tärna paprikan.',
+                                'title': 'Förbered rotfrukterna'},
+                            {   'step': 2,
+                                'text': 'Hetta upp smör eller olja i en stor gryta på medelhög värme. Fräs lök och '
+                                        'vitlök tills de mjuknat. Tillsätt nötfärsen och bryn den under omrörning så '
+                                        'att den fördelas i fina bitar.',
+                                'title': 'Bryn köttfärs och lök'},
+                            {   'step': 3,
+                                'text': 'Klicka i tomatpurén och strö över paprikapulver och timjan. Låt fräsa med '
+                                        'köttfärsen i 2 minuter så att kryddorna rostas och tomatpurén rundas av i '
+                                        'smaken.',
+                                'title': 'Tillsätt tomatpuré och kryddor'},
+                            {   'step': 4,
+                                'text': 'Häll i buljong, soja och lagerblad. Vänd ner potatis, morötter, palsternacka '
+                                        'och paprika. Koka upp och låt soppan sjuda under lock på svag värme i 15–20 '
+                                        'minuter tills potatisen är helt mjuk.',
+                                'title': 'Koka rotfrukterna i buljong'},
+                            {   'step': 5,
+                                'text': 'Smaka av soppan med salt och nymald svartpeppar. Fiska upp lagerbladet. Häll '
+                                        'upp i djupa skålar, toppa med en klick crème fraiche och hackad persilja. '
+                                        'Servera med ett gott bröd!',
+                                'title': 'Smaka av och servera'}],
+        'keywords': 'köttfärssoppa med potatis, köttfärssoppa recept, mustig köttfärssoppa, enkel köttfärssoppa, '
+                    'köttfärssoppa med rotfrukter, köttfärssoppa barn',
+        'long_desc': 'Köttfärssoppa med potatis och rotfrukter är en av Sveriges mest populära och uppskattade '
+                     'vardagsrätter. Den är snabb, mättande, plånboksvänlig och fullpackad med smak. Nötfärsen bryns '
+                     'med lök, vitlök och tomatpuré, för att sedan koka ihop med tärnad potatis, morötter, '
+                     'palsternacka och kryddor i en mustig buljong. Servera rykande het med en klick crème fraiche och '
+                     'ett gott bröd med ost!',
+        'nutrition': {'calories': '380 kcal', 'carbs': '29g', 'fat': '18g', 'protein': '28g', 'sugar': '5g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Tillsätt 1 msk soja och 1 msk dijonsenap för att ge soppan ett extra djup och mustighet. Har du '
+                    'överbliven riven ost? Strö lite i botten på soppskålen innan du häller på den heta soppan!',
+        'rating': 4.93,
+        'review_count': 9,
+        'slug': 'klassisk-kottfarssoppa-potatis-rotfrukter',
+        'sub': 'Värmande vardagssoppa på nötfärs, potatis, morötter & paprika',
+        'time': 35,
+        'time_str': '35 min',
+        'title': 'Klassisk Mustig Köttfärssoppa med Potatis & Rotfrukter',
+        'total_time': 'PT35M'},
+    {   'alt': 'Gyllenbrun bubblande rotfruktsgratäng med Västerbottensost och färsk timjan i rund gratängform',
+        'calories': 395,
+        'card_title': 'Krämig Rotfruktsgratäng',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Så mycket godare än vanlig potatisgratäng! Palsternackan och '
+                                                'Västerbottensosten gav fantastisk sötma och djup.',
+                                     'date': 'Idag',
+                                     'name': 'Eva B.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Knepet att förkoka i kastrull sparade massor av tid och gratängen '
+                                                'blev superkrämig!',
+                                     'date': 'Igår',
+                                     'name': 'Mikael N.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT45M',
+        'cook_time_str': '45 min',
+        'desc': 'Krämig och fyllig rotfruktsgratäng med potatis, palsternacka, morot, rotselleri, vitlök och lagrad '
+                'Västerbottensost. Höstens bästa tillbehör till stek, vilt och kyckling.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett fylligt rött vin som Barbera, Shiraz eller ett mörkt svenskt höstöl.',
+        'equipment': ['Ugnsfast form ca 25x35 cm', 'Mandolin eller matberedare för skivning', 'Kastrull'],
+        'faqs': [   {   'a': 'Ja, det går utmärkt! Grädda den i förväg, låt svalna och förvara i kyl. Värm i ugn på '
+                             '175°C i ca 20–25 minuter före servering.',
+                        'q': 'Kan rotfruktsgratäng förberedas dagen innan?'},
+                    {   'a': 'Du kan fritt variera med sötpotatis, kålrot eller jordärtskockor efter tycke och smak.',
+                        'q': 'Vilka rotfrukter kan man byta ut?'}],
+        'file': 'kramig-rotfruktsgratang-vasterbottensost.html',
+        'img': 'rotfruktsgratang',
+        'ingredients': [   {   'group': 'Rotfrukter',
+                               'items': [   {'name': 'potatisar (fasta, skalade)', 'unit': 'g', 'val': 600},
+                                            {'name': 'palsternackor (skalade)', 'unit': 'g', 'val': 200},
+                                            {'name': 'morötter (skalade)', 'unit': 'g', 'val': 200},
+                                            {'name': 'rotselleri (skalad)', 'unit': 'g', 'val': 150}]},
+                           {   'group': 'Gräddstanning & Smaksättning',
+                               'items': [   {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                            {'name': 'standardmjölk (3%)', 'unit': 'dl', 'val': 2},
+                                            {'name': 'vitlöksklyftor (finrivna)', 'unit': 'st', 'val': 3},
+                                            {   'name': 'färsk timjan (hackad, alt. 1 tsk torkad)',
+                                                'unit': 'msk',
+                                                'val': 1},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'nymald svartpeppar', 'unit': 'tsk', 'val': 0.5},
+                                            {'name': 'smör till formen', 'unit': 'msk', 'val': 1}]},
+                           {   'group': 'Gratinering',
+                               'items': [   {   'name': 'Västerbottensost (riven, alt. lagrad Prästost)',
+                                                'unit': 'dl',
+                                                'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 200°C över- och undervärme. Smörj en ugnsfast form med smör.',
+                                'title': 'Förbered ugn och form'},
+                            {   'step': 2,
+                                'text': 'Skala alla rotfrukter. Skiva potatis, palsternacka, morot och rotselleri i '
+                                        'tunna, jämna skivor (ca 2–3 mm), gärna med en mandolin för jämn tillagning.',
+                                'title': 'Skiva rotfrukterna'},
+                            {   'step': 3,
+                                'text': 'Lägg de skivade rotfrukterna i en stor kastrull. Häll på vispgrädde, mjölk, '
+                                        'riven vitlök, timjan, salt och svartpeppar. Koka upp försiktigt under '
+                                        'omrörning och låt sjuda i 8–10 minuter så att stärkelsen reder såsen '
+                                        'naturligt.',
+                                'title': 'Förkoka i gräddblandningen'},
+                            {   'step': 4,
+                                'text': 'Häll över rotfrukterna och den heta gräddsåsen i ugnsformen. Jämna till ytan '
+                                        'och strö över den rivna Västerbottensosten.',
+                                'title': 'Häll i formen och toppa med ost'},
+                            {   'step': 5,
+                                'text': 'Grädda mitt i ugnen i ca 35–40 minuter tills rotfrukterna är helt mjuka och '
+                                        'osten blivit gyllenbrun och bubblig. Låt gratängen vila i 10 minuter före '
+                                        'servering så att den sätter sig fint.',
+                                'title': 'Grädda och vila'}],
+        'keywords': 'rotfruktsgratäng recept, krämig rotfruktsgratäng, rotfruktsgratäng västerbottensost, enkel '
+                    'rotfruktsgratäng, rotfruktsgratäng med vitlök, tillbehör till kött',
+        'long_desc': 'Rotfruktsgratäng är den fylligare, mer aromatiska kusinen till klassisk potatisgratäng! Genom '
+                     'att kombinera potatis med söta morötter, nötig palsternacka och jordig rotselleri får gratängen '
+                     'en fantastisk smakrikedom. Den sjuds mjuk i grädde, mjölk, vitlök och färsk timjan och '
+                     'gratineras i ugnen med ett generöst täcke av Västerbottensost tills den är gyllenbrun och '
+                     'bubblande. Det perfekta tillbehöret till söndagssteken, viltgrytan eller höstmiddagen.',
+        'nutrition': {'calories': '395 kcal', 'carbs': '24g', 'fat': '30g', 'protein': '9g', 'sugar': '6g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Ett klassiskt proffsknep: Koka rotfruktsskivorna i grädd- och mjölkblandningen i kastrull i 8–10 '
+                    'minuter innan du häller över dem i formen! Då halveras gräddningstiden i ugnen och gratängen blir '
+                    'garanterat genomkrämig utan hårda rotfruktsbitar.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'kramig-rotfruktsgratang-vasterbottensost',
+        'sub': 'Ugnsbakade rotfrukter i vitlöksgrädde med gyllenbrunt osttäcke',
+        'time': 65,
+        'time_str': '1 tim 5 min',
+        'title': 'Krämig Rotfruktsgratäng med Vitlök & Västerbottensost',
+        'total_time': 'PT65M'},
+    {   'alt': 'Krämig viltskavsgryta med kantareller, enbär och färsk timjan serverad med potatismos och lingon',
+        'calories': 490,
+        'card_title': 'Klassisk Viltskavsgryta',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Bästa vardagslyxen som finns. Klart på 20 minuter och smakar som en '
+                                                'restaurangmåltid i fjällen!',
+                                     'date': 'Idag',
+                                     'name': 'Mats J.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Messmöret och enbären gör såsen helt oemotståndlig. En storfavorit '
+                                                'hemma!',
+                                     'date': 'Igår',
+                                     'name': 'Camilla L.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT15M',
+        'cook_time_str': '15 min',
+        'desc': 'Klassisk krämig viltskavsgryta på renskav eller älgskav med smörstekta kantareller, krossade enbär, '
+                'messmör och timjan. Klar på under 30 minuter och makalöst god.',
+        'diet': 'Husmanskost',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett bärigt rött vin som Pinot Noir, ett mörkt öl eller frisk lingondricka.',
+        'equipment': ['Stor stekpanna med hög kant eller traktörpanna', 'Stekspade'],
+        'faqs': [   {   'a': 'Ja, älgskav, renskav och hjortskav fungerar alla lika bra och ger fantastisk viltsmak.',
+                        'q': 'Kan man göra viltskavsgryta på älgskav?'},
+                    {   'a': 'Messmör är den hemliga ingrediensen som ger grytan dess karaktäristiska rondör och '
+                             'karamellsötma, men om du inte har det kan du ta 1 msk svartvinbärsgelé istället.',
+                        'q': 'Måste man ha messmör i viltskavsgryta?'}],
+        'file': 'klassisk-viltskavsgryta-kantareller-messmor.html',
+        'img': 'viltskavsgryta',
+        'ingredients': [   {   'group': 'Skav & Svamp',
+                               'items': [   {   'name': 'viltskav eller renskav (fryst eller tinat)',
+                                                'unit': 'g',
+                                                'val': 500},
+                                            {'name': 'kantareller (färska eller förvällda)', 'unit': 'g', 'val': 200},
+                                            {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'smör till stekning', 'unit': 'msk', 'val': 3}]},
+                           {   'group': 'Viltsås & Kryddor',
+                               'items': [   {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                            {'name': 'crème fraiche', 'unit': 'dl', 'val': 1},
+                                            {'name': 'koncentrerad viltfond (eller kalvfond)', 'unit': 'msk', 'val': 2},
+                                            {'name': 'messmör (original)', 'unit': 'msk', 'val': 2},
+                                            {'name': 'krossade enbär (i mortel)', 'unit': 'st', 'val': 6},
+                                            {   'name': 'färsk timjan (hackad, alt. 1 tsk torkad)',
+                                                'unit': 'msk',
+                                                'val': 1},
+                                            {'name': 'kinesisk soja', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'rårörda lingon', 'unit': 'msk', 'val': 2},
+                                            {'name': 'salt och nymald svartpeppar', 'unit': 'krm', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Fräs kantarellerna i en torr panna tills vätskan ångat bort. Tillsätt 1 msk '
+                                        'smör och stek dem gyllene. Lägg svampen åt sidan på ett fat.',
+                                'title': 'Stek kantarellerna'},
+                            {   'step': 2,
+                                'text': 'Smält 2 msk smör i pannan på hög värme. Lägg i det halvfrysta viltskavet och '
+                                        'bryn det snabbt under tiden som du delar köttet med två trägafflar så att det '
+                                        'smular sig fint.',
+                                'title': 'Bryn skavet'},
+                            {   'step': 3,
+                                'text': 'Tillsätt den finhackade löken och låt den fräsa med köttet i ca 3 minuter '
+                                        'tills löken mjuknat. Vänd tillbaka kantarellerna i pannan tillsammans med '
+                                        'krossade enbär och timjan.',
+                                'title': 'Fräs lök och kryddor'},
+                            {   'step': 4,
+                                'text': 'Häll i vispgrädde, crème fraiche, viltfond, soja och messmör. Rör om och låt '
+                                        'grytan puttra på medelvärme i ca 10 minuter tills såsen tjocknat och blivit '
+                                        'härligt krämig.',
+                                'title': 'Koka ihop med grädde och messmör'},
+                            {   'step': 5,
+                                'text': 'Rör ner 2 msk rårörda lingon och smaka av med salt och nymald svartpeppar. '
+                                        'Toppa med färsk timjan och servera med hemlagat potatismos och extra lingon.',
+                                'title': 'Smaka av och servera'}],
+        'keywords': 'viltskavsgryta recept, renskavsgryta recept, enkel viltskavsgryta, krämig viltskavsgryta, '
+                    'viltskav kantareller messmör, älgskav recept',
+        'long_desc': 'Viltskavsgryta är en norrländsk delikatess och en av de snabbaste och godaste grytorna du kan '
+                     'laga! Skavet (tunna skivor av ren, älg eller hjort) steks fryst i rikligt med smör så att köttet '
+                     'delar sig fint, och får sedan puttra i en sammetslen sås på vispgrädde, crème fraiche, enbär, '
+                     'viltfond, timjan och smörstekta kantareller. Hemligheten bakom den autentiska skogssmaken är en '
+                     'klick messmör och rårörda lingon direkt i såsen. Servera med hemlagat potatismos och extra '
+                     'lingon!',
+        'nutrition': {'calories': '490 kcal', 'carbs': '14g', 'fat': '32g', 'protein': '34g', 'sugar': '5g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Stek skavet medan det fortfarande är halvfryst! Dela köttet i pannan med två gafflar eller en '
+                    'trägaffel – då får skavet fin stekyta utan att koka i sin egen vätska.',
+        'rating': 4.96,
+        'review_count': 10,
+        'slug': 'klassisk-viltskavsgryta-kantareller-messmor',
+        'sub': 'Snabb och mustig höstgryta på renskav eller älgskav med enbär',
+        'time': 25,
+        'time_str': '25 min',
+        'title': 'Klassisk Krämig Viltskavsgryta med Kantareller & Messmör',
+        'total_time': 'PT25M'},
+    {   'alt': 'Gyllenbrun glänsande hemlagad julknäck med hackad mandel i små formar på fat med julbelysning',
+        'calories': 45,
+        'card_title': 'Klassisk Julknäck',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Perfekt konsistens med termometer vid 124 grader! Seg, mjuk och '
+                                                'fantastisk smak.',
+                                     'date': 'Idag',
+                                     'name': 'Ann-Christin W.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Knepet med att hälla ur en liten kanna räddade hela julbaket – noll '
+                                                'kladd!',
+                                     'date': 'Igår',
+                                     'name': 'Johan E.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT30M',
+        'cook_time_str': '30 min',
+        'desc': 'Klassiskt recept på hemgjord julknäck med ljus sirap, vispgrädde, socker och finhackad skållad '
+                'mandel. Med kulprov och exakta temperaturer för perfekt seghet.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett glas varm kryddig glögg, en kopp kaffe eller ett glas kall julmust.',
+        'equipment': [   'Tjockbottnad kastrull eller gjutjärnsgryta',
+                         'Köks- eller digitaltermometer',
+                         'Ca 60–70 knäckformar',
+                         'Liten kanna eller två teskedar'],
+        'faqs': [   {   'a': 'Droppa lite het knäcksmet i ett glas med iskallt vatten. Går smeten att rulla till en '
+                             'mjuk och seg kula mellan fingrarna är knäcken klar (ca 122–125°C).',
+                        'q': 'Hur gör man ett kulprov för knäck?'},
+                    {   'a': 'Ja, uteslut bara mandeln eller ersätt den med rostat havregryn eller solrosfrön om du '
+                             'har nötallergi.',
+                        'q': 'Kan man göra knäck utan mandel?'}],
+        'file': 'klassisk-julknack-hackad-mandel.html',
+        'img': 'knack',
+        'ingredients': [   {   'group': 'Knäcksmet',
+                               'items': [   {'name': 'vispgrädde', 'unit': 'dl', 'val': 2},
+                                            {'name': 'ljus sirap', 'unit': 'dl', 'val': 2},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 2}]},
+                           {   'group': 'Avrundning & Garnering',
+                               'items': [   {'name': 'smör', 'unit': 'msk', 'val': 2},
+                                            {'name': 'sötmandel (skållad & finhackad)', 'unit': 'g', 'val': 50}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Placera ut cirka 60–70 knäckformar på en plåt eller bricka så att de står '
+                                        'stadigt.',
+                                'title': 'Förbered formarna'},
+                            {   'step': 2,
+                                'text': 'Blanda vispgrädde, ljus sirap och strösocker i en rymlig och tjockbottnad '
+                                        'kastrull.',
+                                'title': 'Blanda ingredienserna'},
+                            {   'step': 3,
+                                'text': 'Koka upp på medelvärme under omrörning tills sockret har smält. Låt sedan '
+                                        'smeten koka kraftigt utan lock. Rör om då och då. Koka tills smeten når '
+                                        '122–125°C för perfekt seg knäck (eller 128–130°C för hård knäck), ca 20–35 '
+                                        'minuter.',
+                                'title': 'Koka knäcksmeten'},
+                            {   'step': 4,
+                                'text': 'Ta kastrullen från plattan. Rör genast ner smöret och den finhackade '
+                                        'sötmandeln i den heta smeten.',
+                                'title': 'Tillsätt smör och mandel'},
+                            {   'step': 5,
+                                'text': 'Häll snabbt upp smeten i knäckformarna med hjälp av en såssnipa eller två '
+                                        'skedar. Låt knäcken svalna och stelna helt i rumstemperatur. Förvara i burk '
+                                        'med smörgåspapper mellan lagren.',
+                                'title': 'Fyll formarna och låt stelna'}],
+        'keywords': 'knäck recept, julknäck recept, knäck med mandel, klassisk knäck, hur länge koka knäck, knäck '
+                    'temperatur kulprov',
+        'long_desc': 'Ingen svensk jul är komplett utan hemgjord knäck! Denna klassiska julknäck kokas på lika delar '
+                     'vispgrädde, ljus sirap och strösocker tills den når den magiska temperaturen 122–125°C för '
+                     'perfekt seghet, eller 128–130°C om du föredrar den hårdare och knäckig. Rörs av med en klick '
+                     'smör och rikligt med finhackad skållad sötmandel och fördelas i små knäckformar. Doften av '
+                     'kokande knäck sprider omedelbar julstämning i hela hemmet!',
+        'nutrition': {'calories': '45 kcal', 'carbs': '7g', 'fat': '2g', 'protein': '0.5g', 'sugar': '6g'},
+        'portions_num': 60,
+        'portions_unit': 'stycken',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Ställ ut knäckformarna på en bricka i förväg. För enkel upphällning utan kladd: Häll den heta '
+                    'knäcksmeten i en liten värmetålig såssnipa eller kanna med pip – det går tre gånger så snabbt som '
+                    'med skedar!',
+        'rating': 4.97,
+        'review_count': 10,
+        'slug': 'klassisk-julknack-hackad-mandel',
+        'sub': 'Gyllenbrun julkola med hackad mandel & perfekt konsistens',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Klassisk Julknäck med Hackad Mandel – Bästa Receptet',
+        'total_time': 'PT45M'},
+    {   'alt': 'Gnistrande rubinröda räfflade inlagda rödbetor i glasburk med ättikslag och kryddpeppar',
+        'calories': 65,
+        'card_title': 'Inlagda Rödbetor',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Exakt som min mormor gjorde dem! Mycket godare och krispigare än '
+                                                'burkarna i butik.',
+                                     'date': 'Idag',
+                                     'name': 'Birgitta L.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Bästa tillbehöret till pytt i panna. Den kryddiga lagen med nejlika '
+                                                'och kryddpeppar är magisk.',
+                                     'date': 'Igår',
+                                     'name': 'Jonas F.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT40M',
+        'cook_time_str': '40 min',
+        'desc': 'Klassiskt recept på mormors inlagda rödbetor i traditionell 1-2-3 ättikslag med kryddpeppar, nejlikor '
+                'och senapsfrön. Det självklara tillbehöret till pytt i panna och köttbullar.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Passar utmärkt som tillbehör till svensk husmanskost med en kall öl eller must.',
+        'equipment': [   'Stor kastrull',
+                         'Räfflad kniv eller mandolin',
+                         'Glasburkar med tätslutande lock',
+                         'Hushållshandskar (rekommenderas)'],
+        'faqs': [   {   'a': 'I rena och steriliserade glasburkar i kylskåp håller de i minst 6 månader.',
+                        'q': 'Hur länge håller hemgjorda inlagda rödbetor?'},
+                    {   'a': 'Ja, men 1-2-3-förhållandet (1 del ättika, 2 delar socker, 3 delar vatten) är den '
+                             'klassiska balansen för både perfekt smak och lång hållbarhet.',
+                        'q': 'Kan man minska sockermängden?'}],
+        'file': 'klassiska-inlagda-rodbetor-mormors-recept.html',
+        'img': 'inlagdarodbetor',
+        'ingredients': [   {   'group': 'Rödbetor',
+                               'items': [   {   'name': 'färska rödbetor (med blasten avskuren ca 3 cm ovanför)',
+                                                'unit': 'g',
+                                                'val': 1000},
+                                            {'name': 'salt till kokvattnet', 'unit': 'msk', 'val': 1}]},
+                           {   'group': 'Ättikslag & Kryddor',
+                               'items': [   {'name': 'ättiksprit (12%)', 'unit': 'dl', 'val': 1},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 2},
+                                            {'name': 'vatten', 'unit': 'dl', 'val': 3},
+                                            {'name': 'kryddpepparkorn (hela)', 'unit': 'st', 'val': 10},
+                                            {'name': 'kryddnejlikor (hela)', 'unit': 'st', 'val': 6},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': 2},
+                                            {'name': 'gula senapsfrön', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 0.5}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skölj rödbetorna varsamt utan att skada skalet. Spara 2–3 cm av blastfästet. '
+                                        'Lägg rödbetorna i en stor kastrull, täck med vatten och tillsätt 1 msk salt. '
+                                        'Koka under lock i 30–45 minuter tills de är helt mjuka.',
+                                'title': 'Koka rödbetorna mjuka'},
+                            {   'step': 2,
+                                'text': 'Häll av kokvattnet och spola med kallt vatten. Gnid av skalet med fingrarna '
+                                        '(använd gärna handskar). Skiva rödbetorna i ca 5 mm tjocka skivor, gärna med '
+                                        'en räfflad kniv. Varva skivorna i rena steriliserade glasburkar.',
+                                'title': 'Skala och skiva'},
+                            {   'step': 3,
+                                'text': 'Blanda ättiksprit, strösocker, vatten, kryddpepparkorn, kryddnejlikor, '
+                                        'senapsfrön, lagerblad och salt i en kastrull. Koka upp så att sockret löser '
+                                        'sig helt.',
+                                'title': 'Koka ättikslagen'},
+                            {   'step': 4,
+                                'text': 'Häll den kokheta lagen över rödbetorna i burkarna så att de täcks helt. '
+                                        'Skruva genast på locken.',
+                                'title': 'Häll över lagen och förslut'},
+                            {   'step': 5,
+                                'text': 'Låt svalna i rumstemperatur och ställ sedan i kylen. Låt dra i minst 1–2 dygn '
+                                        'innan servering för bästa smak. Håller i flera månader i kylskåp!',
+                                'title': 'Låt dra och förvara svalt'}],
+        'keywords': 'mormors inlagda rödbetor, inlagda rödbetor recept, lägga in rödbetor, inlagda rödbetor ättikslag, '
+                    'klassiska inlagda rödbetor, rödbetor tillbehör pytt i panna',
+        'long_desc': 'Hemlagade inlagda rödbetor är ljusår godare än köpta! Detta är mormors traditionella recept där '
+                     'färska svenska rödbetor kokas mjuka med skalet på, skalas enkelt under kallt vatten och skivas '
+                     'med en räfflad kniv. Rödbetsskivorna läggs på steriliserade glasburkar och täcks med en '
+                     'välbalanserad, kryddig ättikslag smaksatt med kryddpeppar, kryddnejlikor och lagerblad. Det '
+                     'ultimata tillbehöret till pytt i panna, Biff à la Lindström, leverpastejmackor och julens '
+                     'smörgåsbord.',
+        'nutrition': {'calories': '65 kcal', 'carbs': '14g', 'fat': '0g', 'protein': '1g', 'sugar': '13g'},
+        'portions_num': 8,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Koka alltid rödbetorna med skalet och en bit av stjälken kvar! Om du skär i dem före kokning '
+                    'förlorar de färg och saft i kokvattnet. När de är färdigkokta glider skalet av busenkelt under '
+                    'rinnande kallt vatten.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'klassiska-inlagda-rodbetor-mormors-recept',
+        'sub': 'Traditionellt inlagda skivade rödbetor i kryddig ättikslag',
+        'time': 60,
+        'time_str': '1 timme',
+        'title': 'Klassiska Inlagda Rödbetor – Mormors Bästa Recept',
+        'total_time': 'PT60M'}]
