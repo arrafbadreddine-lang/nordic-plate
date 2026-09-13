@@ -10978,4 +10978,532 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 60,
         'time_str': '1 timme',
         'title': 'Klassiska Inlagda Rödbetor – Mormors Bästa Recept',
-        'total_time': 'PT60M'}]
+        'total_time': 'PT60M'},
+    {   'alt': 'Saftig mjuk pepparkaka med vit cream cheese-frosting och röda lingon på keramikfat',
+        'calories': 290,
+        'card_title': 'Saftig Mjuk Pepparkaka',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Den godaste mjuka pepparkaka jag bakat! Så fantastiskt saftig tack '
+                                                'vare lingonen och frostingen på toppen är pricken över i.',
+                                     'date': 'Idag',
+                                     'name': 'Elin Blomqvist',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Blev en dundersuccé till adventsfikat. Doftade magiskt i hela huset '
+                                                'under gräddningen!',
+                                     'date': 'Igår',
+                                     'name': 'Stefan Wallin',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT40M',
+        'cook_time_str': '40 min',
+        'desc': 'Klassiskt recept på saftig mjuk pepparkaka med rårörda lingon, gräddfil och kryddor. Toppad med en '
+                'silkeslen frosting på färskost och friska lingon.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En kopp nybryggt kaffe, en mugg rykande varm glögg eller ett glas kall mjölk.',
+        'equipment': ['Sockerkaksform eller hålform ca 1.5–2 liter', 'Elvisp och bunke', 'Galler för avsvalning'],
+        'faqs': [   {   'a': 'Bikarbonat reagerar perfekt med syran i gräddfilen och lingonsylten vilket ger kakan '
+                             'dess fantastiskt luftiga och saftiga konsistens samt mörka, gyllene färg.',
+                        'q': 'Varför använder man bikarbonat istället för bakpulver?'},
+                    {   'a': 'Ja, kakan går utmärkt att frysa in! Frys den helst utan frosting och dekorera efter '
+                             'upptining.',
+                        'q': 'Kan man frysa mjuk pepparkaka?'}],
+        'file': 'saftig-mjuk-pepparkaka-lingon.html',
+        'img': 'mjukpepparkaka',
+        'ingredients': [   {   'group': 'Kaksmet',
+                               'items': [   {'name': 'smör (smält och avsvalnat)', 'unit': 'g', 'val': 100},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 3},
+                                            {'name': 'strösocker (alt. farinsocker)', 'unit': 'dl', 'val': 2.5},
+                                            {'name': 'gräddfil (eller filmjölk)', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'rårörda lingon (eller lingonsylt)', 'unit': 'dl', 'val': 1},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': 3.5},
+                                            {'name': 'malen kanel', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'malen ingefära', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'malen kryddnejlika', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'malen kardemumma', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'bikarbonat (alt. 2 tsk bakpulver)', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Cream Cheese-frosting & Garnering',
+                               'items': [   {'name': 'färskost (t.ex. Philadelphia)', 'unit': 'g', 'val': 100},
+                                            {'name': 'smör (rumsvarmt)', 'unit': 'g', 'val': 30},
+                                            {'name': 'florsocker', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'färska lingon till garnering', 'unit': 'msk', 'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över- och undervärme. Smörj och bröa en sockerkaksform '
+                                        '(ca 1.5–2 liter) noga med ströbröd.',
+                                'title': 'Förbered form och ugn'},
+                            {   'step': 2,
+                                'text': 'Smält smöret och låt det svalna något. Vispa ägg och strösocker riktigt vitt, '
+                                        'pösigt och fluffigt med elvisp i ca 3–4 minuter.',
+                                'title': 'Vispa ägg och socker'},
+                            {   'step': 3,
+                                'text': 'Blanda vetemjöl, kanel, ingefära, kryddnejlika, kardemumma, bikarbonat och '
+                                        'salt i en separat bunke.',
+                                'title': 'Blanda torra kryddor'},
+                            {   'step': 4,
+                                'text': 'Rör ner det smälta smöret, gräddfilen och lingonsylten i äggvispet. Sikta ner '
+                                        'de torra ingredienserna och vänd försiktigt runt med en slickepott till en '
+                                        'jämn och klumpfri smet.',
+                                'title': 'Rör ihop kaksmeten'},
+                            {   'step': 5,
+                                'text': 'Häll smeten i formen och grädda i nedre delen av ugnen i ca 40–45 minuter. '
+                                        'Känn med en provsticka – den ska komma ut torr i mitten.',
+                                'title': 'Grädda kakan'},
+                            {   'step': 6,
+                                'text': 'Låt kakan vila i formen i 10 minuter innan du stjälper upp den på ett galler '
+                                        'för att svalna helt under en bakduk.',
+                                'title': 'Stjälp upp och svalna'},
+                            {   'step': 7,
+                                'text': 'Vispa ihop rumsvarm färskost, mjukt smör, florsocker och vaniljsocker till en '
+                                        'krämig och slät glasyr. Bred eller ringla frostingen över den kalla kakan och '
+                                        'toppa med friska lingon.',
+                                'title': 'Frosting och garnering'}],
+        'keywords': 'mjuk pepparkaka recept, saftig mjuk pepparkaka, mjuk pepparkaka med lingon, mjuk pepparkaka '
+                    'frosting, enkel mjuk pepparkaka, mjuk pepparkaka gräddfil',
+        'long_desc': 'Mjuk pepparkaka är vinterns och adventstidens absolut mest älskade mjuka kaka! Hemligheten bakom '
+                     'en oemotståndligt saftig kaka som inte blir torr är att baka den med gräddfil (eller filmjölk) '
+                     'och vända ner syrliga rårörda lingon direkt i smeten. Kryddad med generösa mängder kanel, '
+                     'ingefära, kardemumma och kryddnejlika fyller den köket med magiska dofter. Här kröns den '
+                     'dessutom med en frisk cream cheese-frosting som bryter av kryddigheten perfekt.',
+        'nutrition': {'calories': '290 kcal', 'carbs': '42g', 'fat': '12g', 'protein': '4g', 'sugar': '26g'},
+        'portions_num': 12,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Mjuk pepparkaka blir nästan ännu saftigare och godare om den får stå inplastad i rumstemperatur '
+                    'till dagen efter så att kryddorna hinner mogna. Vill du ha den extra lyxig kan du byta ut '
+                    'strösockret mot farinsocker för djupare karamellton.',
+        'rating': 4.96,
+        'review_count': 9,
+        'slug': 'saftig-mjuk-pepparkaka-lingon',
+        'sub': 'Kryddig sockerkaka med lingonsylt, kanel, ingefära & nejlika',
+        'time': 55,
+        'time_str': '55 min',
+        'title': 'Saftig Mjuk Pepparkaka med Lingon & Cream Cheese-frosting',
+        'total_time': 'PT55M'},
+    {   'alt': 'Gyllene hemlagat äppelmos i glasburk med kanelstång och färska röda äpplen på träbord',
+        'calories': 75,
+        'card_title': 'Hemlagat Äppelmos',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Så fantastiskt gott med kanelstången i koket! Perfekt lagom sött och '
+                                                'så enkelt recept.',
+                                     'date': 'Idag',
+                                     'name': 'Kerstin Olsson',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Kokade mos på trädgårdens fallfrukt. Blev tio burkar till frysen, '
+                                                'underbart gott till havregrynsgröten!',
+                                     'date': 'Igår',
+                                     'name': 'Lars G.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Klassiskt recept på hemgjort äppelmos med friska svenska äpplen, kanelstång och färsk citron. Enkelt '
+                'att koka i kastrull och perfekt till gröten eller pannkakorna.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Serveras till frukostgröten med kall mjölk eller som tillbehör till stekt fläsk.',
+        'equipment': ['Stor kastrull', 'Skalare och urkärnare', 'Potatisstöt eller stavmixer', 'Rena glasburkar'],
+        'faqs': [   {   'a': 'Syrliga och mjukare äppelsorter som Aroma, Gravensteiner, Ingrid Marie och Transparent '
+                             'Blanche kokar sönder lätt och ger fantastisk smak och balans.',
+                        'q': 'Vilka äppelsorter passar bäst till äppelmos?'},
+                    {   'a': 'Ja, frysen är det bästa sättet att bevara äppelmos utan konserveringsmedel! Frys in i '
+                             'portionsburkar så har du färskt mos hela året.',
+                        'q': 'Kan man frysa äppelmos?'}],
+        'file': 'hemlagat-appelmos-kanel-citron.html',
+        'img': 'appelmos',
+        'ingredients': [   {   'group': 'Äppelbas',
+                               'items': [   {   'name': 'svenska äpplen (skalade, urkärnade och klyftade)',
+                                                'unit': 'kg',
+                                                'val': 1.5},
+                                            {'name': 'vatten', 'unit': 'dl', 'val': 1},
+                                            {'name': 'pressad citronsaft', 'unit': 'msk', 'val': 2},
+                                            {'name': 'kanelstång', 'unit': 'st', 'val': 1}]},
+                           {   'group': 'Sötning',
+                               'items': [   {   'name': 'strösocker (justera efter äpplenas syra)',
+                                                'unit': 'dl',
+                                                'val': 1.5},
+                                            {'name': 'vaniljsocker (valfritt)', 'unit': 'tsk', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skölj, skala och kärna ur äpplena. Skär dem i mindre bitar så kokar de sönder '
+                                        'snabbare och jämnare.',
+                                'title': 'Förbered äpplena'},
+                            {   'step': 2,
+                                'text': 'Lägg äppelbitarna i en stor kastrull tillsammans med vatten, färskpressad '
+                                        'citronsaft och kanelstången.',
+                                'title': 'Koka upp med kanel och citron'},
+                            {   'step': 3,
+                                'text': 'Koka upp under lock och låt sjuda på medelvärme i ca 12–15 minuter tills '
+                                        'äppelbitarna är helt mjuka och börjar mosa sig. Rör om då och då så att det '
+                                        'inte bränner i botten.',
+                                'title': 'Sjud äpplena mjuka'},
+                            {   'step': 4,
+                                'text': 'Ta kastrullen från plattan och plocka ur kanelstången. Mosa äpplena med en '
+                                        'potatisstöt för rustikt mos med bitar, eller mixa med stavmixer för ett helt '
+                                        'slätt äppelmos.',
+                                'title': 'Mosa till önskad konsistens'},
+                            {   'step': 5,
+                                'text': 'Tillsätt strösocker och eventuellt vaniljsocker. Rör om väl och låt moset '
+                                        'koka upp på nytt i 2 minuter så att sockret löser sig helt.',
+                                'title': 'Rör ner socker'},
+                            {   'step': 6,
+                                'text': 'Häll upp det heta moset i varma, steriliserade glasburkar och förslut '
+                                        'omedelbart. Låt svalna och förvara i kylskåp eller frys in i plastburkar för '
+                                        'lång hållbarhet.',
+                                'title': 'Häll upp på burkar'}],
+        'keywords': 'äppelmos recept, hemgjort äppelmos, enkelt äppelmos, koka äppelmos i kastrull, äppelmos kanel '
+                    'citron, äppelmos utan konserveringsmedel',
+        'long_desc': 'Att koka eget äppelmos när höstens trädgårdar svämmar över av svenska äpplen är en av höstens '
+                     'finaste traditioner! Detta enkla recept ger ett gyllene, lagom sött och aromatiskt mos smaksatt '
+                     'med en kanelstång och pressad citronsaft som bevarar äpplenas friska smak och vackra färg. Helt '
+                     'utan onödiga tillsatser eller konserveringsmedel – oslagbart gott på morgongröten, till '
+                     'söndagssteken eller till nygräddade pannkakor.',
+        'nutrition': {'calories': '75 kcal', 'carbs': '18g', 'fat': '0.1g', 'protein': '0.3g', 'sugar': '17g'},
+        'portions_num': 8,
+        'portions_unit': 'dl mos',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Vill du spara tid? Du behöver inte ens skala äpplena om du har en passervagga! Kokar du med '
+                    'skalet på får moset dessutom en vacker rosa-röd ton från röda äpplen. Ska du använda stavmixer '
+                    'rekommenderas dock att skala äpplena först.',
+        'rating': 4.94,
+        'review_count': 8,
+        'slug': 'hemlagat-appelmos-kanel-citron',
+        'sub': 'Lent och smakrikt äppelmos utan konserveringsmedel',
+        'time': 35,
+        'time_str': '35 min',
+        'title': 'Hemlagat Äppelmos med Kanel & Citron – Mormors Recept',
+        'total_time': 'PT35M'},
+    {   'alt': 'Klassisk pumpapaj i pajform med uppskuren tårtbit toppad med vispad grädde och kanel',
+        'calories': 330,
+        'card_title': 'Klassisk Pumpapaj',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Underbart god pumpapaj! Kryddningen var helt perfekt och fyllningen '
+                                                'blev sammetslen.',
+                                     'date': 'Idag',
+                                     'name': 'Maria Lind',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde succé på Halloween-middagen. Mycket godare än de jag ätit i '
+                                                'USA!',
+                                     'date': 'Igår',
+                                     'name': 'Viktor A.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT45M',
+        'cook_time_str': '45 min',
+        'desc': 'Klassiskt recept på krämig pumpapaj (Pumpkin Pie) med frasig mördegsbotten och fyllning på pumpapuré, '
+                'kanel, ingefära, muskot och lönnsirap. Perfekt till Halloween och höstfika.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En kopp kryddigt chai-te, en mörk kafferost eller varm äppelmust.',
+        'equipment': ['Pajform ca 24–26 cm', 'Kavel och plastfolie', 'Vispskål och visp'],
+        'faqs': [   {   'a': 'Butternutpumpa (muskatpumpa) är den absolut bästa och enklaste sorten i Sverige – den '
+                             'har sött, nötigt fruktkött och fast konsistens.',
+                        'q': 'Vilken sorts pumpa är bäst för pumpapaj?'},
+                    {   'a': 'Kanterna ska vara fasta och lite puffade, medan mitten ska dallra lätt som en crème '
+                             'brûlée när du skakar försiktigt på formen. Den stelnar helt när den svalnar.',
+                        'q': 'Hur vet man när pumpapajen är klar?'}],
+        'file': 'klassisk-pumpapaj-kanel-gradda.html',
+        'img': 'pumpapaj',
+        'ingredients': [   {   'group': 'Frasigt Pajskal',
+                               'items': [   {'name': 'vetemjöl', 'unit': 'dl', 'val': 3},
+                                            {'name': 'kallt smör (i tärningar)', 'unit': 'g', 'val': 125},
+                                            {'name': 'florsocker', 'unit': 'msk', 'val': 2},
+                                            {'name': 'iskallt vatten', 'unit': 'msk', 'val': 2},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Krämig Pumpafyllning',
+                               'items': [   {   'name': 'pumpapuré (av butternut- eller muskatpumpa)',
+                                                'unit': 'g',
+                                                'val': 450},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 3},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': 2},
+                                            {'name': 'farinsocker (eller muscovadosocker)', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'malen kanel', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'malen ingefära', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'riven muskotnöt', 'unit': 'tsk', 'val': 0.5},
+                                            {'name': 'malen kryddnejlika', 'unit': 'krm', 'val': 0.5},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Till Servering',
+                               'items': [   {   'name': 'vispgrädde (vispad med lite vaniljsocker)',
+                                                'unit': 'dl',
+                                                'val': 2},
+                                            {'name': 'malen kanel till pudring', 'unit': 'krm', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Nyp ihop kallt tärnat smör med vetemjöl, florsocker och salt till en smulig '
+                                        'massa. Tillsätt iskallt vatten och arbeta snabbt ihop till en smidig deg. '
+                                        'Platta till, linda in i plastfolie och vila i kylen i 30 minuter.',
+                                'title': 'Gör pajdegen'},
+                            {   'step': 2,
+                                'text': 'Sätt ugnen på 200°C. Kavla ut degen och klä en pajform (ca 24–26 cm). Nagga '
+                                        'botten och ställ i frysen i 10 minuter. Förgrädda pajskalet mitt i ugnen i 10 '
+                                        'minuter. Sänk sedan ugnstemperaturen till 175°C.',
+                                'title': 'Förgrädda pajskalet'},
+                            {   'step': 3,
+                                'text': 'Vispa samman pumpapuré, ägg, vispgrädde, farinsocker, kanel, ingefära, '
+                                        'muskotnöt, nejlika, vaniljsocker och salt i en bunke till en helt slät smet.',
+                                'title': 'Blanda pumpafyllningen'},
+                            {   'step': 4,
+                                'text': 'Häll fyllningen i det förgräddade pajskalet. Grädda mitt i ugnen på 175°C i '
+                                        'ca 40–45 minuter tills fyllningen stannat i kanterna men fortfarande dallrar '
+                                        'lätt i mitten.',
+                                'title': 'Fyll och grädda pajen'},
+                            {   'step': 5,
+                                'text': 'Låt pajen svalna helt i rumstemperatur och ställ sedan i kylen i minst 2 '
+                                        'timmar så att fyllningen sätter sig och blir lätt att skära. Servera med '
+                                        'fluffig vispgrädde och ett lätt puder av kanel.',
+                                'title': 'Kyl och servera'}],
+        'keywords': 'pumpapaj recept, amerikansk pumpapaj, pumpkin pie recept, enkel pumpapaj, pumpapaj halloween, söt '
+                    'paj med pumpa',
+        'long_desc': 'Pumpapaj är höstens mest ikoniska dessertpaj! Denna svenska tolkning av den amerikanska '
+                     'klassikern Pumpkin Pie har ett extra sprött och smörigt mördegsskal fyllt med en silkeslen '
+                     'fyllning av söt pumpapuré, vispgrädde, ägg, farinsocker och värmande höstkryddor som kanel, '
+                     'ingefära, kardemumma och muskotnöt. Gräddas gyllene och serveras traditionellt kyld med en '
+                     'generös klick nyvispad grädde och en nypa kanel på toppen.',
+        'nutrition': {'calories': '330 kcal', 'carbs': '38g', 'fat': '18g', 'protein': '5g', 'sugar': '22g'},
+        'portions_num': 8,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Du kan göra egen pumpapuré busenkelt: Rosta tärnad butternutpumpa i ugnen på 200°C i 30 minuter '
+                    'och mixa slät med stavmixer! Låt purén rinna av i ett kaffefilter i 10 minuter så blir fyllningen '
+                    'perfekt krämig och aldrig vattnig.',
+        'rating': 4.93,
+        'review_count': 8,
+        'slug': 'klassisk-pumpapaj-kanel-gradda',
+        'sub': 'Frasigt pajskal med kryddig pumpafyllning på kanel & ingefära',
+        'time': 70,
+        'time_str': '1 tim 10 min',
+        'title': 'Klassisk Amerikansk Pumpapaj med Kanel & Vispad Grädde',
+        'total_time': 'PT70M'},
+    {   'alt': 'Saftiga fläskkotletter i ugn med gyllenbrun champinjongräddsås och timjan i gratängform',
+        'calories': 560,
+        'card_title': 'Fläskkotletter i Ugn',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Bästa sättet att laga fläskkotletter på! Köttet blev så mört att det '
+                                                'föll isär och såsen är helt magisk.',
+                                     'date': 'Idag',
+                                     'name': 'Tomas Berg',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'En riktig söndagsfavorit som sköter sig själv i ugnen. Alla i '
+                                                'familjen gav toppbetyg!',
+                                     'date': 'Igår',
+                                     'name': 'Gunilla M.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT30M',
+        'cook_time_str': '30 min',
+        'desc': 'Klassiskt recept på saftiga fläskkotletter i ugn med skogschampinjoner, vitlök, dijonsenap och '
+                'vispgrädde. Enkel, mör och otroligt smakrik vardagsfavorit.',
+        'diet': 'Husmanskost',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett fylligt vitt vin som ekfatslagrat Chardonnay, en kall lageröl eller äppelmust.',
+        'equipment': ['Stekpanna', 'Ugnsfast form ca 20x30 cm', 'Visp och såsskål'],
+        'faqs': [   {   'a': 'Köttets innertemperatur ska vara ca 68–70°C för saftigt och perfekt genomstekt '
+                             'fläskkött. I såsen hålls de saftiga även om de står några minuter extra.',
+                        'q': 'Hur vet man att fläskkotletterna är klara i ugnen?'},
+                    {   'a': 'Ja, fläskkarré med ben passar helt suveränt och blir ännu mörarare och smakrikare!',
+                        'q': 'Kan man göra rätten med karrékotletter?'}],
+        'file': 'saftiga-flaskkotletter-i-ugn-graddsas.html',
+        'img': 'flaskkotletter',
+        'ingredients': [   {   'group': 'Kotletter & Svamp',
+                               'items': [   {'name': 'fläskkotletter (gärna med ben)', 'unit': 'st', 'val': 4},
+                                            {'name': 'färska champinjoner (skivade)', 'unit': 'g', 'val': 250},
+                                            {'name': 'smör till stekning', 'unit': 'msk', 'val': 2},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'nymald svartpeppar', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Krämig Gräddsås',
+                               'items': [   {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                            {'name': 'crème fraiche', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'vatten (vispas ur stekpannan)', 'unit': 'dl', 'val': 1},
+                                            {'name': 'koncentrerad kalvfond', 'unit': 'msk', 'val': 2},
+                                            {'name': 'kinesisk soja', 'unit': 'msk', 'val': 1},
+                                            {'name': 'dijonsenap', 'unit': 'msk', 'val': 1},
+                                            {'name': 'vitlöksklyftor (pressade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'torkad timjan (eller 1 msk färsk)', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Garnering',
+                               'items': [   {   'name': 'färsk persilja och färsk timjan (hackad)',
+                                                'unit': 'msk',
+                                                'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 200°C över- och undervärme. Smörj en ugnsfast form med lite '
+                                        'smör. Torka kotletterna med hushållspapper och krydda båda sidor med salt och '
+                                        'svartpeppar.',
+                                'title': 'Förbered ugn och kotletter'},
+                            {   'step': 2,
+                                'text': 'Hetta upp 1 msk smör i en stekpanna och bryn kotletterna på hög värme i ca '
+                                        '1.5–2 minuter per sida så att de får en fin gyllenbrun stekyta. Lägg över '
+                                        'kotletterna i ugnsformen.',
+                                'title': 'Bryn kotletterna'},
+                            {   'step': 3,
+                                'text': 'Fräs de skivade champinjonerna i 1 msk smör i samma panna tills de fått färg '
+                                        'och vätskan ångat bort. Strö svampen runt kotletterna i formen.',
+                                'title': 'Stek champinjonerna'},
+                            {   'step': 4,
+                                'text': 'Häll 1 dl vatten i stekpannan och vispa ur den goda stekskyn. Tillsätt '
+                                        'vispgrädde, crème fraiche, kalvfond, soja, dijonsenap, pressad vitlök och '
+                                        'timjan i pannan. Koka upp såsen snabbt under omrörning.',
+                                'title': 'Vispa ihop gräddsåsen'},
+                            {   'step': 5,
+                                'text': 'Häll den heta såsen jämnt över kotletterna och svampen i ugnsformen. Baka '
+                                        'mitt i ugnen i ca 25–30 minuter tills kotletterna är genomstekta, möra och '
+                                        'såsen är bubblig och gyllene.',
+                                'title': 'Grädda i ugnen'},
+                            {   'step': 6,
+                                'text': 'Garnera med nyskuren persilja och timjan. Servera rykande het med kokt '
+                                        'potatis eller potatismos, pressgurka och svartvinbärsgelé.',
+                                'title': 'Garnera och servera'}],
+        'keywords': 'fläskkotletter i ugn, fläskkotletter i ugn med sås, saftiga fläskkotletter recept, kotletter i '
+                    'ugn champinjoner, enkel middag fläskkotlett, mör fläskkotlett',
+        'long_desc': 'Fläskkotletter i ugn är den ultimata metoden för att garantera att kotletterna blir smältande '
+                     'möra och aldrig torra! Kotletterna bryns snabbt i panna för en aptitretande stekyta, läggs i en '
+                     'ugnsform tillsammans med smörstekta champinjoner och täcks med en ljuvlig sås på vispgrädde, '
+                     'crème fraiche, soja, vitlök och dijonsenap. Medan allt gratineras i ugnen drar köttet åt sig all '
+                     'smak från såsen. Servera med kokt potatis eller potatismos och svartvinbärsgelé!',
+        'nutrition': {'calories': '560 kcal', 'carbs': '7g', 'fat': '42g', 'protein': '38g', 'sugar': '4g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Välj gärna kotletter med ben – benet tillför fantastisk smak och hjälper till att bevara '
+                    'saftigheten i köttet under ugnsbakningen. Koka ur stekpannan med lite vatten efter brynandet och '
+                    'häll skyn i gräddsåsen!',
+        'rating': 4.91,
+        'review_count': 9,
+        'slug': 'saftiga-flaskkotletter-i-ugn-graddsas',
+        'sub': 'Möra kotletter ugnsbakade i krämig champinjonsås & dijonsenap',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Saftiga Fläskkotletter i Ugn med Champinjoner & Gräddsås',
+        'total_time': 'PT45M'},
+    {   'alt': 'Gyllengula saftiga saffranssnurror med mandelmassa, hyvlad mandel och pärlsocker på fat',
+        'calories': 245,
+        'card_title': 'Saffranssnurror med Mandelmassa',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'De saftigaste saffransbullar jag någonsin ätit! Alla i familjen '
+                                                'älskade mandelfyllningen.',
+                                     'date': 'Idag',
+                                     'name': 'Katarina Sandin',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Otroligt lyckat recept. Kesellan och det rumsvarma smöret gjorde '
+                                                'degen underbart smidig att arbeta med.',
+                                     'date': 'Igår',
+                                     'name': 'Erik H.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT10M',
+        'cook_time_str': '10 min',
+        'desc': 'Klassiskt recept på saftiga saffranssnurror med fyllning av mandelmassa, äkta smör och vanilj. '
+                'Toppade med pärlsocker och hyvlad mandel – julens lyxigaste saffransbullar.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En kopp nybryggt kaffe, en varm mugg glögg eller ett glas kall julmust.',
+        'equipment': [   'Köksassistent med degkrok (eller stor bunke)',
+                         'Kavel',
+                         'Plåtar med bakplåtspapper',
+                         'Bakpensel'],
+        'faqs': [   {   'a': 'Fyllningen med mandelmassa och smör gör bullarna otroligt saftiga! Frys in de bullar som '
+                             'inte äts samma dag så fort de svalnat – värm dem snabbt i ugnen eller mikron så smakar '
+                             'de som nygräddade.',
+                        'q': 'Hur håller man saffransbullar saftiga länge?'},
+                    {   'a': 'Ja, att riva 100 g vit choklad över smör- och sockerfyllningen istället för mandelmassa '
+                             'är en fantastisk modern variation!',
+                        'q': 'Kan man byta ut mandelmassan mot vit choklad?'}],
+        'file': 'saftiga-saffranssnurror-mandelmassa.html',
+        'img': 'saffranssnurror',
+        'ingredients': [   {   'group': 'Saffransdeg',
+                               'items': [   {'name': 'standardmjölk (3%)', 'unit': 'dl', 'val': 5},
+                                            {'name': 'saffran (2 kuvert)', 'unit': 'g', 'val': 1},
+                                            {'name': 'färsk jäst för söta degar', 'unit': 'g', 'val': 50},
+                                            {'name': 'smör (rumsvarmt i kuber)', 'unit': 'g', 'val': 150},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'kesella eller kvarg (10%)', 'unit': 'dl', 'val': 1.5},
+                                            {   'name': 'vetemjöl special (eller vanligt vetemjöl)',
+                                                'unit': 'dl',
+                                                'val': 13},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Krämig Mandelfyllning',
+                               'items': [   {'name': 'mandelmassa (grovriven)', 'unit': 'g', 'val': 250},
+                                            {'name': 'smör (rumsvarmt)', 'unit': 'g', 'val': 150},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 1},
+                                            {'name': 'vaniljsocker', 'unit': 'msk', 'val': 1.5}]},
+                           {   'group': 'Pensling & Garnering',
+                               'items': [   {'name': 'ägg (uppvispat till pensling)', 'unit': 'st', 'val': 1},
+                                            {'name': 'pärlsocker', 'unit': 'msk', 'val': 3},
+                                            {'name': 'flagad mandel', 'unit': 'msk', 'val': 3}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Mortla saffranet med 1 tsk socker. Värm mjölken fingervarm (37°C) tillsammans '
+                                        'med saffranet. Smula jästen i en degbunke, häll över den gula saffransmjölken '
+                                        'och rör tills jästen löst sig.',
+                                'title': 'Förbered saffranet och degvätskan'},
+                            {   'step': 2,
+                                'text': 'Tillsätt strösocker, kesella, salt och cirka hälften av vetemjölet. Klicka i '
+                                        'det rumsvarma smöret i bitar. Arbeta in resten av mjölet pö om pö tills degen '
+                                        'släpper bunkens kanter (arbeta ca 10 minuter i maskin).',
+                                'title': 'Knåda degen'},
+                            {   'step': 3,
+                                'text': 'Täck bunken med bakduk och låt degen jäsa i rumstemperatur till dubbel '
+                                        'storlek, ca 45–60 minuter.',
+                                'title': 'Första jäsning'},
+                            {   'step': 4,
+                                'text': 'Rör ihop grovriven mandelmassa, mjukt smör, strösocker och vaniljsocker till '
+                                        'en slät och bredbar kräm med elvisp eller gaffel.',
+                                'title': 'Gör mandelfyllningen'},
+                            {   'step': 5,
+                                'text': 'Ta upp degen på mjölat bakbord, knåda lätt och dela i två delar. Kavla ut '
+                                        'varje del till en rektangel (ca 30x45 cm). Bred mandelfyllningen jämnt över '
+                                        'plattan.',
+                                'title': 'Baka ut bullarna'},
+                            {   'step': 6,
+                                'text': 'Vik degen i ett treslag. Skär ca 2 cm breda remsor. Snurra varje remsa som en '
+                                        'spiral och slå en knut eller snurra runt fingrarna. Lägg på plåtar med '
+                                        'bakplåtspapper.',
+                                'title': 'Forma snurror'},
+                            {   'step': 7,
+                                'text': 'Låt saffranssnurrorna jäsa under bakduk i ca 30–40 minuter. Sätt ugnen på '
+                                        '225°C. Pensla bullarna med uppvispat ägg och strö över pärlsocker och flagad '
+                                        'mandel.',
+                                'title': 'Andra jäsning och gräddning'},
+                            {   'step': 8,
+                                'text': 'Grädda mitt i ugnen i ca 8–10 minuter tills de fått en vacker gyllengul färg. '
+                                        'Låt svalna på galler under bakduk.',
+                                'title': 'Grädda gyllene'}],
+        'keywords': 'saffransbullar med mandelmassa, saffranssnurror recept, saftiga saffransbullar, saffransknutar '
+                    'mandelmassa, adventsfika bullar, bästa saffransbullarna',
+        'long_desc': 'Saffranssnurror med mandelmassa är det ultimata beviset på att saffransbullar inte behöver bli '
+                     'torra! Genom att baka bullarna som snurror (eller knutar) och fylla dem rikligt med en krämig '
+                     'blandning av riven mandelmassa, äkta smör och vaniljsocker kapslas fukten in under hela '
+                     'gräddningen. Doften av gult saffran och rostad mandel sprider oslagbar julstämning. Toppa med '
+                     'knaprigt pärlsocker och flagad mandel för den perfekta adventsfikaklassikern!',
+        'nutrition': {'calories': '245 kcal', 'carbs': '34g', 'fat': '10g', 'protein': '5g', 'sugar': '15g'},
+        'portions_num': 24,
+        'portions_unit': 'bullar',
+        'prep_time': 'PT35M',
+        'prep_time_str': '35 min',
+        'pro_tips': 'Mortla saffranet med 1 tsk strösocker och 1 msk konjak eller rom och låt stå i 15 minuter innan '
+                    'du tillsätter det i degen – alkoholen drar ut maximal färg och fantastisk arom ur saffranet! '
+                    'Pensla bullarna med sockerlag direkt när de kommer ur ugnen för glans och extra saftighet.',
+        'rating': 4.98,
+        'review_count': 10,
+        'slug': 'saftiga-saffranssnurror-mandelmassa',
+        'sub': 'Fluffiga gyllengula saffransbullar med mandelfyllning & pärlsocker',
+        'time': 90,
+        'time_str': '1 tim 30 min',
+        'title': 'Saftiga Saffranssnurror med Mandelmassa & Vanilj',
+        'total_time': 'PT90M'}]
