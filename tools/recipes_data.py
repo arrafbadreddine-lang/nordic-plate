@@ -11506,4 +11506,393 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 90,
         'time_str': '1 tim 30 min',
         'title': 'Saftiga Saffranssnurror med Mandelmassa & Vanilj',
-        'total_time': 'PT90M'}]
+        'total_time': 'PT90M'},
+    {   'alt': 'Rykande het hemgjord rödvinsglögg i glasmugg med kanelstång, apelsinskiva och russin med mandel',
+        'calories': 165,
+        'card_title': 'Hemlagad Rödvinsglögg',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Den godaste glöggen jag någonsin smakat! Så mycket mer aromatisk och '
+                                                'fyllig än köpt flaskglögg.',
+                                     'date': 'Idag',
+                                     'name': 'Magnus Kvist',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Kryddningen med apelsinskal och stjärnanis gav en fantastisk doft. '
+                                                'Gjorde succé på adventsminglet!',
+                                     'date': 'Igår',
+                                     'name': 'Sofia Berglund',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Klassiskt recept på hemgjord rödvinsglögg med hel kanel, kardemummakärnor, nejlikor, apelsinskal och '
+                'socker. Doftar och smakar som äkta svensk jul.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Serveras traditionellt med pepparkakor med ädelost och nybakade lussebullar.',
+        'equipment': ['Rostfri kastrull eller gryta med lock', 'Finmaskig sil', 'Värmetåliga glasmuggar eller koppar'],
+        'faqs': [   {   'a': 'Välj ett fruktigt, fylligt och mjukt rött vin som inte har för sträva tanniner eller hög '
+                             'syra, t.ex. ett spanskt vin på Garnacha eller ett italienskt på Montepulciano.',
+                        'q': 'Vilket rött vin är bäst till hemgjord glögg?'},
+                    {   'a': 'Ja, byt bara ut rödvinet mot en blandning av svartvinbärssaft (koncentrerad utspädd) och '
+                             'osötad druvjuice eller äppelmust.',
+                        'q': 'Kan man göra alkoholfri glögg med samma recept?'}],
+        'file': 'hemlagad-glogg-pa-rodvin-kryddor.html',
+        'img': 'glogg',
+        'ingredients': [   {   'group': 'Glöggbas & Kryddor',
+                               'items': [   {'name': 'fylligt rött vin (1 flaska)', 'unit': 'cl', 'val': 75},
+                                            {'name': 'strösocker (alt. farinsocker)', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'kanelstänger', 'unit': 'st', 'val': 2},
+                                            {'name': 'hela kardemummakärnor (lätt krossade)', 'unit': 'msk', 'val': 1},
+                                            {'name': 'hela kryddnejlikor', 'unit': 'st', 'val': 10},
+                                            {'name': 'färsk ingefära (i tunna skivor)', 'unit': 'g', 'val': 20},
+                                            {'name': 'stjärnanis', 'unit': 'st', 'val': 2},
+                                            {'name': 'apelsinskal (ekologiskt, i remsor)', 'unit': 'remsor', 'val': 2},
+                                            {'name': 'mörk rom eller konjak (valfritt)', 'unit': 'dl', 'val': 0.5}]},
+                           {   'group': 'Klassiskt Tillbehör',
+                               'items': [   {'name': 'skållad sötmandel', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'russin', 'unit': 'dl', 'val': 0.5}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Häll cirka 2 dl av rödvinet i en kastrull. Tillsätt strösocker, kanelstänger, '
+                                        'krossade kardemummakärnor, kryddnejlikor, ingefärsskivor, stjärnanis och '
+                                        'apelsinskal.',
+                                'title': 'Blanda kryddorna med lite vin'},
+                            {   'step': 2,
+                                'text': 'Koka upp försiktigt på medelvärme under omrörning tills sockret har löst sig '
+                                        'helt.',
+                                'title': 'Koka upp kryddlagen'},
+                            {   'step': 3,
+                                'text': 'Sänk värmen och låt kryddlagen sjuda sakta under lock i ca 15 minuter så att '
+                                        'kryddorna avger maximal smak.',
+                                'title': 'Låt kryddorna sjuda'},
+                            {   'step': 4,
+                                'text': 'Ta kastrullen från värmen och låt lagen dra i minst 1 timme (eller över '
+                                        'natten i kylen för ännu djupare smak).',
+                                'title': 'Låt dra'},
+                            {   'step': 5,
+                                'text': 'Sila bort kryddorna genom en finmaskig sil så att du får en klar, intensivt '
+                                        'kryddad glöggsirap.',
+                                'title': 'Sila av kryddorna'},
+                            {   'step': 6,
+                                'text': 'Häll tillbaka kryddlagen i kastrullen och tillsätt resten av rödvinet (samt '
+                                        'eventuell rom eller konjak).',
+                                'title': 'Blanda med resten av vinet'},
+                            {   'step': 7,
+                                'text': 'Värm försiktigt upp glöggen till ca 70–75°C (får inte koka!). Häll upp i små '
+                                        'koppar och servera rykande het med skållad mandel och russin.',
+                                'title': 'Värm och servera'}],
+        'keywords': 'glögg recept, hemgjord glögg, hemlagad rödvinsglögg, krydda egen glögg, julglögg recept, '
+                    'glöggkryddor recept',
+        'long_desc': 'Det finns inget som slår doften och smaken av en gryta med hemgjord glögg som sprider '
+                     'julstämning i hela huset! Denna traditionella svenska rödvinsglögg kokas först till en intensiv '
+                     'kryddlag på rödvin, kanelstänger, hela kardemummakärnor, kryddnejlikor, ingefära och torkat '
+                     'apelsinskal. Lagen får dra ordentligt för att suga åt sig alla mustiga aromer, sötas med '
+                     'strösocker och späds med ett fylligt rött vin (och en skvätt rom eller konjak för den som '
+                     'önskar). Serveras rykande het i små muggar med skållad sötmandel och söta russin.',
+        'nutrition': {'calories': '165 kcal', 'carbs': '22g', 'fat': '0g', 'protein': '0.5g', 'sugar': '20g'},
+        'portions_num': 8,
+        'portions_unit': 'glas',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Låt aldrig glöggen koka när hela flaskan med vin har tillsatts – värm bara upp den till ca '
+                    '70–75°C. Kokar den dunstar alkoholen och de finaste vin- och kryddaromerna försvinner! Gör gärna '
+                    'kryddbasen 1–2 dagar i förväg så sätter sig kryddorna ännu djupare.',
+        'rating': 4.96,
+        'review_count': 9,
+        'slug': 'hemlagad-glogg-pa-rodvin-kryddor',
+        'sub': 'Värmande julglögg på rödvin, apelsin, kanel & kardemumma',
+        'time': 30,
+        'time_str': '30 min',
+        'title': 'Hemlagad Rödvinsglögg med Klassiska Kryddor – Bästa Receptet',
+        'total_time': 'PT30M'},
+    {   'alt': 'Mörk gyllenbrun smidig pepparkaksdeg på mjölat bakbord med kavel, pepparkaksformar och kanelstänger',
+        'calories': 28,
+        'card_title': 'Klassisk Pepparkaksdeg',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Den bästa pepparkaksdeg jag någonsin provat! Blev fantastiskt lätt '
+                                                'att kavla tunt och pepparkakorna blev så otroligt spröda.',
+                                     'date': 'Idag',
+                                     'name': 'Camilla Nygren',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Kryddningen är helt perfekt, smakar precis som mormors pepparkakor. '
+                                                'Barnen älskade att stansa ut figurer!',
+                                     'date': 'Igår',
+                                     'name': 'Anders Lundin',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT5M',
+        'cook_time_str': '5 min',
+        'desc': 'Klassiskt recept på hemlagad pepparkaksdeg med äkta smör, ljus sirap och rikligt med kryddor. '
+                'Lättkavlad deg som ger spröda och smakrika pepparkakor.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett glas kall mjölk eller en kopp varm glögg medan du bakar pepparkakor.',
+        'equipment': ['Kastrull', 'Köksassistent eller stor degbunke', 'Plastfolie'],
+        'faqs': [   {   'a': 'Väl inplastad i kylskåp håller pepparkaksdegen i minst 2 veckor. Du kan också frysa in '
+                             'den i upp till 6 månader.',
+                        'q': 'Hur länge håller hemgjord pepparkaksdeg i kylen?'},
+                    {   'a': 'Det är helt normalt! När smöret svalnar och vetemjölet sväller i kylen stelnar degen '
+                             'till perfekt kavlingsbar konsistens.',
+                        'q': 'Varför är degen så lös när den är nygjord?'}],
+        'file': 'klassisk-pepparkaksdeg-mormors-recept.html',
+        'img': 'pepparkaksdeg',
+        'ingredients': [   {   'group': 'Smör- & Kryddkok',
+                               'items': [   {'name': 'smör', 'unit': 'g', 'val': 150},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 2},
+                                            {'name': 'ljus sirap', 'unit': 'dl', 'val': 1},
+                                            {'name': 'vatten', 'unit': 'dl', 'val': 1},
+                                            {'name': 'malen kanel', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'malen ingefära', 'unit': 'msk', 'val': 1},
+                                            {'name': 'malen kryddnejlika', 'unit': 'msk', 'val': 1},
+                                            {'name': 'malen kardemumma', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Degblandning',
+                               'items': [   {'name': 'bikarbonat', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'vetemjöl (ca 8-9 dl)', 'unit': 'g', 'val': 500}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Lägg smör, strösocker och ljus sirap i en kastrull. Värm på medelvärme under '
+                                        'omrörning tills smöret och sockret smält helt.',
+                                'title': 'Smält smör och socker'},
+                            {   'step': 2,
+                                'text': 'Tillsätt kanel, ingefära, kryddnejlika och kardemumma. Låt kryddorna koka upp '
+                                        'snabbt med smörblandningen i 1 minut så att dofterna frigörs. Ta kastrullen '
+                                        'från plattan och rör i vattnet. Låt svalna till rumstemperatur.',
+                                'title': 'Koka upp kryddorna'},
+                            {   'step': 3,
+                                'text': 'Blanda bikarbonatet med cirka hälften av vetemjölet i en bunke eller '
+                                        'köksassistent.',
+                                'title': 'Blanda med mjöl och bikarbonat'},
+                            {   'step': 4,
+                                'text': 'Häll ner den avsvalnade kryddblandningen i mjölet och arbeta samman på låg '
+                                        'hastighet. Tillsätt resten av vetemjölet pö om pö tills du har en slät, '
+                                        'ganska lös och blank deg.',
+                                'title': 'Arbeta samman degen'},
+                            {   'step': 5,
+                                'text': 'Ta upp degen, platta ut den något och slå in den noga i plastfolie. Låt vila '
+                                        'i kylskåp i minst 24 timmar (håller i upp till 2 veckor).',
+                                'title': 'Plasta och låt vila i kylen'},
+                            {   'step': 6,
+                                'text': 'Kavla ut en bit deg papperstunt på lätt mjölat bakbord, stansa ut figurer med '
+                                        'pepparkaksformar och grädda på plåt med bakplåtspapper i 200°C i ca 5–7 '
+                                        'minuter.',
+                                'title': 'Kavla och grädda'}],
+        'keywords': 'pepparkaksdeg recept, bästa pepparkaksdegen, göra egen pepparkaksdeg, mormors pepparkaksdeg, '
+                    'lättkavlad pepparkaksdeg, pepparkaksdeg vila kylskåp',
+        'long_desc': 'Att baka pepparkakor från grunden med en hemlagad pepparkaksdeg slår vilken köpedeg som helst '
+                     'med hästlängder! Detta är mormors beprövade recept där smör, ljus sirap, strösocker och kryddor '
+                     'kokas upp för att dra fram all smak ur kanel, ingefära, kryddnejlika och kardemumma. När degen '
+                     'arbetas samman med bikarbonat och vetemjöl blir den otroligt smidig och lätt att kavla ut tunt '
+                     'utan att spricka. Degen mår allra bäst av att vila i kylen i minst ett dygn (eller upp till två '
+                     'veckor) innan utbakning.',
+        'nutrition': {'calories': '28 kcal', 'carbs': '4.5g', 'fat': '1g', 'protein': '0.4g', 'sugar': '2.2g'},
+        'portions_num': 150,
+        'portions_unit': 'pepparkakor',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Pepparkaksdeg MÅSTE vila i kylen i minst ett dygn! Under vilotiden sväller mjölets stärkelse och '
+                    'kryddorna mognar, vilket gör degen silkeslen, fast och extremt lätt att kavla papperstunt utan '
+                    'att den fastnar på bakbordet.',
+        'rating': 4.97,
+        'review_count': 10,
+        'slug': 'klassisk-pepparkaksdeg-mormors-recept',
+        'sub': 'Smidig pepparkaksdeg med sirap, smör & kryddor som får vila i kylen',
+        'time': 25,
+        'time_str': '25 min (+ vila)',
+        'title': 'Klassisk Pepparkaksdeg – Mormors Bästa Recept',
+        'total_time': 'PT25M'},
+    {   'alt': 'Mörk glänsande hemlagad ischoklad i guld- och silverformar på fat med julbelysning',
+        'calories': 55,
+        'card_title': 'Klassisk Ischoklad',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Klassiskt och så gott! Apelsinskalet och flingsaltet lyfte '
+                                                'ischokladen till en helt ny nivå.',
+                                     'date': 'Idag',
+                                     'name': 'Gunilla S.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Smidigaste julgodiset att göra. Smälter verkligen i munnen!',
+                                     'date': 'Igår',
+                                     'name': 'Fredrik T.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT5M',
+        'cook_time_str': '5 min',
+        'desc': 'Klassiskt recept på hemgjord ischoklad på mörk choklad och kokosfett. Ett enkelt och älskat julgodis '
+                'som smälter i munnen och kan smaksättas med apelsin eller flingsalt.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En kopp rykande varm espresso eller ett glas kryddig glögg.',
+        'equipment': [   'Värmetålig skål och kastrull för vattenbad',
+                         'Ca 40–50 små ischokladformar (folieformar)',
+                         'Liten kanna eller såssnipa'],
+        'faqs': [   {   'a': 'När kokosfettet smälter på tungan tar det upp värme från munnen mycket snabbt, vilket '
+                             'skapar en karakteristisk isande och svalkande känsla.',
+                        'q': 'Varför kallas det ischoklad?'},
+                    {   'a': 'Ja, du kan byta ut hälften eller hela mängden mot mjölkchoklad för en sötare och mildare '
+                             'smak som barn ofta älskar.',
+                        'q': 'Kan man göra ischoklad med mjölkchoklad?'}],
+        'file': 'klassisk-hemlagad-ischoklad.html',
+        'img': 'ischoklad',
+        'ingredients': [   {   'group': 'Ischokladsmet',
+                               'items': [   {'name': 'mörk choklad (gärna 60-70%)', 'unit': 'g', 'val': 200},
+                                            {'name': 'kokosfett (silverblock)', 'unit': 'g', 'val': 100}]},
+                           {   'group': 'Smaksättning & Garnering (Valfritt)',
+                               'items': [   {'name': 'finrivet skal av ekologisk apelsin', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'flingsalt till topping', 'unit': 'tsk', 'val': 0.5}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Placera ut cirka 40–50 små ischokladformar i folie på en bricka eller '
+                                        'skärbräda så att de står stadigt.',
+                                'title': 'Ställ ut formarna'},
+                            {   'step': 2,
+                                'text': 'Hacka den mörka chokladen grovt och skär kokosfettet i mindre kuber.',
+                                'title': 'Hacka choklad och fett'},
+                            {   'step': 3,
+                                'text': 'Lägg choklad och kokosfett i en värmetålig skål över ett sjudande vattenbad '
+                                        '(skålens botten får inte nudda vattnet). Rör försiktigt tills allt smält till '
+                                        'en slät, blank chokladsmet.',
+                                'title': 'Smält i vattenbad'},
+                            {   'step': 4,
+                                'text': 'Ta skålen från vattenbadet och rör eventuellt ner finrivet apelsinskal för en '
+                                        'frisk citruston.',
+                                'title': 'Smaksätt'},
+                            {   'step': 5,
+                                'text': 'Häll smeten i en liten kanna eller såssnipa och fördela försiktigt i '
+                                        'formarna. Toppa eventuellt med några flingor havssalt.',
+                                'title': 'Fyll formarna'},
+                            {   'step': 6,
+                                'text': 'Ställ brickan i kylskåp i ca 1 timme tills ischokladen har stelnat helt. '
+                                        'Förvara svalt i en burk med lock och servera direkt från kylen!',
+                                'title': 'Låt stelna i kylen'}],
+        'keywords': 'ischoklad recept, hemgjord ischoklad, göra egen ischoklad, ischoklad kokosfett, ischoklad med '
+                    'apelsin, enkelt julgodis choklad',
+        'long_desc': 'Ischoklad är ett av våra mest traditionsrika och nostalgiska julgodisar! Det karaktäristiska '
+                     'namnet kommer från den svalkande känslan på tungan när kokosfettet smälter vid kroppstemperatur. '
+                     'Med bara två huvudingredienser – mörk kvalitetschoklad och kokosfett – svänger du ihop detta '
+                     'ljuvliga julgodis på 10 minuter. Här visar vi också hur du enkelt kan smaksätta med rivet '
+                     'apelsinskal, en nypa flingsalt eller en gnutta mint för en modern twist på mormors klassiker.',
+        'nutrition': {'calories': '55 kcal', 'carbs': '4g', 'fat': '4.5g', 'protein': '0.5g', 'sugar': '3.5g'},
+        'portions_num': 40,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Använd mörk choklad med ca 60–70% kakaohalt för den finaste chokladsmaken! Smält på mycket svag '
+                    'värme i vattenbad – chokladen och kokosfettet får absolut inte bli för heta, då kan chokladen bli '
+                    'grynig eller tappa sin vackra glans.',
+        'rating': 4.92,
+        'review_count': 8,
+        'slug': 'klassisk-hemlagad-ischoklad',
+        'sub': 'Traditionellt julgodis på mörk choklad & kokosfett med apelsin & flingsalt',
+        'time': 15,
+        'time_str': '15 min (+ kylning)',
+        'title': 'Klassisk Hemlagad Ischoklad – Smälter i Munnen',
+        'total_time': 'PT15M'},
+    {   'alt': 'Gyllenbrun saftig plommonkaka med bakade plommon, flagad mandel och pärlsocker på fat',
+        'calories': 285,
+        'card_title': 'Saftig Plommonkaka',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Den godaste kakan jag bakat på årets plommonskörd! Mandelmassan i '
+                                                'smeten gjorde den så otroligt saftig.',
+                                     'date': 'Idag',
+                                     'name': 'Helena V.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Magisk kombination med kardemumma, plommon och mandel. Åts upp på fem '
+                                                'minuter till fikat!',
+                                     'date': 'Igår',
+                                     'name': 'Oskar B.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT35M',
+        'cook_time_str': '35 min',
+        'desc': 'Klassiskt recept på saftig plommonkaka med färska plommon, riven mandelmassa, brynt smör och nymald '
+                'kardemumma. Höstens allra godaste skördefika.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Serveras gärna ljummen med lättvispad grädde, vaniljsås eller en kula vaniljglass och en '
+                         'kopp kaffe.',
+        'equipment': ['Springform ca 24 cm', 'Elvisp och bunke', 'Galler för avsvalning'],
+        'faqs': [   {   'a': 'Ja, dubblera bara receptet så passar det perfekt till en klassisk ugns långpanna (ca '
+                             '30x40 cm)!',
+                        'q': 'Kan man baka plommonkaka i långpanna?'},
+                    {   'a': 'Alla mogna plommonsorter som Opal, Victoria och Reine Claude fungerar alldeles utmärkt.',
+                        'q': 'Vilka plommonsorter fungerar bäst?'}],
+        'file': 'saftig-plommonkaka-mandelmassa-kardemumma.html',
+        'img': 'plommonkaka',
+        'ingredients': [   {   'group': 'Plommontoppning',
+                               'items': [   {   'name': 'färska plommon (urkärnade och halverade)',
+                                                'unit': 'g',
+                                                'val': 500},
+                                            {'name': 'strösocker att strö över plommonen', 'unit': 'msk', 'val': 1},
+                                            {'name': 'malen kanel eller kardemumma', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Kaksmet',
+                               'items': [   {'name': 'smör (smält och avsvalnat)', 'unit': 'g', 'val': 125},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 3},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 2},
+                                            {'name': 'mandelmassa (grovriven)', 'unit': 'g', 'val': 100},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': 3},
+                                            {'name': 'bakpulver', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'nymald kardemumma', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'mjölk (3%)', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Garnering',
+                               'items': [   {'name': 'pärlsocker', 'unit': 'msk', 'val': 2},
+                                            {'name': 'flagad mandel', 'unit': 'msk', 'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över- och undervärme. Klä botten på en springform (ca 24 '
+                                        'cm) med bakplåtspapper och smörj och bröa kanterna.',
+                                'title': 'Förbered form och ugn'},
+                            {   'step': 2,
+                                'text': 'Skölj, dela och kärna ur plommonen. Skär gärna större plommon i klyftor.',
+                                'title': 'Dela plommonen'},
+                            {   'step': 3,
+                                'text': 'Smält smöret och låt det svalna något. Vispa ägg och strösocker riktigt vitt '
+                                        'och pösigt med elvisp i ca 3 minuter.',
+                                'title': 'Vispa ägg och socker'},
+                            {   'step': 4,
+                                'text': 'Rör ner den grovrivna mandelmassan, det smälta smöret och mjölken i '
+                                        'äggvispet.',
+                                'title': 'Tillsätt mandelmassa och smör'},
+                            {   'step': 5,
+                                'text': 'Blanda vetemjöl, bakpulver, kardemumma, vaniljsocker och salt. Vänd ner i '
+                                        'smeten med en slickepott till en jämn kaksmet.',
+                                'title': 'Vänd ner torra ingredienser'},
+                            {   'step': 6,
+                                'text': 'Häll smeten i formen. Tryck ner plommonhalvorna tätt med snittytan uppåt. '
+                                        'Strö över 1 msk socker, kanel, pärlsocker och flagad mandel.',
+                                'title': 'Fyll formen och lägg på plommon'},
+                            {   'step': 7,
+                                'text': 'Grädda mitt i ugnen i ca 35–40 minuter tills kakan rest sig och är '
+                                        'genomgräddad. Låt svalna i formen i 10 minuter. Servera ljummen med hemlagad '
+                                        'vaniljsås eller vispgrädde!',
+                                'title': 'Grädda och servera'}],
+        'keywords': 'plommonkaka recept, baka med plommon, saftig plommonkaka, plommonkaka mandelmassa, enkel '
+                    'sockerkaka med plommon, plommonkaka kardemumma',
+        'long_desc': 'När plommonträden dignar av mörklila, sötsyrliga frukter i september och oktober finns det inget '
+                     'bättre än att baka en saftig plommonkaka! I denna klassiska kaka möter mogna svenska plommon en '
+                     'mjuk sockerkaksbotten berikad med grovriven mandelmassa och nymald kardemumma. Plommonhalvorna '
+                     'trycks ner i smeten och karamelliseras under gräddningen så att fruktsaften tränger in i kakan. '
+                     'Toppad med knaprigt pärlsocker och flagad mandel är detta höstfika på högsta nivå!',
+        'nutrition': {'calories': '285 kcal', 'carbs': '36g', 'fat': '14g', 'protein': '5g', 'sugar': '22g'},
+        'portions_num': 10,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Lägg plommonhalvorna med snittytan uppåt! Då samlas den goda saften i plommonets fördjupning '
+                    'istället för att rinna ut i botten, vilket håller kakan perfekt saftig utan att den blir degig.',
+        'rating': 4.94,
+        'review_count': 8,
+        'slug': 'saftig-plommonkaka-mandelmassa-kardemumma',
+        'sub': 'Ljuvlig höstkaka med färska svenska plommon, mandel & pärlsocker',
+        'time': 50,
+        'time_str': '50 min',
+        'title': 'Saftig Plommonkaka med Mandelmassa & Nymald Kardemumma',
+        'total_time': 'PT50M'}]
