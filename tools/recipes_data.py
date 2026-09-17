@@ -11895,4 +11895,415 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 50,
         'time_str': '50 min',
         'title': 'Saftig Plommonkaka med Mandelmassa & Nymald Kardemumma',
-        'total_time': 'PT50M'}]
+        'total_time': 'PT50M'},
+    {   'alt': 'Klar mörkröd svartvinbärsgelé i glasburk med sked och färska svarta vinbär på bord',
+        'calories': 145,
+        'card_title': 'Hemlagad Svartvinbärsgelé',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Följde receptet till punkt och pricka med vinbär från trädgården. '
+                                                'Perfekt konsistens och magisk färg till helgens älgstek!',
+                                     'date': 'Idag',
+                                     'name': 'Gunnar M.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Mormors knep med geléprovet på kall tallrik slog aldrig fel. Så '
+                                                'mycket godare än köpt gelé.',
+                                     'date': 'Igår',
+                                     'name': 'Birgitta K.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Gammaldags recept på hemlagad svartvinbärsgelé kokad på färska svarta vinbär och socker. Perfekt '
+                'stelning, djupröd lyster och suverän smak till söndagssteken och höstgrytor.',
+        'diet': 'Vegansk & Glutenfri',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett självklart tillbehör till fylliga mustiga rödvin eller en mörk svensk porter som '
+                         'serveras till vilt och stek.',
+        'equipment': [   'Syltgryta eller stor kastrull',
+                         'Saftsil med ställning',
+                         'Värmetåliga glasburkar med lock',
+                         'Potatisstöt'],
+        'faqs': [   {   'a': 'Om bären var övermogna kan pektinhalten vara för låg. Koka i så fall upp gelén igen och '
+                             'tillsätt 1–2 msk flytande pektin (Melatin) eller koka några minuter extra.',
+                        'q': 'Varför stelnar inte min svartvinbärsgelé?'},
+                    {   'a': 'I väl rengjorda och steriliserade burkar som förvaras svalt och mörkt håller gelén i '
+                             'minst 1–2 år.',
+                        'q': 'Hur länge håller hemlagad svartvinbärsgelé?'}],
+        'file': 'klassisk-hemlagad-svartvinbarsgele.html',
+        'img': 'svartvinbarsgele',
+        'ingredients': [   {   'group': 'Bärsaft',
+                               'items': [   {'name': 'svarta vinbär (gärna lite knappt mogna)', 'unit': 'kg', 'val': 1},
+                                            {'name': 'vatten', 'unit': 'dl', 'val': 4}]},
+                           {   'group': 'Sockersättning (per liter avrunnen saft)',
+                               'items': [   {   'name': 'strösocker (beräkna ca 9 dl per liter avrunnen saft)',
+                                                'unit': 'dl',
+                                                'val': 9}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skölj de svarta vinbären snabbt (repor och stjälkar kan sitta kvar då '
+                                        'pektinet sitter där). Lägg bären i en rymlig kastrull tillsammans med 4 dl '
+                                        'vatten.',
+                                'title': 'Rensa och koka bären'},
+                            {   'step': 2,
+                                'text': 'Koka upp och låt sjuda under lock på medelvärme i ca 10–15 minuter. Tryck '
+                                        'försiktigt sönder bären mot kastrullens kant med en potatisstöt eller slev så '
+                                        'all saft frigörs.',
+                                'title': 'Koka bären mjuka'},
+                            {   'step': 3,
+                                'text': 'Häll bärmassan i en fuktad saftsil och låt självrinna i ca 30 minuter. Kläm '
+                                        'inte på duken – då blir gelén grumlig istället för gnistrande klar.',
+                                'title': 'Sila bärmassan'},
+                            {   'step': 4,
+                                'text': 'Mät den avrunna bärsaften och häll tillbaka den i en ren gryta. Koka upp '
+                                        'saften och koka i 3 minuter. Dra kastrullen från värmen och rör ner 9 dl '
+                                        'strösocker per liter saft, lite i taget, tills sockret smält helt.',
+                                'title': 'Mät saften och tillsätt socker'},
+                            {   'step': 5,
+                                'text': 'Koka upp igen på medelhög värme utan omrörning i ca 10–15 minuter. Skumma av '
+                                        'ytan noga med en hålslev för en kristallklar gelé.',
+                                'title': 'Koka gelén utan omrörning'},
+                            {   'step': 6,
+                                'text': 'Klicka lite gelé på en kylskåpskall assiett. Dra en sked genom gelén. Delar '
+                                        'den sig och inte rinner ihop är gelén färdig. Fortsätt koka några minuter om '
+                                        'den är för lös.',
+                                'title': 'Gör geléprovet'},
+                            {   'step': 7,
+                                'text': 'Låt gelén stå i 5 minuter så eventuellt skum lägger sig. Häll försiktigt upp '
+                                        'på varma, steriliserade glasburkar ända upp till kanten och förslut genast. '
+                                        'Förvara svalt när den svalnat.',
+                                'title': 'Häll på burkar'}],
+        'keywords': 'svartvinbärsgelé recept, hemlagad svartvinbärsgelé, koka svartvinbärsgelé, gelé till söndagsstek, '
+                    'svartvinbärsgelé mormors recept, gelé till viltgryta, svarta vinbär gelé',
+        'long_desc': 'Att koka egen svartvinbärsgelé är en älskad svensk hösttradition som förgyller middagsbordet '
+                     'året om. Denna klara, rubinröda gelé har en perfekt balans mellan intensiv bärsötma och frisk '
+                     'syra. Svarta vinbär innehåller naturligt mycket pektin, särskilt om man plockar dem när en del '
+                     'bär fortfarande är lite knappt mogna, vilket gör att gelén stelnar vackert utan tillsatt gelatin '
+                     'eller pektinpulver. Servera en generös klick till söndagssteken, viltgrytan, renskaven eller '
+                     'klassiska svenska köttbullar med gräddsås!',
+        'nutrition': {'calories': '145 kcal', 'carbs': '36g', 'fat': '0.1g', 'protein': '0.5g', 'sugar': '35g'},
+        'portions_num': 4,
+        'portions_unit': 'burkar',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Gör geléprovet innan du häller upp gelén på burk! Lägg en tesked gelé på ett kylskåpskallt fat '
+                    'och dra skeden igenom. Om gelén inte rinner ihop igen är den färdigkokt.',
+        'rating': 4.93,
+        'review_count': 7,
+        'slug': 'klassisk-hemlagad-svartvinbarsgele',
+        'sub': 'Klar rubinröd bärgelé med fyllig smak – oumbärlig till vilt, stek & köttbullar',
+        'time': 35,
+        'time_str': '35 min',
+        'title': 'Klassisk Hemlagad Svartvinbärsgelé – Mormors Bästa Recept',
+        'total_time': 'PT35M'},
+    {   'alt': 'Klassisk fars dag tårta med mörk chokladbotten, vaniljkräm, chokladgrädde och färska hallon',
+        'calories': 385,
+        'card_title': 'Fars Dag Tårta',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Bakade denna till fars dag i fjol och pappa sa att det var den '
+                                                'godaste tårtan han någonsin ätit. Så saftig chokladbotten!',
+                                     'date': 'Idag',
+                                     'name': 'Sofia L.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Chokladgrädden och vaniljkrämen tillsammans med de syrliga hallonen '
+                                                'var helt outstanding. Blev 10 av 10!',
+                                     'date': 'Igår',
+                                     'name': 'Marcus E.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT30M',
+        'cook_time_str': '30 min',
+        'desc': 'Klassiskt och oemotståndligt recept på fars dag tårta! Hög, saftig chokladbotten fylld med len '
+                'vaniljkräm, rårörda hallon och krämig chokladmousse.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Nybryggt mörkrostat kaffe, en skummig cappuccino eller ett glas sött dessertvin.',
+        'equipment': ['Springform ca 22–24 cm', 'Elvisp', 'Tårtspatel / palett', 'Brödkniv till tårtbottnar'],
+        'faqs': [   {   'a': 'Ja! Tårtan blir nästan ännu saftigare om den läggs ihop dagen innan fars dag och får stå '
+                             'i kylen över natten. Vänta bara med att lägga på de färska hallonen och chokladspånen '
+                             'till strax före servering.',
+                        'q': 'Kan tårtan förberedas i förväg?'},
+                    {   'a': 'Absolut, färska jordgubbar, blåbär eller björnbär passar fantastiskt bra tillsammans med '
+                             'den fylliga chokladen och vaniljkrämen.',
+                        'q': 'Kan man byta ut hallon mot andra bär?'}],
+        'file': 'klassisk-fars-dag-tarta-choklad-bar.html',
+        'img': 'fars-dag-tarta',
+        'ingredients': [   {   'group': 'Chokladbotten (Tårtbotten)',
+                               'items': [   {'name': 'ägg (rumstempererade)', 'unit': 'st', 'val': 4},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 2},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'potatismjöl', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'kakao av god kvalitet', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'bakpulver', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'smör och ströbröd till formen', 'unit': 'msk', 'val': 1}]},
+                           {   'group': 'Fyllning 1 – Vanilj & Hallon',
+                               'items': [   {'name': 'färdiga eller kokt vaniljkräm', 'unit': 'dl', 'val': 2},
+                                            {   'name': 'färska eller tinade hallon (mosade med 1 msk socker)',
+                                                'unit': 'g',
+                                                'val': 200}]},
+                           {   'group': 'Fyllning 2 & Täckning – Fluffig Chokladgrädde',
+                               'items': [   {'name': 'mörk choklad (smält och avsvalnad)', 'unit': 'g', 'val': 150},
+                                            {'name': 'vispgrädde (kylskåpskall)', 'unit': 'dl', 'val': 4},
+                                            {'name': 'florsocker', 'unit': 'msk', 'val': 2}]},
+                           {   'group': 'Garnering',
+                               'items': [   {'name': 'färska hallon', 'unit': 'g', 'val': 150},
+                                            {'name': 'hyvlad mörk choklad eller chokladspån', 'unit': 'g', 'val': 50},
+                                            {'name': 'florsocker att pudra över', 'unit': 'tsk', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över- och undervärme. Smörj och bröa en springform (ca '
+                                        '22–24 cm i diameter) med kakao eller ströbröd, och lägg bakplåtspapper i '
+                                        'botten.',
+                                'title': 'Förbered ugn och form'},
+                            {   'step': 2,
+                                'text': 'Vispa ägg och strösocker med elvisp i minst 5–7 minuter tills smeten är '
+                                        'riktigt vit, fluffig och pösig.',
+                                'title': 'Vispa botten pösig'},
+                            {   'step': 3,
+                                'text': 'Sikta ihop vetemjöl, potatismjöl, kakao, bakpulver och vaniljsocker i en '
+                                        'separat skål. Vänd försiktigt ner mjölblandningen i äggvispet med slickepott '
+                                        'så att luften stannar kvar.',
+                                'title': 'Vänd ner torra ingredienser'},
+                            {   'step': 4,
+                                'text': 'Häll smeten i formen och grädda i nedre delen av ugnen i 28–32 minuter. '
+                                        'Kontrollera med sticka att den är torr. Låt svalna helt på galler och dela '
+                                        'sedan i tre jämna bottnar.',
+                                'title': 'Grädda chokladbottnen'},
+                            {   'step': 5,
+                                'text': 'Smält den mörka chokladen över vattenbad och låt den svalna till '
+                                        'rumstemperatur. Vispa grädden lätt med florsocker. Vänd ner den smälta '
+                                        'chokladen och vispa ihop till en fluffig, stabil kräm.',
+                                'title': 'Vispa chokladgrädden'},
+                            {   'step': 6,
+                                'text': 'Lägg den första tårtbottnen på ett tårtfat. Bred på de rårörda hallonen och '
+                                        'toppa med ett lager len vaniljkräm. Lägg på nästa botten och bred på ett '
+                                        'generöst lager chokladgrädde. Lägg på den översta bottnen.',
+                                'title': 'Montera tårtan'},
+                            {   'step': 7,
+                                'text': 'Spackla tårtans ovansida och kanter med resterande chokladgrädde. Dekorera '
+                                        'toppen med färska hallon, rikligt med hyvlad mörk choklad och pudra lätt med '
+                                        'florsocker innan servering!',
+                                'title': 'Spackla och dekorera'}],
+        'keywords': 'fars dag tårta recept, chokladtårta fars dag, god tårta till pappa, enkel fars dag tårta, baka '
+                    'till fars dag, chokladtårta med hallon och vaniljkräm',
+        'long_desc': 'Att fira pappa på Fars dag med en hembakad tårta är en underbar tradition som alltid uppskattas. '
+                     'Denna klassiska Fars dag-tårta är den ultimata kombinationen av djup choklad, friska hallon och '
+                     'sammetslen vaniljkräm. Den luftiga chokladanslag-bottnen delas i tre saftiga lager och fylls med '
+                     'både vaniljkräm och en fluffig chokladgrädde. Toppad med rikligt med färska hallon, mörka '
+                     'chokladspån och ett lätt snötäcke av florsocker blir den middagens självklara mittpunkt!',
+        'nutrition': {'calories': '385 kcal', 'carbs': '44g', 'fat': '21g', 'protein': '6g', 'sugar': '30g'},
+        'portions_num': 12,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT40M',
+        'prep_time_str': '40 min',
+        'pro_tips': 'Baka gärna chokladbottnen dagen innan! Då hinner den sätta sig och blir mycket enklare att skära '
+                    'i tre jämna, fina lager utan att smula.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'klassisk-fars-dag-tarta-choklad-bar',
+        'sub': 'Festlig chokladtårta med len vaniljkräm, fluffig chokladgrädde & färska hallon',
+        'time': 70,
+        'time_str': '70 min',
+        'title': 'Klassisk Fars Dag Tårta med Choklad, Hallon & Len Vaniljkräm',
+        'total_time': 'PT70M'},
+    {   'alt': 'Krämig lövbiffsgryta med brynta champinjoner, dijonsås och persilja serverad i keramikskål med ris',
+        'calories': 520,
+        'card_title': 'Krämig Lövbiffsgryta',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Helt otroligt god gryta! Såsen med dijonsenap och kalvfond var '
+                                                'magisk, och köttet blev supersaftigt med tipset om snabbstekning.',
+                                     'date': 'Idag',
+                                     'name': 'Fredrik N.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Blev en storfavorit hos hela familjen på en helt vanlig tisdag. Klart '
+                                                'på en kvart!',
+                                     'date': 'Igår',
+                                     'name': 'Camilla P.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT15M',
+        'cook_time_str': '15 min',
+        'desc': 'Supersnabb och lyxig lövbiffsgryta med strimlad lövbiff, färska champinjoner, dijonsenap och '
+                'vispgrädde. En av Sveriges mest älskade vardagsfavoriter som smakar som på restaurang.',
+        'diet': 'Glutenfritt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett medelfylligt rött vin som en Côtes du Rhône, eller en frisk ljus lager och kolsyrat '
+                         'mineralvatten.',
+        'equipment': ['Rymlig stekpanna eller traktörpanna', 'Skärbräda & vass kockkniv', 'Träslev'],
+        'faqs': [   {   'a': 'Lövbiff är tunt skuret magert nötkött som blir torrt och segt om det steks för länge. '
+                             'Hetta upp pannan ordentligt med smör och olja, bryn snabbt i 45–60 sekunder och lägg '
+                             'köttet åt sidan medan såsen kokar ihop.',
+                        'q': 'Hur undviker jag att lövbiffen blir seg?'},
+                    {   'a': 'Ja, men grytan är allra godast nylagad. Om du fryser in den, tina långsamt och värm '
+                             'försiktigt på låg värme så att såsen inte spricker.',
+                        'q': 'Kan man frysa in lövbiffsgryta?'}],
+        'file': 'kramig-lovbiffsgryta-dijon-champinjoner.html',
+        'img': 'lovbiffsgryta',
+        'ingredients': [   {   'group': 'Kött & Svamp',
+                               'items': [   {'name': 'lövbiff (av nöt)', 'unit': 'g', 'val': 500},
+                                            {   'name': 'färska champinjoner (skivade eller kvartade)',
+                                                'unit': 'g',
+                                                'val': 250},
+                                            {'name': 'gul lök eller schalottenlök (finhackad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'smör och rapsolja att steka i', 'unit': 'msk', 'val': 2},
+                                            {'name': 'salt och nymald svartpeppar', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Krämig Dijonsås',
+                               'items': [   {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                            {'name': 'crème fraiche', 'unit': 'dl', 'val': 1},
+                                            {'name': 'koncentrerad kalvfond eller oxfond', 'unit': 'msk', 'val': 2},
+                                            {'name': 'dijonsenap', 'unit': 'msk', 'val': 2},
+                                            {'name': 'kinesisk soja', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'torkad timjan eller dragon', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Garnering & Servering',
+                               'items': [   {'name': 'färsk bladpersilja (finhackad)', 'unit': 'msk', 'val': 2},
+                                            {   'name': 'kokt ris, pressad potatis eller pasta till servering',
+                                                'unit': 'port',
+                                                'val': 4}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skär lövbiffen i ca 1,5 cm breda strimlor. Ansa och skiva champinjonerna. '
+                                        'Skala och finhacka löken.',
+                                'title': 'Strimla köttet och svampen'},
+                            {   'step': 2,
+                                'text': 'Hetta upp hälften av smöret och oljan i en stekpanna på hög värme. Bryn '
+                                        'köttet hastigt i två omgångar, ca 45–60 sekunder per omgång, så det får fin '
+                                        'färg. Krydda med salt och nymald svartpeppar. Lägg över köttet på en tallrik.',
+                                'title': 'Bryn lövbiffen snabbt'},
+                            {   'step': 3,
+                                'text': 'Sänk värmen till medelvärme och tillsätt resten av smöret i samma panna. Fräs '
+                                        'champinjonerna tills de släppt sin vätska och fått fin gyllenbrun färg. '
+                                        'Tillsätt den hackade löken och låt den mjukna i ett par minuter utan att ta '
+                                        'för mycket färg.',
+                                'title': 'Stek svamp och lök'},
+                            {   'step': 4,
+                                'text': 'Häll i vispgrädde, crème fraiche, kalvfond, dijonsenap, soja och timjan. Rör '
+                                        'om och låt såsen koka upp och sjuda i ca 5 minuter tills den blir krämig och '
+                                        'smakerna gått ihop. Smaka av med lite mer senap, salt eller peppar vid behov.',
+                                'title': 'Koka såsen'},
+                            {   'step': 5,
+                                'text': 'Vänd ner den stekta lövbiffen och eventuell köttsaft från tallriken i den '
+                                        'varma såsen. Låt bara köttet bli genomvarmt i ca 1 minut (koka inte vidare, '
+                                        'så köttet förblir smältande mört). Strö över rikligt med hackad färsk '
+                                        'persilja och servera direkt med nykokt ris eller pressad potatis!',
+                                'title': 'Vänd ner köttet och servera'}],
+        'keywords': 'lövbiffsgryta recept, krämig lövbiffsgryta, snabb lövbiffsgryta, lövbiff med dijonsenap, enkel '
+                    'middag vardag, snabb vardagsmat, lövbiff champinjoner grädde',
+        'long_desc': 'Krämig lövbiffsgryta är den perfekta kombinationen av lyxig festmat och snabb vardagsräddare. På '
+                     'bara 20 minuter svänger du ihop en underbar gryta där mört, snabbstekt nötkött möter smörstekta '
+                     'champinjoner, schalottenlök och en gudomlig sås på vispgrädde, crème fraiche, kalvfond och '
+                     'fransk dijonsenap. Tricket för att lövbiffen ska bli otroligt mör och saftig är att bryna köttet '
+                     'snabbt på hög värme och tillsätta det i grytan alldeles i slutet. Servera med fluffigt ris eller '
+                     'ugnsrostad potatis och pressgurka!',
+        'nutrition': {'calories': '520 kcal', 'carbs': '7g', 'fat': '39g', 'protein': '34g', 'sugar': '4g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Stek lövbiffen i omgångar på rykande het panna i högst 1 minut! Köttet ska bara få fin stekyta '
+                    'och behålla sin saftighet. Låt det inte koka i såsen, utan vänd bara ner det precis före '
+                    'servering.',
+        'rating': 4.91,
+        'review_count': 6,
+        'slug': 'kramig-lovbiffsgryta-dijon-champinjoner',
+        'sub': 'Mör strimlad lövbiff i smakrik gräddsås med dijonsenap, lök & svamp – klart på 20 minuter',
+        'time': 25,
+        'time_str': '25 min',
+        'title': 'Krämig Lövbiffsgryta med Dijonsenap, Champinjoner & Persilja',
+        'total_time': 'PT25M'},
+    {   'alt': 'Gyllenrostade knapriga pumpakärnor med havssalt och paprika i keramikskål på bakplåtspapper',
+        'calories': 180,
+        'card_title': 'Rostade Pumpakärnor',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Rostade kärnorna från barnens halloweenpumpa med detta recept. De tog '
+                                                'slut på en kväll, ungarna älskade det rökta paprikapulvret!',
+                                     'date': 'Idag',
+                                     'name': 'Emma T.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Perfekt knaprig topping till er krämiga pumpasoppa. Superenkelt och '
+                                                'inget svinn.',
+                                     'date': 'Igår',
+                                     'name': 'Johan S.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Lätt och oemotståndligt recept på krispiga rostade pumpakärnor i ugn. Kryddade med havssalt och rökt '
+                'paprika för maximal crunch och fyllig nötsmak.',
+        'diet': 'Veganskt & Glutenfritt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett perfekt krispigt snack till en kall hantverksöl, ett glas äppelmust eller rött vin.',
+        'equipment': ['Plåt med bakplåtspapper', 'Durkslag', 'Kökshandduk / hushållspapper', 'Bunke'],
+        'faqs': [   {   'a': 'Nej, det behövs inte! Det räcker att skölja bort trådigt pumpakött, torka dem väl med '
+                             'papper och rosta direkt i ugnen med lite olja och kryddor.',
+                        'q': 'Måste man koka pumpakärnorna innan rostning?'},
+                    {   'a': 'Förvarade i en lufttät glasburk i rumstemperatur håller de sig krispiga och goda i minst '
+                             '2–3 veckor.',
+                        'q': 'Hur länge håller rostade pumpakärnor?'}],
+        'file': 'krispiga-rostade-pumpakarnor-i-ugn.html',
+        'img': 'rostade-pumpakarnor',
+        'ingredients': [   {   'group': 'Pumpakärnor & Kryddning',
+                               'items': [   {   'name': 'färska pumpakärnor (från pumpa) eller torkade råa pumpakärnor',
+                                                'unit': 'dl',
+                                                'val': 4},
+                                            {'name': 'rapsolja eller olivolja', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'flingsalt', 'unit': 'tsk', 'val': 1},
+                                            {   'name': 'rökt paprikapulver eller spiskummin (valfritt)',
+                                                'unit': 'tsk',
+                                                'val': 0.5},
+                                            {'name': 'nymald svartpeppar', 'unit': 'krm', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Om du använder färsk pumpa: gröp ur kärnorna och lägg dem i ett durkslag. '
+                                        'Skölj i kallt vatten och pilla bort det trådiga pumpaköttet med fingrarna.',
+                                'title': 'Rensa kärnorna'},
+                            {   'step': 2,
+                                'text': 'Bred ut de sköljda pumpakärnorna på ett rent ark hushållspapper eller en ren '
+                                        'kökshandduk. Klappa dem helt torra (detta är hemligheten bakom maximal '
+                                        'krispighet).',
+                                'title': 'Torka kärnorna noga'},
+                            {   'step': 3,
+                                'text': 'Sätt ugnen på 175°C varmluft (eller 190°C över- och undervärme). Lägg '
+                                        'pumpakärnorna i en bunke och ringla över oljan. Tillsätt flingsalt, nymald '
+                                        'svartpeppar och rökt paprikapulver. Blanda runt noga så alla kärnor täcks.',
+                                'title': 'Värm ugnen och krydda'},
+                            {   'step': 4,
+                                'text': 'Bred ut kärnorna i ett jämnt, tunt lager på en plåt klädd med bakplåtspapper. '
+                                        'Rosta mitt i ugnen i 15–20 minuter. Rör om och vänd på kärnorna efter halva '
+                                        'tiden så att de rostas jämnt utan att brännas.',
+                                'title': 'Rosta i ugnen'},
+                            {   'step': 5,
+                                'text': 'Ta ut plåten när pumpakärnorna har fått en vacker gyllenbrun ton och börjar '
+                                        'knäppa lite. Låt dem svalna helt på plåten – de blir ännu krispigare när de '
+                                        'svalnat! Häll upp i en skål eller förvara i glasburk.',
+                                'title': 'Svalna och servera'}],
+        'keywords': 'rostade pumpakärnor, rosta pumpakärnor i ugn, pumpakärnor recept, pumpakärnor flingsalt, ta '
+                    'tillvara pumpafrön halloween, knapriga pumpakärnor, nyttigt snacks',
+        'long_desc': 'Att rosta pumpakärnor i ugnen är ett fantastiskt sätt att ta tillvara på kärnorna när du gröper '
+                     'ur en halloweenpumpa eller lagar krämig pumpasoppa! Kärnorna förvandlas i ugnen till härligt '
+                     'knapriga, gyllenbruna snacks med en djup och nötig smak. Vänd dem i lite god olja, flingsalt och '
+                     'en nypa rökt paprikapulver för extra sting. De är underbara att äta som ett nyttigt tilltugg '
+                     'till fredagsmyset, men också oslagbara som krispig topping på sallader, höstsoppor eller '
+                     'frukostgröten!',
+        'nutrition': {'calories': '180 kcal', 'carbs': '4g', 'fat': '15g', 'protein': '9g', 'sugar': '0.5g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Se till att torka kärnorna ordentligt med hushållspapper innan du blandar dem med oljan! Ju '
+                    'torrare kärnorna är när de åker in i ugnen, desto frasigare och krispigare blir resultatet.',
+        'rating': 4.9,
+        'review_count': 5,
+        'slug': 'krispiga-rostade-pumpakarnor-i-ugn',
+        'sub': 'Knapriga, gyllenrostade pumpakärnor – det perfekta höstsnackset & toppingen till soppor',
+        'time': 30,
+        'time_str': '30 min',
+        'title': 'Krispiga Rostade Pumpakärnor i Ugn med Flingsalt & Paprika',
+        'total_time': 'PT30M'}]
