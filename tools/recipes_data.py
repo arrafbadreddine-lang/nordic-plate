@@ -12306,4 +12306,522 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 30,
         'time_str': '30 min',
         'title': 'Krispiga Rostade Pumpakärnor i Ugn med Flingsalt & Paprika',
-        'total_time': 'PT30M'}]
+        'total_time': 'PT30M'},
+    {   'alt': 'Ångande gammaldags kålsoppa med frikadeller, brynt vitkål och kryddpeppar serverad med rågbröd',
+        'calories': 380,
+        'card_title': 'Gammaldags Kålsoppa',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Precis som min mormor lagade den på söndagarna! Kålen fick perfekt '
+                                                'karamellisering och frikadellerna blev otroligt saftiga.',
+                                     'date': 'Idag',
+                                     'name': 'Lars-Erik B.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Underbar höstmat. Hela huset doftade kryddpeppar och sirap. Åts upp '
+                                                'till sista droppen.',
+                                     'date': 'Igår',
+                                     'name': 'Eva-Lena N.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT40M',
+        'cook_time_str': '40 min',
+        'desc': 'Ett riktigt klassiskt svenskt recept på gammaldags kålsoppa med möra frikadeller och smörstekt vitkål '
+                'sötad med mörk sirap. Fyllig buljong med kryddpeppar som värmer i höstkylan.',
+        'diet': 'Klassisk husmanskost',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett glas kall svensk mellanmjölk, en fyllig mörk lageröl eller klassisk svensk svagdricka.',
+        'equipment': ['Stor soppgryta (ca 4–5 liter)', 'Träslev', 'Bunke till frikadellsmet', 'Hålslev'],
+        'faqs': [   {   'a': 'Ja absolut! Många i södra Sverige föredrar kålsoppa med kokt rimmat fläsk eller skivad '
+                             'fläskkorv. Lägg i korven mot slutet så den blir genomvarm.',
+                        'q': 'Kan man göra kålsoppa med fläskkorv istället för frikadeller?'},
+                    {   'a': 'Kålsoppa lämpar sig utmärkt att frysa in i matlådor. Den håller i frysen i minst 3 '
+                             'månader och smakar nästan ännu bättre när den värms upp dagen efter!',
+                        'q': 'Går kålsoppan bra att frysa?'}],
+        'file': 'gammaldags-kalsoppa-frikadeller.html',
+        'img': 'kalsoppa',
+        'ingredients': [   {   'group': 'Kål och soppbas',
+                               'items': [   {'name': 'vitkål (strimlad i ca 2x2 cm bitar)', 'unit': 'g', 'val': 800},
+                                            {'name': 'smör till bryning', 'unit': 'msk', 'val': 3},
+                                            {'name': 'mörk sirap', 'unit': 'msk', 'val': 2},
+                                            {   'name': 'oxbuljong eller köttbuljong (vatten + fond eller tärningar)',
+                                                'unit': 'l',
+                                                'val': 1.2},
+                                            {'name': 'hela kryddpepparkorn', 'unit': 'st', 'val': 8},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': 2},
+                                            {'name': 'salt och nymald vitpeppar', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Frikadeller',
+                               'items': [   {   'name': 'blandfärs (nöt och fläsk) eller nötfärs',
+                                                'unit': 'g',
+                                                'val': 400},
+                                            {'name': 'ströbröd', 'unit': 'msk', 'val': 3},
+                                            {'name': 'mjölk eller grädde', 'unit': 'dl', 'val': 1},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 1},
+                                            {'name': 'gul lök (mycket finriven)', 'unit': 'st', 'val': 0.5},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'nymald kryddpeppar eller vitpeppar', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Servering',
+                               'items': [   {'name': 'färsk persilja (hackad)', 'unit': 'msk', 'val': 2},
+                                            {   'name': 'grovt knäckebröd eller rågbröd med smör och ost',
+                                                'unit': 'port',
+                                                'val': 4}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Strimla vitkålen grovt. Hetta upp smöret i en stor soppgryta på medelhög '
+                                        'värme. Lägg i kålen och ringla över den mörka sirapen. Fräs kålen under '
+                                        'omrörning i 10–15 minuter tills den mjuknat och fått en djup, vacker '
+                                        'gyllenbrun färg utan att brännas.',
+                                'title': 'Bryn vitkålen'},
+                            {   'step': 2,
+                                'text': 'Häll på den varma köttbuljongen. Tillsätt kryddpepparkorn och lagerblad. Låt '
+                                        'soppan koka upp och sjuda under lock på svag värme i ca 25–30 minuter tills '
+                                        'kålen är helt mör.',
+                                'title': 'Koka kålbuljongen'},
+                            {   'step': 3,
+                                'text': 'Blanda ströbröd och mjölk i en skål och låt svälla i 5 minuter. Tillsätt '
+                                        'färsen, det finrivna löken, ägget, salt och nymald kryddpeppar. Arbeta snabbt '
+                                        'ihop till en smidig, jämn smet.',
+                                'title': 'Blanda frikadellsmeten'},
+                            {   'step': 4,
+                                'text': 'Skölj händerna i kallt vatten och rulla små, jämna köttbullar (ca 2–3 cm '
+                                        'stora). Släpp försiktigt ner frikadellerna i den sjudande soppan. Låt dem '
+                                        'sjuda i soppan i ca 8–10 minuter. När de flyter upp till ytan är de '
+                                        'genomkokta och saftiga.',
+                                'title': 'Rulla och koka frikadellerna'},
+                            {   'step': 5,
+                                'text': 'Smaka av buljongen med lite mer salt, vitpeppar eller en extra droppe sirap '
+                                        'efter smak. Strö över finhackad persilja och ös upp i djupa tallrikar. '
+                                        'Servera med knaprigt knäckebröd och lagrad ost!',
+                                'title': 'Smaka av och servera'}],
+        'keywords': 'kålsoppa med frikadeller, gammaldags kålsoppa, kålsoppa recept, kålsoppa med köttfärs, soppa på '
+                    'vitkål, kålsoppa mormors recept, klassisk svensk kålsoppa',
+        'long_desc': 'Kålsoppa med frikadeller är en av den svenska husmanskostens allra främsta pärlor. När höstkålen '
+                     'är som krispigast och saftigast bryns den långsamt i rikligt med smör tillsammans med mörk sirap '
+                     'tills den blir gyllenbrun och härligt karamelliserad. Kålen får sedan koka mjuk i en fyllig '
+                     'köttbuljong kryddad med kryddpepparkorn, innan späda och saftiga frikadeller på blandfärs sjuds '
+                     'direkt i soppan. Servera denna rustika soppa rykande het tillsammans med grovt rågbröd eller '
+                     'knäckebröd, lagrad prästost och ett glas kall mjölk eller öl.',
+        'nutrition': {'calories': '380 kcal', 'carbs': '16g', 'fat': '24g', 'protein': '26g', 'sugar': '9g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Snåla inte med bryningen av vitkålen! Att låta kålen ta ordentlig färg i smöret tillsammans med '
+                    'sirapen är hemligheten bakom den djupa umamismaken och den gyllene färgen på buljongen.',
+        'rating': 4.92,
+        'review_count': 7,
+        'slug': 'gammaldags-kalsoppa-frikadeller',
+        'sub': 'Värmande klassisk kålsoppa med smörbrynt vitkål, kryddpeppar och saftiga frikadeller',
+        'time': 60,
+        'time_str': '60 min',
+        'title': 'Gammaldags Kålsoppa med Frikadeller & Mörk Sirap',
+        'total_time': 'PT60M'},
+    {   'alt': 'Gyllenbrun frasig laxpaj med fyllning av lax, spenat och Västerbottensost toppad med dill och citron',
+        'calories': 465,
+        'card_title': 'Krämig Laxpaj',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Den godaste laxpaj jag ätit! Kombinationen av Västerbottensost, '
+                                                'massor av dill och varmrökt lax var helt ljuvlig.',
+                                     'date': 'Idag',
+                                     'name': 'Katarina W.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Botten blev superfrasig med förgräddningen och fyllningen krämig och '
+                                                'stabil. Kommer göra denna ofta.',
+                                     'date': 'Igår',
+                                     'name': 'Henrik S.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT35M',
+        'cook_time_str': '35 min',
+        'desc': 'Underbart recept på krämig laxpaj med varmrökt lax, babyspenat, massor av dill och riven '
+                'Västerbottensost i ett frasigt pajskal. Perfekt till helgmiddagen eller buffén.',
+        'diet': 'Fisk & Skaldjur',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett friskt torrt vitt vin som en Chablis eller Sauvignon Blanc, eller en frisk alkoholfri '
+                         'äppelmust.',
+        'equipment': ['Pajform (ca 26–28 cm i diameter)', 'Kavel eller pajtryckare', 'Stekpanna', 'Vispskål'],
+        'faqs': [   {   'a': 'Ja! Både varmrökt, kallrökt och färsk rå laxfilé (i kuber) fungerar utmärkt. Varmrökt '
+                             'ger dock en särskilt saftig konsistens och fyllig rökighet som passar magiskt med '
+                             'Västerbottensosten.',
+                        'q': 'Kan man använda gravad eller kallrökt lax istället för varmrökt?'},
+                    {   'a': 'Absolut! Laxpaj är minst lika god ljummen eller kall dagen efter, vilket gör den perfekt '
+                             'för kalas och buffébjudningar.',
+                        'q': 'Kan pajen förberedas dagen innan?'}],
+        'file': 'kramig-laxpaj-spenat-vasterbottensost.html',
+        'img': 'laxpaj',
+        'ingredients': [   {   'group': 'Frasigt Pajskal',
+                               'items': [   {'name': 'vetemjöl', 'unit': 'dl', 'val': 3},
+                                            {'name': 'kallt smör (i tärningar)', 'unit': 'g', 'val': 125},
+                                            {'name': 'iskallt vatten', 'unit': 'msk', 'val': 2},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Lax- & spenatfyllning',
+                               'items': [   {'name': 'varmrökt lax (delad i grova bitar)', 'unit': 'g', 'val': 300},
+                                            {'name': 'färsk babyspenat', 'unit': 'g', 'val': 150},
+                                            {'name': 'smör till stekning', 'unit': 'msk', 'val': 1},
+                                            {'name': 'färsk dill (finhackad)', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'Västerbottensost (riven)', 'unit': 'g', 'val': 150}]},
+                           {   'group': 'Krämig Äggstanning',
+                               'items': [   {'name': 'ägg', 'unit': 'st', 'val': 3},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'mjölk (3%)', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 0.5},
+                                            {   'name': 'nymald svartpeppar och en nypa riven muskotnöt',
+                                                'unit': 'krm',
+                                                'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Mixa ihop vetemjöl, salt och kylskåpskallt tärnat smör i en matberedare eller '
+                                        'nyp ihop för hand till en smulig massa. Tillsätt iskallt vatten och arbeta '
+                                        'snabbt ihop till en deg. Tryck ut degen i en pajform (ca 26–28 cm), nagga '
+                                        'botten med en gaffel och ställ i kylen i minst 30 minuter.',
+                                'title': 'Gör pajdegen'},
+                            {   'step': 2,
+                                'text': 'Sätt ugnen på 200°C över- och undervärme. Förgrädda pajskalet mitt i ugnen i '
+                                        '10–12 minuter tills det fått en lätt gyllene färg.',
+                                'title': 'Förgrädda pajskalet'},
+                            {   'step': 3,
+                                'text': 'Hetta upp 1 msk smör i en stekpanna och fräs spenaten i 1–2 minuter tills den '
+                                        'precis slakat ihop. Pressa ur överflödig vätska och låt svalna något. Dela '
+                                        'den varmrökta laxen i lagom stora munsbitar.',
+                                'title': 'Fräs spenaten och förbered laxen'},
+                            {   'step': 4,
+                                'text': 'Vispa ihop ägg, grädde, mjölk, salt, nymald peppar och riven muskotnöt i en '
+                                        'skål.',
+                                'title': 'Vispa ihop äggstanningen'},
+                            {   'step': 5,
+                                'text': 'Fördela den avrunna spenaten i det förgräddade pajskalet. Lägg på laxbitarna, '
+                                        'hackad dill och toppa med den rivna Västerbottensosten. Häll försiktigt över '
+                                        'äggstanningen.',
+                                'title': 'Fyll pajen'},
+                            {   'step': 6,
+                                'text': 'Grädda pajen mitt i ugnen i 30–35 minuter tills äggstanningen har stannat '
+                                        'helt och ytan är vackert gyllenbrun. Låt pajen vila i 10–15 minuter innan '
+                                        'servering så blir den lättare att skära. Servera med en krispig grönsallad '
+                                        'och citronklyftor!',
+                                'title': 'Grädda och låt sätta sig'}],
+        'keywords': 'laxpaj recept, laxpaj med spenat, laxpaj västerbottensost, krämig laxpaj, godaste laxpajen, paj '
+                    'med lax och dill, enkel laxpaj buffé',
+        'long_desc': 'En hembakad laxpaj med krispigt, gyllene pajskal och en len, krämig äggstanning är en oslagbar '
+                     'favorit på det svenska middagsbordet. I detta recept kombineras fyllig varmrökt eller ugnsbakad '
+                     'lax med fräst babyspenat, färsk hackad dill och den karaktäristiska sältan från riven '
+                     'Västerbottensost. Pajen håller ihop fantastiskt fint vid uppskärning och har en generös, lyxig '
+                     'smak som gör succé både till vardagslyx, påskbuffén, midsommarbordet eller höstens '
+                     'skaldjurskvällar.',
+        'nutrition': {'calories': '465 kcal', 'carbs': '25g', 'fat': '31g', 'protein': '24g', 'sugar': '3g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Förgrädda alltid pajskalet i 10 minuter och låt den frästa spenaten rinna av ordentligt! Då '
+                    'undviker du en blöt pajbotten och får ett underbart frasigt resultat.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'kramig-laxpaj-spenat-vasterbottensost',
+        'sub': 'Frasigt smörpajskal fyllt med saftig lax, färsk babyspenat, dill och lagrad Västerbottensost',
+        'time': 60,
+        'time_str': '60 min',
+        'title': 'Krämig Laxpaj med Varmrökt Lax, Spenat & Västerbottensost',
+        'total_time': 'PT60M'},
+    {   'alt': 'Glaserade saftiga tjocka revbensspjäll skurna på träskärbräda med färsk rosmarin och flingsalt',
+        'calories': 620,
+        'card_title': 'Tjocka Revbensspjäll',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Köttet föll bokstavligen av benen! Äppelglazen med honung och '
+                                                'ingefära gav en fantastisk balans mellan sötma och syra.',
+                                     'date': 'Idag',
+                                     'name': 'Magnus O.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Följde receptet till punkt och pricka för helgmiddagen. Alla gäster '
+                                                'tog om tre gånger. Fem stjärnor!',
+                                     'date': 'Igår',
+                                     'name': 'Ann-Christine D.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT120M',
+        'cook_time_str': '2 tim',
+        'desc': 'Bästa receptet på tjocka revbensspjäll i ugn! Först långsamt ugnsbakade under folie till smältande '
+                'mörhet, sedan penslade med fyllig äppel- och honungsglaze för perfekt knäckig yta.',
+        'diet': 'Glutenfritt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En fyllig julöl, svensk ale eller ett kryddigt rött vin som en Zinfandel eller Syrah.',
+        'equipment': [   'Rymlig ugnsform eller långpanna',
+                         'Aluminiumfolie',
+                         'Kastrull till glaze',
+                         'Brödpensel',
+                         'Köttkniv'],
+        'faqs': [   {   'a': 'Köttet är klart när det har dragit sig tillbaka ca 1–1,5 cm från benändarna och känns '
+                             'helt mört när du sticker i det med en gaffel.',
+                        'q': 'Hur vet man att revbensspjällen är färdigbakade?'},
+                    {   'a': 'Ja! Du kan baka revbenen möra dagen innan. Låt dem svalna och förvara i kylen. Vid '
+                             'servering penslar du bara på glazen och griljerar i ugnen i 15–20 minuter på 225°C.',
+                        'q': 'Kan man förbereda revbensspjällen i förväg?'}],
+        'file': 'saftiga-tjocka-revbensspjall-i-ugn.html',
+        'img': 'revbensspjall',
+        'ingredients': [   {   'group': 'Revbensspjäll & Kryddning',
+                               'items': [   {'name': 'tjocka revbensspjäll av gris', 'unit': 'kg', 'val': 1.5},
+                                            {'name': 'gult äpple (klyftat)', 'unit': 'st', 'val': 1},
+                                            {'name': 'gul lök (klyftad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'vatten till ugnsformen', 'unit': 'dl', 'val': 2},
+                                            {'name': 'salt', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'grovmald svartpeppar', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'malen ingefära', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'hel kryddpeppar (krossad)', 'unit': 'tsk', 'val': 0.5}]},
+                           {   'group': 'Klibbig Äppel- & Honungsglaze',
+                               'items': [   {'name': 'äppelmos eller äppelgelé', 'unit': 'dl', 'val': 1},
+                                            {'name': 'flytande honung', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'japansk soja', 'unit': 'msk', 'val': 3},
+                                            {'name': 'dijonsenap eller skånsk senap', 'unit': 'msk', 'val': 1},
+                                            {'name': 'färsk ingefära (finriven)', 'unit': 'msk', 'val': 1},
+                                            {'name': 'äppelcidervinäger', 'unit': 'msk', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 160°C över- och undervärme. Torka av spjällen med '
+                                        'hushållspapper och dra eventuellt bort hinnan på baksidan. Blanda salt, '
+                                        'peppar, ingefära och krossad kryddpeppar. Gnid in kryddblandningen noga '
+                                        'runtom hela köttet.',
+                                'title': 'Krydda revbensspjällen'},
+                            {   'step': 2,
+                                'text': 'Lägg äppelklyftor och lökklyftor i botten på en rymlig ugnsform och häll i 2 '
+                                        'dl vatten. Lägg revbensspjällen ovanpå med köttsidan uppåt. Täck formen '
+                                        'ordentligt och tätt med dubbla lager aluminiumfolie. Baka mitt i ugnen i ca '
+                                        '1,5–2 timmar tills köttet är underbart mört.',
+                                'title': 'Långbaka under folie'},
+                            {   'step': 3,
+                                'text': 'Under tiden köttet är i ugnen: koka ihop äppelmos, honung, soja, senap, riven '
+                                        'ingefära och äppelcidervinäger i en liten kastrull. Låt småputtra i 5 minuter '
+                                        'tills glazen tjocknar något.',
+                                'title': 'Koka glazen'},
+                            {   'step': 4,
+                                'text': 'Ta ut revbenen ur ugnen och ta bort folien. Höj ugnstemperaturen till 225°C '
+                                        'grill- eller varmluftsfunktion. Pensla spjällen rikligt med glazen. Griljera '
+                                        'i ugnen i 10–15 minuter. Ta ut och pensla ytterligare en gång under tiden så '
+                                        'ytan blir knäckig, klibbig och djupt mahognyfärgad.',
+                                'title': 'Glasera och griljera'},
+                            {   'step': 5,
+                                'text': 'Låt revbensspjällen vila i 10 minuter innan du skär upp dem mellan revbenen. '
+                                        'Strö över lite flingsalt och färsk rosmarin. Servera med ugnsrostade '
+                                        'rotfrukter, rödkål och äppelmos!',
+                                'title': 'Vila och skär upp'}],
+        'keywords': 'revbensspjäll i ugn, tjocka revbensspjäll recept, saftiga revbensspjäll, revbensspjäll glaze, '
+                    'julrevbensspjäll, långbakade revbensspjäll, möra revben i ugn',
+        'long_desc': 'Tjocka revbensspjäll är ett av de mest älskade inslagen på både det svenska julbordet och under '
+                     'höstens och vinterns mysiga söndagsmiddagar. Denna beprövade metod i två steg garanterar att '
+                     'köttet blir så otroligt mört att det lossnar från benen: först långbakas revbenen under '
+                     'ugnsfolie med lök, äpple och kryddor så all fukt stannar kvar. Därefter penslas de rikligt med '
+                     'en glänsande glaze gjord på äppelmos, flytande honung, dijonsenap, färsk ingefära och soja, '
+                     'innan de griljeras på hög värme till en oemotståndligt klibbig och gyllenbrun yta!',
+        'nutrition': {'calories': '620 kcal', 'carbs': '14g', 'fat': '44g', 'protein': '42g', 'sugar': '12g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Dra bort den tunna hinnan (silverskinnet) på baksidan av revbensspjällen innan du kryddar dem! '
+                    'Det gör att marinaden och kryddorna tränger in djupt i köttet och att revbenen blir extremt möra.',
+        'rating': 4.94,
+        'review_count': 9,
+        'slug': 'saftiga-tjocka-revbensspjall-i-ugn',
+        'sub': 'Möra, långbakade revbensspjäll med klibbig äppel- och honungsglaze, ingefära och kryddpeppar',
+        'time': 140,
+        'time_str': '2 tim 20 min',
+        'title': 'Saftiga Tjocka Revbensspjäll i Ugn med Äppel- & Honungsglaze',
+        'total_time': 'PT140M'},
+    {   'alt': 'Lyxig fluffig mörk chokladmousse i kristallglas toppad med vispad grädde och färska hallon',
+        'calories': 340,
+        'card_title': 'Klassisk Chokladmousse',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Restaurangklass! Så otroligt luftig och krämig på samma gång. Tipset '
+                                                'om fingervarm choklad gjorde att smeten blev helt slät.',
+                                     'date': 'Idag',
+                                     'name': 'Isabella R.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Den godaste efterrätten jag någonsin bjudit på. Blev succé på '
+                                                'lördagsmiddagen!',
+                                     'date': 'Igår',
+                                     'name': 'Peter G.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT5M',
+        'cook_time_str': '5 min',
+        'desc': 'Lyxigt och idiotsäkert recept på klassisk fluffig chokladmousse! Gjord på mörk kvalitetschoklad, ägg '
+                'och vispad grädde för en silkeslen dessert som smälter i munnen.',
+        'diet': 'Vegetariskt & Glutenfritt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En espresso, ett litet glas sött portvin eller en cognac.',
+        'equipment': ['Värmetålig skål för vattenbad', 'Elvisp och två rena bunkar', 'Slickepott', '4 portionsglas'],
+        'faqs': [   {   'a': 'Moussen behöver minst 2 timmar i kylskåp för att sätta sig till perfekt fluffig '
+                             'konsistens. Den kan med fördel förberedas dagen innan!',
+                        'q': 'Hur länge måste chokladmoussen stå i kylen innan servering?'},
+                    {   'a': 'En mörk choklad med 60–70% kakaohalt ger bäst balans mellan sötma och djup chokladsmak '
+                             'utan att bli för bitter.',
+                        'q': 'Vilken choklad passar bäst i chokladmousse?'}],
+        'file': 'klassisk-fluffig-chokladmousse.html',
+        'img': 'chokladmousse',
+        'ingredients': [   {   'group': 'Chokladmousse',
+                               'items': [   {'name': 'mörk choklad (ca 60–70% kakaohalt)', 'unit': 'g', 'val': 150},
+                                            {'name': 'ägg (uppdelade i gulor och vitor)', 'unit': 'st', 'val': 3},
+                                            {'name': 'strösocker', 'unit': 'msk', 'val': 2},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': 2},
+                                            {   'name': 'starkt bryggt kaffe eller espresso (valfritt)',
+                                                'unit': 'msk',
+                                                'val': 1},
+                                            {'name': 'flingsalt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Garnering',
+                               'items': [   {'name': 'lättvispad grädde', 'unit': 'dl', 'val': 1},
+                                            {'name': 'färska hallon', 'unit': 'g', 'val': 50},
+                                            {'name': 'hyvlad mörk choklad och färsk mynta', 'unit': 'msk', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Hacka den mörka chokladen grovt. Smält chokladen försiktigt över ett '
+                                        'vattenbad på svag värme (eller korta intervaller i mikrovågsugn). Rör ner '
+                                        'espresson och låt chokladen svalna till fingervarm temperatur.',
+                                'title': 'Smält chokladen'},
+                            {   'step': 2,
+                                'text': 'Separera äggen noggrant. Rör ner en äggula i taget i den avsvalnade smälta '
+                                        'chokladen och rör om kraftigt till en glänsande, fyllig kräm.',
+                                'title': 'Rör ner äggulorna'},
+                            {   'step': 3,
+                                'text': 'Vispa grädden till mjuka toppar i en bunke. I en annan helt ren bunke vispar '
+                                        'du äggvitorna och flingsaltet till ett fast vitt skum. Tillsätt strösockret '
+                                        'mot slutet och vispa till ett glansigt, stabilt marängskum.',
+                                'title': 'Vispa grädde och vitor'},
+                            {   'step': 4,
+                                'text': 'Vänd först försiktigt ner den vispade grädden i chokladsmeten med en '
+                                        'slickepott. Vänd därefter ner de uppvispade äggvitorna i omgångar med stora, '
+                                        'luftiga tag så att all volym behålls.',
+                                'title': 'Vänd ihop moussen'},
+                            {   'step': 5,
+                                'text': 'Fördela moussen i 4 portionsglas eller dessertskålar. Låt stå i kylen i minst '
+                                        '2 timmar (gärna längre). Garnera med en klick lättvispad grädde, färska '
+                                        'hallon och hyvlad choklad innan servering!',
+                                'title': 'Kyl och servera'}],
+        'keywords': 'chokladmousse recept, klassisk chokladmousse, fluffig chokladmousse, chokladmousse mörk choklad, '
+                    'enkel chokladmousse ägg, efterrätt med choklad, dessert chokladmousse',
+        'long_desc': 'En riktigt välgjord chokladmousse är en av världens mest fulländade desserter. I denna klassiska '
+                     'version används mörk choklad av hög kvalitet (ca 70%), äggulor, en nypa salt och en liten '
+                     'espresso-skvätt som lyfter chokladens fylliga kakaotoner. Genom att vända ner både hårdvispade '
+                     'äggvitor och fluffig vispgrädde får moussen den där karakteristiska, luftiga och porösa '
+                     'konsistensen som bokstavligen smälter på tungan. Servera i eleganta glas toppade med en klick '
+                     'lättvispad grädde, färska hallon och hyvlad mörk choklad!',
+        'nutrition': {'calories': '340 kcal', 'carbs': '22g', 'fat': '26g', 'protein': '5g', 'sugar': '18g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Se till att den smälta chokladen har svalnat till fingervarm temperatur innan du rör ner '
+                    'äggulorna! Är chokladen för varm koagulerar äggulorna, är den för kall stelnar chokladen i '
+                    'klumpar när grädden vänds ner.',
+        'rating': 4.96,
+        'review_count': 9,
+        'slug': 'klassisk-fluffig-chokladmousse',
+        'sub': 'Luftig, sammetslen chokladmousse med 70% mörk choklad, äggulor, kaffe och lättvispad grädde',
+        'time': 30,
+        'time_str': '30 min',
+        'title': 'Klassisk Fluffig Chokladmousse på Mörk Choklad & Vispgrädde',
+        'total_time': 'PT30M'},
+    {   'alt': 'Hemlagade klassiska dammsugare klädda i grön marsipan med chokladdoppade ändar på porslinsfat med '
+               'kaffekopp',
+        'calories': 215,
+        'card_title': 'Klassiska Dammsugare',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Helt fantastiska! Barnsligt roliga att baka och smakar exakt som på '
+                                                'ett klassiskt konditori i Gamla Stan.',
+                                     'date': 'Idag',
+                                     'name': 'Therese M.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Använde sockerkaka och lite överblivna drömmar. Perfekt arraksmak och '
+                                                'krispig chokladdoppning.',
+                                     'date': 'Igår',
+                                     'name': 'Olle K.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT0M',
+        'cook_time_str': '0 min',
+        'desc': 'Bästa receptet på klassiska hemgjorda dammsugare (punschrullar)! Saftig fyllning smaksatt med arrak, '
+                'inrullad i grön marsipan och doppade ändar i mörk choklad.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En kopp starkt svenskt bryggkaffe, te eller ett litet glas äkta svensk punsch.',
+        'equipment': ['Matberedare eller elvisp', 'Kavel', 'Plastfolie', 'Bakplåtspapper', 'Vass kockkniv'],
+        'faqs': [   {   'a': 'Äkta svensk punsch (ca 2–3 msk) ger den allra mest genuina smaken. Vill du göra '
+                             'alkoholfria dammsugare använder du istället 1–2 tsk arraksarom från bakhillan.',
+                        'q': 'Vilken sprit eller arom ska man använda?'},
+                    {   'a': 'Dammsugare håller i upp till 2 veckor i en tät burk i kylskåpet, och går även alldeles '
+                             'utmärkt att frysa in!',
+                        'q': 'Hur länge håller hembakade dammsugare?'}],
+        'file': 'klassiska-dammsugare-punschrullar.html',
+        'img': 'dammsugare',
+        'ingredients': [   {   'group': 'Arraksfyllning',
+                               'items': [   {   'name': 'smulor från sockerkaka eller mjuka kakor',
+                                                'unit': 'dl',
+                                                'val': 4},
+                                            {   'name': 'smulor från småkakor (t.ex. havrekakor eller drömmar)',
+                                                'unit': 'dl',
+                                                'val': 2},
+                                            {'name': 'smör (rumstempererat)', 'unit': 'g', 'val': 100},
+                                            {'name': 'florsocker', 'unit': 'dl', 'val': 1},
+                                            {'name': 'kakao av god kvalitet', 'unit': 'msk', 'val': 2},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'punsch (eller 1–2 tsk arraksarom)', 'unit': 'msk', 'val': 2.5}]},
+                           {   'group': 'Marsipanhölje & Doppning',
+                               'items': [   {'name': 'grön marsipan (kavlad eller på rulle)', 'unit': 'g', 'val': 400},
+                                            {'name': 'florsocker till kavling', 'unit': 'msk', 'val': 2},
+                                            {'name': 'mörk choklad (smält)', 'unit': 'g', 'val': 120}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Mixa kantsmulor och kakor i en matberedare till fina smulor. Vispa '
+                                        'rumstempererat smör, florsocker, kakao och vaniljsocker pösigt i en bunke. '
+                                        'Tillsätt kaksmulorna och smaka av med punsch eller arraksarom. Arbeta ihop '
+                                        'till en fast, formbar deg.',
+                                'title': 'Mixa fyllningen'},
+                            {   'step': 2,
+                                'text': 'Dela degen i två delar. Rulla ut varje del till en ca 30 cm lång och 2–2,5 cm '
+                                        'tjock korv på en skärbräda. Linda in i plastfolie och lägg i kylskåp i 30 '
+                                        'minuter för att stelna.',
+                                'title': 'Rulla längder och kyl'},
+                            {   'step': 3,
+                                'text': 'Kavla ut den gröna marsipanen tunt (ca 2 mm tjock) på ett bakbord lätt pudrat '
+                                        'med florsocker. Skär till två rektanglar som är lika långa som degrullarna '
+                                        'och tillräckligt breda för att nå runtom (ca 10–12 cm breda).',
+                                'title': 'Kavla marsipanen'},
+                            {   'step': 4,
+                                'text': 'Lägg degrullarna på marsipanen och rulla in dem så skarven hamnar nedåt. '
+                                        'Tryck till lätt. Skär varje rulle i ca 5–6 cm långa bitar med en vass kniv. '
+                                        'Ställ bitarna i kylen i 15 minuter.',
+                                'title': 'Rulla in och skär bitar'},
+                            {   'step': 5,
+                                'text': 'Smält den mörka chokladen över vattenbad och häll upp i en liten kopp eller '
+                                        'skål. Doppa båda ändarna på varje dammsugare i chokladen och lägg dem på '
+                                        'bakplåtspapper för att stelna. Förvara svalt och njut till kaffet!',
+                                'title': 'Doppa i choklad'}],
+        'keywords': 'dammsugare recept, punschrulle recept, göra egna dammsugare, baka dammsugare marsipan, '
+                    'arraksrulle, klassiska konditorikakor, fika dammsugare, punschrullar',
+        'long_desc': 'Dammsugaren, eller punschrullen som den också kallas, är utan tvekan en av Sveriges mest '
+                     'ikoniska och älskade konditoribitar. Ursprungligen skapades den av fiffiga konditorer för att ta '
+                     'tillvara på gårdagens goda sockerkaks- och småkakssmulor som blandades med smör, kakao och lite '
+                     'punsch eller arrak. Den fylliga, aromatiska kakaofyllningen rullas in i en ljust grön kavlad '
+                     'marsipan och avslutas med att båda ändarna doppas i fyllig mörk choklad. Att göra egna '
+                     'dammsugare hemma är fantastiskt roligt och ger ett resultat som slår köpta varianter med '
+                     'hästlängder!',
+        'nutrition': {'calories': '215 kcal', 'carbs': '28g', 'fat': '11g', 'protein': '3g', 'sugar': '22g'},
+        'portions_num': 16,
+        'portions_unit': 'stycken',
+        'prep_time': 'PT45M',
+        'prep_time_str': '45 min',
+        'pro_tips': 'Kyl marsipanrullarna ordentligt i minst 30 minuter innan du skär dem i bitar och doppar dem i '
+                    'choklad! Kalla rullar ger raka, fina snittytor och chokladen stelnar blixtsnabbt och snyggt.',
+        'rating': 4.91,
+        'review_count': 6,
+        'slug': 'klassiska-dammsugare-punschrullar',
+        'sub': 'Svenska konditoriklassikern med kaksmulor, smörkräm, arrak och grön marsipan doppad i mörk choklad',
+        'time': 45,
+        'time_str': '45 min',
+        'title': 'Klassiska Dammsugare – Hemlagade Punschrullar med Grön Marsipan',
+        'total_time': 'PT45M'}]
