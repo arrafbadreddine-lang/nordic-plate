@@ -12824,4 +12824,560 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 45,
         'time_str': '45 min',
         'title': 'Klassiska Dammsugare – Hemlagade Punschrullar med Grön Marsipan',
-        'total_time': 'PT45M'}]
+        'total_time': 'PT45M'},
+    {   'alt': 'Klassiska saftiga vaniljbullar med socker och fyllning av len vaniljkräm på träbord med kaffekopp',
+        'calories': 235,
+        'card_title': 'Klassiska Vaniljbullar',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Magiskt goda! Hela familjen tyckte de smakade precis som på ett '
+                                                'genuint hantverksbageri. Vaniljkrämen var gudomlig.',
+                                     'date': 'Idag',
+                                     'name': 'Elin K.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Perfekt saftig vetedeg och massor av kardemummasmak. Sockertoppingen '
+                                                'gjorde pricken över i:et.',
+                                     'date': 'Igår',
+                                     'name': 'Gustav W.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT10M',
+        'cook_time_str': '10 min',
+        'desc': 'Bästa receptet på klassiska vaniljbullar (solbullar)! Otroligt saftig kardemummadeg fylld med len '
+                'vaniljkräm med äkta vanilj, penslade med smör och doppade i strösocker.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett stort glas iskall mjölk eller en kopp nybryggt svenskt filterkaffe.',
+        'equipment': [   'Köksassistent eller stor degbunke',
+                         'Kavel eller spritspåse',
+                         'Bakplåtar med bakplåtspapper',
+                         'Brödpensel'],
+        'faqs': [   {   'a': 'Ja, färdigkokt marsánkräm (gärna lite tjockare tillredd så den inte rinner) fungerar '
+                             'utmärkt om du vill spara tid, även om hemgjord vaniljkräm med äkta vaniljstång ger den '
+                             'allra fylligaste smaken.',
+                        'q': 'Kan man använda färdig vaniljkräm eller marsánkräm?'},
+                    {   'a': 'Ja! Frys in bullarna utan att pensla dem med smör och socker. När du ska servera dem '
+                             'tinar du dem, värmer dem hastigt i ugnen på 150°C i ett par minuter, och penslar med '
+                             'smält smör och doppar i socker direkt före fikat!',
+                        'q': 'Går vaniljbullar att frysa in?'}],
+        'file': 'klassiska-vaniljbullar-solbullar.html',
+        'img': 'vaniljbullar',
+        'ingredients': [   {   'group': 'Vetedeg',
+                               'items': [   {'name': 'färsk jäst för söta degar', 'unit': 'g', 'val': 50},
+                                            {'name': 'mjölk (3%, fingervarm 37°C)', 'unit': 'dl', 'val': 5},
+                                            {'name': 'smör (rumstempererat i klickar)', 'unit': 'g', 'val': 150},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'nymald kardemumma', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 0.5},
+                                            {'name': 'vetemjöl special (ca 13–14 dl)', 'unit': 'g', 'val': 800}]},
+                           {   'group': 'Len Vaniljkräm',
+                               'items': [   {'name': 'mjölk', 'unit': 'dl', 'val': 2.5},
+                                            {   'name': 'äkta vaniljstång (eller 2 tsk vaniljpasta)',
+                                                'unit': 'st',
+                                                'val': 1},
+                                            {'name': 'äggulor', 'unit': 'st', 'val': 3},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'maizena majsstärkelse', 'unit': 'msk', 'val': 2},
+                                            {'name': 'smör', 'unit': 'g', 'val': 25}]},
+                           {   'group': 'Garnering',
+                               'items': [   {'name': 'smör (smält till pensling)', 'unit': 'g', 'val': 50},
+                                            {'name': 'strösocker att doppa bullarna i', 'unit': 'dl', 'val': 1.5}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Snitta vaniljstången och skrapa ur fröna i en kastrull med mjölken. Koka upp '
+                                        'och dra av från värmen. Vispa äggulor, socker och maizena vitt och poröst i '
+                                        'en skål. Häll den heta mjölken över äggvispet under ständig omrörning. Häll '
+                                        'tillbaka allt i kastrullen och sjud på medelvärme under kraftig vispning '
+                                        'tills krämen tjocknar ordentligt. Rör ner smöret. Häll upp i en skål och täck '
+                                        'med plastfolie direkt mot ytan. Låt svalna helt i kylskåp.',
+                                'title': 'Koka vaniljkrämen'},
+                            {   'step': 2,
+                                'text': 'Smula jästen i en degblandare och lös upp den med den ljumma mjölken (37°C). '
+                                        'Tillsätt socker, nymald kardemumma, salt och hälften av vetemjölet. Klicka i '
+                                        'det rumstempererade smöret och arbeta degen på låg hastighet medan du '
+                                        'tillsätter resten av mjölet.',
+                                'title': 'Sätt vetedegen'},
+                            {   'step': 3,
+                                'text': 'Knåda degen kraftigt i maskin i ca 10–12 minuter (eller 15 minuter för hand) '
+                                        'tills den är glansig, elastisk och släpper bunkens kanter. Låt degen vila '
+                                        'under bakduk i 15 minuter.',
+                                'title': 'Knåda till fönsterprov'},
+                            {   'step': 4,
+                                'text': 'Dela degen i ca 24 lika stora delar (ca 50 g styck). Rulla till helt släta, '
+                                        'runda bullar och lägg dem på bakplåtspapper på två plåtar. Täck med bakduk '
+                                        'och låt jäsa i ca 60–75 minuter till dubbel storlek.',
+                                'title': 'Rulla bullar och jäs'},
+                            {   'step': 5,
+                                'text': 'Sätt ugnen på 225°C över- och undervärme. Tryck en djup grop i mitten av '
+                                        'varje jäst bulle med tummen eller en skaftända. Spritsa eller klicka i en '
+                                        'generös matsked kall vaniljkräm i varje grop.',
+                                'title': 'Fyll med vaniljkräm'},
+                            {   'step': 6,
+                                'text': 'Grädda bullarna mitt i ugnen i ca 8–10 minuter tills de har fått en vacker '
+                                        'gyllenbrun färg. Låt svalna på galler under bakduk i ca 10 minuter.',
+                                'title': 'Grädda'},
+                            {   'step': 7,
+                                'text': 'Pensla de ljumma bullarna runtom med smält smör (undvik vaniljkrämen) och '
+                                        'doppa dem genast i en djup tallrik med strösocker. Servera direkt och njut!',
+                                'title': 'Pensla med smör och sockra'}],
+        'keywords': 'vaniljbullar recept, solbullar recept, vaniljbullar med vaniljkräm, baka vaniljbullar, saftiga '
+                    'solbullar, solbullar med socker, bullar med vaniljfyllning',
+        'long_desc': 'Vaniljbullar, i folkmun ofta kallade solbullar, är en av de allra mest älskade klassikerna på '
+                     'svenska konditorier och fikabord. En fluffig, nymald kardemummadeg rullas till runda bullar och '
+                     'fylls i mitten med en generös klick äkta vaniljkräm med små svarta vaniljkorn. Direkt efter '
+                     'gräddning penslas de varma bullarna med smält smör och doppas i gnistrande strösocker. '
+                     'Resultatet är en oemotståndlig kontrast mellan det krispiga sockertäcket, det saftiga '
+                     'vetebullebrödet och den krämiga, lena vaniljgömman i mitten!',
+        'nutrition': {'calories': '235 kcal', 'carbs': '34g', 'fat': '9g', 'protein': '5g', 'sugar': '16g'},
+        'portions_num': 24,
+        'portions_unit': 'bullar',
+        'prep_time': 'PT40M',
+        'prep_time_str': '40 min',
+        'pro_tips': 'Spritsa eller klicka i vaniljkrämen ordentligt djupt i mitten av varje bulle efter att bullarna '
+                    'jäst färdigt på plåten! Då bubblar krämen inte över under gräddningen utan stannar som en perfekt '
+                    'fyllning i mitten.',
+        'rating': 4.96,
+        'review_count': 8,
+        'slug': 'klassiska-vaniljbullar-solbullar',
+        'sub': 'Mjuka, kardemummadoftande vetebullar fyllda med hemgjord vaniljkräm och rullade i socker',
+        'time': 50,
+        'time_str': '50 min',
+        'title': 'Klassiska Vaniljbullar – Saftiga Solbullar med Len Vaniljkräm',
+        'total_time': 'PT50M'},
+    {   'alt': 'Klassisk ångande kycklingsoppa med morötter, rotfrukter och persilja i keramikskål med surdegsbröd',
+        'calories': 320,
+        'card_title': 'Gammaldags Kycklingsoppa',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Hela familjen var förkyld och denna soppa gjorde underverk! Så ren '
+                                                'och fantastisk smak på buljongen.',
+                                     'date': 'Idag',
+                                     'name': 'Susanne L.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Rotfrukterna gav en så fin sötma och kycklingen blev smältande mör. '
+                                                'Kommer bli en stående höstfavorit!',
+                                     'date': 'Igår',
+                                     'name': 'Johan P.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT35M',
+        'cook_time_str': '35 min',
+        'desc': 'Klassiskt recept på gammaldags svensk kycklingsoppa! Klar och smakrik buljong med mört kycklingkött, '
+                'höstens rotfrukter, purjolök och färsk dill och persilja. Den ultimata höstvärmaren.',
+        'diet': 'Glutenfritt & Mjölkfritt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett friskt mineralvatten med citronskiva eller en torr ljus lager.',
+        'equipment': ['Stor soppgryta (ca 4 liter)', 'Skärbräda och vass kockkniv', 'Träslev', 'Soppslev'],
+        'faqs': [   {   'a': 'Ja, äggnudlar eller ris passar utmärkt! Koka dem gärna separat och lägg i tallriken '
+                             'precis vid servering så suger de inte upp all buljong i grytan.',
+                        'q': 'Kan man tillsätta nudlar eller ris i kycklingsoppan?'},
+                    {   'a': 'Soppan håller i upp till 4–5 dagar i en tät behållare i kylskåp och går även alldeles '
+                             'utmärkt att frysa in.',
+                        'q': 'Hur länge håller soppan i kylen?'}],
+        'file': 'gammaldags-kycklingsoppa-rotfrukter.html',
+        'img': 'kycklingsoppa',
+        'ingredients': [   {   'group': 'Soppbas & Kyckling',
+                               'items': [   {   'name': 'kycklinglårfilé eller kycklingbröstfilé',
+                                                'unit': 'g',
+                                                'val': 500},
+                                            {   'name': 'kycklingbuljong (vatten + koncentrerad kycklingfond)',
+                                                'unit': 'l',
+                                                'val': 1.4},
+                                            {'name': 'morötter (slantade)', 'unit': 'st', 'val': 3},
+                                            {'name': 'palsternacka (tärnad)', 'unit': 'st', 'val': 2},
+                                            {   'name': 'rotselleri eller stjälkselleri (tärnad)',
+                                                'unit': 'g',
+                                                'val': 100},
+                                            {'name': 'purjolök (sköljd och skivad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': 1},
+                                            {'name': 'vitlöksklyftor (finrivna)', 'unit': 'st', 'val': 2},
+                                            {'name': 'smör eller rapsolja att fräsa i', 'unit': 'msk', 'val': 2}]},
+                           {   'group': 'Kryddning & Örter',
+                               'items': [   {'name': 'lagerblad', 'unit': 'st', 'val': 2},
+                                            {'name': 'färsk timjan (eller 1 tsk torkad)', 'unit': 'kvistar', 'val': 3},
+                                            {'name': 'färsk dill och persilja (finhackad)', 'unit': 'dl', 'val': 0.5},
+                                            {'name': 'salt och nymald svartpeppar', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'citronsaft (färskpressad)', 'unit': 'tsk', 'val': 1}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skala och skär morötter och palsternacka i fina slantar eller bitar. Tärna '
+                                        'rotsellerin, finhacka den gula löken och skiva purjolöken noga.',
+                                'title': 'Förbered grönsakerna'},
+                            {   'step': 2,
+                                'text': 'Hetta upp smör eller rapsolja i en rymlig soppgryta på medelvärme. Fräs lök, '
+                                        'vitlök och purjolök mjukt i ca 3–4 minuter utan att det tar färg. Tillsätt '
+                                        'morötter, palsternacka och rotselleri och låt fräsa med i ytterligare 2 '
+                                        'minuter.',
+                                'title': 'Fräs lök och rotfrukter'},
+                            {   'step': 3,
+                                'text': 'Häll på kycklingbuljongen. Lägg i lagerblad, timjankvistar och '
+                                        'kycklinglårfiléerna hela i soppan. Låt koka upp och sänk sedan värmen så '
+                                        'soppan sjuder stilla under lock i ca 20–25 minuter tills kycklingen är helt '
+                                        'genomkokt och rotfrukterna är mjälla.',
+                                'title': 'Tillsätt buljong och kyckling'},
+                            {   'step': 4,
+                                'text': 'Lyft upp kycklingen ur soppan med en tång och lägg på en skärbräda. Dra isär '
+                                        'köttet i saftiga strimlor med två gafflar (eller skär i munsbitar). Lägg '
+                                        'tillbaka köttet i grytan.',
+                                'title': 'Dela kycklingen'},
+                            {   'step': 5,
+                                'text': 'Ta bort lagerblad och timjankvistar. Smaka av med salt, nymald svartpeppar '
+                                        'och en skvätt färsk citronsaft för att lyfta smakerna. Rör ner rikligt med '
+                                        'nyhackad persilja och dill precis innan servering. Ös upp i djupa skålar och '
+                                        'servera med gott bröd!',
+                                'title': 'Smaka av och garnera'}],
+        'keywords': 'kycklingsoppa recept, gammaldags kycklingsoppa, kycklingsoppa med rotfrukter, enkel '
+                    'kycklingsoppa, hemgjord kycklingsoppa, kycklingsoppa vid förkylning, svensk kycklingsoppa',
+        'long_desc': 'När höstkylan smyger sig på och regnet smattrar mot rutan finns det inget som värmer kropp och '
+                     'själ som en hemgjord kycklingsoppa. Denna traditionella svenska version kokas på mör kyckling '
+                     'och generöst med säsongens godaste rotfrukter: söta morötter, jordig palsternacka, krispig '
+                     'rotselleri och mild purjolök. Den gyllene, fylliga buljongen lyfts av färsk timjan, dill och '
+                     'persilja som tillsätts alldeles i slutet. Servera rykande het i djupa skålar tillsammans med ett '
+                     'rustikt surdegsbröd med saltat smör!',
+        'nutrition': {'calories': '320 kcal', 'carbs': '14g', 'fat': '14g', 'protein': '32g', 'sugar': '5g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Använd gärna kycklinglårfilé istället för kycklingbröst! Lårfilén innehåller mer naturligt fett '
+                    'och bindväv vilket gör buljongen fylligare och håller köttet supersaftigt även när det sjuder '
+                    'länge.',
+        'rating': 4.93,
+        'review_count': 7,
+        'slug': 'gammaldags-kycklingsoppa-rotfrukter',
+        'sub': 'Värmande, guldgul kycklingsoppa med mört kycklingkött, morot, palsternacka, purjolök och persilja',
+        'time': 55,
+        'time_str': '55 min',
+        'title': 'Gammaldags Kycklingsoppa med Rotfrukter & Färska Örter',
+        'total_time': 'PT55M'},
+    {   'alt': 'Krämig trattkantarellpasta med tagliatelle, smörstekta trattkantareller, parmesan och timjan i skål',
+        'calories': 560,
+        'card_title': 'Trattkantarellpasta',
+        'cat_key': 'husman',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Den godaste svamppasta jag någonsin ätit! Vinet och timjanen lyfte '
+                                                'trattkantarellerna till en helt ny nivå.',
+                                     'date': 'Idag',
+                                     'name': 'Malin B.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde på torkade trattisar från i fjol. Såsen blev helt otroligt '
+                                                'krämig och rik på smak!',
+                                     'date': 'Igår',
+                                     'name': 'Viktor T.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT15M',
+        'cook_time_str': '15 min',
+        'desc': 'Höstens allra godaste pastarätt! Krämig trattkantarellpasta med nyplockade eller torkade '
+                'trattkantareller, brynt smör, vitlök, vitt vin och rikligt med parmesanost.',
+        'diet': 'Vegetariskt (med grönsaksfond)',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett glas krispigt italienskt vitt vin (t.ex. Soave eller Pinot Grigio) eller en lätt '
+                         'Chianti.',
+        'equipment': ['Stor pastakastrull', 'Rymlig stekpanna eller traktörpanna', 'Träslev', 'Rivjärn till parmesan'],
+        'faqs': [   {   'a': 'Ja, det går alldeles utmärkt! Lägg ca 25–30 g torkade trattkantareller i ljummet vatten '
+                             'i 20–30 minuter. Krama ur vätskan och stek precis som färska (spara gärna lite av '
+                             'blötläggningsvattnet och häll i såsen för extra djup svampsmak).',
+                        'q': 'Kan man använda torkade trattkantareller?'},
+                    {   'a': 'Breda bandpasta som tagliatelle, fettuccine eller pappardelle är optimala eftersom de '
+                             'fångar upp den fylliga svampsåsen perfekt.',
+                        'q': 'Vilken pastasort passar bäst?'}],
+        'file': 'kramig-trattkantarellpasta-parmesan.html',
+        'img': 'trattkantarellpasta',
+        'ingredients': [   {   'group': 'Pasta & Svamp',
+                               'items': [   {'name': 'tagliatelle eller valfri bandpasta', 'unit': 'g', 'val': 400},
+                                            {   'name': 'färska trattkantareller (rensade) eller 30g torkade',
+                                                'unit': 'g',
+                                                'val': 400},
+                                            {'name': 'smör att steka i', 'unit': 'msk', 'val': 3},
+                                            {'name': 'schalottenlökar (finhackade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'vitlöksklyfta (finhackad)', 'unit': 'st', 'val': 1}]},
+                           {   'group': 'Krämig Svampsås',
+                               'items': [   {'name': 'torrt vitt vin eller matlagningsvin', 'unit': 'dl', 'val': 1},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': 3},
+                                            {'name': 'crème fraiche', 'unit': 'dl', 'val': 1},
+                                            {   'name': 'koncentrerad kalvfond eller kantarellfond',
+                                                'unit': 'msk',
+                                                'val': 1.5},
+                                            {'name': 'färsk timjan (repad)', 'unit': 'msk', 'val': 1},
+                                            {'name': 'parmesanost (nyriven)', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'salt och nymald grov svartpeppar', 'unit': 'tsk', 'val': 1}]},
+                           {   'group': 'Garnering',
+                               'items': [   {   'name': 'extra riven parmesan och färsk timjan till servering',
+                                                'unit': 'msk',
+                                                'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Koka upp rikligt med välsaltat vatten i en stor kastrull. Koka tagliatellen '
+                                        'enligt anvisning på förpackningen tills den är al dente. Spara ca 1 dl av '
+                                        'pastavattnet innan du häller av den.',
+                                'title': 'Koka pastan'},
+                            {   'step': 2,
+                                'text': 'Rensa trattkantarellerna och dela de största på längden. Lägg svampen i en '
+                                        'torr stekpanna på medelvärme och låt vätskan dunsta bort under ett par '
+                                        'minuter.',
+                                'title': 'Stek svampen torr'},
+                            {   'step': 3,
+                                'text': 'När pannan är torr tillsätter du smöret, den finhackade schalottenlöken och '
+                                        'vitlöken. Fräs på medelhög värme i 3–5 minuter tills svampen och löken fått '
+                                        'fin gyllenbrun färg. Krydda med salt, rikligt med svartpeppar och färsk '
+                                        'timjan.',
+                                'title': 'Bryn i smör med lök och vitlök'},
+                            {   'step': 4,
+                                'text': 'Häll på det vita vinet och låt koka in i ca 1 minut. Tillsätt vispgrädde, '
+                                        'crème fraiche och fond. Rör om och låt såsen sjuda på medelvärme i ca 4–5 '
+                                        'minuter tills den tjocknar och blir krämig.',
+                                'title': 'Koka ihop såsen'},
+                            {   'step': 5,
+                                'text': 'Ta pannan från värmen och rör ner den nyrivna parmesanosten. Vänd ner den '
+                                        'nykokta pastan och en skvätt av det sparade pastavattnet direkt i pannan. Rör '
+                                        'runt så att såsen täcker varje pastaband. Lägg upp i varma skålar, toppa med '
+                                        'extra parmesan, färsk timjan och svartpeppar och servera genast!',
+                                'title': 'Vänd ner pasta och parmesan'}],
+        'keywords': 'trattkantarellpasta recept, pasta med trattkantareller, krämig trattkantarellpasta, '
+                    'trattkantareller pasta grädde, svamppasta trattkantareller, snabb höstpasta',
+        'long_desc': 'När skogarna fylls av trattkantareller under september och oktober finns det få middagar som '
+                     'slår en rykande het, krämig trattkantarellpasta. I denna lyxiga men enkla rätt bryns '
+                     'trattkantarellerna gyllene i generöst med smör tillsammans med finhackad schalottenlök, vitlök '
+                     'och färsk timjan. En skvätt torrt vitt vin och en sked kalvfond kokas in innan vispgrädde och '
+                     'crème fraiche skapar en sammetslen sås som slungas med al dente tagliatelle och massor av '
+                     'nyriven parmesanost. Det här är svensk skogslyx på tjugo minuter!',
+        'nutrition': {'calories': '560 kcal', 'carbs': '58g', 'fat': '28g', 'protein': '16g', 'sugar': '4g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Spara 1 dl av det stärkelsehaltiga pastavattnet innan du häller av pastan! Tillsätt några '
+                    'matskedar pastavatten i såsen när du vänder ner tagliatellen – stärkelsen gör såsen glänsande och '
+                    'hjälper den att fästa perfekt på pastan.',
+        'rating': 4.95,
+        'review_count': 9,
+        'slug': 'kramig-trattkantarellpasta-parmesan',
+        'sub': 'Smörstekta trattkantareller i sammetslen gräddsås med schalottenlök, timjan och nyriven parmesan',
+        'time': 25,
+        'time_str': '25 min',
+        'title': 'Krämig Trattkantarellpasta med Vitlök, Timjan & Parmesan',
+        'total_time': 'PT25M'},
+    {   'alt': 'Saftig ruta av äppelkaka i långpanna med vaniljsås, kanel och pärlsocker på porslinstallrik',
+        'calories': 240,
+        'card_title': 'Äppelkaka i Långpanna',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Bästa receptet jag testat på äppelkaka i långpanna! Blev så otroligt '
+                                                'saftig och räckte till alla på jobbfikat.',
+                                     'date': 'Idag',
+                                     'name': 'Helena C.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Underbar smak med kardemumman i smeten och kaneltoppingen. Åt den '
+                                                'ljummen med vaniljsås, 10/10!',
+                                     'date': 'Igår',
+                                     'name': 'Lars O.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT30M',
+        'cook_time_str': '30 min',
+        'desc': 'Det perfekta receptet när du vill baka äppelkaka till många! Otroligt saftig sockerkaksbotten toppad '
+                'med syrliga äppelskivor, kanel och pärlsocker i en klassisk ugns långpanna.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En stor kopp kaffe med mjölk eller en kopp varm kryddad äppelmust.',
+        'equipment': ['Liten långpanna ca 30x40 cm', 'Bakplåtspapper', 'Elvisp', 'Bunke'],
+        'faqs': [   {   'a': 'Receptet är anpassat för en mindre långpanna på ca 30x40 cm (eller ca 25x35 cm för lite '
+                             'högre rutor). Använder du en hel ugnsplåt (40x45 cm) kan du öka ingredienserna med en '
+                             'tredjedel.',
+                        'q': 'Vilken storlek på långpanna passar bäst?'},
+                    {   'a': 'Ja! Skär kakan i rutor och frys in med smörpapper mellan lagren. Tina i rumstemperatur '
+                             'och ljumma gärna på rutorna i ugnen eller mikron innan servering.',
+                        'q': 'Kan man frysa in äppelkakan i rutor?'}],
+        'file': 'saftig-appelkaka-i-langpanna.html',
+        'img': 'appelkaka-langpanna',
+        'ingredients': [   {   'group': 'Äppeltopping',
+                               'items': [   {   'name': 'svenska syrliga äpplen (t.ex. Ingrid Marie eller Aroma)',
+                                                'unit': 'st',
+                                                'val': 6},
+                                            {'name': 'malen kanel', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'strösocker', 'unit': 'msk', 'val': 2},
+                                            {'name': 'pärlsocker att strö över', 'unit': 'msk', 'val': 3}]},
+                           {   'group': 'Kaksmet',
+                               'items': [   {'name': 'smör (smält och avsvalnat)', 'unit': 'g', 'val': 200},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 4},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 3.5},
+                                            {'name': 'mjölk', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': 6},
+                                            {'name': 'bakpulver', 'unit': 'msk', 'val': 1},
+                                            {'name': 'vaniljsocker', 'unit': 'msk', 'val': 1},
+                                            {   'name': 'nymald kardemumma (valfritt men underbart gott)',
+                                                'unit': 'tsk',
+                                                'val': 1},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Servering',
+                               'items': [{'name': 'hemlagad vaniljsås eller vispgrädde', 'unit': 'dl', 'val': 4}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över- och undervärme. Klä en långpanna (ca 30x40 cm) med '
+                                        'bakplåtspapper så att det går upp över kanterna.',
+                                'title': 'Förbered ugn och form'},
+                            {   'step': 2,
+                                'text': 'Kärna ur äpplena och skär dem i ca 0,5 cm tunna klyftor (skala dem om skalet '
+                                        'är tjockt, annars behåll det gärna för vacker färg). Lägg klyftorna i en '
+                                        'bunke och blanda runt med kanel och 2 msk strösocker.',
+                                'title': 'Skiva och krydda äpplena'},
+                            {   'step': 3,
+                                'text': 'Smält smöret och låt det svalna något. Rör ner mjölken i smöret. Vispa ägg '
+                                        'och strösocker riktigt vitt, pösigt och fluffigt med elvisp i ca 4–5 minuter.',
+                                'title': 'Smält smöret och vispa smeten'},
+                            {   'step': 4,
+                                'text': 'Blanda vetemjöl, bakpulver, vaniljsocker, kardemumma och salt i en separat '
+                                        'skål. Vänd ner mjölblandningen och smörmjölken växelvis i äggvispet med en '
+                                        'slickepott till en jämn, klumpfri smet.',
+                                'title': 'Blanda torra ingredienser och vänd ner'},
+                            {   'step': 5,
+                                'text': 'Bred ut smeten jämnt i långpannan. Tryck ner de kanelkryddade äppelklyftorna '
+                                        'tätt i rader över hela kakan. Strö över pärlsocker.',
+                                'title': 'Fyll formen och lägg på äpplen'},
+                            {   'step': 6,
+                                'text': 'Grädda kakan mitt i ugnen i 28–32 minuter tills den rest sig, fått fin '
+                                        'gyllenbrun färg och en provsticka kommer ut torr. Låt kakan svalna i formen '
+                                        'under en bakduk och skär sedan i fina rutor. Servera med rinnande vaniljsås!',
+                                'title': 'Grädda och skär i rutor'}],
+        'keywords': 'äppelkaka i långpanna, äppelkaka långpanna recept, saftig äppelkaka i långpanna, baka äppelkaka '
+                    'till många, enkel äppelkaka långpanna, äppelkaka med kanel och pärlsocker',
+        'long_desc': 'Under höstens äppelskörd finns det inget smidigare och mer uppskattat än att baka en stor, '
+                     'saftig äppelkaka i långpanna. Receptet ger en generös sats som räcker till 20–24 saftiga rutor – '
+                     'perfekt till kalas, skördefika, fotbollsfikat eller att stoppa i frysen. Den luftiga smeten '
+                     'berikas med äkta smör, vanilj och lite nymald kardemumma som möter syrliga svenska äppelskivor '
+                     'vända i kanel och socker. Kakan håller sig härligt saftig i flera dagar och är helt '
+                     'oemotståndlig tillsammans med en god klick vaniljsås eller vispgrädde!',
+        'nutrition': {'calories': '240 kcal', 'carbs': '35g', 'fat': '10g', 'protein': '4g', 'sugar': '21g'},
+        'portions_num': 20,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Blanda äppelskivorna med kanel och socker i en påse eller skål innan du lägger dem på smeten! Då '
+                    'fördelas kryddorna jämnt runtom varje äppelklyfta och karamelliseras underbart i ugnen.',
+        'rating': 4.95,
+        'review_count': 8,
+        'slug': 'saftig-appelkaka-i-langpanna',
+        'sub': 'Mjuk, saftig sockerkaksbotten fylld med kaneldoftande äppelklyftor, kardemumma och knaprigt pärlsocker',
+        'time': 50,
+        'time_str': '50 min',
+        'title': 'Saftig Äppelkaka i Långpanna med Kanel & Pärlsocker',
+        'total_time': 'PT50M'},
+    {   'alt': 'Gyllenbrun ugnsstekt anka trancherad på fat med apelsinsås, äpplen, katrinplommon och rosmarin',
+        'calories': 680,
+        'card_title': 'Ugnsstekt Anka',
+        'cat_key': 'hogtid',
+        'cat_slug': 'hogtider-och-smorgasbord',
+        'category': 'Högtider & Smörgåsbord',
+        'community_reviews': [   {   'comment': 'Skinnet blev otroligt krispigt och apelsinsåsen med ankfonden var '
+                                                'magisk. Blev en fantastisk söndagsmiddag!',
+                                     'date': 'Idag',
+                                     'name': 'Carl-Johan M.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Följde receptet till Mårten Gås. Köttet var så mört och fyllningen '
+                                                'med äpplen och plommon gav en underbar smak.',
+                                     'date': 'Igår',
+                                     'name': 'Gunilla H.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT120M',
+        'cook_time_str': '2 tim',
+        'desc': 'Högtidligt recept på hel ugnsstekt anka med krispigt skinn, saftigt mörkt kött och en fyllig '
+                'apelsinsås. Fylld med äpplen och katrinplommon – den självklara festmåltiden.',
+        'diet': 'Glutenfritt (med majsstärkelse)',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett elegant fylligt rött vin som en Pinot Noir från Bourgogne eller en fyllig Côtes du '
+                         'Rhône.',
+        'equipment': ['Ugnsform med galler', 'Steksnöre', 'Kött-termometer', 'Sås-kastrull', 'Tranchérkniv'],
+        'faqs': [   {   'a': 'Stick termometern i den tjockaste delen av låret intill benet. Vid 72–75°C är ankan '
+                             'genomstekt och underbart saftig.',
+                        'q': 'Vilken innertemperatur ska ankan ha när den är klar?'},
+                    {   'a': 'Häll av och spara fettet i en glasburk i kylen! Det håller i flera månader och är '
+                             'världens godaste fett att steka ugnsrostad potatis och rotfrukter i.',
+                        'q': 'Vad gör man med det avrunna ankfettet?'}],
+        'file': 'klassisk-ugnsstekt-anka-apelsinsas.html',
+        'img': 'ugnsstekt-anka',
+        'ingredients': [   {   'group': 'Hel Anka & Fyllning',
+                               'items': [   {'name': 'hel färsk eller tinad anka', 'unit': 'kg', 'val': 2.4},
+                                            {'name': 'syrliga äpplen (klyftade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'katrinplommon', 'unit': 'g', 'val': 100},
+                                            {'name': 'salt och grovmald svartpeppar', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'färsk timjan och rosmarin', 'unit': 'kvistar', 'val': 4},
+                                            {'name': 'vatten i ugnsformen', 'unit': 'dl', 'val': 3}]},
+                           {   'group': 'Glänsande Apelsinsås',
+                               'items': [   {'name': 'stekskaft/fond från formen (skummad)', 'unit': 'dl', 'val': 3},
+                                            {   'name': 'apelsin (färskpressad saft + finrivet skal)',
+                                                'unit': 'st',
+                                                'val': 2},
+                                            {'name': 'rött vin eller mörk portvin', 'unit': 'dl', 'val': 1},
+                                            {'name': 'koncentrerad kalvfond eller anfond', 'unit': 'msk', 'val': 1.5},
+                                            {'name': 'flytande honung', 'unit': 'msk', 'val': 1},
+                                            {   'name': 'maizena majsstärkelse (utrörd i lite vatten)',
+                                                'unit': 'msk',
+                                                'val': 1.5},
+                                            {'name': 'kallt smör till blankning', 'unit': 'g', 'val': 25}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 160°C över- och undervärme. Ta ur eventuella inkråm. Skölj '
+                                        'ankan ut- och invändigt och torka den helt torr med hushållspapper. Gnid in '
+                                        'hela ankan, även inuti buken, med rikligt med salt och nymald svartpeppar. '
+                                        'Fyll håligheten med äppelklyftor, katrinplommon och färska örtkvistar. Bind '
+                                        'ihop benen med steksnöre.',
+                                'title': 'Förbered och fyll ankan'},
+                            {   'step': 2,
+                                'text': 'Nagga skinnet försiktigt runtom med en vass gaffel så fettet kan smälta ut. '
+                                        'Lägg ankan med bröstsidan uppåt på ett ugnsgaller över en ugnsform. Häll 3 dl '
+                                        'vatten i botten på formen (det samlar upp fettet och ger bas till såsen).',
+                                'title': 'Nagga skinnet och börja steka'},
+                            {   'step': 3,
+                                'text': 'Stek ankan mitt i ugnen i ca 1,5–2 timmar (beräkna ca 45–50 minuter per kg). '
+                                        'Ös ankan då och då med lite av fettet från formen. När innertemperaturen i '
+                                        'lårets tjockaste del visar ca 72–74°C är köttet färdigt.',
+                                'title': 'Långstek i ugnen'},
+                            {   'step': 4,
+                                'text': 'Höj ugnstemperaturen till 225°C grillfunktion under de sista 8–10 minuterna '
+                                        'så att skinnet blir underbart knaprigt och bubbligt. Håll noga koll så det '
+                                        'inte bränns!',
+                                'title': 'Få krispigt skinn'},
+                            {   'step': 5,
+                                'text': 'Ta ut ankan och låt den vila på en skärbräda i 15 minuter innan tranchering. '
+                                        'Sila skyn från formen och häll bort det mesta av det flytande fettet på '
+                                        'toppen (spara fettet till stekt potatis!). Koka upp skyn med apelsinsaft, '
+                                        'apelsinskal, rödvin, kalvfond och honung. Sjud i 5 minuter. Red av med lite '
+                                        'maizena till lagom simmighet och vispa i en klick kallt smör.',
+                                'title': 'Koka apelsinsåsen'},
+                            {   'step': 6,
+                                'text': 'Skär loss lår och bröst med en vass kniv och skiva brösten i vackra bitar. '
+                                        'Lägg upp på ett serveringsfat tillsammans med de bakade äpplena och plommonen '
+                                        'från fyllningen. Ringla lite varm apelsinsås över och servera med kokt '
+                                        'potatis eller potatismos, brysselkål och rödkål!',
+                                'title': 'Tranchera och servera'}],
+        'keywords': 'ugnsstekt anka, anka i ugn, anka recept, stekt anka apelsinsås, mårten gås anka, anka med äpplen '
+                    'och katrinplommon, hel anka i ugn',
+        'long_desc': 'Hel ugnsstekt anka är en kunglig festmåltid med djupa rötter i den skandinaviska mattraditionen, '
+                     'inte minst kring Mårtensafton och vinterns stora högtider. När ankan steks långsamt i ugnen '
+                     'smälter ankfettet långsamt och gör köttet smältande mört och saftigt, medan skinnet förvandlas '
+                     'till knäckigt, gyllene sprödhet. Ankan fylls traditionsenligt med syrliga svenska äppelklyftor '
+                     'och söta katrinplommon som ger köttet en underbar arom. Skyn från ugnsformen kokas sedan ihop '
+                     'med färskpressad apelsin, fond, rödvin och en klick smör till en gudomlig apelsinsås!',
+        'nutrition': {'calories': '680 kcal', 'carbs': '18g', 'fat': '46g', 'protein': '48g', 'sugar': '14g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Nagga skinnet lätt med en provsticka eller vass gaffel runtom lår och bröst utan att sticka i '
+                    'köttet! Det gör att det rikliga ankfettet lättare rinner ut under stekningen och ger ett otroligt '
+                    'frasigt och krispigt skinn.',
+        'rating': 4.93,
+        'review_count': 6,
+        'slug': 'klassisk-ugnsstekt-anka-apelsinsas',
+        'sub': 'Frasigt gyllenstekt hel anka fylld med syrliga äpplen och katrinplommon, serverad med fyllig '
+               'apelsinsås',
+        'time': 145,
+        'time_str': '2 tim 25 min',
+        'title': 'Klassisk Ugnsstekt Anka med Apelsinsås, Äpplen & Katrinplommon',
+        'total_time': 'PT145M'}]
