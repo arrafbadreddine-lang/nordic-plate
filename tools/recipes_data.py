@@ -13380,4 +13380,514 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 145,
         'time_str': '2 tim 25 min',
         'title': 'Klassisk Ugnsstekt Anka med Apelsinsås, Äpplen & Katrinplommon',
-        'total_time': 'PT145M'}]
+        'total_time': 'PT145M'},
+{   'alt': 'Klassisk gyllenbrun och fluffig ugnspannkaka serverad på tallrik med rårörda lingon och smör',
+    'calories': 340,
+    'card_title': 'Fluffig Ugnspannkaka',
+    'cat_key': 'husmanskost',
+    'cat_slug': 'klassisk-husmanskost',
+    'category': 'Klassisk Husmanskost',
+    'community_reviews': [   {   'comment': 'Otroligt fluffig och god! Blev perfekt hög och gyllenbrun efter exakt 30 '
+                                            'minuter. Hela familjens nya favoritrecept på ugnspannkaka.',
+                                 'date': '19 september 2026',
+                                 'name': 'Camilla Lindqvist',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Så skönt med ett recept som sköter sig självt i ugnen på en vardagskväll. '
+                                            'Rårörda lingon till var pricken över i:et.',
+                                 'date': '12 september 2026',
+                                 'name': 'Fredrik Holm',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Bästa proportionerna på mjölk och ägg jag provat. Täckte hela långpannan '
+                                            'och fick frasiga kanter.',
+                                 'date': '3 september 2026',
+                                 'name': 'Sara Vikström',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Enkelt, billigt och supergott. Ungarna åt med god aptit!',
+                                 'date': '26 augusti 2026',
+                                 'name': 'Johan Berg',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Klassisk svensk vardagsmat när den är som allra bäst. Mjuk och krämig '
+                                            'mitt med krispig kant.',
+                                 'date': '18 augusti 2026',
+                                 'name': 'Annika Söderberg',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT30M',
+    'cook_time_str': '30 min',
+    'desc': 'Sveriges godaste och enklaste ugnspannkaka (tjockpannkaka) gräddad gyllenbrun och fluffig i långpanna. En '
+            'klassisk vegetarisk vardagsfavorit som sköter sig själv i ugnen på 30 minuter!',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Mycket enkel',
+    'drink_pairing': 'Ett stort glas iskall svensk standardmjölk eller en syrlig äppelmust.',
+    'equipment': ['Långpanna / Ugnsform (ca 30x40 cm)', 'Vispskål', 'Ballongvisp', 'Måttsats'],
+    'faqs': [   {   'a': 'Ugnspannkakan ska gräddas i hög värme (225°C). När smeten hälls i den heta, smörade '
+                         'långpannan börjar ångan bildas direkt vilket puffar upp smeten till en luftig och härlig '
+                         'suffléliknande konsistens.',
+                    'q': 'Varför puffar ugnspannkakan upp så fint i ugnen?'},
+                {   'a': 'Det är helt naturligt! När pannkakan tas ut ur ugnen och svalnar sjunker ångan ihop och '
+                         'bildar den karaktäristiska krämiga, mjuka mitten med höga frasiga kanter.',
+                    'q': 'Varför sjunker ugnspannkakan ihop när man tar ut den?'},
+                {   'a': 'Ja, absolut! Om du vill ha en klassisk fläskpannkaka kan du tärna 150–200 g rimmat sidfläsk '
+                         'eller bacon, förgrädda fläsket i långpannan i ca 8–10 minuter i ugnen, och därefter hälla '
+                         'smeten direkt över det varma fläsket.',
+                    'q': 'Kan man tillsätta bacon eller fläsk i denna ugnspannkaka?'}],
+    'file': 'klassisk-fluffig-ugnspannkaka.html',
+    'img': 'ugnspannkaka',
+    'ingredients': [   {   'group': 'Pannkakssmet',
+                           'items': [   {'name': 'ekologiska ägg', 'unit': 'st', 'val': 5},
+                                        {'name': 'standardmjölk (3%)', 'unit': 'dl', 'val': 8},
+                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 4},
+                                        {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'strösocker (valfritt för fin bryning)', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'äkta smör (till långpannan)', 'unit': 'g', 'val': 50}]},
+                       {   'group': 'Klassisk Servering',
+                           'items': [   {'name': 'rårörda lingon', 'unit': 'dl', 'val': 2},
+                                        {'name': 'smörklick', 'unit': 'msk', 'val': 2},
+                                        {'name': 'florsocker (valfritt)', 'unit': 'krm', 'val': 1}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Sätt ugnen på 225°C över- och undervärme. Lägg 50 g smör i en långpanna (cirka '
+                                    '30x40 cm) och ställ in formen i ugnen medan den värms så att smöret smälter och '
+                                    'börjar dofta ljuvligt nötigt och brynt.',
+                            'title': 'Sätt ugnen och smält smöret'},
+                        {   'step': 2,
+                            'text': 'Mät upp vetemjöl, salt och eventuellt socker i en stor bunke. Vispa i hälften av '
+                                    'mjölken (4 dl) lite i taget med en ballongvisp till en helt slät klumpfri smet.',
+                            'title': 'Vispa ihop mjölbasen'},
+                        {   'step': 3,
+                            'text': 'Vispa ner resten av mjölken (4 dl) och knäck sedan i äggen ett och ett. Vispa '
+                                    'samman till en jämn och fin smet. Låt gärna smeten vila i 10 minuter så att '
+                                    'mjölet sväller lätt.',
+                            'title': 'Tillsätt ägg och resterande mjölk'},
+                        {   'step': 4,
+                            'text': 'Ta försiktigt ut den varma långpannan med det smälta smöret ur ugnen. Vicka lätt '
+                                    'på plåten så smöret täcker hela botten och kanterna. Häll i pannkakssmeten direkt '
+                                    'i det heta smöret.',
+                            'title': 'Häll smeten i långpannan'},
+                        {   'step': 5,
+                            'text': 'Grädda mitt i ugnen i cirka 25–30 minuter tills ugnspannkakan har puffat upp '
+                                    'ordentligt, fått vackert gyllenbruna bubblor och kanterna är krispigt frasiga.',
+                            'title': 'Grädda gyllenbrun'},
+                        {   'step': 6,
+                            'text': 'Ta ut pannkakan och låt den vila i 3–5 minuter så den sätter sig något. Skär i '
+                                    'generösa fyrkanter och servera rykande varm tillsammans med massor av rårörda '
+                                    'lingon och en klick smör!',
+                            'title': 'Skär upp och njut'}],
+    'keywords': 'ugnspannkaka, enkel ugnspannkaka, tjockpannkaka, ugnspannkaka i långpanna, ugnspannkaka recept, '
+                'fluffig ugnspannkaka, ugnspannkaka utan fläsk, klassisk ugnspannkaka',
+    'long_desc': 'Ugnspannkaka – även kärleksfullt kallad tjockpannkaka runtom i landet – är en av den svenska '
+                 'husmanskostens mest trogna vardagshjältar. Den förvandlar enkla basingredienser som mjölk, ägg och '
+                 'vetemjöl till en gyllene, fluffig festmåltid med krispiga brynta kanter och ett krämigt, saftigt '
+                 'inre. Till skillnad från vanliga tunna pannkakor som kräver att man står och vänder varje lagg vid '
+                 'spisen, sköter ugnspannkakan hela arbetet själv i ugnen medan du kan duka bordet. Serverad rykande '
+                 'färsk med kalla rårörda lingon är detta den ultimata tröstande middagen för både vuxna och barn en '
+                 'mörk höstkväll.',
+    'nutrition': {'calories': '340 kcal', 'carbs': '34g', 'fat': '16g', 'protein': '14g', 'sugar': '7g'},
+    'portions_num': 4,
+    'portions_unit': 'portioner',
+    'prep_time': 'PT10M',
+    'prep_time_str': '10 min',
+    'pro_tips': 'Låt smöret i långpannan smälta och bli lätt gyllenbrunt i den varma ugnen INNAN du häller i smeten! '
+                'Det heta smöret "chockar" smeten så att kanterna reser sig blixtsnabbt och blir underbart krispiga.',
+    'rating': 4.92,
+    'review_count': 5,
+    'slug': 'klassisk-fluffig-ugnspannkaka',
+    'sub': 'Gyllenbrun och fluffig tjockpannkaka gräddad i långpanna, serverad med rårörda lingon och smör',
+    'time': 40,
+    'time_str': '40 min',
+    'title': 'Klassisk Fluffig Ugnspannkaka – Enkel Tjockpannkaka i Långpanna',
+    'total_time': 'PT40M'},
+{   'alt': 'Klassiska fluffiga tekakor med havregryn staplade på skärbräda med smältande smör och lagrad ost',
+    'calories': 195,
+    'card_title': 'Fluffiga Havregrynstekakor',
+    'cat_key': 'fika',
+    'cat_slug': 'fika-och-bakning',
+    'category': 'Fika & Bakning',
+    'community_reviews': [   {   'comment': 'Magiskt goda tekakor! Havregrynen gör dem så otroligt saftiga och mjuka. '
+                                            'Kommer aldrig mer köpa tekakor i butik.',
+                                 'date': '20 september 2026',
+                                 'name': 'Lotta Hedström',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Superenkelt recept. Lät havregrynen svälla i den varma mjölken som tipset '
+                                            'sa och de blev precis så fluffiga som mormors tekakor.',
+                                 'date': '15 september 2026',
+                                 'name': 'Magnus Ek',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Bästa frukostbrödet vi bakat i höst. Serverade med Västerbottensost och '
+                                            'en kopp te – ren lyx!',
+                                 'date': '8 september 2026',
+                                 'name': 'Hanna Lindblad',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Lätta att kavla och gräddas på under 10 minuter. Perfekta att frysa in '
+                                            'och ta fram när man är sugen.',
+                                 'date': '31 augusti 2026',
+                                 'name': 'Björn Wallin',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Fantastisk konsistens, mjuka och saftiga även dagen efter.',
+                                 'date': '22 augusti 2026',
+                                 'name': 'Kristina Malm',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Ett klockrent recept för alla som älskar svenskt hembakat bröd. Full '
+                                            'pott!',
+                                 'date': '14 augusti 2026',
+                                 'name': 'Anders R.',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT10M',
+    'cook_time_str': '10 min',
+    'desc': 'Klassiska fluffiga tekakor med havregryn som smälter i munnen. Saftiga, lättbakade och underbart goda med '
+            'smör och ost till frukost eller kvällsfika. Gräddas på bara 8-10 minuter!',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Lätt',
+    'drink_pairing': 'En kopp rykande hett Earl Grey-te eller nybryggt kaffe med mjölk.',
+    'equipment': ['Bakmaskin / Stor degbunke', 'Kavel', 'Plåtar med bakplåtspapper', 'Nagel / Gaffel', 'Bakduk'],
+    'faqs': [   {   'a': 'Havregryn innehåller lösliga fibrer som suger upp och binder vätska. Genom att låta '
+                         'havregrynen svälla i mjölk/smör behåller brödet sin fuktighet och blir inte torrt, utan '
+                         'förblir otroligt mjukt i flera dagar.',
+                    'q': 'Varför blir tekakor med havregryn så saftiga?'},
+                {   'a': 'Att nagga bröden med en gaffel eller brödnagg gör att ångan kan sippra ut jämnt under '
+                         'gräddningen så att tekakorna behåller sin fina, platta form utan att bilda stora ojämna '
+                         'luftbubblor.',
+                    'q': 'Varför måste man nagga tekakorna innan gräddning?'},
+                {   'a': 'Ja, tekakor är perfekta att frysa in så fort de har svalnat! Frys in dem i plastpåsar och '
+                         'tina i rumstemperatur eller rosta dem lätt i brödrosten för en nybakat känsla.',
+                    'q': 'Går det bra att frysa in hembakta tekakor?'}],
+    'file': 'klassiska-fluffiga-tekakor-havregryn.html',
+    'img': 'tekakor',
+    'ingredients': [   {   'group': 'Tekaksdeg',
+                           'items': [   {'name': 'färsk jäst', 'unit': 'g', 'val': 50},
+                                        {'name': 'standardmjölk (3%)', 'unit': 'dl', 'val': 5},
+                                        {'name': 'äkta smör (smält)', 'unit': 'g', 'val': 100},
+                                        {'name': 'havregryn', 'unit': 'dl', 'val': 2.5},
+                                        {'name': 'ljus sirap eller strösocker', 'unit': 'msk', 'val': 2},
+                                        {'name': 'salt', 'unit': 'tsk', 'val': 1.5},
+                                        {'name': 'vetemjöl (special)', 'unit': 'dl', 'val': 8.5}]},
+                       {   'group': 'Serveringsförslag',
+                           'items': [   {'name': 'äkta svenskt smör', 'unit': 'msk', 'val': 4},
+                                        {   'name': 'lagrad svensk ost (t.ex. Prästost eller Grevé)',
+                                            'unit': 'skivor',
+                                            'val': 12},
+                                        {'name': 'marmelad eller honung (valfritt)', 'unit': 'msk', 'val': 2}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Smält smöret i en kastrull och häll i mjölken. Värm till fingervarmt (37°C). Häll '
+                                    'i havregrynen och låt blandningen stå i ca 5–10 minuter så att havregrynen '
+                                    'sväller och blir mjuka.',
+                            'title': 'Värm degspadet och låt havregrynen svälla'},
+                        {   'step': 2,
+                            'text': 'Smula ner jästen i en degbunke eller assistent. Häll över den ljumma '
+                                    'havregrynsblandningen och rör tills jästen har löst sig helt. Tillsätt sirap och '
+                                    'salt.',
+                            'title': 'Rör ut jästen'},
+                        {   'step': 3,
+                            'text': 'Tillsätt det mesta av vetemjölet och arbeta degen kraftigt i maskin i ca 7–10 '
+                                    'minuter (eller 12 minuter för hand) tills degen är elastisk, smidig och släpper '
+                                    'från kanten. Täck med bakduk och låt jäsa i 40 minuter.',
+                            'title': 'Knåda och första jäsning'},
+                        {   'step': 4,
+                            'text': 'Stjälp upp degen på ett lätt mjölat bakbord. Dela degen i 12 jämnstora bitar. '
+                                    'Rulla varje bit till en rund bulle och kavla ut till en rund kaka, cirka 12–14 cm '
+                                    'i diameter och 1 cm tjock. Lägg på plåtar med bakplåtspapper.',
+                            'title': 'Forma tekakorna'},
+                        {   'step': 5,
+                            'text': 'Nagga varje tekaka tätt med en gaffel eller brödnagg. Täck med bakduk och låt '
+                                    'jäsa i ca 25–30 minuter. Sätt under tiden ugnen på 225°C över- och undervärme.',
+                            'title': 'Nagga och andra jäsning'},
+                        {   'step': 6,
+                            'text': 'Grädda tekakorna mitt i ugnen i ca 8–10 minuter tills de fått en vacker gyllengul '
+                                    'färg. Låt svalna på galler under bakduk för att hålla sig underbart mjuka. '
+                                    'Servera ljumma med smör och ost!',
+                            'title': 'Grädda gyllene'}],
+    'keywords': 'tekakor, tekakor havregryn, enkla tekakor, fluffiga tekakor, havregrynstekakor recept, saftiga '
+                'tekakor, baka tekakor, frukostbröd tekakor',
+    'long_desc': 'Doften av nygräddade tekakor som sprider sig i köket en sval höstmorgon eller mörk oktoberkväll är '
+                 'ren nostalgi. Dessa klassiska svenska tekakor med havregryn är otroligt mjuka, saftiga och har en '
+                 'mild och rund smak med ett stänk av sirap. Havregrynen som får svälla i den varma mjölken ger brödet '
+                 'en oemotståndlig fuktighet och mjukhet som håller i flera dagar. När du bryter en ljummen tekaka '
+                 'mitt itu och ser hur smöret smälter ner i det luftiga inkråmet och toppar med en rejäl skiva lagrad '
+                 'ost, då förstår man varför tekakan är ett av Sveriges mest älskade fika- och frukostbröd.',
+    'nutrition': {'calories': '195 kcal', 'carbs': '30g', 'fat': '6g', 'protein': '5g', 'sugar': '3g'},
+    'portions_num': 12,
+    'portions_unit': 'tekakor',
+    'prep_time': 'PT25M',
+    'prep_time_str': '25 min',
+    'pro_tips': 'Låt alltid tekakorna svalna under en ren bakduk på galler! Bakduken stänger in ångan och ser till att '
+                'skorpan förblir silkesmjuk och inte blir hård eller torr.',
+    'rating': 4.95,
+    'review_count': 6,
+    'slug': 'klassiska-fluffiga-tekakor-havregryn',
+    'sub': 'Underbart mjuka och saftiga tekakor bakade med havregryn, smör och mjölk – ljuvliga till kvällsteet',
+    'time': 35,
+    'time_str': '35 min',
+    'title': 'Klassiska Fluffiga Tekakor med Havregryn – Saftiga Frukostbröd',
+    'total_time': 'PT35M'},
+{   'alt': 'Krämig blomkålssoppa i rustik skål toppad med knaperstekt bacon, rostade buketter, timjan och olivolja',
+    'calories': 310,
+    'card_title': 'Krämig Blomkålssoppa',
+    'cat_key': 'husmanskost',
+    'cat_slug': 'klassisk-husmanskost',
+    'category': 'Klassisk Husmanskost',
+    'community_reviews': [   {   'comment': 'Vilken fantastisk soppa! Så otroligt len och krämig. Baconet och den '
+                                            'färska timjanen på toppen gjorde hela rätten komplett.',
+                                 'date': '21 september 2026',
+                                 'name': 'Helena Mårtensson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Enkel att slänga ihop på en vardag, klar på 20 minuter. Riktig '
+                                            'restaurangkänsla hemma i köket!',
+                                 'date': '17 september 2026',
+                                 'name': 'Stefan Carlsson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Tipset att spara några små buketter och steka dem gyllene gav perfekt '
+                                            'textur. Betyg 5 av 5!',
+                                 'date': '9 september 2026',
+                                 'name': 'Maria Nyström',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Mild, fyllig och supergod. Till och med barnen som är skeptiska till '
+                                            'blomkål åt två portioner.',
+                                 'date': '1 september 2026',
+                                 'name': 'Erik Lind',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'En perfekt höstsoppa när kylan biter ute. Serverade med surdegsbröd.',
+                                 'date': '24 augusti 2026',
+                                 'name': 'Gerd Olsson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Mycket bra balans med vitlök och en skvätt citron. Len och smakrik!',
+                                 'date': '16 augusti 2026',
+                                 'name': 'Pär Sjöberg',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Snabb, billig och lyxig. Detta recept kommer vi laga många gånger i höst.',
+                                 'date': '7 augusti 2026',
+                                 'name': 'Sofia K.',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT15M',
+    'cook_time_str': '15 min',
+    'desc': 'En gudomligt krämig och värmande blomkålssoppa med grädde, vitlök och en skvätt citron, toppad med '
+            'knaperstekt bacon och färsk timjan. Klar på bara 25 minuter!',
+    'diet': 'Glutenfritt (kan göras vegetarisk utan bacon)',
+    'difficulty': 'Mycket enkel',
+    'drink_pairing': 'Ett friskt vitt vin som en krispig Sauvignon Blanc eller ett glas kallt mineralvatten med '
+                     'citron.',
+    'equipment': ['Rymlig soppkastrull', 'Stavmixer', 'Stekpanna (till bacon)', 'Skärbräda & kockkniv'],
+    'faqs': [   {   'a': 'För att få soppan riktigt sammetslen är det viktigt att blomkålen kokar tills den är helt '
+                         'mjuk rakt igenom. Använd sedan en kraftfull stavmixer och mixa soppan i minst 2–3 minuter så '
+                         'att all luft och grädde emulgerar fint.',
+                    'q': 'Hur får man blomkålssoppan så där otroligt slät och silkeslen?'},
+                {   'a': 'Absolut! Ersätt baconet med rostade pumpakärnor, hemgjorda brödkrutonger eller knaprigt '
+                         'rostade kikärtor kryddade med rökt paprikapulver för en underbar rökig krispighet.',
+                    'q': 'Kan man göra soppan helt vegetarisk?'},
+                {   'a': 'Ja, soppan håller sig utmärkt i kylen i upp till 4–5 dagar. Värm den försiktigt på spisen '
+                         'och späd eventuellt med en skvätt mjölk eller buljong om den tjocknat.',
+                    'q': 'Går blomkålssoppan att förbereda i förväg?'}],
+    'file': 'kramig-blomkalssoppa-knaperstekt-bacon.html',
+    'img': 'blomkalssoppa',
+    'ingredients': [   {   'group': 'Blomkålssoppa',
+                           'items': [   {   'name': 'färskt blomkålshuvud (ansat och delat i buketter)',
+                                            'unit': 'g',
+                                            'val': 800},
+                                        {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': 1},
+                                        {'name': 'vitlöksklyftor (finrivna)', 'unit': 'st', 'val': 2},
+                                        {'name': 'äkta smör till stekning', 'unit': 'msk', 'val': 2},
+                                        {'name': 'grönsaks- eller kycklingbuljong', 'unit': 'dl', 'val': 7},
+                                        {'name': 'vispgrädde (eller matlagningsgrädde)', 'unit': 'dl', 'val': 2.5},
+                                        {'name': 'färskpressad citronsaft', 'unit': 'msk', 'val': 1},
+                                        {'name': 'salt och nymald vitpeppar', 'unit': 'tsk', 'val': 1}]},
+                       {   'group': 'Topping & Servering',
+                           'items': [   {'name': 'bacon (strimlat och knaperstekt)', 'unit': 'pkt (140g)', 'val': 1},
+                                        {'name': 'färsk timjan (repad)', 'unit': 'msk', 'val': 1},
+                                        {'name': 'god olivolja till ringling', 'unit': 'msk', 'val': 1},
+                                        {'name': 'surdegsbröd eller knäckebröd', 'unit': 'skivor', 'val': 4}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Ansa blomkålen och bryt i mindre buketter (även den späda stammen går utmärkt att '
+                                    'hacka och använda). Spara gärna några små vackra buketter till garnering. Skala '
+                                    'och finhacka lök och vitlök.',
+                            'title': 'Förbered grönsakerna'},
+                        {   'step': 2,
+                            'text': 'Smält smöret i en stor kastrull på medelvärme. Fräs lök, vitlök och '
+                                    'blomkålsbuketterna i 3–4 minuter utan att de tar färg så att sötman frigörs.',
+                            'title': 'Fräs i smör'},
+                        {   'step': 3,
+                            'text': 'Häll över den varma buljongen så att det täcker blomkålen. Koka upp, sänk värmen '
+                                    'och låt sjuda under lock i ca 12–15 minuter tills blomkålen är helt mjuk när du '
+                                    'sticker en kniv i den.',
+                            'title': 'Koka blomkålen mjuk'},
+                        {   'step': 4,
+                            'text': 'Stek under tiden det strimlade baconet krispigt i en torr stekpanna. Stek även de '
+                                    'sparade små blomkålsbuketterna i lite av baconfettet tills de får fin färg. Låt '
+                                    'rinna av på hushållspapper.',
+                            'title': 'Stek bacon och topping'},
+                        {   'step': 5,
+                            'text': 'Häll i grädden i kastrullen med blomkål. Mixa soppan helt slät och sammetslen med '
+                                    'en stavmixer. Smaka av med lite färskpressad citron, salt och vitpeppar. Låt '
+                                    'soppan få ett snabbt uppkok.',
+                            'title': 'Mixa slät och smaka av'},
+                        {   'step': 6,
+                            'text': 'Häll upp den rykande heta, krämiga soppan i skålar. Toppa med knaperstekt bacon, '
+                                    'de stekta blomkålsbuketterna, färsk timjan och några droppar god olivolja. '
+                                    'Servera genast med gott bröd!',
+                            'title': 'Toppa och servera'}],
+    'keywords': 'blomkålssoppa, krämig blomkålssoppa, enkel blomkålssoppa, blomkålssoppa med bacon, soppa på blomkål, '
+                'snabb blomkålssoppa, höstsoppa blomkål',
+    'long_desc': 'En rykande skål krämig blomkålssoppa är en av höstens allra mest eleganta och tröstande måltider. '
+                 'Blomkålen har en naturlig sötma och en krämig stärkelse som gör soppan fyllig och silkeslen utan att '
+                 'man behöver använda mjölredning. I detta recept kokas blomkålen mjuk i fyllig buljong och lök, innan '
+                 'den mixas sammetslen tillsammans med en generös skvätt grädde och en gnutta citron för perfekt '
+                 'friskhet. Kontrasten mellan den milda, lena soppan och det salta, knaperstekta baconet samt örtig '
+                 'färsk timjan är en oslagbar smakkombination som imponerar lika mycket till vardags som till helgens '
+                 'förrätt.',
+    'nutrition': {'calories': '310 kcal', 'carbs': '12g', 'fat': '24g', 'protein': '11g', 'sugar': '5g'},
+    'portions_num': 4,
+    'portions_unit': 'portioner',
+    'prep_time': 'PT10M',
+    'prep_time_str': '10 min',
+    'pro_tips': 'En liten skvätt färskpressad citronsaft (ca 1 msk) i slutet lyfter hela blomkålssoppan från god till '
+                'exceptionell! Syran balanserar den rika grädden och framhäver blomkålens naturliga sötma.',
+    'rating': 4.94,
+    'review_count': 7,
+    'slug': 'kramig-blomkalssoppa-knaperstekt-bacon',
+    'sub': 'Len och fyllig blomkålssoppa toppad med knaprig bacon, rostade blomkålsbuketter och timjan',
+    'time': 25,
+    'time_str': '25 min',
+    'title': 'Krämig Blomkålssoppa med Knaperstekt Bacon & Färsk Timjan',
+    'total_time': 'PT25M'},
+{   'alt': 'Krämig korvgryta med falukorv och paprika i sås serverad i skål över vitt fluffigt ris med persilja',
+    'calories': 520,
+    'card_title': 'Krämig Korvgryta',
+    'cat_key': 'husmanskost',
+    'cat_slug': 'klassisk-husmanskost',
+    'category': 'Klassisk Husmanskost',
+    'community_reviews': [   {   'comment': 'Otroligt god och snabb vardagsmiddag! Såsen med senap och tomatpuré blev '
+                                            'så fyllig och krämig. Hela familjen tog om.',
+                                 'date': '22 september 2026',
+                                 'name': 'Therese Åkesson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Perfekt när man har ont om tid efter jobbet. Klar på under 20 minuter och '
+                                            'smakade mycket bättre än vanlig korv stroganoff!',
+                                 'date': '16 september 2026',
+                                 'name': 'Daniel Lindgren',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Paprikan och löken ger så fin sötma till den salta falukorven. Ett nytt '
+                                            'stående recept hemma.',
+                                 'date': '8 september 2026',
+                                 'name': 'Ewa Nilsson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Supergott med både crème fraiche och grädde för lite syra i såsen. Mycket '
+                                            'lyckat recept!',
+                                 'date': '29 augusti 2026',
+                                 'name': 'Martin B.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Enkel, billig och riktigt god vardagsmat som barnen slukade.',
+                                 'date': '20 augusti 2026',
+                                 'name': 'Ingrid Larsson',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT15M',
+    'cook_time_str': '15 min',
+    'desc': 'Enkel och krämig korvgryta med falukorv, söt paprika, lök och en fyllig sås på grädde, tomatpuré och '
+            'senap. En älskad svensk vardagsklassiker som hela familjen uppskattar, klar på 25 minuter!',
+    'diet': 'Glutenfritt (med glutenfri buljong/korv)',
+    'difficulty': 'Mycket enkel',
+    'drink_pairing': 'Ett glas kall svensk mellanmjölk, lingondricka eller en ljus lager.',
+    'equipment': ['Stekgryta / Traktörpanna', 'Skärbräda & kockkniv', 'Träslev', 'Kastrull (till riset)'],
+    'faqs': [   {   'a': 'Bryn korvslantarna på medelhög värme i en klick smör tills de får en fin, gyllenbrun stekyta '
+                         'innan såsingredienserna tillsätts. Stekytan kapslar in saftigheten och ger såsen massor av '
+                         'god smak.',
+                    'q': 'Hur får man falukorven extra smakrik i grytan?'},
+                {   'a': 'Klassiskt serveras grytan med nykokt basmatiris eller jasminris, men den är lika god med '
+                         'kokt potatis, potatismos eller nykokt pasta.',
+                    'q': 'Vad passar bäst att servera till korvgrytan?'},
+                {   'a': 'Ja, korvgryta är en perfekt matlåderätt! Såsen blir nästan godare dagen efter när smakerna '
+                         'har dragit åt sig. Förvara i tätslutande burk i kylen i upp till 4 dagar.',
+                    'q': 'Går korvgrytan bra att frysa in eller ha i matlåda?'}],
+    'file': 'kramig-korvgryta-falukorv-paprika.html',
+    'img': 'korvgryta',
+    'ingredients': [   {   'group': 'Korvgryta',
+                           'items': [   {   'name': 'svensk falukorv av god kvalitet (skivad/strimlad)',
+                                            'unit': 'g',
+                                            'val': 600},
+                                        {'name': 'gul lök (klyftad)', 'unit': 'st', 'val': 1},
+                                        {'name': 'röd eller gul paprika (strimlad)', 'unit': 'st', 'val': 2},
+                                        {'name': 'vitlöksklyfta (finhackad)', 'unit': 'st', 'val': 1},
+                                        {'name': 'smör till stekning', 'unit': 'msk', 'val': 2},
+                                        {'name': 'tomatpuré', 'unit': 'msk', 'val': 3},
+                                        {'name': 'dijonsenap eller mild svensk senap', 'unit': 'msk', 'val': 1.5},
+                                        {'name': 'vispgrädde eller matlagningsgrädde', 'unit': 'dl', 'val': 2.5},
+                                        {'name': 'crème fraiche', 'unit': 'dl', 'val': 1.5},
+                                        {   'name': 'kött- eller grönsaksbuljong (vatten + tärning/fond)',
+                                            'unit': 'dl',
+                                            'val': 1.5},
+                                        {'name': 'paprikapulver (sött eller milt rökt)', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'torkad timjan eller oregano', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'salt och nymald svartpeppar', 'unit': 'krm', 'val': 2}]},
+                       {   'group': 'Servering',
+                           'items': [   {'name': 'kokt ris (basmati- eller jasminris)', 'unit': 'portioner', 'val': 4},
+                                        {'name': 'färsk bladpersilja (hackad)', 'unit': 'msk', 'val': 2}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Dra skinnet av falukorven. Skär korven i ca 1 cm tjocka skivor eller halvmånar. '
+                                    'Skala och klyfta löken. Skölj, kärna ur och strimla paprikan.',
+                            'title': 'Skär korv och grönsaker'},
+                        {   'step': 2,
+                            'text': 'Hetta upp en klick smör i en rymlig stekgryta eller traktörpanna. Stek '
+                                    'korvskivorna på medelhög värme i 4–5 minuter tills de fått en fin gyllenbrun färg '
+                                    'runtom. Lyft ur korven på en tallrik.',
+                            'title': 'Bryn falukorven'},
+                        {   'step': 3,
+                            'text': 'Tillsätt lite mer smör i pannan och fräs lök, paprika och vitlök i 3–4 minuter '
+                                    'tills de mjuknar och doftar gott utan att brännas.',
+                            'title': 'Fräs grönsakerna'},
+                        {   'step': 4,
+                            'text': 'Rör ner tomatpuré, dijonsenap, paprikapulver och torkad timjan bland grönsakerna '
+                                    'och låt fräsa med i ca 1 minut så kryddorna vaknar till liv.',
+                            'title': 'Tillsätt kryddor och tomatpuré'},
+                        {   'step': 5,
+                            'text': 'Häll i grädde, crème fraiche och buljong. Vispa ihop till en jämn sås. Lägg '
+                                    'tillbaka den stekta korven i grytan. Låt koka upp och sjuda på svag värme i ca '
+                                    '8–10 minuter så såsen blir krämig och smakerna gifter sig.',
+                            'title': 'Koka ihop den krämiga grytan'},
+                        {   'step': 6,
+                            'text': 'Smaka av med salt och nymald svartpeppar. Strö över rikligt med nyhackad persilja '
+                                    'och servera rykande het med nykokt ris eller potatis!',
+                            'title': 'Smaka av och servera'}],
+    'keywords': 'korvgryta, korvgryta med falukorv, enkel korvgryta, krämig korvgryta, korvgryta recept, '
+                'falukorvsgryta med ris, korvgryta paprika, snabb vardagsmat',
+    'long_desc': 'Krämig korvgryta med falukorv och paprika är den ultimata svenska vardagsräddaren när tiden är knapp '
+                 'men aptiten på hemlagad comfort food är stor. Med sin gyllene brynta falukorv, söta krispiga '
+                 'paprikastrimlor och en oemotståndligt fyllig gräddsås smaksatt med tomatpuré, senap och örter, '
+                 'bjuder grytan på en perfekt balans mellan sälta, mild syra och rund fyllighet. Den är betydligt mer '
+                 'färgstark och varierad än en klassisk korv stroganoff, och grönsakerna ger både fräschör och '
+                 'struktur. Serverad över en bädd av ångande vitt ris är detta en garanterad succé runt middagsbordet '
+                 'alla dagar i veckan.',
+    'nutrition': {'calories': '520 kcal', 'carbs': '22g', 'fat': '42g', 'protein': '18g', 'sugar': '7g'},
+    'portions_num': 4,
+    'portions_unit': 'portioner',
+    'prep_time': 'PT10M',
+    'prep_time_str': '10 min',
+    'pro_tips': 'Bryn falukorven hårt först och lyft ur den medan grönsakerna fräser! Om du kokar korven direkt i '
+                'såsen blir den lätt blek och svampig – stekytan ger både bättre tuggmotstånd och djupare umamismak '
+                'till hela såsen.',
+    'rating': 4.91,
+    'review_count': 5,
+    'slug': 'kramig-korvgryta-falukorv-paprika',
+    'sub': 'Färgstark och smakrik vardagsgryta med stekt falukorv, paprika och mild senapssås serverad med ris',
+    'time': 25,
+    'time_str': '25 min',
+    'title': 'Krämig Korvgryta med Falukorv, Paprika & Dijonsenap',
+    'total_time': 'PT25M'}
+]
