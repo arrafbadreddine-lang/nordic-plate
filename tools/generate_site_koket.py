@@ -196,6 +196,209 @@ def render_horizontal_carousel(title, subtitle, recipes_list, depth=""):
     </div>
   </section>'''
 
+EDITORIAL_RECOMMENDATIONS_MAP = {
+    "klassisk-cowboysoppa-kottfars-potatis": {
+        "title": "🍂 Provkökets Värmande Höstsoppor & Husmansfavoriter",
+        "desc": "Om du gillar mustig cowboysoppa kommer du garanterat att uppskatta dessa populära provlagade höstsoppor och ugnsrätter:",
+        "slugs": [
+            "kramig-blomkalssoppa-knaperstekt-bacon",
+            "gammaldags-kycklingsoppa-rotfrukter",
+            "gammaldags-kalsoppa-frikadeller",
+            "klassisk-fluffig-ugnspannkaka"
+        ]
+    },
+    "gammaldags-kottsoppa-hogrev-klimp": {
+        "title": "🍲 Fler Gammaldags Husmansfavoriter & Soppor",
+        "desc": "Klassisk svensk köttsoppa på högrev är oslagbar – prova även dessa rustika och värmande höstfavoriter:",
+        "slugs": [
+            "gammaldags-kycklingsoppa-rotfrukter",
+            "kramig-blomkalssoppa-knaperstekt-bacon",
+            "kramig-korvgryta-falukorv-paprika",
+            "klassisk-fluffig-ugnspannkaka"
+        ]
+    },
+    "klassisk-ungersk-gulaschsoppa-hogrev": {
+        "title": "🍂 Värmande Höstsoppor & Vardagsgrytor",
+        "desc": "Gillar du fyllig och kryddig gulaschsoppa? Här är fler mättande och älskade rätter för kyliga höstkvällar:",
+        "slugs": [
+            "kramig-blomkalssoppa-knaperstekt-bacon",
+            "kramig-korvgryta-falukorv-paprika",
+            "gammaldags-kycklingsoppa-rotfrukter",
+            "klassiska-fluffiga-tekakor-havregryn"
+        ]
+    },
+    "frasig-flaskpannkaka-langpanna": {
+        "title": "🥞 Fler Älskade Pannkaksfavoriter & Enkla Ugnsrätter",
+        "desc": "Här är fler oemotståndliga klassiker i långpanna och snabba vardagsrätter hela familjen uppskattar:",
+        "slugs": [
+            "klassisk-fluffig-ugnspannkaka",
+            "skansk-aggakaka-stekt-flask-lingon",
+            "klassiska-fluffiga-tekakor-havregryn",
+            "kramig-korvgryta-falukorv-paprika"
+        ]
+    },
+    "gammaldags-mjuk-appelkaka-kanel": {
+        "title": "🍎 Höstens Bästa Bageri- & Äppelfavoriter",
+        "desc": "Njut av säsongens godaste bakverk med svenska äpplen, kanel och fluffigt hembakat fika:",
+        "slugs": [
+            "saftig-appelkaka-i-langpanna",
+            "klassiska-vaniljbullar-solbullar",
+            "klassiska-fluffiga-tekakor-havregryn",
+            "saftig-plommonkaka-mandelmassa-kardemumma"
+        ]
+    },
+    "knackig-appelpaj-havre": {
+        "title": "☕ Fler Ljuvliga Höstkakor & Fikaklassiker",
+        "desc": "Knäckig äppelpaj är fantastisk med vaniljsås! Upptäck fler underbara höstkakor och bagerifavoriter:",
+        "slugs": [
+            "saftig-appelkaka-i-langpanna",
+            "klassiska-vaniljbullar-solbullar",
+            "klassisk-fluffig-chokladmousse",
+            "saftig-plommonkaka-mandelmassa-kardemumma"
+        ]
+    },
+    "gammaldags-appelkram-kanel-kall-mjolk": {
+        "title": "🍂 Klassiska Höstfrukostar & Nybakat Fika",
+        "desc": "Gammaldags äppelkräm väcker minnen till liv. Här är fler perfekta frukost- och mellisfavoriter:",
+        "slugs": [
+            "klassiska-fluffiga-tekakor-havregryn",
+            "saftig-appelkaka-i-langpanna",
+            "klassisk-fluffig-ugnspannkaka",
+            "klassiska-dammsugare-punschrullar"
+        ]
+    },
+    "klassisk-silviakaka-langpanna": {
+        "title": "🍰 Fler Älskade Långpannekakor & Konditorklassiker",
+        "desc": "Silviakaka är en festlig favorit – missa inte dessa saftiga långpannekakor och bagerifavoriter:",
+        "slugs": [
+            "saftig-appelkaka-i-langpanna",
+            "klassiska-vaniljbullar-solbullar",
+            "klassiska-dammsugare-punschrullar",
+            "klassisk-fluffig-chokladmousse"
+        ]
+    },
+    "klassiska-saftiga-karleksmums": {
+        "title": "☕ Klassiska Bagerifavoriter & Konditorikakor",
+        "desc": "Kärleksmums med kaffeglasyr är en tidlös fika. Här är fler klassiker som alltid gör succé:",
+        "slugs": [
+            "klassiska-dammsugare-punschrullar",
+            "klassiska-vaniljbullar-solbullar",
+            "klassisk-fluffig-chokladmousse",
+            "saftig-appelkaka-i-langpanna"
+        ]
+    },
+    "klassisk-langkokt-kalops": {
+        "title": "🥘 Mustiga Höstgrytor & Klassisk Husmanskost",
+        "desc": "Långkokt mör kalops med kryddpeppar och rödbetor – upptäck fler värmande middagsfavoriter:",
+        "slugs": [
+            "kramig-korvgryta-falukorv-paprika",
+            "kramig-trattkantarellpasta-parmesan",
+            "saftiga-tjocka-revbensspjall-i-ugn",
+            "klassisk-ugnsstekt-anka-apelsinsas"
+        ]
+    },
+    "kramig-lovbiffsgryta-dijon-champinjoner": {
+        "title": "⏱️ Snabba & Krämiga Vardagsmiddagar",
+        "desc": "Lövbiffsgryta är perfekt när du vill ha god mat snabbt. Prova även dessa snabblagade middagar:",
+        "slugs": [
+            "kramig-korvgryta-falukorv-paprika",
+            "kramig-trattkantarellpasta-parmesan",
+            "kramig-blomkalssoppa-knaperstekt-bacon",
+            "klassisk-fluffig-ugnspannkaka"
+        ]
+    },
+    "klassisk-biff-rydberg-oxfile-aggula": {
+        "title": "🥩 Eleganta Svenska Fest- & Helgmiddagar",
+        "desc": "Biff Rydberg är en av Sveriges förnämsta krogklassiker. Här är fler festliga rätter för helgen:",
+        "slugs": [
+            "klassisk-ugnsstekt-anka-apelsinsas",
+            "saftiga-tjocka-revbensspjall-i-ugn",
+            "kramig-trattkantarellpasta-parmesan",
+            "krispiga-rostade-pumpakarnor-i-ugn"
+        ]
+    },
+    "klassisk-kalpudding-sirap-lingon": {
+        "title": "🍲 Traditionella Svenska Vardagshjältar",
+        "desc": "Kålpudding med sirap och gräddsås är ren vardagslyx. Här är fler tidlösa favoriter:",
+        "slugs": [
+            "klassisk-fluffig-ugnspannkaka",
+            "kramig-korvgryta-falukorv-paprika",
+            "gammaldags-kycklingsoppa-rotfrukter",
+            "gammaldags-kalsoppa-frikadeller"
+        ]
+    }
+}
+
+NEWEST_FALLBACK_POOL = [
+    "klassisk-fluffig-ugnspannkaka",
+    "klassiska-fluffiga-tekakor-havregryn",
+    "kramig-blomkalssoppa-knaperstekt-bacon",
+    "kramig-korvgryta-falukorv-paprika",
+    "klassiska-vaniljbullar-solbullar",
+    "gammaldags-kycklingsoppa-rotfrukter",
+    "kramig-trattkantarellpasta-parmesan",
+    "saftig-appelkaka-i-langpanna",
+    "klassisk-ugnsstekt-anka-apelsinsas",
+    "saftiga-tjocka-revbensspjall-i-ugn",
+    "klassisk-fluffig-chokladmousse",
+    "klassiska-dammsugare-punschrullar",
+    "krispiga-rostade-pumpakarnor-i-ugn",
+    "gammaldags-kalsoppa-frikadeller"
+]
+
+def render_editorial_recommendations(r):
+    rec_config = EDITORIAL_RECOMMENDATIONS_MAP.get(r["slug"])
+    if rec_config:
+        title = rec_config["title"]
+        desc = rec_config["desc"]
+        slugs = [s for s in rec_config["slugs"] if s != r["slug"]]
+    else:
+        if r["cat_key"] == "husmanskost":
+            title = "🍂 Provkökets Rekommenderade Höstfavoriter"
+            desc = "Utforska fler provlagade och uppskattade svenska vardagsfavoriter och soppor:"
+            candidate_slugs = ["klassisk-fluffig-ugnspannkaka", "kramig-blomkalssoppa-knaperstekt-bacon", "kramig-korvgryta-falukorv-paprika", "gammaldags-kycklingsoppa-rotfrukter"]
+        elif r["cat_key"] == "fika":
+            title = "☕ Höstens Bästa Fika & Nybakat Bröd"
+            desc = "Sprid doften av hembakat i köket – här är fler omtyckta recept från bageriet:"
+            candidate_slugs = ["klassiska-fluffiga-tekakor-havregryn", "klassiska-vaniljbullar-solbullar", "saftig-appelkaka-i-langpanna", "klassiska-dammsugare-punschrullar"]
+        else:
+            title = "🍽️ Festmåltider & Högtidsfavoriter"
+            desc = "Gör helgen och högtiden extra minnesvärd med dessa provlagade delikatesser:"
+            candidate_slugs = ["klassisk-ugnsstekt-anka-apelsinsas", "saftiga-tjocka-revbensspjall-i-ugn", "krispiga-rostade-pumpakarnor-i-ugn", "kramig-trattkantarellpasta-parmesan"]
+
+        slugs = [s for s in candidate_slugs if s != r["slug"]]
+        for fb in NEWEST_FALLBACK_POOL:
+            if len(slugs) >= 4:
+                break
+            if fb != r["slug"] and fb not in slugs:
+                slugs.append(fb)
+
+    recipe_map = {x["slug"]: x for x in RECIPES}
+    cards_html = ""
+    for s in slugs[:4]:
+        rec = recipe_map.get(s)
+        if not rec:
+            continue
+        badge_text = f"{rec['category']} • {rec['time_str']}"
+        cards_html += f'''      <a href="{rec['file']}" class="editorial-rec-card">
+        <img src="../assets/images/recept/{rec['img']}.jpg" alt="{rec['alt']}" class="editorial-rec-thumb" width="64" height="64" loading="lazy">
+        <div class="editorial-rec-info">
+          <span class="editorial-rec-title">{rec['card_title']}</span>
+          <span class="editorial-rec-badge">{badge_text}</span>
+        </div>
+      </a>\n'''
+
+    if not cards_html:
+        return ""
+
+    return f'''        <!-- Provkökets Redaktionella Rekommendationer (Interlänkning) -->
+        <div class="editorial-recommendations-box">
+          <h3>{title}</h3>
+          <p>{desc}</p>
+          <div class="editorial-rec-grid">
+{cards_html}          </div>
+        </div>'''
+
 def render_recipe_page(r):
     # Ingredients HTML
     ing_html = ""
@@ -261,6 +464,9 @@ def render_recipe_page(r):
     {faq_accordion_items}
   </div>
 </section>''' if faq_accordion_items else ""
+
+    # Editorial Recommendations Box (Strategic Internal Linking)
+    editorial_box_html = render_editorial_recommendations(r)
 
     # Pre-populated Reviews HTML
     comments_html = ""
@@ -533,6 +739,8 @@ def render_recipe_page(r):
             </div>
           </div>
         </div>
+
+{editorial_box_html}
 
         {faq_section_html}
 
