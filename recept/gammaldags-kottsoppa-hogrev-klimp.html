@@ -576,7 +576,10 @@
               </div>
               <div class="comment-inputs-row">
                 <input type="text" id="comment-author-name" class="comment-input" placeholder="Ditt namn *" required>
-                <input type="email" class="comment-input" placeholder="Din e-postadress (visas ej)">
+                <input type="email" id="comment-author-email" class="comment-input" placeholder="Din e-postadress (visas ej)">
+              </div>
+              <div style="display:none !important;" aria-hidden="true">
+                <input type="text" id="comment-website-hp" name="website_hp" tabindex="-1" autocomplete="off">
               </div>
               <textarea id="comment-text-content" class="comment-textarea" placeholder="Hur blev resultatet? Har du några egna tips eller anpassningar? *" required></textarea>
               <button type="submit" class="btn-koket-search" style="padding: 0.65rem 1.4rem;">Skicka kommentar</button>

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recensionsmoderering | Svenska Recept Admin</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    :root {
+      --admin-bg: #F8FAFC;
+      --admin-card: #FFFFFF;
+      --admin-border: #E2E8F0;
+      --admin-text: #0F172A;
+      --admin-muted: #64748B;
+      --admin-primary: #183059;
+      --admin-accent: #C2410C;
+      --admin-success: #16A34A;
+      --admin-danger: #DC2626;
+      --admin-warning: #D97706;
+    }
+    body {
+      background-color: var(--admin-bg);
+      color: var(--admin-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .admin-nav {
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--admin-border);
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .admin-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--admin-primary);
+      text-decoration: none;
+    }
+    .admin-badge {
+      background: #E0E7FF;
+      color: #3730A3;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .admin-container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .auth-card {
+      max-width: 440px;
+      margin: 5rem auto;
+      background: var(--admin-card);
+      border: 1px solid var(--admin-border);
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    .auth-card h2 {
+      margin-top: 0;
+      color: var(--admin-primary);
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .auth-card p {
+      color: var(--admin-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.75rem;
+    }
+    .form-input {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--admin-border);
+      border-radius: 8px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      margin-bottom: 1.25rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-input:focus {
+      border-color: var(--admin-primary);
+      box-shadow: 0 0 0 3px rgba(24, 48, 89, 0.15);
+    }
+    .btn-primary {
+      background: var(--admin-primary);
+      color: #FFFFFF;
+      border: none;
+      border-radius: 8px;
+      padding: 0.85rem 1.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover {
+      background: #112240;
+    }
+    .error-msg {
+      color: var(--admin-danger);
+      background: #FEF2F2;
+      border: 1px solid #FEE2E2;
+      padding: 0.65rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      display: none;
+    }
+    /* Stats Bar */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: var(--admin-card);
+      border: 1px solid var(--admin-border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+    }
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .stat-card.active {
+      border-color: var(--admin-primary);
+      box-shadow: 0 0 0 2px var(--admin-primary);
+    }
+    .stat-label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--admin-muted);
+      margin-bottom: 0.35rem;
+    }
+    .stat-val {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--admin-text);
+    }
+    .stat-card.pending .stat-val { color: var(--admin-warning); }
+    .stat-card.approved .stat-val { color: var(--admin-success); }
+    .stat-card.rejected .stat-val { color: var(--admin-danger); }
+    
+    /* Tabs & Content */
+    .tab-bar {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--admin-border);
+      margin-bottom: 1.5rem;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--admin-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .tab-btn.active {
+      color: var(--admin-primary);
+      border-bottom-color: var(--admin-primary);
+    }
+    .tab-pill {
+      background: var(--admin-border);
+      color: var(--admin-text);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.5rem;
+      border-radius: 9999px;
+    }
+    
+    /* Review Cards */
+    .reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .review-card {
+      background: var(--admin-card);
+      border: 1px solid var(--admin-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+      transition: background 0.2s;
+    }
+    .review-card.status-pending {
+      border-left: 4px solid var(--admin-warning);
+    }
+    .review-card.status-approved {
+      border-left: 4px solid var(--admin-success);
+    }
+    .review-card.status-rejected {
+      border-left: 4px solid var(--admin-danger);
+    }
+    .review-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .review-recipe-link {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--admin-primary);
+      text-decoration: none;
+    }
+    .review-recipe-link:hover {
+      text-decoration: underline;
+    }
+    .review-time {
+      font-size: 0.85rem;
+      color: var(--admin-muted);
+    }
+    .review-author-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+    .review-author-name {
+      font-weight: 700;
+    }
+    .review-author-email {
+      color: var(--admin-muted);
+      font-size: 0.85rem;
+      background: #F1F5F9;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+    .review-stars {
+      color: #F59E0B;
+      font-size: 1.15rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.75rem;
+    }
+    .review-body {
+      background: #F8FAFC;
+      border: 1px solid #EDF2F7;
+      border-radius: 8px;
+      padding: 1rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #334155;
+      margin-bottom: 1.25rem;
+      white-space: pre-wrap;
+    }
+    .review-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .btn-act {
+      border: none;
+      padding: 0.6rem 1.1rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    .btn-act:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+    .btn-approve {
+      background: #DCFCE7;
+      color: #15803D;
+      border: 1px solid #BBF7D0;
+    }
+    .btn-reject {
+      background: #FEF3C7;
+      color: #B45309;
+      border: 1px solid #FDE68A;
+    }
+    .btn-delete {
+      background: #FEE2E2;
+      color: #B91C1C;
+      border: 1px solid #FECACA;
+      margin-left: auto;
+    }
+    .badge-status {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+    }
+    .badge-pending { background: #FEF3C7; color: #B45309; }
+    .badge-approved { background: #DCFCE7; color: #15803D; }
+    .badge-rejected { background: #FEE2E2; color: #B91C1C; }
+
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--admin-card);
+      border: 1px dashed var(--admin-border);
+      border-radius: 12px;
+      color: var(--admin-muted);
+    }
+    .empty-state-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Toast */
+    #admin-toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #1E293B;
+      color: #FFFFFF;
+      padding: 0.85rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 1000;
+      animation: fadeIn 0.2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="admin-nav">
+    <a href="../index.html" class="admin-brand">
+      <img src="../assets/images/logo.svg" alt="Svenska Recept" height="32">
+      <span>Moderering</span>
+      <span class="admin-badge">Admin</span>
+    </a>
+    <div id="nav-actions" style="display:none; align-items:center; gap: 1rem;">
+      <a href="../index.html" target="_blank" style="color:var(--admin-muted); font-size:0.9rem; text-decoration:none;">Besök webbplatsen ↗</a>
+      <button onclick="handleLogout()" class="btn-act" style="background:#F1F5F9; color:#475569;">Logga ut</button>
+    </div>
+  </header>
+
+  <!-- Login Card (Shown if unauthenticated) -->
+  <div id="login-container" class="admin-container">
+    <div class="auth-card">
+      <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🔐</div>
+      <h2>Logga in på Moderering</h2>
+      <p>Ange ditt administratörslösenord för att hantera och godkänna recensioner.</p>
+      
+      <div id="login-error" class="error-msg"></div>
+
+      <form onsubmit="handleLogin(event)">
+        <input type="password" id="admin-pass-input" class="form-input" placeholder="Administratörslösenord" required autofocus>
+        <button type="submit" class="btn-primary">Logga in</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Dashboard Container (Shown if authenticated) -->
+  <div id="dashboard-container" class="admin-container" style="display:none;">
+    
+    <!-- Top Stats Bar -->
+    <div class="stats-grid">
+      <div class="stat-card pending active" onclick="switchFilter('pending')" id="stat-card-pending">
+        <span class="stat-label">⏳ Väntar på granskning</span>
+        <span class="stat-val" id="count-pending">0</span>
+      </div>
+      <div class="stat-card approved" onclick="switchFilter('approved')" id="stat-card-approved">
+        <span class="stat-label">✅ Godkända recensioner</span>
+        <span class="stat-val" id="count-approved">0</span>
+      </div>
+      <div class="stat-card rejected" onclick="switchFilter('rejected')" id="stat-card-rejected">
+        <span class="stat-label">❌ Avvisade recensioner</span>
+        <span class="stat-val" id="count-rejected">0</span>
+      </div>
+    </div>
+
+    <!-- Tab Bar -->
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="switchFilter('pending')" id="tab-pending">
+        Väntar på granskning <span class="tab-pill" id="pill-pending">0</span>
+      </button>
+      <button class="tab-btn" onclick="switchFilter('approved')" id="tab-approved">
+        Godkända <span class="tab-pill" id="pill-approved">0</span>
+      </button>
+      <button class="tab-btn" onclick="switchFilter('rejected')" id="tab-rejected">
+        Avvisade <span class="tab-pill" id="pill-rejected">0</span>
+      </button>
+      <button class="tab-btn" onclick="switchFilter('all')" id="tab-all">
+        Alla <span class="tab-pill" id="pill-all">0</span>
+      </button>
+    </div>
+
+    <!-- Reviews Feed -->
+    <div id="reviews-list-container" class="reviews-list">
+      <!-- Injected via JavaScript -->
+    </div>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="admin-toast"></div>
+
+  <script>
+    let currentFilter = 'pending';
+    let currentPassword = '';
+
+    // Check auth on load
+    document.addEventListener('DOMContentLoaded', () => {
+      checkAuth();
+    });
+
+    async function checkAuth() {
+      try {
+        const res = await fetch('../api/admin_reviews.php?action=check', { credentials: 'include' });
+        const data = await res.json();
+        if (data.authenticated) {
+          showDashboard();
+        } else {
+          showLogin();
+        }
+      } catch (err) {
+        showLogin();
+      }
+    }
+
+    function showLogin() {
+      document.getElementById('login-container').style.display = 'block';
+      document.getElementById('dashboard-container').style.display = 'none';
+      document.getElementById('nav-actions').style.display = 'none';
+    }
+
+    function showDashboard() {
+      document.getElementById('login-container').style.display = 'none';
+      document.getElementById('dashboard-container').style.display = 'block';
+      document.getElementById('nav-actions').style.display = 'flex';
+      loadReviews(currentFilter);
+    }
+
+    async function handleLogin(e) {
+      e.preventDefault();
+      const pass = document.getElementById('admin-pass-input').value;
+      const errEl = document.getElementById('login-error');
+      errEl.style.display = 'none';
+
+      try {
+        const res = await fetch('../api/admin_reviews.php?action=login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password: pass }),
+          credentials: 'include'
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          currentPassword = pass;
+          showDashboard();
+        } else {
+          errEl.textContent = data.error || 'Felaktigt lösenord.';
+          errEl.style.display = 'block';
+        }
+      } catch (err) {
+        errEl.textContent = 'Kunde inte ansluta till servern.';
+        errEl.style.display = 'block';
+      }
+    }
+
+    async function handleLogout() {
+      await fetch('../api/admin_reviews.php?action=logout', { credentials: 'include' });
+      currentPassword = '';
+      showLogin();
+    }
+
+    function switchFilter(status) {
+      currentFilter = status;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      const activeTab = document.getElementById(`tab-${status}`);
+      if (activeTab) activeTab.classList.add('active');
+
+      document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+      const activeCard = document.getElementById(`stat-card-${status}`);
+      if (activeCard) activeCard.classList.add('active');
+
+      loadReviews(status);
+    }
+
+    async function loadReviews(status) {
+      const container = document.getElementById('reviews-list-container');
+      container.innerHTML = '<div style="text-align:center; padding: 3rem; color: var(--admin-muted);">Laddar recensioner...</div>';
+
+      try {
+        const res = await fetch(`../api/admin_reviews.php?action=list&status=${status}`, { credentials: 'include' });
+        const data = await res.json();
+
+        if (!data.success) {
+          if (res.status === 401) {
+            showLogin();
+            return;
+          }
+          container.innerHTML = `<div class="error-msg" style="display:block;">${data.error}</div>`;
+          return;
+        }
+
+        // Update counts
+        const c = data.counts;
+        document.getElementById('count-pending').textContent = c.pending;
+        document.getElementById('count-approved').textContent = c.approved;
+        document.getElementById('count-rejected').textContent = c.rejected;
+
+        document.getElementById('pill-pending').textContent = c.pending;
+        document.getElementById('pill-approved').textContent = c.approved;
+        document.getElementById('pill-rejected').textContent = c.rejected;
+        document.getElementById('pill-all').textContent = c.total;
+
+        renderReviews(data.reviews, container);
+      } catch (err) {
+        container.innerHTML = '<div class="error-msg" style="display:block;">Kunde inte ladda recensioner. Kontrollera anslutningen.</div>';
+      }
+    }
+
+    function renderReviews(reviews, container) {
+      if (!reviews || reviews.length === 0) {
+        let msg = 'Inga recensioner hittades i detta läge.';
+        if (currentFilter === 'pending') msg = '🎉 Alla recensioner är granskade! Inget väntar i kön.';
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">✨</div>
+            <h3>${msg}</h3>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = '';
+      reviews.forEach(r => {
+        const card = document.createElement('div');
+        card.className = `review-card status-${r.status}`;
+        card.id = `rev-card-${r.id}`;
+
+        const stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+        const statusBadge = `<span class="badge-status badge-${r.status}">${r.status === 'pending' ? 'Väntar' : (r.status === 'approved' ? 'Godkänd' : 'Avvisad')}</span>`;
+        
+        let emailHtml = '';
+        if (r.author_email) {
+          emailHtml = `<span class="review-author-email">✉️ ${escapeHtml(r.author_email)}</span>`;
+        }
+
+        card.innerHTML = `
+          <div class="review-header">
+            <div>
+              <a href="../recept/${r.recipe_slug}.html" target="_blank" class="review-recipe-link">
+                ${escapeHtml(r.recipe_title || r.recipe_slug)} ↗
+              </a>
+            </div>
+            <div style="display:flex; align-items:center; gap: 0.75rem;">
+              <span class="review-time">${r.created_at}</span>
+              ${statusBadge}
+            </div>
+          </div>
+
+          <div class="review-author-row">
+            <span class="review-author-name">👤 ${escapeHtml(r.author_name)}</span>
+            ${emailHtml}
+          </div>
+
+          <div class="review-stars">${stars} (${r.rating}/5)</div>
+
+          <div class="review-body">${escapeHtml(r.comment)}</div>
+
+          <div class="review-actions">
+            ${r.status !== 'approved' ? `
+              <button onclick="approveReview(${r.id})" class="btn-act btn-approve">
+                ✓ Godkänn & Publicera
+              </button>
+            ` : ''}
+            ${r.status !== 'rejected' ? `
+              <button onclick="rejectReview(${r.id})" class="btn-act btn-reject">
+                ✕ Avvisa
+              </button>
+            ` : ''}
+            <button onclick="deleteReview(${r.id})" class="btn-act btn-delete">
+              🗑️ Radera
+            </button>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    async function approveReview(id) {
+      try {
+        const res = await fetch('../api/admin_reviews.php?action=approve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: id }),
+          credentials: 'include'
+        });
+        const data = await res.json();
+        if (data.success) {
+          showToast('✅ Recension godkänd och publicerad live!');
+          loadReviews(currentFilter);
+        } else {
+          alert('Fel: ' + data.error);
+        }
+      } catch (err) {
+        alert('Nätverksfel vid godkännande.');
+      }
+    }
+
+    async function rejectReview(id) {
+      try {
+        const res = await fetch('../api/admin_reviews.php?action=reject', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: id }),
+          credentials: 'include'
+        });
+        const data = await res.json();
+        if (data.success) {
+          showToast('❌ Recension avvisad.');
+          loadReviews(currentFilter);
+        } else {
+          alert('Fel: ' + data.error);
+        }
+      } catch (err) {
+        alert('Nätverksfel vid avvisande.');
+      }
+    }
+
+    async function deleteReview(id) {
+      if (!confirm('Är du säker på att du vill radera denna recension permanent?')) return;
+
+      try {
+        const res = await fetch('../api/admin_reviews.php?action=delete', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: id }),
+          credentials: 'include'
+        });
+        const data = await res.json();
+        if (data.success) {
+          showToast('🗑️ Recension raderad permanent.');
+          loadReviews(currentFilter);
+        } else {
+          alert('Fel: ' + data.error);
+        }
+      } catch (err) {
+        alert('Nätverksfel vid radering.');
+      }
+    }
+
+    function showToast(text) {
+      const toast = document.getElementById('admin-toast');
+      toast.textContent = text;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3500);
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+  </script>
+</body>
+</html>

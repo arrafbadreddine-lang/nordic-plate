@@ -388,6 +388,7 @@ function initCommentsSystem() {
   if (!commentForm || !commentsList) return;
 
   const pageSlug = window.location.pathname.split('/').pop().replace('.html', '') || 'general';
+  const pageTitle = document.querySelector('h1') ? document.querySelector('h1').textContent.trim() : pageSlug;
 
   // Star Rating Picker
   let selectedRating = 5;
@@ -410,62 +411,122 @@ function initCommentsSystem() {
     });
   }
 
-  // Load saved local comments
-  try {
-    const savedLocalComments = JSON.parse(localStorage.getItem(`comments_${pageSlug}`)) || [];
-    savedLocalComments.forEach(c => {
-      appendCommentToDOM(c, false);
-    });
-  } catch (e) {}
+  // 1. Fetch Approved Server Reviews
+  fetchApprovedReviews();
 
-  // Handle new comment submission
-  commentForm.addEventListener('submit', (e) => {
+  async function fetchApprovedReviews() {
+    try {
+      const res = await fetch(`../api/get_reviews.php?slug=${encodeURIComponent(pageSlug)}`);
+      const data = await res.json();
+      if (data && data.success && Array.isArray(data.reviews)) {
+        data.reviews.forEach(c => {
+          appendCommentToDOM(c, true);
+        });
+      }
+    } catch (e) {
+      // Fallback
+    }
+
+    // Also load local pending reviews if user submitted earlier from this browser
+    try {
+      const localPending = JSON.parse(localStorage.getItem(`pending_comments_${pageSlug}`)) || [];
+      localPending.forEach(c => {
+        appendCommentToDOM(c, true, true);
+      });
+    } catch (e) {}
+  }
+
+  // 2. Handle new comment submission
+  commentForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const nameInput = document.getElementById('comment-author-name');
+    const emailInput = document.getElementById('comment-author-email');
     const textInput = document.getElementById('comment-text-content');
+    const hpInput = document.getElementById('comment-website-hp');
 
     const name = nameInput ? nameInput.value.trim() : 'Matälskare';
+    const email = emailInput ? emailInput.value.trim() : '';
     const text = textInput ? textInput.value.trim() : '';
+    const hp = hpInput ? hpInput.value.trim() : '';
 
     if (!text) return;
+    if (hp) return; // Discard bot submission
 
-    const newComment = {
-      name: name,
-      date: 'Just nu',
+    const submitBtn = commentForm.querySelector('button[type="submit"]');
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Skickar...';
+    }
+
+    const payload = {
+      recipe_slug: pageSlug,
+      recipe_title: pageTitle,
+      author_name: name,
+      author_email: email,
       rating: selectedRating,
       comment: text,
-      verified: true
+      website_hp: hp
     };
 
-    appendCommentToDOM(newComment, true);
-
-    // Save to localStorage
     try {
-      const current = JSON.parse(localStorage.getItem(`comments_${pageSlug}`)) || [];
-      current.unshift(newComment);
-      localStorage.setItem(`comments_${pageSlug}`, JSON.stringify(current));
-    } catch (err) {}
+      const res = await fetch('../api/submit_review.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
 
-    // Reset form
-    if (textInput) textInput.value = '';
-    showToast("Tack för ditt betyg och din kommentar! ⭐");
+      if (data && data.success) {
+        // Show pending card immediately to this user
+        const pendingComment = {
+          name: name,
+          date: 'Just nu',
+          rating: selectedRating,
+          comment: text
+        };
+        appendCommentToDOM(pendingComment, true, true);
+
+        // Save to local pending store so it stays visible to them while pending
+        try {
+          const current = JSON.parse(localStorage.getItem(`pending_comments_${pageSlug}`)) || [];
+          current.unshift(pendingComment);
+          localStorage.setItem(`pending_comments_${pageSlug}`, JSON.stringify(current));
+        } catch (err) {}
+
+        if (textInput) textInput.value = '';
+        showToast("Tack! Din recension har skickats in och granskas av redaktionen. ⭐");
+      } else {
+        showToast(data.error || "Kunde inte spara recensionen. Försök igen.");
+      }
+    } catch (err) {
+      showToast("Tack! Din recension har tagits emot. ⭐");
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Skicka kommentar';
+      }
+    }
   });
 
-  function appendCommentToDOM(c, prepend = false) {
+  function appendCommentToDOM(c, prepend = false, isPending = false) {
     const card = document.createElement('div');
     card.className = 'comment-card';
     const starsHtml = '★'.repeat(c.rating) + '☆'.repeat(5 - c.rating);
 
+    const badgeHtml = isPending 
+      ? '<span style="background: #FEF3C7; color: #B45309; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 4px; margin-left: 0.5rem;">⏳ Väntar på granskning</span>'
+      : '<span class="comment-verified-badge">✓ Verifierad provlagare</span>';
+
     card.innerHTML = `
       <div class="comment-meta">
         <span class="comment-author">
-          ${c.name}
-          ${c.verified ? '<span class="comment-verified-badge">✓ Verifierad provlagare</span>' : ''}
+          ${escapeHtml(c.name)}
+          ${badgeHtml}
         </span>
-        <span>${c.date}</span>
+        <span>${escapeHtml(c.date)}</span>
       </div>
       <div style="color: #F59E0B; font-size: 1rem; margin-bottom: 0.4rem; letter-spacing: 0.1em;">${starsHtml}</div>
-      <p class="comment-text">${c.comment}</p>
+      <p class="comment-text">${escapeHtml(c.comment)}</p>
     `;
 
     if (prepend && commentsList.firstChild) {
@@ -473,6 +534,16 @@ function initCommentsSystem() {
     } else {
       commentsList.appendChild(card);
     }
+  }
+
+  function escapeHtml(text) {
+    if (!text) return '';
+    return String(text)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
   }
 }
 

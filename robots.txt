@@ -1,4 +1,8 @@
 User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /storage/
 Allow: /
 
 Sitemap: https://svenska-recept.se/sitemap.xml
+Sitemap: https://svenska-recept.se/feed.xml
