@@ -1259,7 +1259,9 @@ def generate_sitemaps():
 
     with open(os.path.join(BASE_DIR, "rss.xml"), "w", encoding="utf-8") as f:
         f.write(rss_xml_content)
-    print("Generated dynamic RSS 2.0 feed (rss.xml)")
+    with open(os.path.join(BASE_DIR, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_xml_content)
+    print("Generated dynamic RSS 2.0 feed (rss.xml & feed.xml)")
 
 def main():
     for r in RECIPES:
