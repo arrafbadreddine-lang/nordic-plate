@@ -60,7 +60,12 @@ jobs:
             -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new" \
             ./ \
             "${{ secrets.CLOUDWAYS_USER }}@${{ secrets.CLOUDWAYS_HOST }}:${{ vars.CLOUDWAYS_APP_PATH }}/"
-          echo "Static site deployed. Nothing to build, nothing to restart."
+
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new \
+            "${{ secrets.CLOUDWAYS_USER }}@${{ secrets.CLOUDWAYS_HOST }}" \
+            "mkdir -p ${{ vars.CLOUDWAYS_APP_PATH }}/storage && chmod 777 ${{ vars.CLOUDWAYS_APP_PATH }}/storage && (chmod 666 ${{ vars.CLOUDWAYS_APP_PATH }}/storage/*.db* 2>/dev/null || true)"
+
+          echo "Static site deployed. Storage permissions set."
 
       - name: Remove SSH key
         if: always()
