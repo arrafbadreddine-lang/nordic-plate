@@ -877,7 +877,7 @@ def render_recipe_page(r):
 
 {get_footer_html(depth="../")}
 
-  <script src="../assets/js/recipe-engine.js"></script>
+  <script src="../assets/js/recipe-engine.js?v=2.1"></script>
 </body>
 </html>'''
     
@@ -1024,7 +1024,7 @@ def generate_homepage():
 
 {get_footer_html(depth="")}
 
-  <script src="assets/js/recipe-engine.js"></script>
+  <script src="assets/js/recipe-engine.js?v=2.1"></script>
 </body>
 </html>'''
 
@@ -1084,7 +1084,7 @@ def generate_catalog():
 
 {get_footer_html(depth="")}
 
-  <script src="assets/js/recipe-engine.js"></script>
+  <script src="assets/js/recipe-engine.js?v=2.1"></script>
   <script src="assets/js/search-filter.js"></script>
 </body>
 </html>'''
@@ -1136,7 +1136,7 @@ def generate_categories():
 
 {get_footer_html(depth="../")}
 
-  <script src="../assets/js/recipe-engine.js"></script>
+  <script src="../assets/js/recipe-engine.js?v=2.1"></script>
 </body>
 </html>'''
 
