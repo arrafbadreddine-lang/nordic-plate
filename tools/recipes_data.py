@@ -97,7 +97,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'sub': 'Frasig yta & seg chokladkärna',
         'time': 25,
         'time_str': '25 min',
-        'title': 'Klassisk Kladdkaka – Frasig Yta och Kladdig Kärna',
+        'title': 'Klassisk Kladdkaka – Perfekt Kladdig & Seg på 15 minuter',
         'total_time': 'PT25M'},
     {   'alt': 'Klassiska svenska köttbullar med gräddsås, hemlagat potatismos, pressgurka och rårörda lingon',
         'calories': 580,
@@ -373,7 +373,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'sub': 'Med löjrom, gräddfil & färsk dill',
         'time': 55,
         'time_str': '55 min',
-        'title': 'Klassisk Västerbottensostpaj med Löjrom och Gräddfil',
+        'title': 'Klassisk Västerbottensostpaj – Frasigt Skal & Krämig Fyllning',
         'total_time': 'PT55M'},
     {   'alt': 'Äkta Wallenbergare på kalvfärs med skirat brynt smör, potatispuré, gröna ärtor och lingon',
         'calories': 620,
@@ -5449,7 +5449,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'sub': 'Frasigt råstekt potatis med mört kött, karamelliserad lök & stekt ägg',
         'time': 30,
         'time_str': '30 min',
-        'title': 'Klassisk Pytt i Panna med Stekt Ägg & Inlagda Rödbetor',
+        'title': 'Klassisk Pytt i Panna med Stekt Ägg – Snabb Husman på 20 min',
         'total_time': 'PT30M'},
     {   'alt': 'Närbild på en elegant tallrik skomakarlåda med nystekt biff över krämigt potatismos, mörk rödvinssås '
                'och toppad med knaperstekt bacon och purjolök',
@@ -13890,4 +13890,537 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     'time_str': '25 min',
     'title': 'Krämig Korvgryta med Falukorv, Paprika & Dijonsenap',
     'total_time': 'PT25M'}
+,
+{   'alt': 'Klassiska saftiga kardemummabullar snurrade med nystött kardemumma och smörfyllning på träskärbräda med '
+           'kaffe',
+    'calories': 235,
+    'card_title': 'Saftiga Kardemummabullar',
+    'cat_key': 'fika',
+    'cat_slug': 'fika-och-bakning',
+    'category': 'Fika & Bakning',
+    'community_reviews': [   {   'comment': 'Helt otroliga bullar! Smakade precis som på ett fint bageri på Södermalm. '
+                                            'Den nystötta kardemumman gjorde verkligen hela skillnaden.',
+                                 'date': '24 september 2026',
+                                 'name': 'Emma Nordin',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Saftigaste kardemummasnurrorna jag bakat. Sockerlagen som penslades på '
+                                            'direkt efter ugnen kapslade in all saftighet!',
+                                 'date': '18 september 2026',
+                                 'name': 'Jonas Westerberg',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Underbar deg att arbeta med. Kardemumman doftade i hela trappuppgången. '
+                                            'Full pott!',
+                                 'date': '11 september 2026',
+                                 'name': 'Karin S.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Vi föredrar dessa framför kanelbullar alla dagar i veckan. Fantastisk '
+                                            'smörfyllning.',
+                                 'date': '4 september 2026',
+                                 'name': 'Lars-Erik Blom',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Lätta att snurra när man väl fick in tekniken. Blev vackra och magiskt '
+                                            'goda till kaffet.',
+                                 'date': '27 augusti 2026',
+                                 'name': 'Sara Berggren',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Ett mästerverk till recept. Älskar att det är råsocker i fyllningen som '
+                                            'ger lite kolaton.',
+                                 'date': '19 augusti 2026',
+                                 'name': 'Mikael T.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Bästa fikat till hösthelgen. Hela plåten tog slut på en eftermiddag!',
+                                 'date': '12 augusti 2026',
+                                 'name': 'Elin Hellström',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT10M',
+    'cook_time_str': '10 min',
+    'desc': 'Sveriges godaste kardemummabullar (kardemummasnurror) bakade med nystött kardemumma och massor av smörig '
+            'fyllning. Saftiga, fluffiga och med oemotståndlig bageriglans!',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Medel',
+    'drink_pairing': 'En kopp nybryggt mörkrostat kaffe eller ett glas kall havremjölk.',
+    'equipment': ['Köksassistent / Degbunke', 'Kavel', 'Plåtar med bakplåtspapper', 'Brödpensel', 'Mortel'],
+    'faqs': [   {   'a': 'Använd alltid hela kardemummakärnor som du stöter grovt i en mortel! Färdigmald kardemumma i '
+                         'kryddburk tappar snabbt sina eteriska oljor och ger en platt smak, medan nystött kardemumma '
+                         'exploderar av ljuvlig blommig arom och friskhet.',
+                    'q': 'Varför är nystött kardemumma så mycket bättre än färdigmald?'},
+                {   'a': 'Koka upp lika delar socker och vatten (t.ex. 0,5 dl socker och 0,5 dl vatten) och pensla '
+                         'bullarna med den heta sockerlagen direkt när de kommer ut ur ugnen! Sockerlagen förseglar '
+                         'ytan så fukten stannar kvar i bullen och ger en magnifik glans.',
+                    'q': 'Hur får man kardemummabullarna så där blanka och bagerisaftiga?'},
+                {   'a': 'Frys in bullarna så fort de har svalnat helt efter gräddning. Tina dem i rumstemperatur och '
+                         'värm i ugnen på 150°C i 4–5 minuter så smakar de som precis nygräddade.',
+                    'q': 'Hur förvarar och fryser man kardemummabullar bäst?'}],
+    'file': 'klassiska-saftiga-kardemummabullar.html',
+    'img': 'kardemummabullar',
+    'ingredients': [   {   'group': 'Kardemummadeg',
+                           'items': [   {'name': 'färsk jäst för söta degar', 'unit': 'g', 'val': 50},
+                                        {'name': 'standardmjölk (3%, fingervarm 37°C)', 'unit': 'dl', 'val': 5},
+                                        {'name': 'rumsvarmt äkta smör (tärnat)', 'unit': 'g', 'val': 150},
+                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                        {'name': 'kardemummakärnor (nystötta i mortel)', 'unit': 'msk', 'val': 1.5},
+                                        {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'vetemjöl special', 'unit': 'dl', 'val': 12}]},
+                       {   'group': 'Smörig Kardemummafyllning',
+                           'items': [   {'name': 'rumsvarmt äkta smör', 'unit': 'g', 'val': 175},
+                                        {'name': 'strösocker eller ljust muscovadoråsocker', 'unit': 'dl', 'val': 1.25},
+                                        {'name': 'kardemummakärnor (nystötta)', 'unit': 'msk', 'val': 2},
+                                        {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1.5},
+                                        {'name': 'majsstärkelse (håller fyllningen saftig)', 'unit': 'tsk', 'val': 1}]},
+                       {   'group': 'Garnering & Glans',
+                           'items': [   {   'name': 'vatten och strösocker till sockerlag (lika delar)',
+                                            'unit': 'dl',
+                                            'val': 0.5},
+                                        {'name': 'grovt stött kardemumma', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'svenskt pärlsocker', 'unit': 'msk', 'val': 3}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Stöt kardemummakärnorna grovt i en mortel. Värm mjölken till fingervarm (37°C). '
+                                    'Smula ner jästen i en degblandare och häll över mjölken. Rör tills jästen lösts '
+                                    'upp helt.',
+                            'title': 'Stöt kardemumma och lös jästen'},
+                        {   'step': 2,
+                            'text': 'Tillsätt socker, salt, hälften av den nystötta kardemumman och ca 9 dl av '
+                                    'vetemjölet. Klicka i det rumsvarma smöret i bitar. Arbeta degen i maskin på '
+                                    'medelhastighet i ca 10–12 minuter medan du tillsätter resten av mjölet lite i '
+                                    'taget tills degen är elastisk, glansig och släpper från kanten. Låt jäsa under '
+                                    'bakduk i 45 minuter.',
+                            'title': 'Knåda degen elastisk och jäs'},
+                        {   'step': 3,
+                            'text': 'Rör samman ingredienserna till fyllningen: rumsvarmt smör, socker, nystött '
+                                    'kardemumma, vaniljsocker och en tesked majsstärkelse (det förhindrar att '
+                                    'fyllningen rinner ut på plåten).',
+                            'title': 'Rör ihop kardemummafyllningen'},
+                        {   'step': 4,
+                            'text': 'Stjälp upp degen på ett lätt mjölat bakbord. Kavla ut till en stor rektangel (ca '
+                                    '40x60 cm). Bred fyllningen jämnt över hela plattan. Vik degen i ett treslag (som '
+                                    'ett kuvert). Skär ca 2 cm breda remsor.',
+                            'title': 'Kavla, bred fyllning och vik'},
+                        {   'step': 5,
+                            'text': 'Snurra varje remsa runt fingrarna till en vacker knut och fäst änden undertill. '
+                                    'Lägg på plåtar med bakplåtspapper. Låt jäsa under bakduk i ca 45 minuter till '
+                                    'dubbel storlek. Sätt under tiden ugnen på 225°C.',
+                            'title': 'Forma snurror och jäs'},
+                        {   'step': 6,
+                            'text': 'Grädda mitt i ugnen i 8–10 minuter tills de fått en fin djup gyllenbrun färg. '
+                                    'Koka snabbt ihop 0,5 dl vatten och 0,5 dl socker. Pensla de rykande varma '
+                                    'bullarna med sockerlagen direkt när de kommer ur ugnen och strö över pärlsocker '
+                                    'och nystött kardemumma!',
+                            'title': 'Grädda och pensla med sockerlag'}],
+    'keywords': 'kardemummabullar, kardemummasnurror, saftiga kardemummabullar, baka kardemummabullar, '
+                'kardemummabullar recept, bästa kardemummabullarna, fika bullar, kanelbullens dag alternativ',
+    'long_desc': 'Kardemummabullen – med sina eleganta snurror, rikliga mängder nystötta kardemummakärnor och smöriga '
+                 'fyllning – är för många fikaälskare den absoluta kronjuvelen bland svenska vetebröd. Den unika '
+                 'kombinationen av nystött mörk kardemumma, fylligt svenskt smör och en lätt knäckig sötma ger en '
+                 'sofistikerad och intensiv smak som få bakverk kan matcha. Hemligheten bakom ett riktigt saftigt '
+                 'bageriresultat är att använda rumsvarmt smör som knådas in i degen, att låta kardemummakärnorna '
+                 'mortlas precis innan baket och att pensla de varma bullarna med sockerlag direkt vid uttaget.',
+    'nutrition': {'calories': '235 kcal', 'carbs': '33g', 'fat': '10g', 'protein': '4g', 'sugar': '12g'},
+    'portions_num': 24,
+    'portions_unit': 'bullar',
+    'prep_time': 'PT40M',
+    'prep_time_str': '40 min',
+    'pro_tips': 'Tillsätt 1 tsk majsstärkelse i smörfyllningen! Stärkelsen binder smöret och sockret under ugnsvärmen '
+                'så att den ljuvliga fyllningen stannar kvar inuti kardemummasnurrorna istället för att flyta ut på '
+                'plåten.',
+    'rating': 4.96,
+    'review_count': 7,
+    'slug': 'klassiska-saftiga-kardemummabullar',
+    'sub': 'Bageriklassiker med nystötta kardemummakärnor, krämig smörfyllning och pärlsocker',
+    'time': 50,
+    'time_str': '50 min',
+    'title': 'Klassiska Saftiga Kardemummabullar – Bästa Kardemummasnurrorna',
+    'total_time': 'PT50M'},
+{   'alt': 'Klassisk kanelbullekladdkaka serverad på keramikfat med vaniljgrädde och kanelvirvel',
+    'calories': 310,
+    'card_title': 'Kanelbullekladdkaka',
+    'cat_key': 'fika',
+    'cat_slug': 'fika-och-bakning',
+    'category': 'Fika & Bakning',
+    'community_reviews': [   {   'comment': 'Två av mina absoluta favoriter i ett bakverk! Den blev så vansinnigt god '
+                                            'och krämig i mitten. Rekommenderar verkligen!',
+                                 'date': '25 september 2026',
+                                 'name': 'Lovisa Strömberg',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Bakade denna till fredagsfikat på jobbet. Blev en enorm succé, alla bad '
+                                            'om receptet!',
+                                 'date': '20 september 2026',
+                                 'name': 'Andreas Larsson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Så skönt när man är sugen på kanelbulle men inte orkar vänta på jäsning. '
+                                            'Klar på under en halvtimme.',
+                                 'date': '14 september 2026',
+                                 'name': 'Therese B.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Magiskt god med lättvispad grädde. Pärlsockret på toppen gav perfekt '
+                                            'krispighet.',
+                                 'date': '5 september 2026',
+                                 'name': 'Gustav Eklund',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Enkelt recept med ingredienser man alltid har hemma. Kommer göras många '
+                                            'gånger!',
+                                 'date': '29 augusti 2026',
+                                 'name': 'Maria K.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Ljuvlig kanelsmak och perfekt seg konsistens i kanterna.',
+                                 'date': '21 augusti 2026',
+                                 'name': 'Henrik Johansson',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT15M',
+    'cook_time_str': '15 min',
+    'desc': 'Världens godaste kanelbullekladdkaka som kombinerar kanelbullens kryddiga fyllning med kladdkakans '
+            'krämiga seghet. Otroligt lättbakad och klar på bara 25 minuter!',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Mycket enkel',
+    'drink_pairing': 'Ett stort glas kall mjölk eller en kopp hett bryggkaffe.',
+    'equipment': ['Springform (cirka 22-24 cm)', 'Kastrull för smöret', 'Ballongvisp', 'Liten skål för kanelsmör'],
+    'faqs': [   {   'a': 'Kakan ska tas ut när kanterna har stelnat och blivit fasta, medan hela mittpartiet (ca 8 cm) '
+                         'fortfarande dallrar lätt när du vickar försiktigt på formen. Den sätter sig och blir perfekt '
+                         'seg när den svalnar.',
+                    'q': 'Hur vet man när kanelbullekladdkakan är perfekt kladdig?'},
+                {   'a': 'Ja, precis som vanlig kladdkaka blir den nästan ännu godare om den får stå i kylen över '
+                         'natten! Texturen blir härligt fudgig och kanelsmaken fördjupas.',
+                    'q': 'Kan man baka kanelbullekladdkakan dagen innan?'},
+                {   'a': 'En klick lättvispad grädde med lite vaniljsocker eller en kula äkta vaniljglass är den '
+                         'perfekta kombinationen till den varma eller kalla kakan.',
+                    'q': 'Vad serverar man bäst till kanelbullekladdkakan?'}],
+    'file': 'klassisk-kanelbullekladdkaka.html',
+    'img': 'kanelbullekladdkaka',
+    'ingredients': [   {   'group': 'Kladdkakesmet (Kardemumma & Vanilj)',
+                           'items': [   {'name': 'äkta smör (smält)', 'unit': 'g', 'val': 150},
+                                        {'name': 'ekologiska ägg', 'unit': 'st', 'val': 3},
+                                        {'name': 'strösocker', 'unit': 'dl', 'val': 2.5},
+                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 2.5},
+                                        {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 2},
+                                        {'name': 'kardemumma (nymald)', 'unit': 'tsk', 'val': 1.5},
+                                        {'name': 'flingsalt', 'unit': 'krm', 'val': 1}]},
+                       {   'group': 'Kanelfyllning & Virvel',
+                           'items': [   {'name': 'äkta smör (rumsvarmt/smält)', 'unit': 'g', 'val': 50},
+                                        {'name': 'farinsocker eller brunt råsocker', 'unit': 'dl', 'val': 0.5},
+                                        {'name': 'strösocker', 'unit': 'msk', 'val': 1},
+                                        {'name': 'mald kanel', 'unit': 'msk', 'val': 1.5}]},
+                       {   'group': 'Garnering & Servering',
+                           'items': [   {'name': 'pärlsocker', 'unit': 'msk', 'val': 2},
+                                        {'name': 'vispgrädde till servering', 'unit': 'dl', 'val': 2}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Sätt ugnen på 175°C över- och undervärme. Smörj och bröa en springform (ca 22 cm '
+                                    'i diameter) med ströbröd eller ljust mjöl.',
+                            'title': 'Sätt ugnen och förbered formen'},
+                        {   'step': 2,
+                            'text': 'Smält 150 g smör i en kastrull och dra av från plattan. Rör ihop ägg och '
+                                    'strösocker i en bunke (vispa inte för pösigt, smeten ska vara kompakt). Rör ner '
+                                    'vaniljsocker, nymald kardemumma och flingsalt.',
+                            'title': 'Rör samman kladdkakesmeten'},
+                        {   'step': 3,
+                            'text': 'Tillsätt det smälta smöret och sikta ner vetemjölet. Vänd försiktigt ihop till en '
+                                    'slät och glansig smet. Häll upp smeten i springformen.',
+                            'title': 'Häll smeten i formen'},
+                        {   'step': 4,
+                            'text': 'Blanda 50 g smält smör med farinsocker, strösocker och rikligt med kanel till en '
+                                    'simmig kanelfyllning. Klicka ut eller ringla fyllningen över kladdkakesmeten.',
+                            'title': 'Blanda kanelfyllningen'},
+                        {   'step': 5,
+                            'text': 'Dra med en kniv eller tandpetare genom smeten så kanelfyllningen marmoreras i '
+                                    'vackra virvlar ner i kakan. Strö över rikligt med pärlsocker.',
+                            'title': 'Marmorera och toppa med pärlsocker'},
+                        {   'step': 6,
+                            'text': 'Grädda mitt i ugnen i cirka 18–22 minuter. Kanterna ska ha stelnat men mitten ska '
+                                    'fortfarande vara underbart kladdig och lös. Låt kakan svalna så den sätter sig '
+                                    'något. Servera med lättvispad grädde!',
+                            'title': 'Grädda och njut'}],
+    'keywords': 'kanelbullekladdkaka, kanelbullskladdkaka, kladdkaka kanelbulle, enkel kanelbullekladdkaka, kanelbulle '
+                'kladdkaka recept, fika kanelbullens dag, snabb kanelbulle',
+    'long_desc': 'När Sveriges två mest ikoniska bakverk – den sega kladdkakan och den doftande kanelbullen – slås '
+                 'samman till en enda skapelse, uppstår en fikaupplevelse utöver det vanliga. Den gyllene '
+                 'kladdkakebottnen är smaksatt med vanilj och aromatisk kardemumma, och genom smeten virvlas en '
+                 'generös blandning av smör, kanel och farinsocker. Kakan gräddas tills kanterna blir härligt sega och '
+                 'mitten förblir smältande kladdig, toppad med knaprigt pärlsocker. Det bästa av allt? Du slipper all '
+                 'jäsning och rullning – kakan rörs ihop på 10 minuter och är klar att avnjutas på under en halvtimme.',
+    'nutrition': {'calories': '310 kcal', 'carbs': '38g', 'fat': '16g', 'protein': '4g', 'sugar': '26g'},
+    'portions_num': 10,
+    'portions_unit': 'bitar',
+    'prep_time': 'PT10M',
+    'prep_time_str': '10 min',
+    'pro_tips': 'Vispa inte ägg och socker pösigt! För att få den där oemotståndligt sega och fuktiga '
+                'kladdkakekonsistensen ska du bara röra ihop ingredienserna precis tills de blandats väl.',
+    'rating': 4.94,
+    'review_count': 6,
+    'slug': 'klassisk-kanelbullekladdkaka',
+    'sub': 'Två fikaikoner i en: superkladdig kardemummabotten marmorerad med kanelsmör',
+    'time': 25,
+    'time_str': '25 min',
+    'title': 'Klassisk Kanelbullekladdkaka – Kladdig med Smörig Kanelsnurra',
+    'total_time': 'PT25M'},
+{   'alt': 'Mjuka och saftiga kanelbullar gräddade tätt i långpanna och penslade med smör och pärlsocker',
+    'calories': 245,
+    'card_title': 'Kanelbullar i Långpanna',
+    'cat_key': 'fika',
+    'cat_slug': 'fika-och-bakning',
+    'category': 'Fika & Bakning',
+    'community_reviews': [   {   'comment': 'Det absolut smartaste sättet att baka bullar! Ingen fyllning rinner ut på '
+                                            'plåten utan stannar i bullarna. De blev så vansinnigt saftiga.',
+                                 'date': '24 september 2026',
+                                 'name': 'Pia Engström',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Perfekt till sonens födelsedagskalas. Så smidigt att bara bryta isär '
+                                            'varma bullar direkt ur formen.',
+                                 'date': '17 september 2026',
+                                 'name': 'Christian V.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Blev otroligt höga och fluffiga eftersom de fick stöd av varandra och '
+                                            'formens kanter. Kommer baka så här framöver!',
+                                 'date': '8 september 2026',
+                                 'name': 'Ingela Mårtensson',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Mormors gamla knep med långpanna fungerar alltid bäst. 10 av 10 poäng.',
+                                 'date': '31 augusti 2026',
+                                 'name': 'Per-Arne S.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Underbart saftiga även på dag två och tre. Mycket nöjd med detta recept!',
+                                 'date': '23 augusti 2026',
+                                 'name': 'Camilla F.',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT25M',
+    'cook_time_str': '25 min',
+    'desc': 'Baka kanelbullar i långpanna – det smartaste och saftigaste sättet att baka bullar till många! Bullarna '
+            'jäser ihop till ett ljuvligt brytbröd där fyllningen stannar kvar i varje tugga.',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Enkel',
+    'drink_pairing': 'En stor kopp kaffe med en skvätt mjölk eller ett glas kall röd mjölk.',
+    'equipment': ['Långpanna / Ugnsform med hög kant (ca 30x40 cm)', 'Kavel', 'Bakplåtspapper', 'Brödpensel'],
+    'faqs': [   {   'a': 'När bullarna placeras tätt i en form med kanter jäser de uppåt istället för utåt. Eftersom '
+                         'de gräddas ihop torkar kanterna inte ut och den smälta kanel- och smörfyllningen stannar '
+                         'kvar inuti brödet istället för att brännas fast på plåten.',
+                    'q': 'Varför blir kanelbullar i långpanna saftigare än vanliga bullar?'},
+                {   'a': 'Placera bullarna med ca 1–1,5 cm mellanrum i formen. Under den andra jäsningen expanderar de '
+                         'och nuddar varandra precis lagom innan de gräddas ihop till ett vackert brytbröd.',
+                    'q': 'Hur tätt ska man lägga bullarna i långpannan?'},
+                {   'a': 'Eftersom bullarna sitter ihop tätt i formen behöver de lite längre tid i något lägre '
+                         'ugnstemperatur (200°C) i ca 20–25 minuter så att mitten blir genomgräddad utan att toppen '
+                         'bränns.',
+                    'q': 'Hur länge ska kanelbullarna gräddas i långpannan?'}],
+    'file': 'saftiga-kanelbullar-i-langpanna.html',
+    'img': 'kanelbullar-langpanna',
+    'ingredients': [   {   'group': 'Klassisk Vetebulledag',
+                           'items': [   {'name': 'färsk jäst', 'unit': 'g', 'val': 50},
+                                        {'name': 'standardmjölk (fingervarm 37°C)', 'unit': 'dl', 'val': 5},
+                                        {'name': 'äkta smör (rumsvarmt)', 'unit': 'g', 'val': 150},
+                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1.25},
+                                        {'name': 'nymald kardemumma', 'unit': 'msk', 'val': 1},
+                                        {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                        {'name': 'vetemjöl special', 'unit': 'dl', 'val': 12}]},
+                       {   'group': 'Generös Kanelfyllning',
+                           'items': [   {'name': 'rumsvarmt äkta smör', 'unit': 'g', 'val': 175},
+                                        {'name': 'farinsocker eller brunt farin', 'unit': 'dl', 'val': 1},
+                                        {'name': 'strösocker', 'unit': 'dl', 'val': 0.5},
+                                        {'name': 'mald kanel', 'unit': 'msk', 'val': 2.5},
+                                        {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1}]},
+                       {   'group': 'Pensling & Garnering',
+                           'items': [   {'name': 'ägg till pensling', 'unit': 'st', 'val': 1},
+                                        {'name': 'pärlsocker', 'unit': 'dl', 'val': 0.5},
+                                        {   'name': 'smält smör att pensla på direkt efter gräddning (valfritt)',
+                                            'unit': 'msk',
+                                            'val': 2}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Lös upp jästen i den fingervarma mjölken i en degblandare. Tillsätt socker, '
+                                    'kardemumma, salt och hälften av mjölet. Klicka i det mjuka smöret och arbeta '
+                                    'degen kraftigt i maskin i ca 10 minuter medan resterande mjöl tillsätts lite i '
+                                    'taget. Låt jäsa under bakduk i 40 minuter.',
+                            'title': 'Blanda degen och jäs'},
+                        {   'step': 2,
+                            'text': 'Rör samman rumsvarmt smör, farinsocker, strösocker, kanel och vaniljsocker till '
+                                    'en bredbar och krämig kanelfyllning.',
+                            'title': 'Rör ihop kanelfyllningen'},
+                        {   'step': 3,
+                            'text': 'Kavla ut degen till en stor rektangel (ca 40x50 cm) på ett lätt mjölat bakbord. '
+                                    'Bred ut all kanelfyllning jämnt över hela ytan. Rulla ihop degen från långsidan '
+                                    'till en tät rulle.',
+                            'title': 'Kavla, bred fyllning och rulla'},
+                        {   'step': 4,
+                            'text': 'Klä en långpanna (cirka 30x40 cm) med bakplåtspapper. Skär rullen i ca 20 jämnt '
+                                    'tjocka skivor (ca 2,5 cm). Placera bullarna med snittytan uppåt med ca 1–1,5 cm '
+                                    'mellanrum i formen.',
+                            'title': 'Skär bullar och lägg i långpannan'},
+                        {   'step': 5,
+                            'text': 'Täck formen med en ren bakduk och låt bullarna jäsa i ca 45 minuter tills de har '
+                                    'svällt och nuddar varandra. Sätt ugnen på 200°C över- och undervärme.',
+                            'title': 'Jäs ihop till ett brytbröd'},
+                        {   'step': 6,
+                            'text': 'Pensla försiktigt de jästa bullarna med uppvispat ägg och strö över rikligt med '
+                                    'pärlsocker. Grädda mitt i ugnen i ca 20–25 minuter tills de är gyllenbruna och '
+                                    'genomgräddade. Låt svalna något i formen och bryt isär varma bullar!',
+                            'title': 'Pensla, grädda och servera'}],
+    'keywords': 'kanelbullar i långpanna, saftiga kanelbullar långpanna, brytbullar kanel, kanelbullar brytbröd, enkel '
+                'kanelbulle långpanna, baka kanelbullar till många, kanelbullens dag',
+    'long_desc': 'Att baka kanelbullar i långpanna – så kallade brytbullar – är bagerivärldens smartaste hemlighet för '
+                 'att få absolut saftigast bullar. När bullarna placeras tätt i en högkantad ugnsform expanderar de '
+                 'under gräddningen och förenas till ett fantastiskt doftande brytbröd. Eftersom bullarna stödjer '
+                 'varandra torkar inte kanterna ut i ugnen, och det heta smöret med kanel och socker stannar kvar i '
+                 'formens botten och karamelliserar undersidan istället för att rinna ut och brännas vid. Det perfekta '
+                 'sättet att bjuda många på rykande färska kanelbullar!',
+    'nutrition': {'calories': '245 kcal', 'carbs': '35g', 'fat': '10g', 'protein': '4g', 'sugar': '14g'},
+    'portions_num': 20,
+    'portions_unit': 'bullar',
+    'prep_time': 'PT30M',
+    'prep_time_str': '30 min',
+    'pro_tips': 'Använd farinsocker i fyllningen! Farinsockret innehåller rörsockersirap som ger fyllningen en djupare '
+                'kolasmak och hjälper till att hålla bullarna fuktiga och saftiga i flera dagar.',
+    'rating': 4.93,
+    'review_count': 5,
+    'slug': 'saftiga-kanelbullar-i-langpanna',
+    'sub': 'Mjuka och saftiga kanelbullar gräddade tätt i långpanna så ingen fyllning rinner ut',
+    'time': 55,
+    'time_str': '55 min',
+    'title': 'Saftiga Kanelbullar i Långpanna – Enkla Brytbrödsbullar',
+    'total_time': 'PT55M'},
+{   'alt': 'Saftiga äppelmuffins med kanelsmul och havrecrunch brutna i halvor på träskärbräda bredvid röda höstäpplen',
+    'calories': 220,
+    'card_title': 'Saftiga Äppelmuffins',
+    'cat_key': 'fika',
+    'cat_slug': 'fika-och-bakning',
+    'category': 'Fika & Bakning',
+    'community_reviews': [   {   'comment': 'Helt ljuvliga muffins! Kanelsmulet på toppen blev så otroligt krispigt '
+                                            'och äppelbitarna inuti gjorde dem härligt saftiga.',
+                                 'date': '25 september 2026',
+                                 'name': 'Sofia Ekström',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Supergoda att baka nu när trädgården svämmar över av äpplen. Hela '
+                                            'familjens nya favoritfika!',
+                                 'date': '19 september 2026',
+                                 'name': 'Tobias Lundqvist',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Enkla att göra och klara på en dryg halvtimme. Havregrynen i smultäcket '
+                                            'gav perfekt tuggmotstånd.',
+                                 'date': '12 september 2026',
+                                 'name': 'Helena Berg',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Blev fantastiskt höga och fina i muffinsplåten. Doftade kanel i hela '
+                                            'huset.',
+                                 'date': '3 september 2026',
+                                 'name': 'Anna-Karin V.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Perfekt balans mellan sött och syrligt med svenska Ingrid Marie-äpplen.',
+                                 'date': '26 augusti 2026',
+                                 'name': 'Björn O.',
+                                 'rating': 5,
+                                 'verified': True},
+                             {   'comment': 'Bästa äppelmuffinsarna jag provat! Mycket bättre än köpta.',
+                                 'date': '18 augusti 2026',
+                                 'name': 'Frida Söderberg',
+                                 'rating': 5,
+                                 'verified': True}],
+    'cook_time': 'PT18M',
+    'cook_time_str': '18 min',
+    'desc': 'Ljuvligt saftiga äppelmuffins med kanelkryddade äppelbitar i en mjuk vaniljsmet, toppade med ett knäckigt '
+            'kanelsmul med havregryn. Klara på 33 minuter!',
+    'diet': 'Vegetariskt',
+    'difficulty': 'Mycket enkel',
+    'drink_pairing': 'En kopp kryddigt chai-te eller en stor kopp nybryggt kaffe.',
+    'equipment': ['Muffinsplåt (12 st)', 'Muffinsformar i papper', 'Vispskål', 'Rivjärn eller kniv'],
+    'faqs': [   {   'a': 'Svenska syrliga höstäpplen som Ingrid Marie, Gravensteiner eller Cox Orange är oslagbara! '
+                         'Deras friska syra bryter perfekt mot den söta muffinsmeten och havresmulet.',
+                    'q': 'Vilka äpplen är bäst att använda i äppelmuffins?'},
+                {   'a': 'Rör smeten så lite som möjligt! När mjölet tillsätts ska du bara vända ihop smeten med en '
+                         'slickepott tills det torra har blandats. Om du vispar för mycket utvecklas gluten vilket gör '
+                         'muffinsen kompakta och gummiartade istället för fluffiga.',
+                    'q': 'Hur får man muffinsen så där otroligt saftiga och luftiga?'},
+                {   'a': 'Ja, äppelmuffins går utmärkt att frysa in! Tinas i rumstemperatur och kan gärna ljummas i '
+                         'ugnen i ett par minuter så att havresmulet på toppen blir knäckigt krispigt igen.',
+                    'q': 'Går äppelmuffins bra att frysa in?'}],
+    'file': 'saftiga-appelmuffins-kanelsmul.html',
+    'img': 'appelmuffins',
+    'ingredients': [   {   'group': 'Saftig Muffinsmet',
+                           'items': [   {'name': 'äkta smör (smält)', 'unit': 'g', 'val': 100},
+                                        {'name': 'ekologiska ägg', 'unit': 'st', 'val': 2},
+                                        {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                        {'name': 'standardmjölk eller filmjölk', 'unit': 'dl', 'val': 1.25},
+                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 4},
+                                        {'name': 'bakpulver', 'unit': 'tsk', 'val': 2},
+                                        {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1.5},
+                                        {'name': 'salt', 'unit': 'krm', 'val': 1}]},
+                       {   'group': 'Kanelkryddade Äppelbitar',
+                           'items': [   {   'name': 'syrliga svenska äpplen (skalade och tärnade)',
+                                            'unit': 'st',
+                                            'val': 3},
+                                        {'name': 'mald kanel', 'unit': 'tsk', 'val': 1.5},
+                                        {'name': 'strösocker', 'unit': 'msk', 'val': 1}]},
+                       {   'group': 'Knaprigt Kanelsmul (Havrecrunch)',
+                           'items': [   {'name': 'kallt smör (tärnat)', 'unit': 'g', 'val': 40},
+                                        {'name': 'havregryn', 'unit': 'dl', 'val': 0.75},
+                                        {'name': 'vetemjöl', 'unit': 'dl', 'val': 0.5},
+                                        {'name': 'farinsocker eller strösocker', 'unit': 'msk', 'val': 2},
+                                        {'name': 'mald kanel', 'unit': 'tsk', 'val': 1}]}],
+    'instructions': [   {   'step': 1,
+                            'text': 'Sätt ugnen på 200°C över- och undervärme. Placera 12 pappersformar i en '
+                                    'muffinsplåt (muffinsplåten ger muffinsen stöd så att de reser sig högt och inte '
+                                    'flyter ut).',
+                            'title': 'Sätt ugnen och förbered formen'},
+                        {   'step': 2,
+                            'text': 'Skala, kärna ur och tärna äpplena i ca 1 cm stora bitar. Blanda äppelbitarna i en '
+                                    'skål med 1 msk socker och 1,5 tsk kanel så de täcks runt om.',
+                            'title': 'Krydda äppelbitarna'},
+                        {   'step': 3,
+                            'text': 'Nyp ihop kallt smör, havregryn, mjöl, socker och kanel med fingertopparna till '
+                                    'ett smuligt havretäcke i en liten skål.',
+                            'title': 'Gör kanelsmulet'},
+                        {   'step': 4,
+                            'text': 'Smält smöret och rör i mjölken. Vispa ägg och socker lätt i en bunke. Tillsätt '
+                                    'smörmjölken. Blanda de torra ingredienserna (mjöl, bakpulver, vaniljsocker och '
+                                    'salt) i en separat skål och vänd ner i smeten tillsammans med 2/3 av de kryddade '
+                                    'äpplena. Rör bara precis tills smeten går ihop.',
+                            'title': 'Blanda muffinsmeten'},
+                        {   'step': 5,
+                            'text': 'Fördela smeten i de 12 formarna (fyll till ca 3/4). Tryck ner de resterande '
+                                    'äppelbitarna på toppen och strö rikligt med knaprigt kanelsmul över varje '
+                                    'muffins.',
+                            'title': 'Fyll formarna och toppa med smul'},
+                        {   'step': 6,
+                            'text': 'Grädda mitt i ugnen i ca 16–18 minuter tills muffinsen har rest sig fint, fått '
+                                    'vacker gyllene färg och en provsticka kommer ut torr. Låt svalna en stund på '
+                                    'galler. Servera gärna ljumma med en lätt pudring av florsocker!',
+                            'title': 'Grädda och njut'}],
+    'keywords': 'äppelmuffins, saftiga äppelmuffins, äppelmuffins med kanel, äppelmuffins med smuldeg, äppelmuffins '
+                'havregryn, enkla äppelmuffins, höstfika äpplen',
+    'long_desc': 'Dessa saftiga äppelmuffins med krispigt kanelsmul är den ultimata hyllningen till den svenska '
+                 'äppelskörden. Varje tugga bjuder på en ljuvlig kontrast mellan den fluffiga, fuktiga vaniljsmeten, '
+                 'sötsyrliga mjuka äppelbitar med varm kanel och det knapriga smultäcket med rostad havre på toppen. '
+                 'Genom att baka muffinsen i en muffinsplåt tvingas smeten uppåt under gräddningen vilket skapar de '
+                 'där karaktäristiska, höga och vackra bagerikuporna. Doften av nygräddade äpplen och kanel som fyller '
+                 'köket är ren magi en krispig höstdag.',
+    'nutrition': {'calories': '220 kcal', 'carbs': '30g', 'fat': '10g', 'protein': '3g', 'sugar': '15g'},
+    'portions_num': 12,
+    'portions_unit': 'muffins',
+    'prep_time': 'PT15M',
+    'prep_time_str': '15 min',
+    'pro_tips': 'Använd alltid en muffinsplåt med pappersformar! Plåten tvingar smeten att resa sig uppåt istället för '
+                'att flyta ut platt på sidorna, vilket ger höga, saftiga och proffsiga bagerimuffins.',
+    'rating': 4.95,
+    'review_count': 6,
+    'slug': 'saftiga-appelmuffins-kanelsmul',
+    'sub': 'Fluffiga bagerimuffins fyllda med kanelstekta svenska äppelbitar och frasigt havresmul',
+    'time': 33,
+    'time_str': '33 min',
+    'title': 'Saftiga Äppelmuffins med Kanelsmul & Havrecrunch',
+    'total_time': 'PT33M'}
 ]

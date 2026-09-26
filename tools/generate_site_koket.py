@@ -326,10 +326,34 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
             "gammaldags-kycklingsoppa-rotfrukter",
             "gammaldags-kalsoppa-frikadeller"
         ]
+    },
+    "saftiga-kanelbullar-kardemumma": {
+        "title": "🍂 Kanelbullens Dag & Bagerifavoriter",
+        "desc": "Älskar du nybakade kanelbullar? Missa inte dessa oemotståndliga variationer till Kanelbullens dag:",
+        "slugs": [
+            "klassiska-saftiga-kardemummabullar",
+            "klassisk-kanelbullekladdkaka",
+            "saftiga-kanelbullar-i-langpanna",
+            "saftiga-appelmuffins-kanelsmul"
+        ]
+    },
+    "klassiska-vaniljbullar-solbullar": {
+        "title": "☕ Fler Ljuvliga Bageribullar & Höstfika",
+        "desc": "Solbullar med vaniljkräm är underbart – upptäck fler nybakade favoriter från bageriet:",
+        "slugs": [
+            "klassiska-saftiga-kardemummabullar",
+            "klassisk-kanelbullekladdkaka",
+            "saftiga-kanelbullar-i-langpanna",
+            "klassiska-fluffiga-tekakor-havregryn"
+        ]
     }
 }
 
 NEWEST_FALLBACK_POOL = [
+    "klassiska-saftiga-kardemummabullar",
+    "klassisk-kanelbullekladdkaka",
+    "saftiga-kanelbullar-i-langpanna",
+    "saftiga-appelmuffins-kanelsmul",
     "klassisk-fluffig-ugnspannkaka",
     "klassiska-fluffiga-tekakor-havregryn",
     "kramig-blomkalssoppa-knaperstekt-bacon",
@@ -339,11 +363,7 @@ NEWEST_FALLBACK_POOL = [
     "kramig-trattkantarellpasta-parmesan",
     "saftig-appelkaka-i-langpanna",
     "klassisk-ugnsstekt-anka-apelsinsas",
-    "saftiga-tjocka-revbensspjall-i-ugn",
-    "klassisk-fluffig-chokladmousse",
-    "klassiska-dammsugare-punschrullar",
-    "krispiga-rostade-pumpakarnor-i-ugn",
-    "gammaldags-kalsoppa-frikadeller"
+    "saftiga-tjocka-revbensspjall-i-ugn"
 ]
 
 def render_editorial_recommendations(r):
