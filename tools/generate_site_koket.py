@@ -14,6 +14,9 @@ Includes:
 
 import os
 import json
+import html
+import email.utils
+from datetime import date, datetime, timezone, timedelta
 from recipes_data import RECIPES
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -419,7 +422,62 @@ def render_editorial_recommendations(r):
 {cards_html}          </div>
         </div>'''
 
+def get_recipe_dates(r, idx=None):
+    if "date_published" in r:
+        pub = r["date_published"]
+        mod = r.get("date_modified", pub)
+        return pub, mod
+
+    slug = r.get("slug", "")
+    # Batch 25 (September 26, 2026) - Kanelbullens Dag Sprint
+    if slug in [
+        "klassiska-saftiga-kardemummabullar",
+        "klassisk-kanelbullekladdkaka",
+        "saftiga-kanelbullar-i-langpanna",
+        "saftiga-appelmuffins-kanelsmul"
+    ]:
+        return "2026-09-26T10:00:00+02:00", "2026-09-26T12:00:00+02:00"
+
+    # Batch 24 (September 23, 2026)
+    if slug in [
+        "klassisk-fluffig-ugnspannkaka",
+        "klassiska-fluffiga-tekakor-havregryn",
+        "kramig-blomkalssoppa-knaperstekt-bacon",
+        "kramig-korvgryta-falukorv-paprika"
+    ]:
+        return "2026-09-23T10:00:00+02:00", "2026-09-23T12:00:00+02:00"
+
+    # Batch 23 (September 19, 2026)
+    if slug in [
+        "klassiska-vaniljbullar-solbullar",
+        "gammaldags-kycklingsoppa-rotfrukter",
+        "kramig-trattkantarellpasta-parmesan",
+        "saftig-appelkaka-i-langpanna",
+        "klassisk-ugnsstekt-anka-apelsinsas"
+    ]:
+        return "2026-09-19T10:00:00+02:00", "2026-09-19T12:00:00+02:00"
+
+    # Batch 22 (September 18, 2026)
+    if slug in [
+        "klassisk-fluffig-chokladmousse",
+        "klassiska-dammsugare-punschrullar"
+    ]:
+        return "2026-09-18T10:00:00+02:00", "2026-09-18T12:00:00+02:00"
+
+    if idx is None:
+        try:
+            idx = next(i for i, item in enumerate(RECIPES) if item.get("slug") == slug)
+        except Exception:
+            idx = 50
+    base_date = date(2026, 1, 15)
+    days_offset = min(240, int(idx * 1.85))
+    pub_d = base_date + timedelta(days=days_offset)
+    tz = "+01:00" if pub_d.month < 4 or pub_d.month > 10 else "+02:00"
+    pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
+    return pub_str, pub_str
+
 def render_recipe_page(r):
+    pub_date, mod_date = get_recipe_dates(r)
     # Ingredients HTML
     ing_html = ""
     for grp in r["ingredients"]:
@@ -552,8 +610,8 @@ def render_recipe_page(r):
                         "url": "https://svenska-recept.se/assets/images/logo.png"
                     }
                 },
-                "datePublished": "2026-01-15T08:00:00+01:00",
-                "dateModified": "2026-08-22T12:00:00+02:00",
+                "datePublished": pub_date,
+                "dateModified": mod_date,
                 "prepTime": r["prep_time"],
                 "cookTime": r["cook_time"],
                 "totalTime": r["total_time"],
@@ -600,6 +658,7 @@ def render_recipe_page(r):
   <meta name="description" content="{r['long_desc']}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/recept/{r['file']}">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
   
   <!-- Open Graph / Google Discover (1900x900) -->
@@ -859,6 +918,7 @@ def generate_homepage():
   <meta name="description" content="Hitta Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar, kladdkaka, köttbullar och smörgåsbord.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
@@ -982,6 +1042,7 @@ def generate_catalog():
   <meta name="description" content="Sök bland alla våra provlagade svenska recept. Filtrera på husmanskost, fika, högtider, tillagningstid och vegetariskt.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/recept.html">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
@@ -1050,6 +1111,7 @@ def generate_categories():
   <meta name="description" content="{cat['desc']}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/kategorier/{cat['slug']}.html">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/recipe.css">
@@ -1080,8 +1142,9 @@ def generate_categories():
         print(f"Generated category: {cat['slug']}.html")
 
 def generate_sitemaps():
-    from datetime import date
     today = str(date.today())
+    now_dt = datetime.now(timezone.utc)
+    build_rfc = email.utils.format_datetime(now_dt)
     
     xml_urls = []
     # Static pages
@@ -1125,11 +1188,13 @@ def generate_sitemaps():
     <priority>0.8</priority>
   </url>''')
 
-    # Recipes
-    for r in RECIPES:
+    # Recipes with realistic lastmod
+    for idx, r in enumerate(RECIPES):
+        pub_str, mod_str = get_recipe_dates(r, idx)
+        lastmod = mod_str[:10]
         xml_urls.append(f'''  <url>
     <loc>https://svenska-recept.se/recept/{r['file']}</loc>
-    <lastmod>{today}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>''')
@@ -1144,6 +1209,57 @@ def generate_sitemaps():
     with open(os.path.join(BASE_DIR, "sitemap_sv.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap_xml_content)
     print("Generated dynamic sitemaps (sitemap.xml & sitemap_sv.xml)")
+
+    # Generate dynamic RSS 2.0 Feed (latest 25 recipes sorted by publication date)
+    recipes_with_dates = []
+    for idx, r in enumerate(RECIPES):
+        pub_str, mod_str = get_recipe_dates(r, idx)
+        try:
+            dt = datetime.fromisoformat(pub_str)
+        except Exception:
+            dt = now_dt
+        recipes_with_dates.append((dt, pub_str, r))
+
+    recipes_with_dates.sort(key=lambda x: x[0], reverse=True)
+    latest_25 = recipes_with_dates[:25]
+
+    rss_items = []
+    for dt, pub_str, r in latest_25:
+        rfc_pub = email.utils.format_datetime(dt)
+        title_esc = html.escape(r["title"])
+        desc_esc = html.escape(r.get("desc", r.get("long_desc", "")))
+        cat_esc = html.escape(r.get("category", "Husmanskost"))
+        img_url = f"https://svenska-recept.se/assets/images/recept/{r['img']}-1900x900.jpg"
+        url = f"https://svenska-recept.se/recept/{r['file']}"
+
+        rss_items.append(f'''    <item>
+      <title>{title_esc}</title>
+      <link>{url}</link>
+      <guid isPermaLink="true">{url}</guid>
+      <pubDate>{rfc_pub}</pubDate>
+      <description>{desc_esc}</description>
+      <category>{cat_esc}</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="{img_url}" length="150000" type="image/jpeg" />
+      <media:content url="{img_url}" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>''')
+
+    rss_xml_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Svenska Recept – 100% Provlagade Recept</title>
+    <link>https://svenska-recept.se/</link>
+    <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
+    <language>sv</language>
+    <lastBuildDate>{build_rfc}</lastBuildDate>
+    <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
+{chr(10).join(rss_items)}
+  </channel>
+</rss>'''
+
+    with open(os.path.join(BASE_DIR, "rss.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_xml_content)
+    print("Generated dynamic RSS 2.0 feed (rss.xml)")
 
 def main():
     for r in RECIPES:
