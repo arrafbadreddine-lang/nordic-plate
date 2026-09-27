@@ -349,10 +349,54 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
             "saftiga-kanelbullar-i-langpanna",
             "klassiska-fluffiga-tekakor-havregryn"
         ]
+    },
+    "snabba-kanelbullar-utan-jast": {
+        "title": "🍂 Fler Snabba & Saftiga Fikafavoriter",
+        "desc": "Älskar du snabbakat fika? Här är fler ljuvliga godsaker som du svänger ihop på ett kick:",
+        "slugs": [
+            "saftiga-kanelbullemuffins",
+            "kramig-appelkladdkaka-kanel",
+            "klassisk-kanelbullekladdkaka",
+            "klassiska-saftiga-kardemummabullar"
+        ]
+    },
+    "saftiga-kanelbullemuffins": {
+        "title": "🧁 Bagerifavoriter & Kanelfika",
+        "desc": "Muffins och bullar i skön förening. Upptäck fler oemotståndliga kaneldoftande bakverk:",
+        "slugs": [
+            "snabba-kanelbullar-utan-jast",
+            "kramig-appelkladdkaka-kanel",
+            "saftiga-kanelbullar-i-langpanna",
+            "saftiga-appelmuffins-kanelsmul"
+        ]
+    },
+    "klassisk-hemlagad-vaniljsas": {
+        "title": "🍎 Pajer & Kakor som Älskar Vaniljsås",
+        "desc": "Äkta vaniljsås är kronan på verket! Här är höstens allra godaste pajer och kakor att ringla såsen över:",
+        "slugs": [
+            "kramig-appelkladdkaka-kanel",
+            "knackig-appelpaj-havre",
+            "saftig-appelkaka-i-langpanna",
+            "klassisk-blabarspaj-knackigt-smultacke"
+        ]
+    },
+    "kramig-appelkladdkaka-kanel": {
+        "title": "☕ Oemotståndliga Höstkakor & Pajer",
+        "desc": "Kladdkakor och äppelbakverk när hösten är som mysigast. Missa inte dessa ljuvliga recept:",
+        "slugs": [
+            "klassisk-hemlagad-vaniljsas",
+            "klassisk-kanelbullekladdkaka",
+            "saftiga-appelmuffins-kanelsmul",
+            "knackig-appelpaj-havre"
+        ]
     }
 }
 
 NEWEST_FALLBACK_POOL = [
+    "snabba-kanelbullar-utan-jast",
+    "saftiga-kanelbullemuffins",
+    "klassisk-hemlagad-vaniljsas",
+    "kramig-appelkladdkaka-kanel",
     "klassiska-saftiga-kardemummabullar",
     "klassisk-kanelbullekladdkaka",
     "saftiga-kanelbullar-i-langpanna",
@@ -429,6 +473,15 @@ def get_recipe_dates(r, idx=None):
         return pub, mod
 
     slug = r.get("slug", "")
+    # Batch 26 (September 27, 2026) - Kanelbullevecka & Höstfika Sprint
+    if slug in [
+        "snabba-kanelbullar-utan-jast",
+        "saftiga-kanelbullemuffins",
+        "klassisk-hemlagad-vaniljsas",
+        "kramig-appelkladdkaka-kanel"
+    ]:
+        return "2026-09-27T10:00:00+02:00", "2026-09-27T12:00:00+02:00"
+
     # Batch 25 (September 26, 2026) - Kanelbullens Dag Sprint
     if slug in [
         "klassiska-saftiga-kardemummabullar",
