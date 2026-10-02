@@ -389,10 +389,54 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
             "saftiga-appelmuffins-kanelsmul",
             "knackig-appelpaj-havre"
         ]
+    },
+    "klassisk-frasig-raggmunk-i-langpanna": {
+        "title": "🥔 Fler Frasiga Pannkakor & Husmansklassiker",
+        "desc": "Älskar du raggmunk och husman i ugn? Upptäck fler älskade klassiker:",
+        "slugs": [
+            "klassiska-tunna-pannkakor",
+            "frasig-flaskpannkaka-langpanna",
+            "frasig-raggmunk-stekt-flask",
+            "klassisk-fluffig-ugnspannkaka"
+        ]
+    },
+    "klassiska-tunna-pannkakor": {
+        "title": "🥞 Mer Frasigt, Fluffigt & Gott till Bordet",
+        "desc": "Svenska pannkakor när de är som allra bäst. Missa inte dessa relaterade favoriter:",
+        "slugs": [
+            "klassisk-frasig-raggmunk-i-langpanna",
+            "klassisk-kramig-svampstuvning",
+            "frasig-flaskpannkaka-langpanna",
+            "klassisk-fluffig-ugnspannkaka"
+        ]
+    },
+    "klassisk-kramig-svampstuvning": {
+        "title": "🍄 Oemotståndliga Hösträtter & Svamprecept",
+        "desc": "Krämig svampstuvning är ren lyx. Här är fler mustiga hösträtter:",
+        "slugs": [
+            "kramig-champinjonsoppa-timjan",
+            "klassisk-kantarelltoast-vasterbottensost",
+            "kramig-trattkantarellpasta-parmesan",
+            "kramig-kantarellpaj-vasterbottensost"
+        ]
+    },
+    "kramig-champinjonsoppa-timjan": {
+        "title": "🍲 Värmande Höstsoppor & Grytor",
+        "desc": "Finns det något godare än en rykande het soppa? Upptäck våra mest populära soppor:",
+        "slugs": [
+            "klassisk-kramig-svampstuvning",
+            "klassisk-cowboysoppa-kottfars-potatis",
+            "klassisk-ungersk-gulaschsoppa-hogrev",
+            "gammaldags-kottsoppa-hogrev-klimp"
+        ]
     }
 }
 
 NEWEST_FALLBACK_POOL = [
+    "klassisk-frasig-raggmunk-i-langpanna",
+    "klassiska-tunna-pannkakor",
+    "klassisk-kramig-svampstuvning",
+    "kramig-champinjonsoppa-timjan",
     "snabba-kanelbullar-utan-jast",
     "saftiga-kanelbullemuffins",
     "klassisk-hemlagad-vaniljsas",
@@ -404,13 +448,7 @@ NEWEST_FALLBACK_POOL = [
     "klassisk-fluffig-ugnspannkaka",
     "klassiska-fluffiga-tekakor-havregryn",
     "kramig-blomkalssoppa-knaperstekt-bacon",
-    "kramig-korvgryta-falukorv-paprika",
-    "klassiska-vaniljbullar-solbullar",
-    "gammaldags-kycklingsoppa-rotfrukter",
-    "kramig-trattkantarellpasta-parmesan",
-    "saftig-appelkaka-i-langpanna",
-    "klassisk-ugnsstekt-anka-apelsinsas",
-    "saftiga-tjocka-revbensspjall-i-ugn"
+    "kramig-korvgryta-falukorv-paprika"
 ]
 
 def render_editorial_recommendations(r):
@@ -473,6 +511,15 @@ def get_recipe_dates(r, idx=None):
         return pub, mod
 
     slug = r.get("slug", "")
+    # Batch 27 (October 2, 2026) - GSC Mega-Hits & Autumn Comfort Sprint
+    if slug in [
+        "klassisk-frasig-raggmunk-i-langpanna",
+        "klassiska-tunna-pannkakor",
+        "klassisk-kramig-svampstuvning",
+        "kramig-champinjonsoppa-timjan"
+    ]:
+        return "2026-10-02T10:00:00+02:00", "2026-10-02T12:00:00+02:00"
+
     # Batch 26 (September 27, 2026) - Kanelbullevecka & Höstfika Sprint
     if slug in [
         "snabba-kanelbullar-utan-jast",

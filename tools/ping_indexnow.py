@@ -14,10 +14,10 @@ INDEXNOW_KEY = "a2109b2efe5e4c06a52006e841b53b13"
 HOST = "svenska-recept.se"
 
 DEFAULT_URLS = [
-    "https://svenska-recept.se/recept/snabba-kanelbullar-utan-jast.html",
-    "https://svenska-recept.se/recept/saftiga-kanelbullemuffins.html",
-    "https://svenska-recept.se/recept/klassisk-hemlagad-vaniljsas.html",
-    "https://svenska-recept.se/recept/kramig-appelkladdkaka-kanel.html",
+    "https://svenska-recept.se/recept/klassisk-frasig-raggmunk-i-langpanna.html",
+    "https://svenska-recept.se/recept/klassiska-tunna-pannkakor.html",
+    "https://svenska-recept.se/recept/klassisk-kramig-svampstuvning.html",
+    "https://svenska-recept.se/recept/kramig-champinjonsoppa-timjan.html",
 ]
 
 def ping(urls=None):

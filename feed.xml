@@ -5,8 +5,52 @@
     <link>https://svenska-recept.se/</link>
     <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
     <language>sv</language>
-    <lastBuildDate>Sun, 27 Sep 2026 12:59:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:05:54 +0000</lastBuildDate>
     <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Klassisk Frasig Raggmunk i Långpanna – Enkelt &amp; Otroligt Gott Recept</title>
+      <link>https://svenska-recept.se/recept/klassisk-frasig-raggmunk-i-langpanna.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-frasig-raggmunk-i-langpanna.html</guid>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Baka världens godaste frasiga raggmunk i långpanna med rimmat fläsk och rårörda lingon. All smak från klassisk raggmunk men smidigt i ugn utan stekos!</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/raggmunk-i-langpanna-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/raggmunk-i-langpanna-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassiska Tunna Pannkakor – Grundrecept med Frasiga Kanter</title>
+      <link>https://svenska-recept.se/recept/klassiska-tunna-pannkakor.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-tunna-pannkakor.html</guid>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Stek perfekta tunna pannkakor med frasiga kanter enligt mormors klassiska grundrecept. Enkla proportioner som alltid lyckas till torsdagssoppan eller helgfikat!</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/tunna-pannkakor-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/tunna-pannkakor-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Krämig Svampstuvning – Perfekt till Varma Mackor &amp; Toast</title>
+      <link>https://svenska-recept.se/recept/klassisk-kramig-svampstuvning.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-svampstuvning.html</guid>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Recept på äkta krämig svampstuvning med champinjoner, timjan och vispgrädde. Oslagbart gott till varma mackor, crêpes eller en saftig köttbit på 20 minuter!</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/svampstuvning-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/svampstuvning-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Krämig Champinjonsoppa med Vitlök &amp; Färsk Timjan – Värmande Höstsoppa</title>
+      <link>https://svenska-recept.se/recept/kramig-champinjonsoppa-timjan.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-champinjonsoppa-timjan.html</guid>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Laga en underbart krämig och fyllig champinjonsoppa med vitlök, timjan och vispgrädde på 30 minuter. Höstens mest värmande vardagsmiddag och förrätt!</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/champinjonsoppa-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/champinjonsoppa-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
     <item>
       <title>Snabba Kanelbullar utan Jäst – Baka på 30 Minuter med Bakpulver</title>
       <link>https://svenska-recept.se/recept/snabba-kanelbullar-utan-jast.html</link>
@@ -237,50 +281,6 @@
       <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
       <enclosure url="https://svenska-recept.se/assets/images/recept/laxpaj-1900x900.jpg" length="150000" type="image/jpeg" />
       <media:content url="https://svenska-recept.se/assets/images/recept/laxpaj-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Gammaldags Kålsoppa med Frikadeller &amp; Mörk Sirap</title>
-      <link>https://svenska-recept.se/recept/gammaldags-kalsoppa-frikadeller.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/gammaldags-kalsoppa-frikadeller.html</guid>
-      <pubDate>Sun, 30 Aug 2026 09:00:00 +0200</pubDate>
-      <description>Ett riktigt klassiskt svenskt recept på gammaldags kålsoppa med möra frikadeller och smörstekt vitkål sötad med mörk sirap. Fyllig buljong med kryddpeppar som värmer i höstkylan.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/kalsoppa-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/kalsoppa-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krispiga Rostade Pumpakärnor i Ugn med Flingsalt &amp; Paprika</title>
-      <link>https://svenska-recept.se/recept/krispiga-rostade-pumpakarnor-i-ugn.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/krispiga-rostade-pumpakarnor-i-ugn.html</guid>
-      <pubDate>Fri, 28 Aug 2026 09:00:00 +0200</pubDate>
-      <description>Lätt och oemotståndligt recept på krispiga rostade pumpakärnor i ugn. Kryddade med havssalt och rökt paprika för maximal crunch och fyllig nötsmak.</description>
-      <category>Högtider &amp; Smörgåsbord</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/rostade-pumpakarnor-hd-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/rostade-pumpakarnor-hd-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krämig Lövbiffsgryta med Dijonsenap, Champinjoner &amp; Persilja</title>
-      <link>https://svenska-recept.se/recept/kramig-lovbiffsgryta-dijon-champinjoner.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-lovbiffsgryta-dijon-champinjoner.html</guid>
-      <pubDate>Wed, 26 Aug 2026 09:00:00 +0200</pubDate>
-      <description>Supersnabb och lyxig lövbiffsgryta med strimlad lövbiff, färska champinjoner, dijonsenap och vispgrädde. En av Sveriges mest älskade vardagsfavoriter som smakar som på restaurang.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/lovbiffsgryta-hd-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/lovbiffsgryta-hd-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Fars Dag Tårta med Choklad, Hallon &amp; Len Vaniljkräm</title>
-      <link>https://svenska-recept.se/recept/klassisk-fars-dag-tarta-choklad-bar.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-fars-dag-tarta-choklad-bar.html</guid>
-      <pubDate>Tue, 25 Aug 2026 09:00:00 +0200</pubDate>
-      <description>Klassiskt och oemotståndligt recept på fars dag tårta! Hög, saftig chokladbotten fylld med len vaniljkräm, rårörda hallon och krämig chokladmousse.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/fars-dag-tarta-hd-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/fars-dag-tarta-hd-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
   </channel>
 </rss>
