@@ -14,10 +14,12 @@ INDEXNOW_KEY = "a2109b2efe5e4c06a52006e841b53b13"
 HOST = "svenska-recept.se"
 
 DEFAULT_URLS = [
-    "https://svenska-recept.se/recept/klassisk-frasig-raggmunk-i-langpanna.html",
-    "https://svenska-recept.se/recept/klassiska-tunna-pannkakor.html",
-    "https://svenska-recept.se/recept/klassisk-kramig-svampstuvning.html",
-    "https://svenska-recept.se/recept/kramig-champinjonsoppa-timjan.html",
+    "https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html",
+    "https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html",
+    "https://svenska-recept.se/recept/klassiska-sma-plattar.html",
+    "https://svenska-recept.se/recept/klassisk-kramig-rotfruktssoppa-timjan.html",
+    "https://svenska-recept.se/recept/segmjuka-kolasnittar-kolakakor.html",
+    "https://svenska-recept.se/recept/kramig-lovbiffsgryta-dijon-champinjoner.html",
 ]
 
 def ping(urls=None):

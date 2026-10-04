@@ -5,7 +5,7 @@
     <link>https://svenska-recept.se/</link>
     <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
     <language>sv</language>
-    <lastBuildDate>Fri, 02 Oct 2026 14:05:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:26:24 +0000</lastBuildDate>
     <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Klassisk Frasig Raggmunk i Långpanna – Enkelt &amp; Otroligt Gott Recept</title>
@@ -261,26 +261,26 @@
       <media:content url="https://svenska-recept.se/assets/images/recept/dammsugare-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
     <item>
-      <title>Saftiga Tjocka Revbensspjäll i Ugn med Äppel- &amp; Honungsglaze</title>
-      <link>https://svenska-recept.se/recept/saftiga-tjocka-revbensspjall-i-ugn.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/saftiga-tjocka-revbensspjall-i-ugn.html</guid>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Bästa receptet på tjocka revbensspjäll i ugn! Först långsamt ugnsbakade under folie till smältande mörhet, sedan penslade med fyllig äppel- och honungsglaze för perfekt knäckig yta.</description>
-      <category>Högtider &amp; Smörgåsbord</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/revbensspjall-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/revbensspjall-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krämig Laxpaj med Varmrökt Lax, Spenat &amp; Västerbottensost</title>
-      <link>https://svenska-recept.se/recept/kramig-laxpaj-spenat-vasterbottensost.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-laxpaj-spenat-vasterbottensost.html</guid>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Underbart recept på krämig laxpaj med varmrökt lax, babyspenat, massor av dill och riven Västerbottensost i ett frasigt pajskal. Perfekt till helgmiddagen eller buffén.</description>
+      <title>Mustig Gulaschsoppa med Köttfärs &amp; Potatis – Snabb Köttfärsgulasch</title>
+      <link>https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</guid>
+      <pubDate>Sat, 12 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Fyllig och värmande gulaschsoppa på nötfärs, tärnad potatis och paprika smaksatt med kummin och vitlök. Klart på 30 minuter.</description>
       <category>Husmanskost</category>
       <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/laxpaj-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/laxpaj-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+      <enclosure url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Krämig Fisksoppa med Lax, Torsk &amp; Dill – Lyxig &amp; Enkel</title>
+      <link>https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</guid>
+      <pubDate>Sat, 12 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Sammetslen och lyxig fisksoppa med lax, torskrygg, purjolök, rotfrukter, vitt vin och rikligt med färsk dill. Klart på 35 minuter.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
   </channel>
 </rss>
