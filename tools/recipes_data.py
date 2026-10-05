@@ -2540,8 +2540,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'parmesan.',
                                 'timer': 2,
                                 'title': 'Blanda med pasta & servera'}],
-        'keywords': 'kycklingpasta, krämig kycklingpasta, kycklingpasta med soltorkade tomater, pasta med kyckling och '
-                    'spenat, snabb kycklingpasta',
+        'keywords': 'krämig kycklingpasta, kycklingpasta recept, snabb kycklingpasta, kycklingpasta soltorkade '
+                    'tomater, enkel kycklingpasta vardag, pasta med kyckling och parmesan',
         'long_desc': 'Sveriges mest efterfrågade vardagslyx! På under 25 minuter svänger du ihop denna krämiga '
                      'kycklingpasta med italienska smaker. Oljan från de soltorkade tomaterna steks tillsammans med '
                      'vitlök och kyckling för att ge maximal smak åt såsen.',
@@ -2555,10 +2555,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'rating': 4.97,
         'review_count': 10,
         'slug': 'kramig-kycklingpasta-soltorkade-tomater',
-        'sub': 'Stekt kycklingfilé, tagliatelle, parmesan & soltorkade tomater',
+        'sub': 'Stekt saftig kycklingfilé, tagliatelle och bladspenat i en fyllig gräddsås med soltorkade tomater och '
+               'parmesan',
         'time': 25,
         'time_str': '25 min',
-        'title': 'Krämig Kycklingpasta med Soltorkade Tomater & Spenat',
+        'title': 'Krämig Kycklingpasta – Världens Godaste Vardagsmiddag på 20 min',
         'total_time': 'PT25M'},
     {   'alt': 'Närbild på en saftig portionsbit krämig potatisgratäng med gyllenbrunt gräddat osttäcke och synliga '
                'potatislager',
@@ -6361,8 +6362,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'kanterna. Låt svalna helt på galler så blir de underbart spröda.',
                                 'timer': 11,
                                 'title': 'Grädda i ugnen'}],
-        'keywords': 'hallongrottor, hallongrottor recept, spröda hallongrottor, syltkakor, baka hallongrottor, '
-                    'klassiska hallongrottor, bästa hallongrottorna',
+        'keywords': 'hallongrottor recept, bästa hallongrottor, klassiska hallongrottor, mormors hallongrottor, spröda '
+                    'hallongrottor, småkakor med sylt, baka hallongrottor',
         'long_desc': 'Hallongrottor är fantastiskt enkla att baka och blir alltid succé på fikabordet. Tricket för att '
                      'få dem så där underbart spröda och smältande i munnen är att använda lite marsanpulver eller '
                      'potatismjöl i mördegen och baka dem i små veckade pappersformar.',
@@ -6376,10 +6377,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'rating': 4.99,
         'review_count': 9,
         'slug': 'klassiska-hallongrottor-smor-vanilj',
-        'sub': 'Möra, spröda mördegskakor fyllda med söt hallonsylt & vanilj',
+        'sub': 'Underbart spröda och smöriga mördegskakor fyllda med söt hallonsylt och äkta vanilj – klassiskt fika '
+               'som smälter i munnen',
         'time': 25,
         'time_str': '25 min',
-        'title': 'Klassiska Hallongrottor med Äkta Smör & Vanilj',
+        'title': 'Klassiska Hallongrottor – Mormors Bästa & Möraste Recept',
         'total_time': 'PT25M'},
     {   'alt': 'Närbild på en gjutjärnspanna med tjock skånsk äggakaka toppad med knaperstekta fläskskivor, rårörda '
                'lingon och gräslök',
@@ -8030,8 +8032,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'med färska hallon och en klick lättvispad grädde.',
                                 'timer': 10,
                                 'title': 'Svalna och servera'}],
-        'keywords': 'kladdkakemuffins recept, kladdkaka i muffinsformar, enkla kladdkakemuffins, chokladmuffins '
-                    'kladdiga, snabb fika recept',
+        'keywords': 'kladdkakemuffins, bästa kladdkakemuffins, kladdkakemuffins recept, världens godaste '
+                    'kladdkakemuffins, enkla kladdkakemuffins, kladdkakemuffins choklad',
         'long_desc': 'Det ultimata fikat när du vill ha kladdkaka i smidigt portionsformat! Dessa kladdkakemuffins '
                      'rörs ihop på några minuter utan elvisp och gräddas till perfektion: krispig yta på toppen och en '
                      'ljuvligt kladdig, mjuk fudge mitt.',
@@ -8045,10 +8047,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'rating': 4.97,
         'review_count': 8,
         'slug': 'klassiska-kladdkakemuffins-choklad',
-        'sub': 'Superenkla chokladmuffins med rinnande mitt',
+        'sub': 'Superenkla och magiskt goda kladdkakemuffins med rinnande chokladkärna och frasig yta – klara på 15 '
+               'minuter',
         'time': 20,
         'time_str': '20 min',
-        'title': 'Klassiska Kladdkakemuffins – Frasig Yta & Kladdig Kärna',
+        'title': 'Klassiska Kladdkakemuffins – Världens Godaste & Kladdigaste Recept (15 min)',
         'total_time': 'PT20M'},
     {   'alt': 'Klassisk krämig köttfärsgratäng med skivad potatis och bubblande gratinerad ost i form',
         'calories': 560,
@@ -10390,8 +10393,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'gyllenbrun färg. Låt vila i 5 minuter före servering så sätter sig såsen '
                                         'fint. Toppa med hackad persilja och servera med sallad.',
                                 'title': 'Gratinera och garnera'}],
-        'keywords': 'kasslergratäng recept, kasslergratäng med ris, krämig kasslergratäng, kasslergratäng curry, enkel '
-                    'kasslergratäng, kassler i ugn ris',
+        'keywords': 'kasslergratäng med ris, enkel kasslergratäng, kasslergratäng curry, klassisk kasslergratäng, '
+                    'kasslerlåda, vardagsmat kassler, snabb gratäng med ris och kassler',
         'long_desc': 'Kasslergratäng med ris är en odödlig klassiker i den svenska vardagsrepertoaren! Den rökta, '
                      'saftiga kasslern kombineras med fluffigt kokt ris, mild purjolök och söt paprika i en ugnsfast '
                      'form. Allt binds samman av en fyllig curry- och gräddsås med en gnutta chilisås och toppas med '
@@ -10408,10 +10411,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'rating': 4.88,
         'review_count': 7,
         'slug': 'klassisk-kasslergratang-ris-curry',
-        'sub': 'Krämig ugnslåda med rökt kassler, currygräddsås & osttäcke',
+        'sub': 'Underbart krämig gratäng med strimlad rökt kassler, ris, paprika och mild currygräddsås under gyllene '
+               'osttäcke',
         'time': 40,
         'time_str': '40 min',
-        'title': 'Klassisk Kasslergratäng med Ris, Curry & Paprika',
+        'title': 'Klassisk Kasslergratäng med Ris & Curry – Enkel & Krämig Vardagsfavorit',
         'total_time': 'PT40M'},
     {   'alt': 'Frasig gyllenbrun ost- och skinkpaj med uppskuren bit som visar krämig fyllning med skinka och smält '
                'ost',
@@ -14841,8 +14845,8 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                                         'ljummen, eller plasta mot ytan (för att undvika hinna) och kyl i kylskåp i '
                                         'minst 1 timme.',
                                 'title': 'Sila och servera'}],
-        'keywords': 'hemlagad vaniljsås, vaniljsås recept, vaniljsås från grunden, äkta vaniljsås, vaniljsås '
-                    'vaniljstång, sås till äppelpaj, vaniljsås äggulor',
+        'keywords': 'vaniljsås, äkta vaniljsås, vaniljsås recept, mormors vaniljsås, hemlagad vaniljsås, kokt '
+                    'vaniljsås, godaste vaniljsåsen, vaniljsås till äppelpaj',
         'long_desc': 'Det finns få saker som lyfter en nygräddad paj, bärdessert eller kaka som en äkta, hemlagad '
                      'vaniljsås kokad från grunden. Att göra egen vaniljsås är förvånansvärt enkelt och tar bara 15 '
                      'minuter – men skillnaden mot pulver- eller köpt sås är som natt och dag. Hemligheten ligger i '
@@ -14862,10 +14866,11 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'rating': 4.95,
         'review_count': 6,
         'slug': 'klassisk-hemlagad-vaniljsas',
-        'sub': 'Silkeslen vaniljsås kokad på äkta vaniljstång, äggulor och grädde – oslagbar till höstens äppelpajer',
+        'sub': 'Silkeslen äkta vaniljsås kokad på vaniljstång, äggulor och grädde – oslagbar till höstens alla '
+               'äppelpajer',
         'time': 15,
         'time_str': '15 min',
-        'title': 'Klassisk Hemlagad Vaniljsås – Krämig & Äkta från Grunden',
+        'title': 'Klassisk Vaniljsås – Mormors Äkta Recept från Grunden (15 min)',
         'total_time': 'PT15M'},
     {   'alt': 'En generös tårtbit krämig äppelkladdkaka med kanelstekta äppelskivor och rostad mandel på en '
                'keramikassiet',
@@ -16139,4 +16144,559 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 40,
         'time_str': '40 min',
         'title': 'Klassisk Krämig Rotfruktssoppa med Timjan – Höstens Godaste Soppa',
-        'total_time': 'PT40M'}]
+        'total_time': 'PT40M'},
+    {   'alt': 'Gyllenbrun frasig hasselbackspotatis penslad med smör och ströbröd i rustik ugnsform med färsk timjan',
+        'calories': 240,
+        'card_title': 'Klassisk Hasselbackspotatis',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Tricket med träsleven är genialt! Har alltid råkat skära igenom '
+                                                'innan, men nu blev varenda potatis perfekt som på restaurang.',
+                                     'date': '4 oktober 2026',
+                                     'name': 'Bengt Larsson',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Krispiga på utsidan och smörigt mjuka inuti. Åt tillsammans med '
+                                                'söndagssteken, ren perfektion!',
+                                     'date': '29 september 2026',
+                                     'name': 'Camilla Nordin',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Panko och lite riven västerbottensost på slutet gjorde succé. Bästa '
+                                                'hasselbackspotatisen jag ätit.',
+                                     'date': '22 september 2026',
+                                     'name': 'Johan S.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Enkelt recept med tydliga steg. Penslingen i två omgångar är '
+                                                'verkligen nyckeln till frasigheten.',
+                                     'date': '16 september 2026',
+                                     'name': 'Anna Lind',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Fem stjärnor! Barnen älskar när de ser ut som små igelkottar.',
+                                     'date': '8 september 2026',
+                                     'name': 'Henrik G.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Jättegott och klassiskt. Perfekt till helgmiddagen.',
+                                     'date': '1 september 2026',
+                                     'name': 'Lars-Erik M.',
+                                     'rating': 4,
+                                     'verified': True}],
+        'cook_time': 'PT35M',
+        'cook_time_str': '35 min',
+        'desc': 'Klassisk svensk hasselbackspotatis med tunna skivor, rikligt med smör, ströbröd och flingsalt. '
+                'Krispig på ytan och mjuk inuti.',
+        'diet': 'Vegetariskt, Glutenfritt alternativ',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett fylligt rött vin (t.ex. Rioja eller Cabernet Sauvignon), en god lageröl eller kolsyrat '
+                         'mineralvatten med citron.',
+        'equipment': ['Träslev (som skärstopp)', 'Vass kockkniv', 'Ugnsform', 'Bakpensel'],
+        'faqs': [   {   'a': 'Välj en fast potatissort av medelstorlek, till exempel Asterix, Folva eller King Edward. '
+                             'Fasta potatisar håller ihop vackert och behåller solfjädersformen i ugnen.',
+                        'q': 'Vilken potatissort är bäst för hasselbackspotatis?'},
+                    {   'a': 'Hemligheten är tvåstegsgräddningen! Pensla först med smör, och tillsätt ströbrödet först '
+                             'efter 25 minuter när skivorna har öppnat sig. Då bränns inte ströbrödet utan blir '
+                             'perfekt krispigt.',
+                        'q': 'Hur får man hasselbackspotatisen extra frasig?'},
+                    {   'a': 'Ja! Du kan skala och skära potatisarna några timmar i förväg. Lägg dem i en skål med '
+                             'kallt vatten så de inte mörknar. Torka av dem noga med hushållspapper innan de penslas '
+                             'med smör och sätts i ugnen.',
+                        'q': 'Kan man förbereda hasselbackspotatis i förväg?'}],
+        'file': 'klassisk-frasig-hasselbackspotatis.html',
+        'img': 'hasselbackspotatis',
+        'ingredients': [   {   'group': 'Potatis & Stekyta',
+                               'items': [   {   'name': 'potatisar (jämnstora, fast sort, t.ex. Asterix eller Folva)',
+                                                'unit': 'st',
+                                                'val': 8},
+                                            {'name': 'smör (smält)', 'unit': 'g', 'val': 50},
+                                            {'name': 'ströbröd (gärna panko för extra krisp)', 'unit': 'msk', 'val': 2},
+                                            {'name': 'flingsalt', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'nymalen svartpeppar', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Valfri Smaksättning & Garnering',
+                               'items': [   {'name': 'färsk timjan (repad)', 'unit': 'msk', 'val': 1},
+                                            {   'name': 'vitlöksklyfta (finriven, blandad i smöret)',
+                                                'unit': 'st',
+                                                'val': 1},
+                                            {   'name': 'vällagrad prästost eller parmesan (finriven)',
+                                                'unit': 'dl',
+                                                'val': 0.5}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 225°C över-/undervärme (eller 200°C varmluft). Smörj en '
+                                        'ugnsfast form med en klick smör.',
+                                'title': 'Sätt ugnen och förbered formen'},
+                            {   'step': 2,
+                                'text': 'Skala potatisarna (eller behåll skalet på om du använder fin '
+                                        'delikatesspotatis). Lägg en potatis i taget i en träslev. Skär täta, tunna '
+                                        'skivor (ca 2–3 mm) tvärs över potatisen. Slevens kant förhindrar att du råkar '
+                                        'skära hela vägen igenom.',
+                                'title': 'Skala och skär potatisen i solfjäder'},
+                            {   'step': 3,
+                                'text': 'Placera potatisarna med den skårade sidan uppåt i ugnsformen. Smält smöret '
+                                        '(blanda eventuellt i lite riven vitlök) och pensla potatisarna rikligt med '
+                                        'hälften av smöret. Strö över salt och peppar.',
+                                'title': 'Lägg i formen och pensla första gången'},
+                            {   'step': 4,
+                                'text': 'Sätt in potatisen mitt i ugnen och baka i ca 25 minuter. Under denna tid '
+                                        'öppnar sig de fina skivorna vackert som en solfjäder.',
+                                'title': 'Baka första omgången i ugnen'},
+                            {   'step': 5,
+                                'text': 'Ta ut formen. Pensla potatisarna generöst med resten av det smälta smöret så '
+                                        'det rinner ner mellan alla skivor. Strö över ströbröd och eventuellt lite '
+                                        'riven ost eller extra flingsalt.',
+                                'title': 'Pensla igen och toppa med ströbröd'},
+                            {   'step': 6,
+                                'text': 'Ställ tillbaka i ugnen i ytterligare ca 15–20 minuter tills potatisen är helt '
+                                        'mjuk rakt igenom (känn med en provsticka) och toppen är frasig och djupt '
+                                        'gyllenbrun. Garnera med färsk timjan och servera rykande het!',
+                                'title': 'Grädda gyllenbrun och servera'}],
+        'keywords': 'hasselbackspotatis, hasselbackspotatis recept, frasig hasselbackspotatis, klassisk '
+                    'hasselbackspotatis, potatis i ugn, tillbehör söndagsstek, mormors hasselbackspotatis, ugnsstekt '
+                    'potatis ströbröd smör',
+        'long_desc': 'Hasselbackspotatis är utan tvekan en av Sveriges mest ikoniska och älskade potatisrätter genom '
+                     'tiderna. Rätten skapades på 1950-talet av kockeleven Leif Elisson på anrika Restaurang '
+                     'Hasselbacken på Djurgården i Stockholm, och blev snabbt en självklar favorit på svenska '
+                     'middagsbord. Hemligheten bakom en oemotståndlig hasselbackspotatis ligger i de täta, '
+                     'millimeterfina snitten som öppnar upp sig som en solfjäder i ugnens hetta. När potatisen penslas '
+                     'i omgångar med smält smör rinner fettet ner mellan skivorna och gör insidan ljuvligt mjuk och '
+                     'nötig, medan utsidan toppas med ströbröd och flingsalt som rostas till en makalöst frasig yta. '
+                     'Den perfekta kompanjonen till höstens söndagsstekar, viltgrytor, helgbiffar eller ugnsbakad lax!',
+        'nutrition': {'calories': '240 kcal', 'carbs': '32g', 'fat': '12g', 'protein': '4g', 'sugar': '2g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Lägg potatisen i en träslev när du skär snitten! Sleven hindrar kniven från att skära hela vägen '
+                    'igenom potatisen så att alla vackra solfjäderskivor håller ihop perfekt. Pensla dessutom med '
+                    'smält smör två till tre gånger under gräddningen för ultimat frasighet.',
+        'rating': 4.96,
+        'review_count': 6,
+        'slug': 'klassisk-frasig-hasselbackspotatis',
+        'sub': 'Klassiskt recept på hasselbackspotatis med tunna skivor, rikligt med smör, ströbröd och flingsalt – '
+               'krispig yta och mjuk insida',
+        'time': 50,
+        'time_str': '50 min',
+        'title': 'Klassisk Frasig Hasselbackspotatis – Perfekt Stekyta & Smörsmak',
+        'total_time': 'PT50M'},
+    {   'alt': 'Skivad mör porterstek översköljd med fyllig portersås, svartvinbärsgelé och kokt potatis på fat',
+        'calories': 560,
+        'card_title': 'Klassisk Porterstek',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Detta recept är en ren nationalskatt! Köttet blev så otroligt mört '
+                                                'och såsen är utan tvekan den godaste gräddsås jag någonsin smakat.',
+                                     'date': '4 oktober 2026',
+                                     'name': 'Eva-Lena Lindholm',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde denna till söndagsmiddag för släkten. Alla berömde såsen och '
+                                                'tog om tre gånger. Serverade med hasselbackspotatis och gelé.',
+                                     'date': '27 september 2026',
+                                     'name': 'Per Olofsson',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Klassisk mormorsmat när den är som allra bäst. Att låta steken vila i '
+                                                'spadet gjorde den fantastiskt saftig.',
+                                     'date': '20 september 2026',
+                                     'name': 'Margareta B.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde på älgstek från helgens jakt, blev magiskt gott! Portern och '
+                                                'enbären passade perfekt till viltsmaken.',
+                                     'date': '14 september 2026',
+                                     'name': 'Stefan Dahl',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Så smidigt att steken sköter sig själv i grytan. 5 av 5 stjärnor!',
+                                     'date': '7 september 2026',
+                                     'name': 'Kerstin W.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Bästa portersteken på nätet. Tydliga instruktioner som var lätta att '
+                                                'följa.',
+                                     'date': '31 augusti 2026',
+                                     'name': 'Anders K.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Jättegod! Jag tog i en nypa extra timjan och svartvinbärsgelé i såsen '
+                                                'vilket blev pricken över i:et.',
+                                     'date': '24 augusti 2026',
+                                     'name': 'Helena R.',
+                                     'rating': 4,
+                                     'verified': True}],
+        'cook_time': 'PT90M',
+        'cook_time_str': '1 tim 30 min',
+        'desc': 'Traditionell svensk porterstek på nötstek sjuden i mörk porter, svartvinbärssaft, soja och enbär. '
+                'Serveras med en himmelsk portersås.',
+        'diet': 'Klassisk husmanskost',
+        'difficulty': 'Medel',
+        'drink_pairing': 'En mörk porteröl (t.ex. Carnegie Porter), ett kraftigt rödvin som Côtes du Rhône, eller '
+                         'alkoholfri svartvinbärsdricka.',
+        'equipment': ['Tjockbottnad gjutjärnsgryta med lock', 'Kötttermometer', 'Sil', 'Skärbräda & vass förskärare'],
+        'faqs': [   {   'a': 'Nötfransyska är den klassiska favoriten eftersom den håller ihop fint och blir otroligt '
+                             'saftig vid sjudning. Rostbiff, innanlår, märgpipa eller älgstek fungerar också alldeles '
+                             'utmärkt.',
+                        'q': 'Vilken styckdetalj passar bäst till porterstek?'},
+                    {   'a': 'Ja, porterstek är faktiskt perfekt att laga i förväg! Låt steken svalna helt i sitt spad '
+                             'i kylskåpet över natten. Dagen efter är det superenkelt att skära tunna skivor av det '
+                             'kalla köttet, värma dem i den varma såsen och servera.',
+                        'q': 'Kan man förbereda porterstek dagen innan?'},
+                    {   'a': 'Nej, absolut inte! Alkoholen dunstar bort under sjudningen och ölets malttoner smälter '
+                             'samman med svartvinbärets syrliga sötma och grädden till en otroligt rund, djup och '
+                             'fyllig gräddsås.',
+                        'q': 'Smakar såsen mycket öl?'}],
+        'file': 'klassisk-porterstek-svartvinbar-graddsas.html',
+        'img': 'porterstek',
+        'ingredients': [   {   'group': 'Stek & Sjudningslag',
+                               'items': [   {   'name': 'nötstek (t.ex. fransyska, rostbiff eller högrev)',
+                                                'unit': 'kg',
+                                                'val': 1.2},
+                                            {'name': 'mörk porteröl (33 cl flaska)', 'unit': 'flaska', 'val': 1},
+                                            {   'name': 'outspädd svartvinbärssaft (svart vinbärssirap)',
+                                                'unit': 'dl',
+                                                'val': 1},
+                                            {'name': 'kinesisk soja', 'unit': 'dl', 'val': 0.75},
+                                            {'name': 'gul lök (skuren i klyftor)', 'unit': 'st', 'val': 1},
+                                            {'name': 'vitlöksklyftor (krossade)', 'unit': 'st', 'val': 2},
+                                            {'name': 'enbär (krossade i mortel)', 'unit': 'st', 'val': 8},
+                                            {'name': 'svartpepparkorn', 'unit': 'st', 'val': 6},
+                                            {'name': 'torkad timjan', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': 2}]},
+                           {   'group': 'Himmelsk Portersås',
+                               'items': [   {'name': 'silad steksky från grytan', 'unit': 'dl', 'val': 6},
+                                            {'name': 'vispgrädde (40%)', 'unit': 'dl', 'val': 2.5},
+                                            {   'name': 'vetemjöl eller maizena (till redning)',
+                                                'unit': 'msk',
+                                                'val': 2.5},
+                                            {'name': 'svartvinbärsgelé (att smaka av med)', 'unit': 'msk', 'val': 1},
+                                            {'name': 'salt och nymalen vitpeppar', 'unit': 'krm', 'val': 2}]},
+                           {   'group': 'Tillbehör till Servering',
+                               'items': [   {'name': 'svartvinbärsgelé eller rårörda lingon', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'pressgurka eller inlagd gurka', 'unit': 'dl', 'val': 1.5},
+                                            {   'name': 'kokt potatis eller hasselbackspotatis',
+                                                'unit': 'port',
+                                                'val': 6}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Blanda porteröl, outspädd svartvinbärssaft, soja, lök, krossad vitlök, enbär, '
+                                        'pepparkorn, timjan och lagerblad i en rymlig gryta. Koka upp lagen på spisen.',
+                                'title': 'Koka upp sjudningslagen'},
+                            {   'step': 2,
+                                'text': 'Lägg ner nötsteken i den sjudande lagen. Stick in en kött- eller '
+                                        'digitaltermometer så att spetsen hamnar mitt i köttets tjockaste del.',
+                                'title': 'Lägg i köttet och sätt i termometer'},
+                            {   'step': 3,
+                                'text': 'Sänk värmen så att lagen bara sjuder mycket sakta under lock. Vänd steken '
+                                        'efter halva tiden. Låt sjuda tills termometern visar 65°C för lätt rosa kött, '
+                                        'eller 70°C för helt genomstekt (tar ca 60–80 minuter beroende på köttets '
+                                        'tjocklek).',
+                                'title': 'Sjud sakta under lock'},
+                            {   'step': 4,
+                                'text': 'Dra grytan från plattan och låt köttet ligga kvar och vila i det varma spadet '
+                                        'i ca 20 minuter. Lyft sedan upp steken och vira in den i smörpapper eller '
+                                        'folie medan du gör såsen.',
+                                'title': 'Låt köttet vila i spadet'},
+                            {   'step': 5,
+                                'text': 'Sila av sjudningsspadet genom en finmaskig sil ner i en ren kastrull. Mät upp '
+                                        'ca 6 dl sky. Vispa ner grädden och red av med vetemjöl eller maizena utrört i '
+                                        'lite vatten. Låt såsen sjuda i 5–7 minuter tills den blir tjock, blank och '
+                                        'krämig. Runda av med en matsked svartvinbärsgelé och smaka av med salt och '
+                                        'vitpeppar.',
+                                'title': 'Sila och koka den krämiga portersåsen'},
+                            {   'step': 6,
+                                'text': 'Skär den möra steken i tunna, fina skivor tvärs över köttfibrerna. Lägg upp '
+                                        'på ett varmt serveringsfat, ringla över lite av den heta portersåsen och '
+                                        'servera genast med kokt potatis, svartvinbärsgelé och krispig pressgurka!',
+                                'title': 'Skär upp i tunna skivor och servera'}],
+        'keywords': 'porterstek, porterstek recept, klassisk porterstek, porterstek sås, portersås, söndagsstek '
+                    'nötkött, mormors porterstek, höststek grytstek, porterstek fransyska nötstek',
+        'long_desc': 'Porterstek är själva definitionen av svensk festlig husmanskost och höstens absoluta kung bland '
+                     'söndagsmiddagar. Rätten bygger på ett genialt koncept: en fin nötstek (t.ex. fransyska, rostbiff '
+                     'eller innanlår) läggs i en gryta och får sjuda mycket sakta i en lag bestående av mörk porteröl, '
+                     'koncentrerad svartvinbärssaft, kinesisk soja, lök, vitlök, timjan och krossade enbär. Ölets '
+                     'fylliga maltbeska möter svartvinbärets syrliga sötma och sojans umami, vilket inte bara gör '
+                     'köttet otroligt mört utan också skapar världens mest smakrika såsbas. När köttet tagits upp '
+                     'silas buljongen och kokas ihop med vispgrädde till en sammetslen, fyllig portersås som får alla '
+                     'runt bordet att vilja ta om. Servera med kokt potatis eller hasselbackspotatis, pressgurka och '
+                     'svartvinbärsgelé!',
+        'nutrition': {'calories': '560 kcal', 'carbs': '14g', 'fat': '34g', 'protein': '48g', 'sugar': '10g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Låt köttet ligga kvar och svalna i den mustiga buljongen i minst 20–30 minuter innan du skär upp '
+                    'det! Det gör att köttsafterna drar sig tillbaka in i köttet och ger makalöst saftiga skivor som '
+                    'inte blir torra.',
+        'rating': 4.95,
+        'review_count': 7,
+        'slug': 'klassisk-porterstek-svartvinbar-graddsas',
+        'sub': 'Smältande mör nötstek långsamt sjuden i mörk porteröl, svartvinbärssaft och enbär – serveras med '
+               'himmelsk portersås',
+        'time': 110,
+        'time_str': '1 tim 50 min',
+        'title': 'Klassisk Porterstek med Svartvinbärsgelé & Världens Godaste Gräddsås',
+        'total_time': 'PT110M'},
+    {   'alt': 'Krämig vit kladdkaka med pudrat florsocker, citronzest, vispgrädde och färska hallon på desserttallrik',
+        'calories': 340,
+        'card_title': 'Klassisk Vit Kladdkaka',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Helt galet god! Citronskalet gjorde verkligen hela skillnaden, inte '
+                                                'alls för söt utan bara perfekt kladdig och lyxig.',
+                                     'date': '3 oktober 2026',
+                                     'name': 'Sara Malm',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Bästa vita kladdkakan jag ätit! Lät den stå i kylen över natten och '
+                                                'konsistensen blev helt magisk.',
+                                     'date': '26 september 2026',
+                                     'name': 'Filip Bergström',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Succé på tjejkvällen! Serverade med färska hallon och lättvispad '
+                                                'grädde. Receptet sparades direkt.',
+                                     'date': '19 september 2026',
+                                     'name': 'Linnéa Ek',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Superenkel att göra och klar på nolltid. Älskar att den är så seg och '
+                                                'kolaaktig i mitten.',
+                                     'date': '12 september 2026',
+                                     'name': 'Tomas H.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Betyg 5 av 5! Kommer garanterat baka denna till Kladdkakans dag.',
+                                     'date': '5 september 2026',
+                                     'name': 'Jessica V.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Jättegod och krämig. Passade perfekt med syrliga bär.',
+                                     'date': '29 augusti 2026',
+                                     'name': 'Mikael P.',
+                                     'rating': 4,
+                                     'verified': True}],
+        'cook_time': 'PT20M',
+        'cook_time_str': '20 min',
+        'desc': 'Underbart seg och krämig vit kladdkaka med vit choklad, vanilj och frisk citrontouch. Klart på 30 '
+                'minuter.',
+        'diet': 'Vegetariskt',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En kopp mörkrostat kaffe eller espresso för att balansera den söta vita chokladen, eller ett '
+                         'glas kyld dessertvin.',
+        'equipment': [   'Springform ca 22-24 cm',
+                         'Bakplåtspapper',
+                         'Kastrull till smörsmältning',
+                         'Zestjärn',
+                         'Handvisp'],
+        'faqs': [   {   'a': 'Kakan är klar när kanterna är fasta men mitten fortfarande dallrar när du skakar lätt på '
+                             'formen. Den stelnar till perfekt fudge-konsistens när den svalnar i kylskåpet.',
+                        'q': 'Hur vet man när vit kladdkaka är färdig?'},
+                    {   'a': 'Vit choklad är väldigt söt och fet. Det finrivna citronskalet ger en frisk citruston som '
+                             'bryter av sötman och gör att kakan smakar otroligt fräscht och balanserat.',
+                        'q': 'Varför är det viktigt med citronskal?'},
+                    {   'a': 'Ja, den fryser fantastiskt bra! Skär den i bitar och frys in med smörpapper emellan. Den '
+                             'går faktiskt utmärkt att äta halvtinad direkt från frysen som en maffig glasstårta.',
+                        'q': 'Kan man frysa in vit kladdkaka?'}],
+        'file': 'klassisk-vit-kladdkaka-citron-vanilj.html',
+        'img': 'vit-kladdkaka',
+        'ingredients': [   {   'group': 'Kaksmet',
+                               'items': [   {'name': 'vit choklad (av god kvalitet)', 'unit': 'g', 'val': 150},
+                                            {'name': 'smör', 'unit': 'g', 'val': 125},
+                                            {'name': 'ägg', 'unit': 'st', 'val': 3},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': 1.5},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': 2.25},
+                                            {'name': 'vaniljsocker', 'unit': 'tsk', 'val': 1.5},
+                                            {'name': 'ekologisk citron (finrivet skal/zest)', 'unit': 'st', 'val': 0.5},
+                                            {'name': 'salt', 'unit': 'krm', 'val': 2}]},
+                           {   'group': 'Garnering & Servering',
+                               'items': [   {'name': 'florsocker (att pudra över)', 'unit': 'msk', 'val': 1},
+                                            {'name': 'färska hallon eller bär', 'unit': 'ask', 'val': 1},
+                                            {'name': 'vispgrädde (lättvispad)', 'unit': 'dl', 'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över-/undervärme. Spänn fast ett bakplåtspapper i botten '
+                                        'av en springform (ca 22–24 cm i diameter) och smörj kanten med lite smör.',
+                                'title': 'Sätt ugnen och förbered formen'},
+                            {   'step': 2,
+                                'text': 'Smält smöret i en kastrull på låg värme. Ta kastrullen från plattan. Hacka '
+                                        'den vita chokladen grovt, häll ner i det heta smöret och rör om tills all '
+                                        'choklad smält till en slät blandning.',
+                                'title': 'Smält smör och vit choklad'},
+                            {   'step': 3,
+                                'text': 'Rör ner strösocker, vaniljsocker, salt och det finrivna citronskalet i '
+                                        'chokladsmöret. Tillsätt äggen ett i taget och rör ihop med en handvisp (vispa '
+                                        'inte för mycket, smeten ska inte bli luftig utan kompakt och kladdig).',
+                                'title': 'Rör ner ägg, socker och citronskal'},
+                            {   'step': 4,
+                                'text': 'Sikta eller vänd ner vetemjölet och rör försiktigt med en slickepott precis '
+                                        'tills smeten går ihop och blir klumpfri.',
+                                'title': 'Vänd ner vetemjölet'},
+                            {   'step': 5,
+                                'text': 'Häll smeten i formen och jämna till ytan. Grädda mitt i ugnen i ca 18–22 '
+                                        'minuter. Kanten ska ha stelnat och fått lite färg, men mitten ska fortfarande '
+                                        'vara ordentligt dallrig och kletig.',
+                                'title': 'Grädda till perfekt krämighet'},
+                            {   'step': 6,
+                                'text': 'Låt kakan svalna helt i formen och ställ gärna in den i kylskåp i 1–2 timmar '
+                                        'så den sätter sig och blir härligt seg. Pudra över florsocker och toppa med '
+                                        'färska hallon och en klick fluffig vispgrädde!',
+                                'title': 'Låt svalna och servera'}],
+        'keywords': 'vit kladdkaka, vit choklad kladdkaka, kladdkaka vit choklad, vit kladdkaka citron, enkel vit '
+                    'kladdkaka, bästa vit kladdkaka, kladdkakans dag recept, seg vit kladdkaka',
+        'long_desc': 'Vit kladdkaka (även kallad blondie eller vit chokladkaka) är den ultimata lyxvarianten för alla '
+                     'som älskar kladdkaka! Medan klassisk kladdkaka bjuder på djup kakao, bjuder den vita kladdkakan '
+                     'på en rund, smörig och ljuvligt söt kolaaktig chokladsmak som smälter på tungan. Genom att '
+                     'smälta fin vit choklad direkt i det varma smöret och tillsätta rivet citronskal och äkta vanilj '
+                     'skapas en fantastisk smakbalans där citronens friska syra bryter av den rika sötman perfekt. '
+                     'Kakan bakas snabbt i ugnen på låg temperatur så att kanterna blir spröda medan hela mittpartiet '
+                     'behåller den där magiska, krämiga och kletiga konsistensen. Servera med lättvispad grädde och '
+                     'syrliga färska hallon eller passionsfrukt för en dessert som garanterat gör succé på fikabordet!',
+        'nutrition': {'calories': '340 kcal', 'carbs': '40g', 'fat': '19g', 'protein': '4g', 'sugar': '32g'},
+        'portions_num': 10,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT10M',
+        'prep_time_str': '10 min',
+        'pro_tips': 'Grädda inte kakan för länge! När kanterna har stelnat och fått en aning färg men mitten '
+                    'fortfarande dallrar är den perfekt. Låt kakan svalna helt och ställ den gärna i kylskåp i 2 '
+                    'timmar före servering – då sätter sig den vita chokladen och blir fantastiskt seg och fudgy.',
+        'rating': 4.94,
+        'review_count': 6,
+        'slug': 'klassisk-vit-kladdkaka-citron-vanilj',
+        'sub': 'Ljuvligt seg och kladdig kladdkaka bakad på vit kvalitetschoklad med fräsch touch av ekologisk citron '
+               'och vanilj',
+        'time': 30,
+        'time_str': '30 min',
+        'title': 'Klassisk Vit Kladdkaka med Citron – Världens Godaste & Kladdigaste Recept',
+        'total_time': 'PT30M'},
+    {   'alt': 'Gyllene frasiga rårakor med knaperstekt fläsk och rårörda lingon på rustik tallrik',
+        'calories': 460,
+        'card_title': 'Frasiga Rårakor med Fläsk',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Så här ska riktiga rårakor smaka! Knapriga i kanten och underbart '
+                                                'goda med det salta fläsket. Handdukstricket var toppen.',
+                                     'date': '3 oktober 2026',
+                                     'name': 'Göran Svensson',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Supergott och så enkelt. Hela familjens favorit till torsdagsmiddag.',
+                                     'date': '28 september 2026',
+                                     'name': 'Birgitta M.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde med löjrom och smetana till lördagsförrätt. Gästerna var helt '
+                                                'lyriska!',
+                                     'date': '21 september 2026',
+                                     'name': 'Daniel Hedberg',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Perfekt frasighet! Älskar att det bara är ren potatis och smör.',
+                                     'date': '15 september 2026',
+                                     'name': 'Maria Lindgren',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': '5 av 5 stjärnor. Enkelt och fantastiskt resultat.',
+                                     'date': '9 september 2026',
+                                     'name': 'Thomas E.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Jättegoda rårakor. Viktigt att ha rikligt med smör i pannan så de '
+                                                'inte fastnar.',
+                                     'date': '2 september 2026',
+                                     'name': 'Gunilla K.',
+                                     'rating': 4,
+                                     'verified': True}],
+        'cook_time': 'PT15M',
+        'cook_time_str': '15 min',
+        'desc': 'Traditionella frasiga rårakor på grovriven potatis stekta i smör. Serveras med knaperstekt rimmat '
+                'fläsk och rårörda lingon.',
+        'diet': 'Klassisk husmanskost, Naturligt glutenfri',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'En frisk ljus lageröl, ett glas iskall mjölk eller syrlig lingondricka.',
+        'equipment': [   'Grovt rivjärn',
+                         'Ren kökshandduk (att krama ur potatisen med)',
+                         'Gjutjärnsstekpanna',
+                         'Stekspade'],
+        'faqs': [   {   'a': 'Nej, absolut inte! Det är potatisens egen naturliga stärkelse som binder ihop kakan när '
+                             'den steks. Har man ägg och mjöl i smeten är det raggmunk man lagar.',
+                        'q': 'Ska man ha ägg eller mjöl i rårakor?'},
+                    {   'a': 'Det beror oftast på att pannan inte är tillräckligt varm, eller att du vänder rårakan '
+                             'för tidigt. Låt undersidan steka orörd i 3–4 minuter tills stärkelsen smält ihop och '
+                             'bildat en ordentlig, krispig skorpa innan du vänder den.',
+                        'q': 'Varför faller mina rårakor isär i pannan?'},
+                    {   'a': 'Ja, råraka med löjrom, smetana/crème fraiche, finhackad rödlök och dill är en av '
+                             'Sveriges mest klassiska och hyllade förrätter! Uteslut bara fläsket och stek rårakorna '
+                             'aningen mindre.',
+                        'q': 'Kan man servera rårakor med löjrom?'}],
+        'file': 'klassiska-frasiga-rarakor-stekt-flask.html',
+        'img': 'rarakor',
+        'ingredients': [   {   'group': 'Rårakor',
+                               'items': [   {   'name': 'potatisar (fasta, t.ex. Asterix eller King Edward)',
+                                                'unit': 'st',
+                                                'val': 8},
+                                            {'name': 'smör (till stekning)', 'unit': 'g', 'val': 50},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': 1},
+                                            {'name': 'nymalen vitpeppar eller svartpeppar', 'unit': 'krm', 'val': 1}]},
+                           {   'group': 'Klassiska Tillbehör',
+                               'items': [   {'name': 'rimmat sidfläsk eller bacon (i skivor)', 'unit': 'g', 'val': 400},
+                                            {'name': 'rårörda lingon', 'unit': 'dl', 'val': 2}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Stek fläskskivorna i en torr stekpanna på medelvärme tills de är härligt '
+                                        'knapriga och gyllenbruna på båda sidor. Lägg över på ett fat med '
+                                        'hushållspapper och håll varma i ugnen på 100°C. Spara lite av fläskfettet i '
+                                        'pannan!',
+                                'title': 'Knaperstek fläsket först'},
+                            {   'step': 2,
+                                'text': 'Skala potatisarna och riv dem grovt på ett rivjärn. Gör detta precis innan '
+                                        'stekning så att potatisen inte hinner mörkna.',
+                                'title': 'Skala och grovriv potatisen'},
+                            {   'step': 3,
+                                'text': 'Lägg den rivna potatisen i en ren kökshandduk och vrid/krama ur så mycket '
+                                        'potatisvätska som det bara går över diskhon. Ju torrare potatis, desto '
+                                        'frasigare rårakor!',
+                                'title': 'Krama ur all vätska noggrant'},
+                            {   'step': 4,
+                                'text': 'Lägg den urkramade potatisen i en bunke. Krydda med salt och nymalen peppar '
+                                        'och blanda snabbt runt med händerna.',
+                                'title': 'Krydda potatisrivet'},
+                            {   'step': 5,
+                                'text': 'Hetta upp rikligt med smör (och lite av det sparade fläskfettet) i stekpannan '
+                                        'på medelhög värme. Klicka ut potatisriv och platta ut med en stekspade till '
+                                        'tunna, runda kakor (ca 0,5 cm tjocka). Stek i ca 3–4 minuter per sida tills '
+                                        'undersidan är djupt gyllenbrun och krispig. Vänd försiktigt och stek andra '
+                                        'sidan gyllenbrun.',
+                                'title': 'Stek rårakorna gyllene och frasiga'},
+                            {   'step': 6,
+                                'text': 'Servera rårakorna rykande heta direkt från pannan tillsammans med det '
+                                        'knaperstekta fläsket och en generös klick rårörda lingon!',
+                                'title': 'Lägg upp och servera genast'}],
+        'keywords': 'rårakor, rårakor recept, frasiga rårakor, rårakor med fläsk, klassiska rårakor, steka rårakor, '
+                    'rårakor lingon, potatisråraka, råraka rimmat fläsk, mormors rårakor',
+        'long_desc': 'Rårakor är en av den svenska husmanskostens mest genialiska och rena rätter. Till skillnad från '
+                     'raggmunk, som görs med pannkakssmet, består klassiska rårakor uteslutande av färsk, grovriven '
+                     'potatis som kryddas lätt med salt och peppar och steks frasiga i rikligt med smör. När den rivna '
+                     'potatisen kramas helt torr och plattas ut tunt i en rykande het gjutjärnspanna smälter '
+                     'stärkelsen samman och bildar ett gyllene, sprött och knaprigt nätverk med frasiga spetskanter. '
+                     'Servera rårakorna direkt från pannan tillsammans med knaperstekt, salt rimmat sidfläsk och '
+                     'sötsyrliga rårörda lingon för den ultimata nordiska smakupplevelsen. En klassisk lyxvariant är '
+                     'att servera dem som förrätt toppade med en klick smetana, finhackad rödlök och exklusiv löjrom!',
+        'nutrition': {'calories': '460 kcal', 'carbs': '30g', 'fat': '32g', 'protein': '14g', 'sugar': '4g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT15M',
+        'prep_time_str': '15 min',
+        'pro_tips': 'Krama ur så mycket vätska som möjligt ur den rivna potatisen i en ren kökshandduk innan stekning! '
+                    'Ju torrare potatisen är när den läggs i det heta smöret, desto krispigare och sprödare blir '
+                    'rårakorna.',
+        'rating': 4.95,
+        'review_count': 6,
+        'slug': 'klassiska-frasiga-rarakor-stekt-flask',
+        'sub': 'Traditionella tunna och ljuvligt krispiga rårakor på riven potatis – stekta i rikligt med smör med '
+               'knaprigt rimmat sidfläsk',
+        'time': 30,
+        'time_str': '30 min',
+        'title': 'Klassiska Frasiga Rårakor med Knaperstekt Fläsk & Rårörda Lingon',
+        'total_time': 'PT30M'}]

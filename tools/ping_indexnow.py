@@ -14,12 +14,15 @@ INDEXNOW_KEY = "a2109b2efe5e4c06a52006e841b53b13"
 HOST = "svenska-recept.se"
 
 DEFAULT_URLS = [
-    "https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html",
-    "https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html",
-    "https://svenska-recept.se/recept/klassiska-sma-plattar.html",
-    "https://svenska-recept.se/recept/klassisk-kramig-rotfruktssoppa-timjan.html",
-    "https://svenska-recept.se/recept/segmjuka-kolasnittar-kolakakor.html",
-    "https://svenska-recept.se/recept/kramig-lovbiffsgryta-dijon-champinjoner.html",
+    "https://svenska-recept.se/recept/klassisk-frasig-hasselbackspotatis.html",
+    "https://svenska-recept.se/recept/klassisk-porterstek-svartvinbar-graddsas.html",
+    "https://svenska-recept.se/recept/klassisk-vit-kladdkaka-citron-vanilj.html",
+    "https://svenska-recept.se/recept/klassiska-frasiga-rarakor-stekt-flask.html",
+    "https://svenska-recept.se/recept/klassiska-kladdkakemuffins-choklad.html",
+    "https://svenska-recept.se/recept/kramig-kycklingpasta-soltorkade-tomater.html",
+    "https://svenska-recept.se/recept/klassisk-hemlagad-vaniljsas.html",
+    "https://svenska-recept.se/recept/klassiska-hallongrottor-smor-vanilj.html",
+    "https://svenska-recept.se/recept/klassisk-kasslergratang-ris-curry.html",
 ]
 
 def ping(urls=None):
