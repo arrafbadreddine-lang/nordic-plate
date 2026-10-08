@@ -723,13 +723,6 @@ def render_recipe_page(r):
                     "calories": f"{r['calories']} calories",
                     "servingSize": f"1 {r['portions_unit'][:-1] if r['portions_unit'].endswith('er') else r['portions_unit']}"
                 },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": str(r["rating"]),
-                    "reviewCount": str(r["review_count"]),
-                    "bestRating": "5",
-                    "worstRating": "1"
-                },
                 "recipeIngredient": [
                     f"{itm['val']} {itm['unit']} {itm['name']}".strip()
                     for grp in r["ingredients"] for itm in grp["items"]

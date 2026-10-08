@@ -55,6 +55,22 @@ def ping(urls=None):
         print(f"❌ [IndexNow] Network Error: {e}")
         return False
 
+def get_all_recipe_urls():
+    recipes_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recept")
+    urls = [f"https://{HOST}/"]
+    for f in sorted(os.listdir(recipes_dir)):
+        if f.endswith(".html"):
+            urls.append(f"https://{HOST}/recept/{f}")
+    return urls
+
 if __name__ == "__main__":
-    target_urls = sys.argv[1:] if len(sys.argv) > 1 else None
-    ping(target_urls)
+    if len(sys.argv) > 1 and sys.argv[1] == "--all":
+        urls_to_ping = get_all_recipe_urls()
+        ping(urls_to_ping)
+    elif len(sys.argv) > 1:
+        ping(sys.argv[1:])
+    else:
+        # Default: ping all recipes so search engines re-crawl clean schema
+        urls_to_ping = get_all_recipe_urls()
+        ping(urls_to_ping)
+

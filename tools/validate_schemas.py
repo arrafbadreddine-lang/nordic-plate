@@ -29,7 +29,6 @@ RECOMMENDED_FIELDS = [
     "recipeCategory",
     "recipeCuisine",
     "nutrition",
-    "aggregateRating",
     "author",
     "publisher"
 ]
