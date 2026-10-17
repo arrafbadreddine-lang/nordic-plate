@@ -9991,7 +9991,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                'surdegsbröd',
         'calories': 295,
         'card_title': 'Potatis- & Purjolökssoppa',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Otroligt god och krämig soppa! Krutongerna på toppen och den färska '
@@ -10097,7 +10097,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                'keramikskål',
         'calories': 340,
         'card_title': 'Trattkantarellsoppa',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Magisk soppa! Vinet och timjanen lyfter svampsmaken perfekt. Att '
@@ -10202,7 +10202,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                'svartvinbärsgelé',
         'calories': 520,
         'card_title': 'Mustig Viltgryta',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Bästa viltgrytan jag ätit! Köttet blev så mört att det föll isär och '
@@ -10313,7 +10313,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Bubblig gyllenbrun kasslergratäng med ris, rökt kassler, paprika och smält ost i vit gratängform',
         'calories': 545,
         'card_title': 'Kasslergratäng med Ris',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'En riktig vardagshjälte! Såsen med curry och chilisås har perfekt '
@@ -10421,7 +10421,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
                'ost',
         'calories': 460,
         'card_title': 'Klassisk Ost- & Skinkpaj',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Knepet att lägga ost i botten var genialt! Pajen fick den frasigaste '
@@ -10530,7 +10530,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Rykande het mustig köttfärssoppa med potatis, morötter och köttfärs i keramikskål med surdegsbröd',
         'calories': 380,
         'card_title': 'Klassisk Köttfärssoppa',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Bästa köttfärssoppan jag ätit! Barnen åt massor och rotfrukterna gav '
@@ -10631,7 +10631,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Gyllenbrun bubblande rotfruktsgratäng med Västerbottensost och färsk timjan i rund gratängform',
         'calories': 395,
         'card_title': 'Krämig Rotfruktsgratäng',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Så mycket godare än vanlig potatisgratäng! Palsternackan och '
@@ -10728,7 +10728,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Krämig viltskavsgryta med kantareller, enbär och färsk timjan serverad med potatismos och lingon',
         'calories': 490,
         'card_title': 'Klassisk Viltskavsgryta',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Bästa vardagslyxen som finns. Klart på 20 minuter och smakar som en '
@@ -10916,7 +10916,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Gnistrande rubinröda räfflade inlagda rödbetor i glasburk med ättikslag och kryddpeppar',
         'calories': 65,
         'card_title': 'Inlagda Rödbetor',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Exakt som min mormor gjorde dem! Mycket godare och krispigare än '
@@ -11320,7 +11320,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Saftiga fläskkotletter i ugn med gyllenbrun champinjongräddsås och timjan i gratängform',
         'calories': 560,
         'card_title': 'Fläskkotletter i Ugn',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Bästa sättet att laga fläskkotletter på! Köttet blev så mört att det '
@@ -11541,7 +11541,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Rykande het hemgjord rödvinsglögg i glasmugg med kanelstång, apelsinskiva och russin med mandel',
         'calories': 165,
         'card_title': 'Hemlagad Rödvinsglögg',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Den godaste glöggen jag någonsin smakat! Så mycket mer aromatisk och '
@@ -11930,7 +11930,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Klar mörkröd svartvinbärsgelé i glasburk med sked och färska svarta vinbär på bord',
         'calories': 145,
         'card_title': 'Hemlagad Svartvinbärsgelé',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Följde receptet till punkt och pricka med vinbär från trädgården. '
@@ -12144,7 +12144,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Krämig lövbiffsgryta med brynta champinjoner, dijonsås och persilja serverad i keramikskål med ris',
         'calories': 520,
         'card_title': 'Krämig Lövbiffsgryta',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Helt otroligt god gryta! Såsen med dijonsenap och kalvfond var '
@@ -12253,7 +12253,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Gyllenrostade knapriga pumpakärnor med havssalt och paprika i keramikskål på bakplåtspapper',
         'calories': 180,
         'card_title': 'Rostade Pumpakärnor',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Rostade kärnorna från barnens halloweenpumpa med detta recept. De tog '
@@ -12344,7 +12344,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Ångande gammaldags kålsoppa med frikadeller, brynt vitkål och kryddpeppar serverad med rågbröd',
         'calories': 380,
         'card_title': 'Gammaldags Kålsoppa',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Precis som min mormor lagade den på söndagarna! Kålen fick perfekt '
@@ -12453,7 +12453,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Gyllenbrun frasig laxpaj med fyllning av lax, spenat och Västerbottensost toppad med dill och citron',
         'calories': 465,
         'card_title': 'Krämig Laxpaj',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Den godaste laxpaj jag ätit! Kombinationen av Västerbottensost, '
@@ -12561,7 +12561,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Glaserade saftiga tjocka revbensspjäll skurna på träskärbräda med färsk rosmarin och flingsalt',
         'calories': 620,
         'card_title': 'Tjocka Revbensspjäll',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Köttet föll bokstavligen av benen! Äppelglazen med honung och '
@@ -12982,7 +12982,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Klassisk ångande kycklingsoppa med morötter, rotfrukter och persilja i keramikskål med surdegsbröd',
         'calories': 320,
         'card_title': 'Gammaldags Kycklingsoppa',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Hela familjen var förkyld och denna soppa gjorde underverk! Så ren '
@@ -13089,7 +13089,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Krämig trattkantarellpasta med tagliatelle, smörstekta trattkantareller, parmesan och timjan i skål',
         'calories': 560,
         'card_title': 'Trattkantarellpasta',
-        'cat_key': 'husman',
+        'cat_key': 'husmanskost',
         'cat_slug': 'husmanskost',
         'category': 'Husmanskost',
         'community_reviews': [   {   'comment': 'Den godaste svamppasta jag någonsin ätit! Vinet och timjanen lyfte '
@@ -13304,7 +13304,7 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
     {   'alt': 'Gyllenbrun ugnsstekt anka trancherad på fat med apelsinsås, äpplen, katrinplommon och rosmarin',
         'calories': 680,
         'card_title': 'Ugnsstekt Anka',
-        'cat_key': 'hogtid',
+        'cat_key': 'smorgasbord',
         'cat_slug': 'hogtider-och-smorgasbord',
         'category': 'Högtider & Smörgåsbord',
         'community_reviews': [   {   'comment': 'Skinnet blev otroligt krispigt och apelsinsåsen med ankfonden var '
@@ -16699,4 +16699,503 @@ RECIPES = [   {   'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig 
         'time': 30,
         'time_str': '30 min',
         'title': 'Klassiska Frasiga Rårakor med Knaperstekt Fläsk & Rårörda Lingon',
-        'total_time': 'PT30M'}]
+        'total_time': 'PT30M'},
+    {   'alt': 'Trancherad saftig älgstek på mörkt keramikfat med sammetslen gräddsås, rostade rotfrukter, färsk '
+               'timjan och rårörda lingon',
+        'calories': 540,
+        'card_title': 'Klassisk Älgstek',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Tog ut den vid exakt 57 grader och lät vila i 15 minuter. Den absolut '
+                                                'möraste älgstek jag någonsin ätit! Såsen var magisk.',
+                                     'date': '15 oktober 2026',
+                                     'name': 'Gustav W.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Fantastiskt recept! Krossade enbären i såsen gav precis den där djupa '
+                                                'skogssmaken man vill ha.',
+                                     'date': '12 oktober 2026',
+                                     'name': 'Helena Berg',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Lagade till familjen i helgen efter lyckad jakt. Betyg 10 av 10 från '
+                                                'alla runt bordet.',
+                                     'date': '9 oktober 2026',
+                                     'name': 'Stefan Karlsson',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT1H30M',
+        'cook_time_str': '1 tim 30 min',
+        'desc': 'Mör och saftig älgstek tillagad på låg temperatur i ugnen med morötter, lök, krossade enbär och färsk '
+                'timjan. Serveras med en himmelsk gräddsås kokt på stekskyn, potatis och rårörda lingon.',
+        'diet': 'Glutenfritt alternativ',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett fylligt och kryddigt rött vin som Syrah/Shiraz eller Rhône, alternativt en mörk fyllig '
+                         'ale.',
+        'equipment': [   'Stekgryta eller ugnsfast form',
+                         'Digital stektermometer',
+                         'Kastrull till sås',
+                         'Vass trancherkniv'],
+        'faqs': [   {   'a': 'För bästa resultat rekommenderar vi 56–58°C för ett saftigt och rosa kött. Vid 62°C och '
+                             'däröver blir det magra älgköttet snabbt torrt och trådigt.',
+                        'q': 'Vilken innertemperatur är bäst för älgstek?'},
+                    {   'a': 'Innanlår, fransyska eller rostbiff är de mest klassiska detaljerna för älgstek. Innanlår '
+                             'är mörare medan fransyskan har en djup och fin viltsmak.',
+                        'q': 'Vilken styckdetalj av älg är bäst att steka hel?'}],
+        'file': 'klassisk-algstek-graddsas-enbar.html',
+        'img': 'algstek',
+        'ingredients': [   {   'group': 'Älgsteken',
+                               'items': [   {   'name': 'älgstek (fransyska, innanlår eller rostbiff)',
+                                                'unit': 'kg',
+                                                'val': '1.2'},
+                                            {'name': 'smör till bryning', 'unit': 'msk', 'val': '3'},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': '1.5'},
+                                            {'name': 'nymald svartpeppar', 'unit': 'tsk', 'val': '1'},
+                                            {'name': 'torkade enbär (lätt krossade)', 'unit': 'st', 'val': '10'},
+                                            {'name': 'morötter (i grova bitar)', 'unit': 'st', 'val': '2'},
+                                            {'name': 'gul lök (klyftad)', 'unit': 'st', 'val': '1'},
+                                            {'name': 'färska timjankvistar', 'unit': 'st', 'val': '4'},
+                                            {'name': 'viltfond (utspädd) eller vatten', 'unit': 'dl', 'val': '5'}]},
+                           {   'group': 'Krämig Viltgräddsås',
+                               'items': [   {'name': 'silad steksky från formen', 'unit': 'dl', 'val': '4'},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': '3'},
+                                            {'name': 'svartvinbärsgelé', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'japansk soja', 'unit': 'msk', 'val': '1'},
+                                            {   'name': 'vetemjöl eller maizena (till redning)',
+                                                'unit': 'msk',
+                                                'val': '2'},
+                                            {'name': 'krossade enbär', 'unit': 'st', 'val': '4'},
+                                            {'name': 'salt & nymald vitpeppar', 'unit': 'krm', 'val': '2'}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Ta fram älgsteken i rumstemperatur minst 45 minuter före tillagning. Klappa '
+                                        'köttet torrt och krydda rikligt runt om med salt, peppar och hälften av de '
+                                        'krossade enbären. Bryn steken i rikligt med smör i en het gjutjärnspanna så '
+                                        'att den får en vacker gyllenbrun stekyta runtom.',
+                                'timer': 8,
+                                'title': 'Temperera & bryn köttet'},
+                            {   'step': 2,
+                                'text': 'Sätt ugnen på 125°C över-/undervärme. Lägg morotsbitar, lök, timjan och '
+                                        'resterande enbär i botten på en ugnsform. Placera den brynta älgsteken ovanpå '
+                                        'och häll viltfonden runt grönsakerna. Stick in en digital stektermometer i '
+                                        'köttets tjockaste del.',
+                                'timer': 5,
+                                'title': 'Baka i ugn på låg värme'},
+                            {   'step': 3,
+                                'text': 'Ställ in formen i nedre delen av ugnen. Låt steken gå tills termometern visar '
+                                        '56°C för rosa eller 60°C för svagt rosa. Det tar ca 1–1,5 timme beroende på '
+                                        'stekens form och temperatur.',
+                                'timer': 75,
+                                'title': 'Stek till perfekt innertemperatur'},
+                            {   'step': 4,
+                                'text': 'Ta ut steken och linda in den löst i smörpapper eller aluminiumfolie. Låt den '
+                                        'vila på en skärbräda i 15 minuter så att köttsafterna stannar kvar i köttet.',
+                                'timer': 15,
+                                'title': 'Vila steken'},
+                            {   'step': 5,
+                                'text': 'Sila ner den smakrika stekskyn från ugnsformen i en kastrull. Koka upp och '
+                                        'tillsätt vispgrädde, svartvinbärsgelé, soja och krossade enbär. Låt sjuda i 5 '
+                                        'minuter. Vispa ut mjölet i lite kallt vatten och red såsen till önskad krämig '
+                                        'konsistens. Smaka av med salt och vitpeppar.',
+                                'timer': 10,
+                                'title': 'Koka den krämiga gräddsåsen'},
+                            {   'step': 6,
+                                'text': 'Skär upp älgsteken i tunna, fina skivor tvärs över köttfibrerna. Servera på '
+                                        'ett varmt fat med den heta gräddsåsen, kokt mandelpotatis eller '
+                                        'hasselbackspotatis, pressgurka och rårörda lingon.',
+                                'timer': 5,
+                                'title': 'Tranchera & servera'}],
+        'keywords': 'älgstek, klassisk älgstek, älgstek gräddsås, älgstek ugn, saftig älgstek, viltsås älgstek, '
+                    'älgkött recept',
+        'long_desc': 'Älgstek är själva kronjuvelen i det svenska viltköket och höstens mest efterlängtade festmåltid. '
+                     'Under älgjakten i oktober fylls skogarna och köken av fantastiska råvaror, och en varsamt '
+                     'tillagad älgstek är oslagbar till söndagsmiddagen eller festligare bjudningar. Eftersom älgkött '
+                     'är exceptionellt magert och fintrådigt är tillagning på låg ugnstemperatur (125°C) och en '
+                     'pålitlig digital stektermometer hemligheten bakom en perfekt saftig och mör stek. Tillsammans '
+                     'med en fyllig, krämig viltgräddsås kokt på stekskyn med krossade enbär, svartvinbärsgelé och '
+                     'nymald vitpeppar, rostade rotfrukter och hemgjorda rårörda lingon blir detta en oförglömlig '
+                     'svensk smakupplevelse.',
+        'nutrition': {'calories': '540 kcal', 'carbs': '14g', 'fat': '28g', 'protein': '52g', 'sugar': '7g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT20M',
+        'prep_time_str': '20 min',
+        'pro_tips': 'Viltkött är magert och blir lätt torrt om innertemperaturen blir för hög. Ta ut älgsteken vid '
+                    '56–58°C för perfekt rosa och saftigt kött och låt den vila i smörpapper 15 minuter innan den '
+                    'skärs upp.',
+        'rating': 4.96,
+        'review_count': 9,
+        'slug': 'klassisk-algstek-graddsas-enbar',
+        'sub': 'Mör och saftig älgstek stekt på låg temperatur med fyllig viltsås kokt på skyn, enbär och lingon',
+        'time': 110,
+        'time_str': '1 tim 50 min',
+        'title': 'Klassisk Älgstek med Gräddsås, Enbär & Rårörda Lingon',
+        'total_time': 'PT1H50M'},
+    {   'alt': 'Rykande het mustig älggryta i gjutjärnsgryta med möra bitar av älgkött, gula kantareller, pärllök, '
+               'rödvinssås och färska örter',
+        'calories': 580,
+        'card_title': 'Mustig Älggryta',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Underbar gryta! Rödvinet och kantarellerna gifter sig perfekt med '
+                                                'älgköttet. Hela familjens nya favoritrecept.',
+                                     'date': '14 oktober 2026',
+                                     'name': 'Mikael E.',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Gjorde denna på trattkantareller vi plockade i helgen. Så otroligt '
+                                                'mustig och djup smak!',
+                                     'date': '11 oktober 2026',
+                                     'name': 'Sara Lindgren',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT1H45M',
+        'cook_time_str': '1 tim 45 min',
+        'desc': 'Långkokt älggryta på älgkött som får sjuda mört i fylligt rödvin, viltfond, smörstekta kantareller, '
+                'pärllök och färsk rosmarin. Avrundas med vispgrädde och svartvinbärsgelé för den ultimata höstsmaken.',
+        'diet': 'Glutenfritt alternativ',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Ett kryddigt och mustigt rött vin som Ripasso, Syrah eller en mustig mörk höstöl.',
+        'equipment': ['Gjutjärnsgryta med lock', 'Stekpanna till svamp', 'Träslev', 'Kniv och skärbräda'],
+        'faqs': [   {   'a': 'Ja! Grytan blir nästan ännu godare dagen efter då alla viltsmaker, rödvin och enbär '
+                             'hinner mogna och sätta sig i köttet.',
+                        'q': 'Kan jag laga älggrytan dagen innan?'},
+                    {   'a': 'Högrev, bog och lägg är fantastiska styckdetaljer med naturligt bindväv som blir '
+                             'otroligt saftigt och mört under långkok.',
+                        'q': 'Vilken del av älgen är bäst för gryta?'}],
+        'file': 'mustig-alggryta-kantareller-rodvin.html',
+        'img': 'alggryta',
+        'ingredients': [   {   'group': 'Grytbas',
+                               'items': [   {'name': 'älgkött (högrev, grytbitar eller bog)', 'unit': 'kg', 'val': '1'},
+                                            {'name': 'rökt sidfläsk eller bacon (tärnat)', 'unit': 'g', 'val': '150'},
+                                            {'name': 'smör till stekning', 'unit': 'msk', 'val': '3'},
+                                            {   'name': 'smålökar eller schalottenlökar (skalade hela)',
+                                                'unit': 'st',
+                                                'val': '10'},
+                                            {'name': 'vitlöksklyftor (krossade)', 'unit': 'st', 'val': '2'},
+                                            {'name': 'morötter (slantade)', 'unit': 'st', 'val': '2'},
+                                            {'name': 'tomatpuré', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'vetemjöl (till redning)', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'fylligt rött vin', 'unit': 'dl', 'val': '3'},
+                                            {'name': 'viltfond eller oxfond', 'unit': 'dl', 'val': '4'},
+                                            {'name': 'krossade enbär', 'unit': 'st', 'val': '8'},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': '2'},
+                                            {'name': 'färsk timjan & rosmarin', 'unit': 'kvistar', 'val': '3'},
+                                            {'name': 'salt & nymald svartpeppar', 'unit': 'krm', 'val': '3'}]},
+                           {   'group': 'Svamp & Avrundning',
+                               'items': [   {   'name': 'färska kantareller eller trattkantareller',
+                                                'unit': 'g',
+                                                'val': '250'},
+                                            {'name': 'smör till stekning', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': '2'},
+                                            {'name': 'svartvinbärsgelé', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'färsk persilja (finhackad)', 'unit': 'msk', 'val': '2'}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Skär älgköttet i ca 3x3 cm stora kuber. Hetta upp smör i en stor '
+                                        'gjutjärnsgryta och bryn bacon/sidfläsk tills det släpper fett och får färg. '
+                                        'Ta upp fläsket. Bryn älgköttet i omgångar i det heta fettet så att alla bitar '
+                                        'får en djup, gyllenbrun stekyta. Salta och peppra.',
+                                'timer': 12,
+                                'title': 'Bryn fläsk och älgkött'},
+                            {   'step': 2,
+                                'text': 'Lägg tillbaka allt kött och fläsk i grytan. Tillsätt smålökar, krossad vitlök '
+                                        'och morötter. Klicka i tomatpurén och låt den fräsa med under omrörning i 2 '
+                                        'minuter för att runda av syran. Pudra över vetemjölet och vänd runt så att '
+                                        'det täcker köttet.',
+                                'timer': 5,
+                                'title': 'Tillsätt grönsaker & kryddor'},
+                            {   'step': 3,
+                                'text': 'Slå på rödvin och viltfond. Tillsätt krossade enbär, lagerblad, timjan och '
+                                        'rosmarin. Rör om ordentligt så att eventuella stekrester i botten löses upp. '
+                                        'Låt koka upp och skumma av ytan om det behövs.',
+                                'timer': 5,
+                                'title': 'Häll på vin och fond'},
+                            {   'step': 4,
+                                'text': 'Sänk värmen till lägsta, lägg på locket och låt grytan sjuda sakta i 1,5 till '
+                                        '2 timmar tills älgköttet är så mört att det nästan faller isär vid beröring.',
+                                'timer': 105,
+                                'title': 'Sjud grytan mör'},
+                            {   'step': 5,
+                                'text': 'Rensa kantarellerna. Stek dem i en torr panna tills vätskan kokat bort, '
+                                        'tillsätt sedan rikligt med smör och stek tills de fått fin färg. Vänd ner '
+                                        'kantarellerna i grytan tillsammans med vispgrädde och svartvinbärsgelé. Låt '
+                                        'sjuda ihop i 10 minuter. Smaka av med salt och peppar.',
+                                'timer': 15,
+                                'title': 'Stek kantarellerna & runda av'},
+                            {   'step': 6,
+                                'text': 'Strö över hackad persilja och servera grytan rykande het tillsammans med '
+                                        'fluffigt potatismos eller pressad potatis, gelé och rårörda lingon.',
+                                'timer': 5,
+                                'title': 'Garnera och servera'}],
+        'keywords': 'älggryta, mustig älggryta, älggryta kantareller, älggryta rödvin, recept älggryta, viltgryta älg, '
+                    'långkok älg',
+        'long_desc': 'När höstkylan drar in över landet finns det få saker som värmer så gott som en mustig, långkokt '
+                     'älggryta. Kombinationen av det djupa, smakrika älgköttet, smörstekta skogskantareller, fylligt '
+                     'rödvin och sötman från svartvinbärsgelé skapar en fulländad balans av skogens alla aromer. Genom '
+                     'att bryna köttet och baconet ordentligt i smör och låta det koka sakta under lock i närmare två '
+                     'timmar blir grytbitarna smältande möra. Såsen får en fantastisk fyllighet av vispgrädde och '
+                     'mustig viltfond. Servera med ett krämigt mandelpotatismos eller pressad potatis för en oslagbar '
+                     'höstmiddag.',
+        'nutrition': {'calories': '580 kcal', 'carbs': '16g', 'fat': '32g', 'protein': '48g', 'sugar': '8g'},
+        'portions_num': 6,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Bryn älgköttet i omgångar i en het gjutjärnspanna med smör. Lägger du i för mycket kött samtidigt '
+                    'kokar köttet istället för att brynas, vilket gör att du tappar den djupa Maillard-smaken.',
+        'rating': 4.97,
+        'review_count': 11,
+        'slug': 'mustig-alggryta-kantareller-rodvin',
+        'sub': 'Långkokt älggryta på älgkött som sjuder mört i fylligt rödvin, viltfond, smörstekta kantareller och '
+               'grädde',
+        'time': 130,
+        'time_str': '2 tim 10 min',
+        'title': 'Mustig Älggryta med Kantareller, Rödvin & Enbär',
+        'total_time': 'PT2H10M'},
+    {   'alt': 'Klassiska svenska oxrullader på beige keramikfat med krämig gräddsås, kokt potatis, pressgurka och '
+               'rårörda lingon',
+        'calories': 620,
+        'card_title': 'Klassiska Oxrullader',
+        'cat_key': 'husmanskost',
+        'cat_slug': 'husmanskost',
+        'category': 'Husmanskost',
+        'community_reviews': [   {   'comment': 'Mormors gamla söndagsmiddag! Smakade precis som när jag var liten. '
+                                                'Gurkan och dijonsenapen ger verkligen den perfekta brytningen.',
+                                     'date': '13 oktober 2026',
+                                     'name': 'Karin Sjöberg',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Mört och smakrikt kött med en fantastisk sås. Rekommenderas varmt!',
+                                     'date': '10 oktober 2026',
+                                     'name': 'Lars O.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT1H15M',
+        'cook_time_str': '1 tim 15 min',
+        'desc': 'Traditionella svenska oxrullader på tunt bankad lövbiff eller innanlår, fyllda med dijonsenap, rökt '
+                'bacon och inlagd gurka. Brässeras långsamt till smältande mörhet i mustig gräddsås.',
+        'diet': 'Traditionell husmanskost',
+        'difficulty': 'Medel',
+        'drink_pairing': 'Ett mjukt och fruktigt rött vin som Merlot eller Pinot Noir, eller ett klassiskt svenskt '
+                         'lageröl.',
+        'equipment': [   'Stekgryta eller djup stekpanna med lock',
+                         'Tandpetare eller steksnöre',
+                         'Köttklubba eller kavel'],
+        'faqs': [   {   'a': 'Rulladerna måste brässeras tillräckligt länge på låg värme (minst 50 minuter) för att '
+                             'muskeltrådarna ska slappna av och bli möra. Banka även köttet tunt före rullning.',
+                        'q': 'Varför blir oxrullader sega?'},
+                    {   'a': 'Nej, klassiska oxrullader görs alltid på hela skivor nötkött som innanlår eller lövbiff. '
+                             'Med färs kallas rätten istället kålpudding eller köttfärsrulle.',
+                        'q': 'Kan man använda nötfärs istället?'}],
+        'file': 'klassiska-oxrullader-graddsas-pressgurka.html',
+        'img': 'oxrullader',
+        'ingredients': [   {   'group': 'Oxrulladerna',
+                               'items': [   {   'name': 'lövbiff eller tunt skivad nötinnanlår',
+                                                'unit': 'skivor (ca 600g)',
+                                                'val': '8'},
+                                            {'name': 'dijonsenap', 'unit': 'msk', 'val': '3'},
+                                            {   'name': 'bacon eller rökt sidfläsk (fint strimlat)',
+                                                'unit': 'g',
+                                                'val': '140'},
+                                            {   'name': 'smörgåsgurka eller ättiksgurka (i stavar)',
+                                                'unit': 'st',
+                                                'val': '8'},
+                                            {'name': 'gul lök (finhackad)', 'unit': 'st', 'val': '1'},
+                                            {'name': 'smör till bryning', 'unit': 'msk', 'val': '3'},
+                                            {'name': 'salt & nymald svartpeppar', 'unit': 'krm', 'val': '2'}]},
+                           {   'group': 'Buljong & Gräddsås',
+                               'items': [   {'name': 'oxfond eller köttbuljong', 'unit': 'dl', 'val': '4'},
+                                            {'name': 'soja (äkta kinesisk eller japansk)', 'unit': 'msk', 'val': '1'},
+                                            {'name': 'lagerblad', 'unit': 'st', 'val': '2'},
+                                            {'name': 'kryddpepparkorn', 'unit': 'st', 'val': '5'},
+                                            {'name': 'vispgrädde', 'unit': 'dl', 'val': '2.5'},
+                                            {'name': 'svartvinbärsgelé', 'unit': 'msk', 'val': '1.5'},
+                                            {   'name': 'maizena eller vetemjöl till redning',
+                                                'unit': 'msk',
+                                                'val': '2'}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Lägg ut köttskivorna på en skärbräda mellan två lager plastfolie. Banka '
+                                        'försiktigt ut dem till jämnt tunna skivor med en köttklubba eller en kavel. '
+                                        'Salta och peppra lätt på båda sidor.',
+                                'timer': 8,
+                                'title': 'Banka ut och krydda köttet'},
+                            {   'step': 2,
+                                'text': 'Bred ett jämnt lager dijonsenap på varje köttskiva. Fördela strimlat bacon, '
+                                        'finhackad lök och en stav inlagd gurka på den bredare änden av skivan. Rulla '
+                                        'ihop till en tät rulle och fäst med en tandpetare i trä.',
+                                'timer': 12,
+                                'title': 'Fyll och rulla ihop'},
+                            {   'step': 3,
+                                'text': 'Hetta upp rikligt med smör i en rymlig stekgryta. Bryn rulladerna runt om på '
+                                        'medelhög värme så att de får en fin, djup gyllenbrun färg. Lyft inte i dem '
+                                        'för tidigt så att de inte fastnar.',
+                                'timer': 10,
+                                'title': 'Bryn rulladerna gyllene'},
+                            {   'step': 4,
+                                'text': 'Häll på oxfond, soja, lagerblad och kryddpepparkorn runt rulladerna. Sänk '
+                                        'värmen, sätt på locket och låt rulladerna brässera sakta i ca 50–60 minuter '
+                                        'tills köttet är underbart mört.',
+                                'timer': 55,
+                                'title': 'Brässera under lock'},
+                            {   'step': 5,
+                                'text': 'Lyft upp rulladerna på ett varmt fat och dra försiktigt ur tandpetarna. Sila '
+                                        'buljongen ner i en kastrull och koka upp med vispgrädde och svartvinbärsgelé. '
+                                        'Vispa ner redningen och låt såsen sjuda i 5 minuter till en blank, krämig '
+                                        'konsistens. Smaka av med salt och peppar.',
+                                'timer': 8,
+                                'title': 'Gör gräddsåsen'},
+                            {   'step': 6,
+                                'text': 'Lägg tillbaka rulladerna i den heta såsen och låt dem bli genomvarma i 2 '
+                                        'minuter. Servera med kokt potatis, pressgurka och rårörda lingon.',
+                                'timer': 5,
+                                'title': 'Lägg tillbaka & servera'}],
+        'keywords': 'oxrullader, klassiska oxrullader, oxrullader gräddsås, rullader recept, oxrullader lövbiff, '
+                    'mormors oxrullader, söndagsmiddag oxrullader',
+        'long_desc': 'Klassiska oxrullader är en av den svenska husmanskostens mest eleganta och älskade rätter. Tunt '
+                     'bankat nötkött (lövbiff eller innanlår) stryks med skarp dijonsenap och fylls med knaperstekt '
+                     'rökt bacon eller sidfläsk, finhackad lök och syrlig inlagd gurka. Rulladerna bryns vackert '
+                     'gyllene i rikligt med smör och får därefter sjuda sakta under lock i en mustig buljong kryddad '
+                     'med kryddpeppar och lagerblad. Skyn förvandlas till en oemotståndlig gräddsås med touch av '
+                     'svartvinbärsgelé. Serveras traditionsenligt med kokt potatis, krispig hemgjord pressgurka och '
+                     'rårörda lingon.',
+        'nutrition': {'calories': '620 kcal', 'carbs': '12g', 'fat': '38g', 'protein': '54g', 'sugar': '5g'},
+        'portions_num': 4,
+        'portions_unit': 'portioner',
+        'prep_time': 'PT30M',
+        'prep_time_str': '30 min',
+        'pro_tips': 'Banka ut köttskivorna så tunna och jämna som möjligt mellan två plastfolieark. Det gör rulladerna '
+                    'enkla att rulla ihop och garanterar att de blir möra rakt igenom.',
+        'rating': 4.95,
+        'review_count': 10,
+        'slug': 'klassiska-oxrullader-graddsas-pressgurka',
+        'sub': 'Möra rullader på lövbiff fyllda med dijonsenap, rökt sidfläsk och inlagd gurka, bräserade i fyllig '
+               'gräddsås',
+        'time': 105,
+        'time_str': '1 tim 45 min',
+        'title': 'Klassiska Oxrullader med Gräddsås, Bacon & Pressgurka',
+        'total_time': 'PT1H45M'},
+    {   'alt': 'Färska rutor av saftig morotskaka i långpanna med tjock cream cheese-frosting toppad med hackade '
+               'valnötter och morotsstrimlor',
+        'calories': 380,
+        'card_title': 'Morotskaka i Långpanna',
+        'cat_key': 'fika',
+        'cat_slug': 'fika-och-bakning',
+        'category': 'Fika & Bakning',
+        'community_reviews': [   {   'comment': 'Bakade denna till dotterns kalas – alla frågade efter receptet! '
+                                                'Otroligt saftig och frostingen är helt perfekt med limetouchen.',
+                                     'date': '16 oktober 2026',
+                                     'name': 'Elin Dahl',
+                                     'rating': 5,
+                                     'verified': True},
+                                 {   'comment': 'Bästa morotskakan jag bakat. Mycket enklare i långpanna och blev '
+                                                'minst lika saftig dag 3.',
+                                     'date': '14 oktober 2026',
+                                     'name': 'Fredrik L.',
+                                     'rating': 5,
+                                     'verified': True}],
+        'cook_time': 'PT35M',
+        'cook_time_str': '35 min',
+        'desc': 'Sveriges mest bakade långpannekaka! Otroligt saftig morotskaka kryddad med kanel och kardemumma, '
+                'toppad med ett tjockt lager frisk cream cheese-frosting och hackade valnötter. Räcker till hela '
+                'kalaset.',
+        'diet': 'Vegetariskt fika',
+        'difficulty': 'Enkel',
+        'drink_pairing': 'Nybryggt kaffe, en krämig cappuccino eller ett glas kall mjölk.',
+        'equipment': ['Långpanna ca 30x40 cm', 'Bakplåtspapper', 'Elvisp', 'Rivjärn'],
+        'faqs': [   {   'a': 'Om du vispar färskosten för länge eller om ingredienserna har olika temperatur kan '
+                             'frostingen tappa formen. Vispa smör och florsocker fluffigt först, och vänd sedan snabbt '
+                             'ner färskosten.',
+                        'q': 'Varför blir min cream cheese-frosting lös?'},
+                    {   'a': 'Ja! Kakan går utmärkt att frysa, helst utan frosting, men det går även med frosting om '
+                             'den fryses styckvis tills ytan stelnat innan den packas in.',
+                        'q': 'Kan man frysa morotskaka i långpanna?'}],
+        'file': 'saftig-morotskaka-i-langpanna.html',
+        'img': 'morotskaka-langpanna',
+        'ingredients': [   {   'group': 'Morotskakesmet',
+                               'items': [   {'name': 'ägg (stora)', 'unit': 'st', 'val': '6'},
+                                            {'name': 'strösocker', 'unit': 'dl', 'val': '5'},
+                                            {'name': 'neutral rapsolja', 'unit': 'dl', 'val': '3'},
+                                            {'name': 'finrivna morötter (hårt packade)', 'unit': 'dl', 'val': '8'},
+                                            {'name': 'vetemjöl', 'unit': 'dl', 'val': '6'},
+                                            {'name': 'bakpulver', 'unit': 'tsk', 'val': '2'},
+                                            {'name': 'bikarbonat', 'unit': 'tsk', 'val': '2'},
+                                            {'name': 'malen kanel', 'unit': 'msk', 'val': '2'},
+                                            {'name': 'nymald kardemumma', 'unit': 'tsk', 'val': '1.5'},
+                                            {'name': 'malen ingefära', 'unit': 'tsk', 'val': '1'},
+                                            {'name': 'vaniljsocker', 'unit': 'msk', 'val': '1'},
+                                            {'name': 'salt', 'unit': 'tsk', 'val': '0.5'}]},
+                           {   'group': 'Krämig Frosting & Garnering',
+                               'items': [   {   'name': 'färskost (t.ex. Philadelphia, rumsvarm)',
+                                                'unit': 'g',
+                                                'val': '300'},
+                                            {'name': 'smör (osaltat, rumstempererat)', 'unit': 'g', 'val': '150'},
+                                            {'name': 'florsocker', 'unit': 'dl', 'val': '5'},
+                                            {'name': 'vaniljsocker', 'unit': 'msk', 'val': '1'},
+                                            {   'name': 'färskpressad limesaft eller citronsaft',
+                                                'unit': 'msk',
+                                                'val': '2'},
+                                            {'name': 'hackade valnötter (rostade)', 'unit': 'dl', 'val': '2'}]}],
+        'instructions': [   {   'step': 1,
+                                'text': 'Sätt ugnen på 175°C över-/undervärme. Klä en långpanna (ca 30x40 cm) med '
+                                        'bakplåtspapper så att kanterna sticker upp något.',
+                                'timer': 5,
+                                'title': 'Sätt ugnen och klä långpannan'},
+                            {   'step': 2,
+                                'text': 'Vispa ägg och strösocker med elvisp i en stor bunke i ca 4–5 minuter tills '
+                                        'det är riktigt vitt, tjockt och pösigt. Vänd ner rapsoljan och de finrivna '
+                                        'morötterna försiktigt med en slickepott.',
+                                'timer': 6,
+                                'title': 'Vispa ägg och socker pösigt'},
+                            {   'step': 3,
+                                'text': 'Blanda vetemjöl, bakpulver, bikarbonat, kanel, kardemumma, ingefära, '
+                                        'vaniljsocker och salt i en separat skål. Sikta ner mjölblandningen i '
+                                        'äggsmeten och vänd runt varsamt till en slät och jämn smet utan klumpar.',
+                                'timer': 5,
+                                'title': 'Blanda de torra ingredienserna'},
+                            {   'step': 4,
+                                'text': 'Häll ut smeten jämnt i långpannan och stryk ytan slät. Grädda mitt i ugnen i '
+                                        '30–35 minuter. Känn med en provsticka i mitten – den ska komma ut helt torr. '
+                                        'Låt kakan svalna helt i formen före frosting.',
+                                'timer': 32,
+                                'title': 'Grädda gyllenbrun'},
+                            {   'step': 5,
+                                'text': 'Vispa det mjuka smöret och florsockret vitt och fluffigt med elvisp i 3 '
+                                        'minuter. Tillsätt den kalla färskosten, vaniljsocker och limesaft. Vispa '
+                                        'snabbt ihop till en helt slät, tjock och glänsande kräm (vispa inte för länge '
+                                        'då kan färskosten bli lös).',
+                                'timer': 5,
+                                'title': 'Vispa cream cheese-frostingen'},
+                            {   'step': 6,
+                                'text': 'Bred ut frostingen i ett generöst, vågigt lager över den helt kalla '
+                                        'morotskakan. Toppa med hackade rostade valnötter. Ställ kakan i kylen i minst '
+                                        '30 minuter så att frostingen sätter sig, och skär sedan i 24 jämna rutor.',
+                                'timer': 10,
+                                'title': 'Bred på, dekorera & skär upp'}],
+        'keywords': 'morotskaka i långpanna, saftig morotskaka långpanna, morotskaka recept långpanna, bästa '
+                    'morotskakan, morotskaka cream cheese frosting, fika till många',
+        'long_desc': 'Morotskaka i långpanna är den ultimata fikan när du ska bjuda många! Denna klassiska svenska '
+                     'bjudkaka bakas i en hel ugnsplåt och ger upp till 24 generösa rutor som försvinner i ett nafs på '
+                     'kalas, fikaträffar eller dop. Hemligheten bakom den oöverträffade saftigheten är att använda '
+                     'neutral rapsolja istället för smör samt rikligt med färskriven morot som ger kakan dess '
+                     'underbara textur. Kakan kryddas varmt med kanel, nymald kardemumma och en nypa ingefära. Ovanpå '
+                     'breds ett tjockt, sammetslent lager av syrlig och frisk cream cheese-frosting smaksatt med lime '
+                     'och vanilj. Kakan håller sig fantastiskt saftig i kylen i flera dagar och går utmärkt att '
+                     'förbereda i förväg.',
+        'nutrition': {'calories': '380 kcal', 'carbs': '46g', 'fat': '20g', 'protein': '5g', 'sugar': '32g'},
+        'portions_num': 24,
+        'portions_unit': 'bitar',
+        'prep_time': 'PT25M',
+        'prep_time_str': '25 min',
+        'pro_tips': 'Använd neutral olja (t.ex. rapsolja) i smeten istället för smör. Oljan binder fukten i kakan så '
+                    'att den håller sig fantastiskt saftig i upp till 4–5 dagar i kylskåp.',
+        'rating': 4.98,
+        'review_count': 14,
+        'slug': 'saftig-morotskaka-i-langpanna',
+        'sub': 'Underbart saftig och mjuk morotskaka i långpanna med kanel och kardemumma, täckt av tjock cream '
+               'cheese-frosting',
+        'time': 60,
+        'time_str': '1 tim',
+        'title': 'Saftig Morotskaka i Långpanna med Cream Cheese-frosting',
+        'total_time': 'PT1H'}]
+
