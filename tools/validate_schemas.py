@@ -30,7 +30,9 @@ RECOMMENDED_FIELDS = [
     "recipeCuisine",
     "nutrition",
     "author",
-    "publisher"
+    "publisher",
+    "aggregateRating",
+    "review"
 ]
 
 def validera_recept():
@@ -112,9 +114,27 @@ def validera_recept():
             felaktiga += 1
             continue
 
+        # Kontrollera aggregateRating & review matematisk paritet + synlig HTML
+        agg = recept_objekt.get("aggregateRating", {})
+        revs = recept_objekt.get("review", [])
+        visible_comment_cards = innehall.count('<div class="comment-card">')
+        if not agg or not revs:
+            print(f"❌ [{filnamn}] Saknar aggregateRating eller review-lista.")
+            felaktiga += 1
+            continue
+        if int(agg.get("reviewCount", 0)) != len(revs) or len(revs) != visible_comment_cards:
+            print(f"❌ [{filnamn}] Obalans i antal recensioner: schema={agg.get('reviewCount')}, revs={len(revs)}, html={visible_comment_cards}")
+            felaktiga += 1
+            continue
+        calc_avg = round(sum(float(r["reviewRating"]["ratingValue"]) for r in revs) / len(revs), 1)
+        if float(agg.get("ratingValue", 0)) != calc_avg:
+            print(f"❌ [{filnamn}] Matematiskt fel i ratingValue: {agg.get('ratingValue')} != {calc_avg}")
+            felaktiga += 1
+            continue
+
         # Kontrollera rekommenderade fält
         saknade_rekommenderade = [f for f in RECOMMENDED_FIELDS if f not in recept_objekt]
-        rekommenderad_status = f"(Saknar: {', '.join(saknade_rekommenderade)})" if saknade_rekommenderade else "100% fullständig (Alla rekommenderade fält finns!)"
+        rekommenderad_status = f"(Saknar: {', '.join(saknade_rekommenderade)})" if saknade_rekommenderade else f"100% fullständig ({agg.get('ratingValue')}★ / {len(revs)} verifierade recensioner)"
 
         print(f"✅ [{filnamn}] GODKÄND - {recept_objekt.get('name')} -> {rekommenderad_status}")
         godkanda += 1

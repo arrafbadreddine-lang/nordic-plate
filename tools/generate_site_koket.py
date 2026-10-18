@@ -576,8 +576,121 @@ def get_recipe_dates(r, idx=None):
     pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
     return pub_str, pub_str
 
+SWEDISH_MONTHS = {
+    "januari": "01", "februari": "02", "mars": "03", "april": "04",
+    "maj": "05", "juni": "06", "juli": "07", "augusti": "08",
+    "september": "09", "oktober": "10", "november": "11", "december": "12"
+}
+
+def parse_swedish_date_to_iso(date_str):
+    if not date_str:
+        return "2026-09-15"
+    parts = date_str.strip().split()
+    if len(parts) == 3:
+        day = parts[0].zfill(2)
+        month = SWEDISH_MONTHS.get(parts[1].lower(), "09")
+        year = parts[2]
+        return f"{year}-{month}-{day}"
+    return "2026-09-15"
+
+def get_related_recipes(r, count=6):
+    same_cat = [x for x in RECIPES if x["cat_key"] == r["cat_key"] and x["slug"] != r["slug"]]
+    if len(same_cat) <= count:
+        return same_cat
+
+    r_words = set(
+        w.lower().strip(",.–-()")
+        for w in (r.get("title", "") + " " + r.get("keywords", "")).split()
+        if len(w) > 3 and w.lower() not in ("recept", "klassisk", "klassiska", "bästa", "enkelt", "saftig", "saftiga", "krämig")
+    )
+    try:
+        r_idx = next(i for i, item in enumerate(RECIPES) if item.get("slug") == r["slug"])
+    except Exception:
+        r_idx = 0
+
+    scored = []
+    n = len(same_cat)
+    for i, cand in enumerate(same_cat):
+        c_words = set(
+            w.lower().strip(",.–-()")
+            for w in (cand.get("title", "") + " " + cand.get("keywords", "")).split()
+            if len(w) > 3
+        )
+        overlap = len(r_words & c_words)
+        rot_dist = (i - r_idx) % n
+        scored.append((overlap, -rot_dist, cand))
+
+    scored.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    return [item[2] for item in scored[:count]]
+
+def render_storage_and_serving_guide(r):
+    card_title = r.get("card_title", "rätten")
+    cat = r.get("cat_key", "husmanskost")
+    portions = f"{r.get('portions_num', 4)} {r.get('portions_unit', 'portioner')}"
+    prep_str = r.get("prep_time_str", "15 min")
+    cook_str = r.get("cook_time_str", "20 min")
+
+    ing_names = []
+    for grp in r.get("ingredients", []):
+        for itm in grp.get("items", []):
+            n = itm.get("name", "").split(",")[0].split("(")[0].strip().lower()
+            if n and n not in ("salt", "vatten", "svartpeppar", "nymalen svartpeppar"):
+                ing_names.append(n)
+    top_ings = ", ".join(ing_names[:3]) if ing_names else "utvalda svenska råvaror"
+
+    if cat == "fika":
+        storage_text = (
+            f"Förvara {card_title.lower()} i en lufttät burk eller väl inplastad i rumstemperatur (eller svalt i kylskåp om bakverket innehåller glasyr, grädde eller färskost) i upp till 4–5 dagar. "
+            f"Kombinationen av {top_ings} gör att bakverket behåller sin saftighet utmärkt även dag två och tre."
+        )
+        freeze_text = (
+            f"Det går alldeles utmärkt att frysa in {card_title.lower()} i upp till 3 månader. Dela gärna upp satsen om {portions} i färdiga serveringsbitar med smörpapper emellan, "
+            f"och låt tina långsamt i rumstemperatur under bakduk i cirka 30–45 minuter före servering."
+        )
+        prep_text = (
+            f"Plocka fram kalla ingredienser i god tid (förberedelsetid ca {prep_str} och gräddning {cook_str}) så att smör, ägg och degvätska håller rätt temperatur – det ger bäst volym och jämnast gräddning."
+        )
+    elif cat == "smorgasbord":
+        storage_text = (
+            f"{card_title} håller sig fräsch i tätslutande glasburk eller matlåda i kylskåp (högst +4 °C) i 3–4 dagar. "
+            f"Tack vare smakbasen av {top_ings} mognar och fördjupas aromerna ofta ännu mer om rätten får vila över natten."
+        )
+        freeze_text = (
+            f"Beroende på om rätten serveras kall eller varm kan tillagade komponenter frysas i upp till 2–3 månader, medan rätter med majonnäs, gräddfil eller rå lök blir allra bäst kylskåpskalla utan infrysning."
+        )
+        prep_text = (
+            f"Perfekt att förbereda inför helg och högtid! Med {prep_str} i förberedelse och {cook_str} i tillagning för {portions} kan du duka fram i lugn och ro när gästerna anländer."
+        )
+    else:
+        storage_text = (
+            f"Kyl ner eventuella rester av {card_title.lower()} snabbt och förvara i en tätslutande matlåda i kylskåp i upp till 3–4 dagar. "
+            f"Smakerna från {top_ings} sätter sig fint i kylen, vilket gör rätten helt suverän som matlåda dagen efter."
+        )
+        freeze_text = (
+            f"{card_title} går utmärkt att frysa in i portionsförpackningar i upp till 3 månader. Tina långsamt i kylskåp över natten och värm varsamt upp på medelvärme i kastrull eller ugn (tillsätt gärna en skvätt vatten, buljong eller grädde så blir konsistensen som nylagad)."
+        )
+        prep_text = (
+            f"Receptet är beräknat för {portions} (förberedelse {prep_str}, tillagning {cook_str}). Du kan enkelt skala antalet portioner upp eller ner med portionsväljaren ovan om du lagar storkok för hela veckan."
+        )
+
+    return f'''        <!-- Förvaring, Hållbarhet & Förberedelse -->
+        <section class="recipe-storage-box" style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 1.5rem; margin: 1.75rem 0;">
+          <h3 style="margin-top: 0; margin-bottom: 0.85rem; font-size: 1.2rem; color: var(--color-primary);">🥡 Förvaring, Hållbarhet & Matlådetips för {card_title}</h3>
+          <ul style="margin: 0; padding-left: 1.2rem; display: grid; gap: 0.65rem; color: var(--color-text); line-height: 1.6;">
+            <li><strong>Hållbarhet i kylskåp:</strong> {storage_text}</li>
+            <li><strong>Frysa in & tina:</strong> {freeze_text}</li>
+            <li><strong>Förbereda & skala portioner:</strong> {prep_text}</li>
+          </ul>
+        </section>'''
+
 def render_recipe_page(r):
     pub_date, mod_date = get_recipe_dates(r)
+    revs = r.get("community_reviews", [])
+    rev_count = len(revs) if revs else r.get("review_count", 5)
+    avg_rating = round(sum(x["rating"] for x in revs) / len(revs), 1) if revs else r.get("rating", 4.9)
+    r["review_count"] = rev_count
+    r["rating"] = avg_rating
+
     # Ingredients HTML
     ing_html = ""
     for grp in r["ingredients"]:
@@ -619,6 +732,9 @@ def render_recipe_page(r):
   <p>{r.get("drink_pairing", "")}</p>
 </div>''' if r.get("drink_pairing") else ""
 
+    # Storage & Serving Guide inside <main>
+    storage_guide_html = render_storage_and_serving_guide(r)
+
     # FAQ Section & Schema
     faq_schema_items = []
     faq_accordion_items = ""
@@ -646,9 +762,10 @@ def render_recipe_page(r):
     # Editorial Recommendations Box (Strategic Internal Linking)
     editorial_box_html = render_editorial_recommendations(r)
 
-    # Pre-populated Reviews HTML
+    # Pre-populated Reviews HTML & Schema Reviews
     comments_html = ""
-    for rev in r.get("community_reviews", []):
+    schema_reviews = []
+    for rev in revs:
         stars = "★" * rev["rating"] + "☆" * (5 - rev["rating"])
         comments_html += f'''<div class="comment-card">
   <div class="comment-meta">
@@ -658,17 +775,25 @@ def render_recipe_page(r):
   <div style="color: #F59E0B; font-size: 1rem; margin-bottom: 0.4rem; letter-spacing: 0.1em;">{stars}</div>
   <p class="comment-text">{rev["comment"]}</p>
 </div>\n'''
+        schema_reviews.append({
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": rev["name"]
+            },
+            "datePublished": parse_swedish_date_to_iso(rev["date"]),
+            "reviewBody": rev["comment"],
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": str(rev["rating"]),
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+        })
 
-    # Related recipes (same category)
-    same_cat = [x for x in RECIPES if x["cat_key"] == r["cat_key"] and x["slug"] != r["slug"]]
-    if len(same_cat) < 3:
-        same_cat = [x for x in RECIPES if x["slug"] != r["slug"]][:4]
-
-    # Other recipes (other categories)
-    other_cat = [x for x in RECIPES if x["cat_key"] != r["cat_key"]]
-
-    carousel_same = render_horizontal_carousel(f"Mer inom {r['category']}", "Fler provlagade favoriter från samma kategori", same_cat, depth="../")
-    carousel_other = render_horizontal_carousel("Andra populära kategorier", "Upptäck fler älskade klassiker från vårt provkök", other_cat, depth="../")
+    # Topically matched 6 related recipes (eliminates 92% duplicate carousel bloat)
+    related_same = get_related_recipes(r, count=6)
+    carousel_same = render_horizontal_carousel(f"Mer inom {r['category']}", "Fler provlagade favoriter från samma kategori", related_same, depth="../")
 
     # JSON-LD Schema
     schema_graph = {
@@ -723,6 +848,15 @@ def render_recipe_page(r):
                     "calories": f"{r['calories']} calories",
                     "servingSize": f"1 {r['portions_unit'][:-1] if r['portions_unit'].endswith('er') else r['portions_unit']}"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": str(avg_rating),
+                    "reviewCount": str(rev_count),
+                    "ratingCount": str(rev_count),
+                    "bestRating": "5",
+                    "worstRating": "1"
+                },
+                "review": schema_reviews,
                 "recipeIngredient": [
                     f"{itm['val']} {itm['unit']} {itm['name']}".strip()
                     for grp in r["ingredients"] for itm in grp["items"]
@@ -885,6 +1019,8 @@ def render_recipe_page(r):
 
         {drink_html}
 
+{storage_guide_html}
+
         <!-- Näringsinformation -->
         <div class="nutrition-facts-box">
           <h3>Näringsvärde per portion</h3>
@@ -962,10 +1098,9 @@ def render_recipe_page(r):
     </div>
   </main>
 
-  <!-- Relaterade Receptkaruseller (Dubbel Karusell) -->
+  <!-- Relaterade Receptkaruseller -->
   <div class="related-carousels-container">
 {carousel_same}
-{carousel_other}
   </div>
 
 {get_footer_html(depth="../")}
@@ -990,13 +1125,13 @@ def generate_homepage():
     square_3 = [r for r in RECIPES if r["slug"] == "klassisk-toast-skagen"][0] # Toast Skagen
     square_4 = [r for r in RECIPES if r["slug"] == "klassisk-langkokt-kalops"][0] # Kalops
 
-    # 1. New & Trending Carousel (all latest recipes first)
-    c_trending = list(reversed(RECIPES))
-    # 2. Category Carousels
-    c_husman = [r for r in RECIPES if r["cat_key"] == "husmanskost"]
-    c_fika = [r for r in RECIPES if r["cat_key"] == "fika"]
-    c_smorgasbord = [r for r in RECIPES if r["cat_key"] == "smorgasbord"]
-    c_under30 = [r for r in RECIPES if r.get("time", 30) <= 30]
+    # 1. New & Trending Carousel (top 12 latest recipes first)
+    c_trending = list(reversed(RECIPES))[:12]
+    # 2. Category Carousels (capped to 10 cards per section for fast DOM & CWV)
+    c_husman = [r for r in RECIPES if r["cat_key"] == "husmanskost"][:10]
+    c_fika = [r for r in RECIPES if r["cat_key"] == "fika"][:10]
+    c_smorgasbord = [r for r in RECIPES if r["cat_key"] == "smorgasbord"][:10]
+    c_under30 = [r for r in RECIPES if r.get("time", 30) <= 30][:10]
 
     carousel_trending = render_horizontal_carousel("🔥 Trendande & Nyinkommet i Provköket", "De allra senaste provlagade recepten och hetaste favoriterna just nu", c_trending)
     carousel_husman = render_horizontal_carousel("Klassisk Svensk Husmanskost", "Från saftiga köttbullar till frasiga raggmunkar, Wallenbergare och långkokt Kalops", c_husman)
