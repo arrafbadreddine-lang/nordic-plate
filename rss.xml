@@ -5,8 +5,52 @@
     <link>https://svenska-recept.se/</link>
     <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
     <language>sv</language>
-    <lastBuildDate>Sun, 18 Oct 2026 08:32:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 20:38:34 +0000</lastBuildDate>
     <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Klassisk Seg Kladdkaka i Långpanna – Enkelt Recept (30 Bitar)</title>
+      <link>https://svenska-recept.se/recept/klassisk-seg-kladdkaka-i-langpanna.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-seg-kladdkaka-i-langpanna.html</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0200</pubDate>
+      <description>Baka Sveriges godaste sega kladdkaka i långpanna! Ett idiotsäkert recept som ger 30 generösa rutor med frasig ovansida och ljuvligt kladdig mitt – klart på 35 minuter i en enda kastrull.</description>
+      <category>Fika &amp; Bakning</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/kladdkaka-langpanna-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/kladdkaka-langpanna-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Krämig Toscakladdkaka med Knäckig Mandel- &amp; Kokostosca</title>
+      <link>https://svenska-recept.se/recept/kramig-toscakladdkaka-mandel-kokos.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-toscakladdkaka-mandel-kokos.html</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0200</pubDate>
+      <description>Toscakladdkaka förenar en fylligt kladdig chokladbotten med ett gyllene, knäckigt toscatäcke av mandelspån, riven kokos, grädde och smör. En oemotståndlig fikafavorit!</description>
+      <category>Fika &amp; Bakning</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/toscakladdkaka-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/toscakladdkaka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Krämig Tacopaj med Crème Fraiche &amp; Nachos – Bästa Receptet</title>
+      <link>https://svenska-recept.se/recept/klassisk-kramig-tacopaj-creme-fraiche.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-tacopaj-creme-fraiche.html</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0200</pubDate>
+      <description>Vårt mest populära recept på klassisk krämig tacopaj! Frasigt pajskal fyllt med mustig tacokryddad nötfärs, majs och salsa, toppat med ett ljuvligt krämigt ost- och crème fraiche-täcke.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/tacopaj-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/tacopaj-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Plankstek med Oxfilé, Duchessemos &amp; Bearnaisesås</title>
+      <link>https://svenska-recept.se/recept/klassisk-plankstek-oxfile-duchessemos.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-plankstek-oxfile-duchessemos.html</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0200</pubDate>
+      <description>Laga en äkta klassisk plankstek hemma! Smörstekt oxfilé omgiven av spritsat gyllene duchessemos på mjölig potatis och äggulor, baconlindade haricots verts, grillad tomat och krämig bearnaisesås.</description>
+      <category>Högtider &amp; Smörgåsbord</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/plankstek-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/plankstek-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
     <item>
       <title>Klassisk Frasig Raggmunk i Långpanna – Enkelt &amp; Otroligt Gott Recept</title>
       <link>https://svenska-recept.se/recept/klassisk-frasig-raggmunk-i-langpanna.html</link>
@@ -237,50 +281,6 @@
       <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
       <enclosure url="https://svenska-recept.se/assets/images/recept/ugnsstekt-anka-1900x900.jpg" length="150000" type="image/jpeg" />
       <media:content url="https://svenska-recept.se/assets/images/recept/ugnsstekt-anka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Fluffig Chokladmousse på Mörk Choklad &amp; Vispgrädde</title>
-      <link>https://svenska-recept.se/recept/klassisk-fluffig-chokladmousse.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-fluffig-chokladmousse.html</guid>
-      <pubDate>Fri, 18 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Lyxigt och idiotsäkert recept på klassisk fluffig chokladmousse! Gjord på mörk kvalitetschoklad, ägg och vispad grädde för en silkeslen dessert som smälter i munnen.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/chokladmousse-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/chokladmousse-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassiska Dammsugare – Hemlagade Punschrullar med Grön Marsipan</title>
-      <link>https://svenska-recept.se/recept/klassiska-dammsugare-punschrullar.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-dammsugare-punschrullar.html</guid>
-      <pubDate>Fri, 18 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Bästa receptet på klassiska hemgjorda dammsugare (punschrullar)! Saftig fyllning smaksatt med arrak, inrullad i grön marsipan och doppade ändar i mörk choklad.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/dammsugare-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/dammsugare-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Mustig Gulaschsoppa med Köttfärs &amp; Potatis – Snabb Köttfärsgulasch</title>
-      <link>https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</guid>
-      <pubDate>Sat, 12 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Fyllig och värmande gulaschsoppa på nötfärs, tärnad potatis och paprika smaksatt med kummin och vitlök. Klart på 30 minuter.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Krämig Fisksoppa med Lax, Torsk &amp; Dill – Lyxig &amp; Enkel</title>
-      <link>https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</guid>
-      <pubDate>Sat, 12 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Sammetslen och lyxig fisksoppa med lax, torskrygg, purjolök, rotfrukter, vitt vin och rikligt med färsk dill. Klart på 35 minuter.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
   </channel>
 </rss>

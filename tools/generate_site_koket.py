@@ -274,39 +274,109 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🍰 Fler Älskade Långpannekakor & Konditorklassiker",
         "desc": "Silviakaka är en festlig favorit – missa inte dessa saftiga långpannekakor och bagerifavoriter:",
         "slugs": [
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "saftig-morotskaka-i-langpanna",
             "saftig-appelkaka-i-langpanna",
-            "klassiska-vaniljbullar-solbullar",
-            "klassiska-dammsugare-punschrullar",
-            "klassisk-fluffig-chokladmousse"
+            "klassiska-saftiga-karleksmums"
         ]
     },
     "klassiska-saftiga-karleksmums": {
-        "title": "☕ Klassiska Bagerifavoriter & Konditorikakor",
-        "desc": "Kärleksmums med kaffeglasyr är en tidlös fika. Här är fler klassiker som alltid gör succé:",
+        "title": "☕ Klassiska Bagerifavoriter & Långpannekakor",
+        "desc": "Mockarutor (kärleksmums) är en tidlös fika. Här är fler klassiker som alltid gör succé:",
         "slugs": [
-            "klassiska-dammsugare-punschrullar",
-            "klassiska-vaniljbullar-solbullar",
-            "klassisk-fluffig-chokladmousse",
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-silviakaka-langpanna",
+            "saftig-morotskaka-i-langpanna"
+        ]
+    },
+    "saftig-toscakaka-mandelglasyr": {
+        "title": "🍫 Älskar du Knäckig Tosca? Prova Dessa Favoriter!",
+        "desc": "Mandelglasyren i toscakaka är oslagbar – upptäck även vår krämiga toscakladdkaka och klassiska ryttarkaka:",
+        "slugs": [
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-ryttarkaka-kokostosca",
+            "klassisk-seg-kladdkaka-i-langpanna",
             "saftig-appelkaka-i-langpanna"
+        ]
+    },
+    "klassisk-ryttarkaka-kokostosca": {
+        "title": "🥥 Fler Sega & Knäckiga Chokladfavoriter",
+        "desc": "Gillar du kombinationen av kladdig choklad och knäckig kokostosca? Missa inte dessa favoriter:",
+        "slugs": [
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "saftig-toscakaka-mandelglasyr",
+            "klassiska-saftiga-karleksmums"
+        ]
+    },
+    "klassisk-kramig-kladdkaka": {
+        "title": "🍫 Våra Bästa Kladdkakor till Kladdkakans Dag",
+        "desc": "Utforska fler oemotståndliga varianter på Sveriges mest älskade chokladkaka:",
+        "slugs": [
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-vit-kladdkaka-citron-vanilj",
+            "klassisk-kanelbullekladdkaka"
+        ]
+    },
+    "klassisk-seg-kladdkaka-i-langpanna": {
+        "title": "🍫 Fler Älskade Kladdkakor & Långpannefika",
+        "desc": "Baka till många eller prova en lyxig twist på klassisk kladdkaka:",
+        "slugs": [
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-kramig-kladdkaka",
+            "klassisk-silviakaka-langpanna",
+            "klassiska-saftiga-karleksmums"
+        ]
+    },
+    "kramig-toscakladdkaka-mandel-kokos": {
+        "title": "🍰 Fler Knäckiga Toscakakor & Kladdkakor",
+        "desc": "Älskar du knäckig glasyr och kladdig choklad? Här är fler provlagade favoriter:",
+        "slugs": [
+            "saftig-toscakaka-mandelglasyr",
+            "klassisk-ryttarkaka-kokostosca",
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "klassisk-kramig-kladdkaka"
+        ]
+    },
+    "klassisk-kramig-tacopaj-creme-fraiche": {
+        "title": "🥧 Fler Matiga Pajer & Fredagsfavoriter",
+        "desc": "Tacopaj är svårslaget till fredagsmyset! Prova även dessa populära matpajer och middagar:",
+        "slugs": [
+            "klassisk-kottfarspaj-frasigt-pajskal",
+            "kramig-kantarellpaj-vasterbottensost",
+            "klassisk-ost-och-skinkpaj-frasigt-skal",
+            "klassisk-cowboysoppa-kottfars-potatis"
+        ]
+    },
+    "klassisk-plankstek-oxfile-duchessemos": {
+        "title": "🥩 Svenska Krogklassiker & Festmiddagar",
+        "desc": "Plankstek med oxfilé är ultimat helglyx. Upptäck fler klassiska festrätter:",
+        "slugs": [
+            "klassisk-biff-rydberg-oxfile-aggula",
+            "klassisk-skomakarlada-biff-bacon-potatismos",
+            "klassisk-algstek-graddsas-enbar",
+            "klassisk-porterstek-svartvinbar-graddsas"
         ]
     },
     "klassisk-langkokt-kalops": {
         "title": "🥘 Mustiga Höstgrytor & Klassisk Husmanskost",
         "desc": "Långkokt mör kalops med kryddpeppar och rödbetor – upptäck fler värmande middagsfavoriter:",
         "slugs": [
+            "mustig-alggryta-kantareller-rodvin",
+            "klassiska-oxrullader-graddsas-pressgurka",
             "kramig-korvgryta-falukorv-paprika",
-            "kramig-trattkantarellpasta-parmesan",
-            "saftiga-tjocka-revbensspjall-i-ugn",
-            "klassisk-ugnsstekt-anka-apelsinsas"
+            "saftiga-tjocka-revbensspjall-i-ugn"
         ]
     },
     "kramig-lovbiffsgryta-dijon-champinjoner": {
         "title": "⏱️ Snabba & Krämiga Vardagsmiddagar",
         "desc": "Lövbiffsgryta är perfekt när du vill ha god mat snabbt. Prova även dessa snabblagade middagar:",
         "slugs": [
+            "klassisk-kramig-tacopaj-creme-fraiche",
             "kramig-korvgryta-falukorv-paprika",
             "kramig-trattkantarellpasta-parmesan",
-            "kramig-blomkalssoppa-knaperstekt-bacon",
             "klassisk-fluffig-ugnspannkaka"
         ]
     },
@@ -314,18 +384,18 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🥩 Eleganta Svenska Fest- & Helgmiddagar",
         "desc": "Biff Rydberg är en av Sveriges förnämsta krogklassiker. Här är fler festliga rätter för helgen:",
         "slugs": [
-            "klassisk-ugnsstekt-anka-apelsinsas",
-            "saftiga-tjocka-revbensspjall-i-ugn",
-            "kramig-trattkantarellpasta-parmesan",
-            "krispiga-rostade-pumpakarnor-i-ugn"
+            "klassisk-plankstek-oxfile-duchessemos",
+            "klassisk-skomakarlada-biff-bacon-potatismos",
+            "klassisk-algstek-graddsas-enbar",
+            "klassisk-ugnsstekt-anka-apelsinsas"
         ]
     },
     "klassisk-kalpudding-sirap-lingon": {
         "title": "🍲 Traditionella Svenska Vardagshjältar",
         "desc": "Kålpudding med sirap och gräddsås är ren vardagslyx. Här är fler tidlösa favoriter:",
         "slugs": [
+            "klassiska-oxrullader-graddsas-pressgurka",
             "klassisk-fluffig-ugnspannkaka",
-            "kramig-korvgryta-falukorv-paprika",
             "gammaldags-kycklingsoppa-rotfrukter",
             "gammaldags-kalsoppa-frikadeller"
         ]
@@ -433,6 +503,14 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
 }
 
 NEWEST_FALLBACK_POOL = [
+    "klassisk-seg-kladdkaka-i-langpanna",
+    "kramig-toscakladdkaka-mandel-kokos",
+    "klassisk-kramig-tacopaj-creme-fraiche",
+    "klassisk-plankstek-oxfile-duchessemos",
+    "klassisk-algstek-graddsas-enbar",
+    "mustig-alggryta-kantareller-rodvin",
+    "klassiska-oxrullader-graddsas-pressgurka",
+    "saftig-morotskaka-i-langpanna",
     "klassisk-frasig-raggmunk-i-langpanna",
     "klassiska-tunna-pannkakor",
     "klassisk-kramig-svampstuvning",
@@ -440,15 +518,7 @@ NEWEST_FALLBACK_POOL = [
     "snabba-kanelbullar-utan-jast",
     "saftiga-kanelbullemuffins",
     "klassisk-hemlagad-vaniljsas",
-    "kramig-appelkladdkaka-kanel",
-    "klassiska-saftiga-kardemummabullar",
-    "klassisk-kanelbullekladdkaka",
-    "saftiga-kanelbullar-i-langpanna",
-    "saftiga-appelmuffins-kanelsmul",
-    "klassisk-fluffig-ugnspannkaka",
-    "klassiska-fluffiga-tekakor-havregryn",
-    "kramig-blomkalssoppa-knaperstekt-bacon",
-    "kramig-korvgryta-falukorv-paprika"
+    "kramig-appelkladdkaka-kanel"
 ]
 
 def render_editorial_recommendations(r):
