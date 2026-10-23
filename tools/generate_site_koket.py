@@ -575,76 +575,106 @@ def render_editorial_recommendations(r):
         </div>'''
 
 def get_recipe_dates(r, idx=None):
-    if "date_published" in r:
-        pub = r["date_published"]
-        mod = r.get("date_modified", pub)
-        return pub, mod
-
     slug = r.get("slug", "")
-    # Batch 27 (October 2, 2026) - GSC Mega-Hits & Autumn Comfort Sprint
-    if slug in [
-        "klassisk-frasig-raggmunk-i-langpanna",
-        "klassiska-tunna-pannkakor",
-        "klassisk-kramig-svampstuvning",
-        "kramig-champinjonsoppa-timjan"
-    ]:
-        return "2026-10-02T10:00:00+02:00", "2026-10-02T12:00:00+02:00"
+    pub_str = r.get("date_published")
 
-    # Batch 26 (September 27, 2026) - Kanelbullevecka & Höstfika Sprint
-    if slug in [
-        "snabba-kanelbullar-utan-jast",
-        "saftiga-kanelbullemuffins",
-        "klassisk-hemlagad-vaniljsas",
-        "kramig-appelkladdkaka-kanel"
-    ]:
-        return "2026-09-27T10:00:00+02:00", "2026-09-27T12:00:00+02:00"
+    if not pub_str:
+        # Batch 31 (October 19, 2026)
+        if slug in [
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "kramig-toscakladdkaka-mandel-kokos",
+            "klassisk-kramig-tacopaj-creme-fraiche",
+            "klassisk-plankstek-oxfile-duchessemos"
+        ]:
+            pub_str = "2026-10-19T12:00:00+02:00"
+        # Batch 30 (October 17, 2026)
+        elif slug in [
+            "klassisk-algstek-graddsas-enbar",
+            "mustig-alggryta-kantareller-rodvin",
+            "klassiska-oxrullader-graddsas-pressgurka",
+            "saftig-morotskaka-i-langpanna"
+        ]:
+            pub_str = "2026-10-17T10:00:00+02:00"
+        # Batch 29 (October 5, 2026)
+        elif slug in [
+            "klassisk-frasig-hasselbackspotatis",
+            "klassisk-porterstek-svartvinbar-graddsas",
+            "klassisk-vit-kladdkaka-citron-vanilj",
+            "klassiska-frasiga-rarakor-stekt-flask"
+        ]:
+            pub_str = "2026-10-05T10:00:00+02:00"
+        # Batch 28 (October 4, 2026)
+        elif slug in [
+            "mustig-gulaschsoppa-kottfars",
+            "klassisk-kramig-fisksoppa-lax-torsk",
+            "klassiska-sma-plattar",
+            "klassisk-kramig-rotfruktssoppa-timjan"
+        ]:
+            pub_str = "2026-10-04T10:00:00+02:00"
+        # Batch 27 (October 2, 2026)
+        elif slug in [
+            "klassisk-frasig-raggmunk-i-langpanna",
+            "klassiska-tunna-pannkakor",
+            "klassisk-kramig-svampstuvning",
+            "kramig-champinjonsoppa-timjan"
+        ]:
+            pub_str = "2026-10-02T10:00:00+02:00"
+        # Batch 26 (September 27, 2026)
+        elif slug in [
+            "snabba-kanelbullar-utan-jast",
+            "saftiga-kanelbullemuffins",
+            "klassisk-hemlagad-vaniljsas",
+            "kramig-appelkladdkaka-kanel"
+        ]:
+            pub_str = "2026-09-27T10:00:00+02:00"
+        # Batch 25 (September 26, 2026)
+        elif slug in [
+            "klassiska-saftiga-kardemummabullar",
+            "klassisk-kanelbullekladdkaka",
+            "saftiga-kanelbullar-i-langpanna",
+            "saftiga-appelmuffins-kanelsmul"
+        ]:
+            pub_str = "2026-09-26T10:00:00+02:00"
+        # Batch 24 (September 23, 2026)
+        elif slug in [
+            "klassisk-fluffig-ugnspannkaka",
+            "klassiska-fluffiga-tekakor-havregryn",
+            "kramig-blomkalssoppa-knaperstekt-bacon",
+            "kramig-korvgryta-falukorv-paprika"
+        ]:
+            pub_str = "2026-09-23T10:00:00+02:00"
+        # Batch 23 (September 19, 2026)
+        elif slug in [
+            "klassiska-vaniljbullar-solbullar",
+            "gammaldags-kycklingsoppa-rotfrukter",
+            "kramig-trattkantarellpasta-parmesan",
+            "saftig-appelkaka-i-langpanna",
+            "klassisk-ugnsstekt-anka-apelsinsas"
+        ]:
+            pub_str = "2026-09-19T10:00:00+02:00"
+        # Batch 22 (September 18, 2026)
+        elif slug in [
+            "klassisk-fluffig-chokladmousse",
+            "klassiska-dammsugare-punschrullar"
+        ]:
+            pub_str = "2026-09-18T10:00:00+02:00"
+        else:
+            if idx is None:
+                try:
+                    idx = next(i for i, item in enumerate(RECIPES) if item.get("slug") == slug)
+                except Exception:
+                    idx = 50
+            base_date = date(2026, 1, 15)
+            days_offset = min(240, int(idx * 1.85))
+            pub_d = base_date + timedelta(days=days_offset)
+            tz = "+01:00" if pub_d.month < 4 or pub_d.month > 10 else "+02:00"
+            pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
 
-    # Batch 25 (September 26, 2026) - Kanelbullens Dag Sprint
-    if slug in [
-        "klassiska-saftiga-kardemummabullar",
-        "klassisk-kanelbullekladdkaka",
-        "saftiga-kanelbullar-i-langpanna",
-        "saftiga-appelmuffins-kanelsmul"
-    ]:
-        return "2026-09-26T10:00:00+02:00", "2026-09-26T12:00:00+02:00"
-
-    # Batch 24 (September 23, 2026)
-    if slug in [
-        "klassisk-fluffig-ugnspannkaka",
-        "klassiska-fluffiga-tekakor-havregryn",
-        "kramig-blomkalssoppa-knaperstekt-bacon",
-        "kramig-korvgryta-falukorv-paprika"
-    ]:
-        return "2026-09-23T10:00:00+02:00", "2026-09-23T12:00:00+02:00"
-
-    # Batch 23 (September 19, 2026)
-    if slug in [
-        "klassiska-vaniljbullar-solbullar",
-        "gammaldags-kycklingsoppa-rotfrukter",
-        "kramig-trattkantarellpasta-parmesan",
-        "saftig-appelkaka-i-langpanna",
-        "klassisk-ugnsstekt-anka-apelsinsas"
-    ]:
-        return "2026-09-19T10:00:00+02:00", "2026-09-19T12:00:00+02:00"
-
-    # Batch 22 (September 18, 2026)
-    if slug in [
-        "klassisk-fluffig-chokladmousse",
-        "klassiska-dammsugare-punschrullar"
-    ]:
-        return "2026-09-18T10:00:00+02:00", "2026-09-18T12:00:00+02:00"
-
-    if idx is None:
-        try:
-            idx = next(i for i, item in enumerate(RECIPES) if item.get("slug") == slug)
-        except Exception:
-            idx = 50
-    base_date = date(2026, 1, 15)
-    days_offset = min(240, int(idx * 1.85))
-    pub_d = base_date + timedelta(days=days_offset)
-    tz = "+01:00" if pub_d.month < 4 or pub_d.month > 10 else "+02:00"
-    pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
-    return pub_str, pub_str
+    # Ensure mod_str reflects at least the Oct 18 sitewide structural & schema overhaul
+    mod_str = r.get("date_modified", "2026-10-18T10:30:00+02:00")
+    if mod_str < pub_str:
+        mod_str = pub_str
+    return pub_str, mod_str
 
 SWEDISH_MONTHS = {
     "januari": "01", "februari": "02", "mars": "03", "april": "04",

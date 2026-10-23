@@ -5,7 +5,7 @@
     <link>https://svenska-recept.se/</link>
     <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
     <language>sv</language>
-    <lastBuildDate>Mon, 19 Oct 2026 20:38:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:12:34 +0000</lastBuildDate>
     <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Klassisk Seg Kladdkaka i Långpanna – Enkelt Recept (30 Bitar)</title>
@@ -50,6 +50,138 @@
       <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
       <enclosure url="https://svenska-recept.se/assets/images/recept/plankstek-1900x900.jpg" length="150000" type="image/jpeg" />
       <media:content url="https://svenska-recept.se/assets/images/recept/plankstek-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Älgstek med Gräddsås, Enbär &amp; Rårörda Lingon</title>
+      <link>https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html</guid>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Mör och saftig älgstek tillagad på låg temperatur i ugnen med morötter, lök, krossade enbär och färsk timjan. Serveras med en himmelsk gräddsås kokt på stekskyn, potatis och rårörda lingon.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/algstek-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/algstek-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Mustig Älggryta med Kantareller, Rödvin &amp; Enbär</title>
+      <link>https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html</guid>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Långkokt älggryta på älgkött som får sjuda mört i fylligt rödvin, viltfond, smörstekta kantareller, pärllök och färsk rosmarin. Avrundas med vispgrädde och svartvinbärsgelé för den ultimata höstsmaken.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/alggryta-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/alggryta-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassiska Oxrullader med Gräddsås, Bacon &amp; Pressgurka</title>
+      <link>https://svenska-recept.se/recept/klassiska-oxrullader-graddsas-pressgurka.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-oxrullader-graddsas-pressgurka.html</guid>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Traditionella svenska oxrullader på tunt bankad lövbiff eller innanlår, fyllda med dijonsenap, rökt bacon och inlagd gurka. Brässeras långsamt till smältande mörhet i mustig gräddsås.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/oxrullader-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/oxrullader-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Saftig Morotskaka i Långpanna med Cream Cheese-frosting</title>
+      <link>https://svenska-recept.se/recept/saftig-morotskaka-i-langpanna.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/saftig-morotskaka-i-langpanna.html</guid>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Sveriges mest bakade långpannekaka! Otroligt saftig morotskaka kryddad med kanel och kardemumma, toppad med ett tjockt lager frisk cream cheese-frosting och hackade valnötter. Räcker till hela kalaset.</description>
+      <category>Fika &amp; Bakning</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/morotskaka-langpanna-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/morotskaka-langpanna-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Frasig Hasselbackspotatis – Perfekt Stekyta &amp; Smörsmak</title>
+      <link>https://svenska-recept.se/recept/klassisk-frasig-hasselbackspotatis.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-frasig-hasselbackspotatis.html</guid>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Klassisk svensk hasselbackspotatis med tunna skivor, rikligt med smör, ströbröd och flingsalt. Krispig på ytan och mjuk inuti.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/hasselbackspotatis-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/hasselbackspotatis-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Porterstek med Svartvinbärsgelé &amp; Världens Godaste Gräddsås</title>
+      <link>https://svenska-recept.se/recept/klassisk-porterstek-svartvinbar-graddsas.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-porterstek-svartvinbar-graddsas.html</guid>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Traditionell svensk porterstek på nötstek sjuden i mörk porter, svartvinbärssaft, soja och enbär. Serveras med en himmelsk portersås.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/porterstek-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/porterstek-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Vit Kladdkaka med Citron – Världens Godaste &amp; Kladdigaste Recept</title>
+      <link>https://svenska-recept.se/recept/klassisk-vit-kladdkaka-citron-vanilj.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-vit-kladdkaka-citron-vanilj.html</guid>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Underbart seg och krämig vit kladdkaka med vit choklad, vanilj och frisk citrontouch. Klart på 30 minuter.</description>
+      <category>Fika &amp; Bakning</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/vit-kladdkaka-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/vit-kladdkaka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassiska Frasiga Rårakor med Knaperstekt Fläsk &amp; Rårörda Lingon</title>
+      <link>https://svenska-recept.se/recept/klassiska-frasiga-rarakor-stekt-flask.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-frasiga-rarakor-stekt-flask.html</guid>
+      <pubDate>Mon, 05 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Traditionella frasiga rårakor på grovriven potatis stekta i smör. Serveras med knaperstekt rimmat fläsk och rårörda lingon.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/rarakor-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/rarakor-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Mustig Gulaschsoppa med Köttfärs &amp; Potatis – Snabb Köttfärsgulasch</title>
+      <link>https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/mustig-gulaschsoppa-kottfars.html</guid>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Fyllig och värmande gulaschsoppa på nötfärs, tärnad potatis och paprika smaksatt med kummin och vitlök. Klart på 30 minuter.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/gulaschsoppa-kottfars-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Krämig Fisksoppa med Lax, Torsk &amp; Dill – Lyxig &amp; Enkel</title>
+      <link>https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-fisksoppa-lax-torsk.html</guid>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Sammetslen och lyxig fisksoppa med lax, torskrygg, purjolök, rotfrukter, vitt vin och rikligt med färsk dill. Klart på 35 minuter.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/fisksoppa-lax-torsk-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassiska Små Plättar – Frasiga Kanter &amp; Ljuvligt God Plättsmet</title>
+      <link>https://svenska-recept.se/recept/klassiska-sma-plattar.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-sma-plattar.html</guid>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Klassiska svenska små plättar med frasiga kanter stekta i smör. Serveras med rårörda lingon, sylt och vispgrädde.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/sma-plattar-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/sma-plattar-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
+    </item>
+    <item>
+      <title>Klassisk Krämig Rotfruktssoppa med Timjan – Höstens Godaste Soppa</title>
+      <link>https://svenska-recept.se/recept/klassisk-kramig-rotfruktssoppa-timjan.html</link>
+      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kramig-rotfruktssoppa-timjan.html</guid>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Sammetslen rotfruktssoppa på morot, palsternacka, rotselleri och potatis smaksatt med färsk timjan och grädde. Toppas med rostade pumpakärnor.</description>
+      <category>Husmanskost</category>
+      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
+      <enclosure url="https://svenska-recept.se/assets/images/recept/rotfruktssoppa-timjan-1900x900.jpg" length="150000" type="image/jpeg" />
+      <media:content url="https://svenska-recept.se/assets/images/recept/rotfruktssoppa-timjan-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
     <item>
       <title>Klassisk Frasig Raggmunk i Långpanna – Enkelt &amp; Otroligt Gott Recept</title>
@@ -149,138 +281,6 @@
       <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
       <enclosure url="https://svenska-recept.se/assets/images/recept/kardemummabullar-1900x900.jpg" length="150000" type="image/jpeg" />
       <media:content url="https://svenska-recept.se/assets/images/recept/kardemummabullar-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Kanelbullekladdkaka – Kladdig med Smörig Kanelsnurra</title>
-      <link>https://svenska-recept.se/recept/klassisk-kanelbullekladdkaka.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-kanelbullekladdkaka.html</guid>
-      <pubDate>Sat, 26 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Världens godaste kanelbullekladdkaka som kombinerar kanelbullens kryddiga fyllning med kladdkakans krämiga seghet. Otroligt lättbakad och klar på bara 25 minuter!</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/kanelbullekladdkaka-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/kanelbullekladdkaka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Saftiga Kanelbullar i Långpanna – Enkla Brytbrödsbullar</title>
-      <link>https://svenska-recept.se/recept/saftiga-kanelbullar-i-langpanna.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/saftiga-kanelbullar-i-langpanna.html</guid>
-      <pubDate>Sat, 26 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Baka kanelbullar i långpanna – det smartaste och saftigaste sättet att baka bullar till många! Bullarna jäser ihop till ett ljuvligt brytbröd där fyllningen stannar kvar i varje tugga.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/kanelbullar-langpanna-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/kanelbullar-langpanna-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Saftiga Äppelmuffins med Kanelsmul &amp; Havrecrunch</title>
-      <link>https://svenska-recept.se/recept/saftiga-appelmuffins-kanelsmul.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/saftiga-appelmuffins-kanelsmul.html</guid>
-      <pubDate>Sat, 26 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Ljuvligt saftiga äppelmuffins med kanelkryddade äppelbitar i en mjuk vaniljsmet, toppade med ett knäckigt kanelsmul med havregryn. Klara på 33 minuter!</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/appelmuffins-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/appelmuffins-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Fluffig Ugnspannkaka – Enkel Tjockpannkaka i Långpanna</title>
-      <link>https://svenska-recept.se/recept/klassisk-fluffig-ugnspannkaka.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-fluffig-ugnspannkaka.html</guid>
-      <pubDate>Wed, 23 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Sveriges godaste och enklaste ugnspannkaka (tjockpannkaka) gräddad gyllenbrun och fluffig i långpanna. En klassisk vegetarisk vardagsfavorit som sköter sig själv i ugnen på 30 minuter!</description>
-      <category>Klassisk Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/ugnspannkaka-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/ugnspannkaka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassiska Fluffiga Tekakor med Havregryn – Saftiga Frukostbröd</title>
-      <link>https://svenska-recept.se/recept/klassiska-fluffiga-tekakor-havregryn.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-fluffiga-tekakor-havregryn.html</guid>
-      <pubDate>Wed, 23 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Klassiska fluffiga tekakor med havregryn som smälter i munnen. Saftiga, lättbakade och underbart goda med smör och ost till frukost eller kvällsfika. Gräddas på bara 8-10 minuter!</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/tekakor-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/tekakor-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krämig Blomkålssoppa med Knaperstekt Bacon &amp; Färsk Timjan</title>
-      <link>https://svenska-recept.se/recept/kramig-blomkalssoppa-knaperstekt-bacon.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-blomkalssoppa-knaperstekt-bacon.html</guid>
-      <pubDate>Wed, 23 Sep 2026 10:00:00 +0200</pubDate>
-      <description>En gudomligt krämig och värmande blomkålssoppa med grädde, vitlök och en skvätt citron, toppad med knaperstekt bacon och färsk timjan. Klar på bara 25 minuter!</description>
-      <category>Klassisk Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/blomkalssoppa-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/blomkalssoppa-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krämig Korvgryta med Falukorv, Paprika &amp; Dijonsenap</title>
-      <link>https://svenska-recept.se/recept/kramig-korvgryta-falukorv-paprika.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-korvgryta-falukorv-paprika.html</guid>
-      <pubDate>Wed, 23 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Enkel och krämig korvgryta med falukorv, söt paprika, lök och en fyllig sås på grädde, tomatpuré och senap. En älskad svensk vardagsklassiker som hela familjen uppskattar, klar på 25 minuter!</description>
-      <category>Klassisk Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/korvgryta-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/korvgryta-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassiska Vaniljbullar – Saftiga Solbullar med Len Vaniljkräm</title>
-      <link>https://svenska-recept.se/recept/klassiska-vaniljbullar-solbullar.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassiska-vaniljbullar-solbullar.html</guid>
-      <pubDate>Sat, 19 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Bästa receptet på klassiska vaniljbullar (solbullar)! Otroligt saftig kardemummadeg fylld med len vaniljkräm med äkta vanilj, penslade med smör och doppade i strösocker.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/vaniljbullar-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/vaniljbullar-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Gammaldags Kycklingsoppa med Rotfrukter &amp; Färska Örter</title>
-      <link>https://svenska-recept.se/recept/gammaldags-kycklingsoppa-rotfrukter.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/gammaldags-kycklingsoppa-rotfrukter.html</guid>
-      <pubDate>Sat, 19 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Klassiskt recept på gammaldags svensk kycklingsoppa! Klar och smakrik buljong med mört kycklingkött, höstens rotfrukter, purjolök och färsk dill och persilja. Den ultimata höstvärmaren.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/kycklingsoppa-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/kycklingsoppa-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Krämig Trattkantarellpasta med Vitlök, Timjan &amp; Parmesan</title>
-      <link>https://svenska-recept.se/recept/kramig-trattkantarellpasta-parmesan.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/kramig-trattkantarellpasta-parmesan.html</guid>
-      <pubDate>Sat, 19 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Höstens allra godaste pastarätt! Krämig trattkantarellpasta med nyplockade eller torkade trattkantareller, brynt smör, vitlök, vitt vin och rikligt med parmesanost.</description>
-      <category>Husmanskost</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/trattkantarellpasta-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/trattkantarellpasta-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Saftig Äppelkaka i Långpanna med Kanel &amp; Pärlsocker</title>
-      <link>https://svenska-recept.se/recept/saftig-appelkaka-i-langpanna.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/saftig-appelkaka-i-langpanna.html</guid>
-      <pubDate>Sat, 19 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Det perfekta receptet när du vill baka äppelkaka till många! Otroligt saftig sockerkaksbotten toppad med syrliga äppelskivor, kanel och pärlsocker i en klassisk ugns långpanna.</description>
-      <category>Fika &amp; Bakning</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/appelkaka-langpanna-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/appelkaka-langpanna-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
-    </item>
-    <item>
-      <title>Klassisk Ugnsstekt Anka med Apelsinsås, Äpplen &amp; Katrinplommon</title>
-      <link>https://svenska-recept.se/recept/klassisk-ugnsstekt-anka-apelsinsas.html</link>
-      <guid isPermaLink="true">https://svenska-recept.se/recept/klassisk-ugnsstekt-anka-apelsinsas.html</guid>
-      <pubDate>Sat, 19 Sep 2026 10:00:00 +0200</pubDate>
-      <description>Högtidligt recept på hel ugnsstekt anka med krispigt skinn, saftigt mörkt kött och en fyllig apelsinsås. Fylld med äpplen och katrinplommon – den självklara festmåltiden.</description>
-      <category>Högtider &amp; Smörgåsbord</category>
-      <author>redaktionen@svenska-recept.se (Svenska Recept Provkök)</author>
-      <enclosure url="https://svenska-recept.se/assets/images/recept/ugnsstekt-anka-1900x900.jpg" length="150000" type="image/jpeg" />
-      <media:content url="https://svenska-recept.se/assets/images/recept/ugnsstekt-anka-1900x900.jpg" medium="image" type="image/jpeg" width="1900" height="900" />
     </item>
   </channel>
 </rss>

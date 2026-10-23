@@ -1,0 +1,23 @@
+# Svenska Recept - Canonical Redirects & Cache Policy
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1. Force non-www and HTTPS in a single 301 hop (Cloudflare / Cloudways proxy aware)
+  RewriteCond %{HTTP_HOST} ^www\.svenska-recept\.se$ [NC,OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} =http
+  RewriteRule ^(.*)$ https://svenska-recept.se/$1 [L,R=301]
+
+  # 2. Legacy recipe slug 301 redirects (from Google Search Console coverage)
+  RewriteRule ^recept/hemlagat-appelmos-kanel-kanel-och-citron\.html$ https://svenska-recept.se/recept/hemlagat-appelmos-kanel-citron.html [L,R=301]
+  RewriteRule ^recept/klassisk-kottfarssas-spaghetti\.html$ https://svenska-recept.se/recept/klassisk-svensk-kottfarssas-spaghetti.html [L,R=301]
+</IfModule>
+
+# 3. Ensure HTML & XML Sitemaps are always fresh for Googlebot (override 1-year static cache)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|xml|json)$">
+    Header set Cache-Control "public, max-age=1800, s-maxage=1800, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(jpg|jpeg|png|webp|svg|css|js|woff2|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
