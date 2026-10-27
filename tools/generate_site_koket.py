@@ -1225,13 +1225,14 @@ def generate_homepage():
     square_3 = [r for r in RECIPES if r["slug"] == "klassisk-toast-skagen"][0] # Toast Skagen
     square_4 = [r for r in RECIPES if r["slug"] == "klassisk-langkokt-kalops"][0] # Kalops
 
-    # 1. New & Trending Carousel (top 12 latest recipes first)
-    c_trending = list(reversed(RECIPES))[:12]
-    # 2. Category Carousels (capped to 10 cards per section for fast DOM & CWV)
-    c_husman = [r for r in RECIPES if r["cat_key"] == "husmanskost"][:10]
-    c_fika = [r for r in RECIPES if r["cat_key"] == "fika"][:10]
-    c_smorgasbord = [r for r in RECIPES if r["cat_key"] == "smorgasbord"][:10]
-    c_under30 = [r for r in RECIPES if r.get("time", 30) <= 30][:10]
+    # 1. New & Trending Carousel (top 16 latest recipes first)
+    rev_recipes = list(reversed(RECIPES))
+    c_trending = rev_recipes[:16]
+    # 2. Category Carousels (newest recipes in each category so all recent batches get direct homepage crawl equity)
+    c_husman = [r for r in rev_recipes if r["cat_key"] == "husmanskost"][:15]
+    c_fika = [r for r in rev_recipes if r["cat_key"] == "fika"][:15]
+    c_smorgasbord = [r for r in rev_recipes if r["cat_key"] == "smorgasbord"][:10]
+    c_under30 = [r for r in rev_recipes if r.get("time", 30) <= 30][:12]
 
     carousel_trending = render_horizontal_carousel("🔥 Trendande & Nyinkommet i Provköket", "De allra senaste provlagade recepten och hetaste favoriterna just nu", c_trending)
     carousel_husman = render_horizontal_carousel("Klassisk Svensk Husmanskost", "Från saftiga köttbullar till frasiga raggmunkar, Wallenbergare och långkokt Kalops", c_husman)
@@ -1361,7 +1362,7 @@ def generate_homepage():
     print("Generated homepage index.html")
 
 def generate_catalog():
-    cards_html = "\n".join([render_recipe_card(r, depth="") for r in RECIPES])
+    cards_html = "\n".join([render_recipe_card(r, depth="") for r in reversed(RECIPES)])
 
     html = f'''<!DOCTYPE html>
 <html lang="sv">
@@ -1429,7 +1430,7 @@ CATEGORIES = [
 
 def generate_categories():
     for cat in CATEGORIES:
-        cat_recipes = [r for r in RECIPES if r["cat_key"] == cat["key"]]
+        cat_recipes = [r for r in reversed(RECIPES) if r["cat_key"] == cat["key"]]
         cards_html = "\n".join([render_recipe_card(r, depth="../") for r in cat_recipes])
 
         html = f'''<!DOCTYPE html>
