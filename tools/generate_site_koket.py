@@ -204,19 +204,119 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🍂 Provkökets Värmande Höstsoppor & Husmansfavoriter",
         "desc": "Om du gillar mustig cowboysoppa kommer du garanterat att uppskatta dessa populära provlagade höstsoppor och ugnsrätter:",
         "slugs": [
-            "kramig-blomkalssoppa-knaperstekt-bacon",
-            "gammaldags-kycklingsoppa-rotfrukter",
-            "gammaldags-kalsoppa-frikadeller",
-            "klassisk-fluffig-ugnspannkaka"
+            "mustig-gulaschsoppa-kottfars",
+            "kramig-champinjonsoppa-timjan",
+            "klassisk-skomakarlada-biff-bacon-potatismos",
+            "klassisk-kasslergratang-ris-curry"
+        ]
+    },
+    "klassiska-mazariner-mandelmassa-glasyr": {
+        "title": "☕ Fler Älskade Konditoriklassiker & Bagerifavoriter",
+        "desc": "Älskar du klassiska mazariner? Missa inte dessa provlagade bagerifavoriter till höstfikat och Fars dag:",
+        "slugs": [
+            "klassiska-saftiga-kardemummabullar",
+            "klassisk-fars-dag-tarta-choklad-bar",
+            "kramig-appelkladdkaka-kanel",
+            "klassisk-silviakaka-langpanna"
+        ]
+    },
+    "kramig-rotfruktsgratang-vasterbottensost": {
+        "title": "🥔 Fler Frasiga Potatisrätter & Festliga Tillbehör",
+        "desc": "Krämig rotfruktsgratäng är oslagbart – upptäck även dessa älskade potatis- och husmansklassiker:",
+        "slugs": [
+            "klassisk-frasig-hasselbackspotatis",
+            "klassiska-frasiga-rarakor-stekt-flask",
+            "mustig-alggryta-kantareller-rodvin",
+            "klassisk-skomakarlada-biff-bacon-potatismos"
+        ]
+    },
+    "hemlagat-appelmos-kanel-citron": {
+        "title": "🍎 Höstens Bästa Äppelbakverk & Frukostfavoriter",
+        "desc": "Hemlagat äppelmos med kanel är underbart – prova även dessa saftiga äppelfavoriter och småplättar:",
+        "slugs": [
+            "saftiga-appelmuffins-kanelsmul",
+            "kramig-appelkladdkaka-kanel",
+            "klassiska-sma-plattar",
+            "gammaldags-mjuk-appelkaka-kanel"
+        ]
+    },
+    "klassisk-kottfarssoppa-potatis-rotfrukter": {
+        "title": "🍲 Fler Mustiga Köttfärssoppor & Värmande Höstmat",
+        "desc": "Älskar du hemlagad köttfärssoppa? Här är fler mättande soppor och husmansfavoriter:",
+        "slugs": [
+            "mustig-gulaschsoppa-kottfars",
+            "kramig-champinjonsoppa-timjan",
+            "klassisk-cowboysoppa-kottfars-potatis",
+            "klassiska-frasiga-rarakor-stekt-flask"
+        ]
+    },
+    "klassisk-skomakarlada-biff-bacon-potatismos": {
+        "title": "🥩 Klassiska Svenska Krog- & Husmansfavoriter",
+        "desc": "Skomakarlåda med biff, bacon och rödvinssås är en tidlös favorit – prova även dessa festliga klassiker:",
+        "slugs": [
+            "klassisk-frasig-hasselbackspotatis",
+            "mustig-alggryta-kantareller-rodvin",
+            "klassisk-kasslergratang-ris-curry",
+            "klassisk-plankstek-oxfile-duchessemos"
+        ]
+    },
+    "mustig-viltgryta-alg-kantareller-enbar": {
+        "title": "🦌 Fler Mustiga Viltgrytor & Festliga Höstmiddagar",
+        "desc": "Upptäck fler provlagade vilträtter med älg, kantareller och klassiska tillbehör:",
+        "slugs": [
+            "mustig-alggryta-kantareller-rodvin",
+            "klassisk-algstek-graddsas-enbar",
+            "klassisk-frasig-hasselbackspotatis",
+            "kramig-rotfruktsgratang-vasterbottensost"
+        ]
+    },
+    "klassisk-lapskojs-hogrev-potatismos-rodbetor": {
+        "title": "🍲 Fler Rustika Husmansklassiker & Långkok",
+        "desc": "Äkta hemlagad lapskojs på högrev värmer gott – prova även dessa traditionella favoriter:",
+        "slugs": [
+            "mustig-gulaschsoppa-kottfars",
+            "klassiska-frasiga-rarakor-stekt-flask",
+            "klassisk-skomakarlada-biff-bacon-potatismos",
+            "mustig-alggryta-kantareller-rodvin"
+        ]
+    },
+    "klassiska-sproda-pepparkakor-mormors-recept": {
+        "title": "🎄 Fler Älskade Kryddiga Bakverk & Höstfika",
+        "desc": "Sprid doften av kanel, kardemumma och kryddnejlika med dessa bagerifavoriter:",
+        "slugs": [
+            "klassiska-saftiga-kardemummabullar",
+            "saftiga-appelmuffins-kanelsmul",
+            "klassisk-kanelbullekladdkaka",
+            "klassisk-fars-dag-tarta-choklad-bar"
+        ]
+    },
+    "klassisk-fars-dag-tarta-choklad-bar": {
+        "title": "🎂 Fira Fars Dag (8 nov) & Kladdkakans Dag (7 nov)",
+        "desc": "Bjud pappa och familjen på våra mest älskade tårtor, kladdkakor och festmiddagar:",
+        "slugs": [
+            "klassisk-kanelbullekladdkaka",
+            "kramig-appelkladdkaka-kanel",
+            "klassisk-seg-kladdkaka-i-langpanna",
+            "klassisk-skomakarlada-biff-bacon-potatismos"
+        ]
+    },
+    "klassisk-kanelbullekladdkaka": {
+        "title": "🍫 Bästa Recepten till Kladdkakans Dag (7 nov) & Fars Dag",
+        "desc": "Älskar du kladdkaka och kanelbullar? Missa inte dessa saftiga favoriter:",
+        "slugs": [
+            "kramig-appelkladdkaka-kanel",
+            "klassiska-saftiga-kardemummabullar",
+            "klassisk-fars-dag-tarta-choklad-bar",
+            "klassisk-seg-kladdkaka-i-langpanna"
         ]
     },
     "gammaldags-kottsoppa-hogrev-klimp": {
         "title": "🍲 Fler Gammaldags Husmansfavoriter & Soppor",
         "desc": "Klassisk svensk köttsoppa på högrev är oslagbar – prova även dessa rustika och värmande höstfavoriter:",
         "slugs": [
-            "gammaldags-kycklingsoppa-rotfrukter",
-            "kramig-blomkalssoppa-knaperstekt-bacon",
-            "kramig-korvgryta-falukorv-paprika",
+            "mustig-gulaschsoppa-kottfars",
+            "kramig-champinjonsoppa-timjan",
+            "klassiska-sma-plattar",
             "klassisk-fluffig-ugnspannkaka"
         ]
     },
@@ -224,9 +324,9 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🍂 Värmande Höstsoppor & Vardagsgrytor",
         "desc": "Gillar du fyllig och kryddig gulaschsoppa? Här är fler mättande och älskade rätter för kyliga höstkvällar:",
         "slugs": [
-            "kramig-blomkalssoppa-knaperstekt-bacon",
-            "kramig-korvgryta-falukorv-paprika",
-            "gammaldags-kycklingsoppa-rotfrukter",
+            "mustig-gulaschsoppa-kottfars",
+            "kramig-champinjonsoppa-timjan",
+            "mustig-alggryta-kantareller-rodvin",
             "klassiska-fluffiga-tekakor-havregryn"
         ]
     },
@@ -234,20 +334,20 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🥞 Fler Älskade Pannkaksfavoriter & Enkla Ugnsrätter",
         "desc": "Här är fler oemotståndliga klassiker i långpanna och snabba vardagsrätter hela familjen uppskattar:",
         "slugs": [
+            "klassiska-sma-plattar",
+            "klassiska-frasiga-rarakor-stekt-flask",
             "klassisk-fluffig-ugnspannkaka",
-            "skansk-aggakaka-stekt-flask-lingon",
-            "klassiska-fluffiga-tekakor-havregryn",
-            "kramig-korvgryta-falukorv-paprika"
+            "klassisk-kasslergratang-ris-curry"
         ]
     },
     "gammaldags-mjuk-appelkaka-kanel": {
         "title": "🍎 Höstens Bästa Bageri- & Äppelfavoriter",
         "desc": "Njut av säsongens godaste bakverk med svenska äpplen, kanel och fluffigt hembakat fika:",
         "slugs": [
-            "saftig-appelkaka-i-langpanna",
-            "klassiska-vaniljbullar-solbullar",
-            "klassiska-fluffiga-tekakor-havregryn",
-            "saftig-plommonkaka-mandelmassa-kardemumma"
+            "saftiga-appelmuffins-kanelsmul",
+            "kramig-appelkladdkaka-kanel",
+            "klassiska-saftiga-kardemummabullar",
+            "saftig-appelkaka-i-langpanna"
         ]
     },
     "knackig-appelpaj-havre": {
@@ -528,25 +628,52 @@ def render_editorial_recommendations(r):
         desc = rec_config["desc"]
         slugs = [s for s in rec_config["slugs"] if s != r["slug"]]
     else:
+        try:
+            r_idx = next(i for i, item in enumerate(RECIPES) if item.get("slug") == r["slug"])
+        except Exception:
+            r_idx = 0
+
         if r["cat_key"] == "husmanskost":
             title = "🍂 Provkökets Rekommenderade Höstfavoriter"
-            desc = "Utforska fler provlagade och uppskattade svenska vardagsfavoriter och soppor:"
-            candidate_slugs = ["klassisk-fluffig-ugnspannkaka", "kramig-blomkalssoppa-knaperstekt-bacon", "kramig-korvgryta-falukorv-paprika", "gammaldags-kycklingsoppa-rotfrukter"]
+            desc = "Utforska fler provlagade och uppskattade svenska vardagsfavoriter, grytor och soppor:"
+            pool = [
+                "mustig-gulaschsoppa-kottfars",
+                "kramig-champinjonsoppa-timjan",
+                "klassisk-frasig-hasselbackspotatis",
+                "klassiska-frasiga-rarakor-stekt-flask",
+                "mustig-alggryta-kantareller-rodvin",
+                "klassiska-sma-plattar",
+                "klassisk-skomakarlada-biff-bacon-potatismos",
+                "klassisk-kasslergratang-ris-curry"
+            ]
         elif r["cat_key"] == "fika":
-            title = "☕ Höstens Bästa Fika & Nybakat Bröd"
+            title = "☕ Höstens Bästa Fika, Kladdkakans Dag & Fars Dag"
             desc = "Sprid doften av hembakat i köket – här är fler omtyckta recept från bageriet:"
-            candidate_slugs = ["klassiska-fluffiga-tekakor-havregryn", "klassiska-vaniljbullar-solbullar", "saftig-appelkaka-i-langpanna", "klassiska-dammsugare-punschrullar"]
+            pool = [
+                "klassiska-saftiga-kardemummabullar",
+                "saftiga-appelmuffins-kanelsmul",
+                "kramig-appelkladdkaka-kanel",
+                "klassisk-fars-dag-tarta-choklad-bar",
+                "klassisk-kanelbullekladdkaka",
+                "klassisk-silviakaka-langpanna",
+                "klassiska-sproda-pepparkakor-mormors-recept",
+                "klassisk-seg-kladdkaka-i-langpanna"
+            ]
         else:
             title = "🍽️ Festmåltider & Högtidsfavoriter"
             desc = "Gör helgen och högtiden extra minnesvärd med dessa provlagade delikatesser:"
-            candidate_slugs = ["klassisk-ugnsstekt-anka-apelsinsas", "saftiga-tjocka-revbensspjall-i-ugn", "krispiga-rostade-pumpakarnor-i-ugn", "kramig-trattkantarellpasta-parmesan"]
+            pool = [
+                "klassisk-frasig-hasselbackspotatis",
+                "mustig-alggryta-kantareller-rodvin",
+                "klassisk-fars-dag-tarta-choklad-bar",
+                "klassisk-inlagd-sill-1-2-3-lag",
+                "klassisk-rakmacka-handskalade-rakor-agg",
+                "klassisk-plankstek-oxfile-duchessemos"
+            ]
 
-        slugs = [s for s in candidate_slugs if s != r["slug"]]
-        for fb in NEWEST_FALLBACK_POOL:
-            if len(slugs) >= 4:
-                break
-            if fb != r["slug"] and fb not in slugs:
-                slugs.append(fb)
+        n_pool = len(pool)
+        rotated = [pool[(r_idx * 2 + k) % n_pool] for k in range(n_pool)]
+        slugs = [s for s in rotated if s != r["slug"]][:4]
 
     recipe_map = {x["slug"]: x for x in RECIPES}
     cards_html = ""
@@ -1333,11 +1460,12 @@ def generate_homepage():
       <!-- Snabbvals-chips -->
       <div class="koket-quick-tips-row">
         <a href="#trending-section" class="koket-tip-chip">🔥 Nyinkommet & Trendande</a>
+        <a href="recept/klassisk-kramig-kladdkaka.html" class="koket-tip-chip">🍫 Kladdkakans dag (7 nov)</a>
+        <a href="recept/klassisk-fars-dag-tarta-choklad-bar.html" class="koket-tip-chip">🎂 Fars dag (8 nov)</a>
         <a href="kategorier/husmanskost.html" class="koket-tip-chip">Klassisk Husmanskost</a>
         <a href="kategorier/fika-och-bakning.html" class="koket-tip-chip">Bakat & Fika</a>
         <a href="recept.html?q=under-30" class="koket-tip-chip">Under 30 min</a>
         <a href="kategorier/hogtider-och-smorgasbord.html" class="koket-tip-chip">Högtider & Smörgåsbord</a>
-        <a href="recept/kramig-svensk-laxsoppa.html" class="koket-tip-chip">Krämig Laxsoppa</a>
         <a href="om-oss.html" class="koket-tip-chip alt-blue">Om Provköket</a>
       </div>
     </div>
