@@ -73,17 +73,21 @@
       "keywords": "älggryta, mustig älggryta, älggryta kantareller, älggryta rödvin, recept älggryta, viltgryta älg, långkok älg",
       "author": {
         "@type": "Person",
+        "@id": "https://svenska-recept.se/om-oss.html#astrid",
         "name": "Astrid Lindqvist",
         "jobTitle": "Receptskapare & Kock",
         "url": "https://svenska-recept.se/om-oss.html"
       },
       "publisher": {
         "@type": "Organization",
+        "@id": "https://svenska-recept.se/#organization",
         "name": "Svenska Recept",
         "url": "https://svenska-recept.se/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://svenska-recept.se/assets/images/logo.png"
+          "url": "https://svenska-recept.se/assets/images/logo.png",
+          "width": 600,
+          "height": 120
         }
       },
       "datePublished": "2026-10-17T10:00:00+02:00",
@@ -210,37 +214,49 @@
           "@type": "HowToStep",
           "name": "Bryn fläsk och älgkött",
           "text": "Skär älgköttet i ca 3x3 cm stora kuber. Hetta upp smör i en stor gjutjärnsgryta och bryn bacon/sidfläsk tills det släpper fett och får färg. Ta upp fläsket. Bryn älgköttet i omgångar i det heta fettet så att alla bitar får en djup, gyllenbrun stekyta. Salta och peppra.",
-          "position": 1
+          "position": 1,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-1",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Tillsätt grönsaker & kryddor",
           "text": "Lägg tillbaka allt kött och fläsk i grytan. Tillsätt smålökar, krossad vitlök och morötter. Klicka i tomatpurén och låt den fräsa med under omrörning i 2 minuter för att runda av syran. Pudra över vetemjölet och vänd runt så att det täcker köttet.",
-          "position": 2
+          "position": 2,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-2",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Häll på vin och fond",
           "text": "Slå på rödvin och viltfond. Tillsätt krossade enbär, lagerblad, timjan och rosmarin. Rör om ordentligt så att eventuella stekrester i botten löses upp. Låt koka upp och skumma av ytan om det behövs.",
-          "position": 3
+          "position": 3,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-3",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Sjud grytan mör",
           "text": "Sänk värmen till lägsta, lägg på locket och låt grytan sjuda sakta i 1,5 till 2 timmar tills älgköttet är så mört att det nästan faller isär vid beröring.",
-          "position": 4
+          "position": 4,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-4",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Stek kantarellerna & runda av",
           "text": "Rensa kantarellerna. Stek dem i en torr panna tills vätskan kokat bort, tillsätt sedan rikligt med smör och stek tills de fått fin färg. Vänd ner kantarellerna i grytan tillsammans med vispgrädde och svartvinbärsgelé. Låt sjuda ihop i 10 minuter. Smaka av med salt och peppar.",
-          "position": 5
+          "position": 5,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-5",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Garnera och servera",
           "text": "Strö över hackad persilja och servera grytan rykande het tillsammans med fluffigt potatismos eller pressad potatis, gelé och rårörda lingon.",
-          "position": 6
+          "position": 6,
+          "url": "https://svenska-recept.se/recept/mustig-alggryta-kantareller-rodvin.html#steg-6",
+          "image": "https://svenska-recept.se/assets/images/recept/alggryta-16x9.jpg"
         }
       ]
     },
@@ -322,7 +338,7 @@
           <div class="author-info">
             <div class="author-avatar-initial">AL</div>
             <div>
-              <span class="author-name">Astrid Lindqvist</span>
+              <a href="../om-oss.html#astrid" class="author-name" rel="author" style="color: inherit; text-decoration: none;">Astrid Lindqvist</a>
               <div style="font-size: 0.8rem; color: var(--color-text-muted);">Svenska Recept Provkök • Uppdaterad 2026</div>
             </div>
           </div>
@@ -483,7 +499,7 @@
       <!-- Tillagningskolumn -->
       <section class="recipe-instructions-content">
         <h2>Gör så här</h2>
-        <div class="instruction-step">
+        <div class="instruction-step" id="steg-1">
   <div class="step-num-badge">1</div>
   <div class="step-body">
     <h3 class="step-title">Bryn fläsk och älgkött</h3>
@@ -491,7 +507,7 @@
     <button class="step-timer-knapp" data-minuter="12"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (12 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-2">
   <div class="step-num-badge">2</div>
   <div class="step-body">
     <h3 class="step-title">Tillsätt grönsaker & kryddor</h3>
@@ -499,7 +515,7 @@
     <button class="step-timer-knapp" data-minuter="5"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (5 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-3">
   <div class="step-num-badge">3</div>
   <div class="step-body">
     <h3 class="step-title">Häll på vin och fond</h3>
@@ -507,7 +523,7 @@
     <button class="step-timer-knapp" data-minuter="5"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (5 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-4">
   <div class="step-num-badge">4</div>
   <div class="step-body">
     <h3 class="step-title">Sjud grytan mör</h3>
@@ -515,7 +531,7 @@
     <button class="step-timer-knapp" data-minuter="105"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (105 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-5">
   <div class="step-num-badge">5</div>
   <div class="step-body">
     <h3 class="step-title">Stek kantarellerna & runda av</h3>
@@ -523,7 +539,7 @@
     <button class="step-timer-knapp" data-minuter="15"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (15 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-6">
   <div class="step-num-badge">6</div>
   <div class="step-body">
     <h3 class="step-title">Garnera och servera</h3>

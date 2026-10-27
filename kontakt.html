@@ -12,13 +12,31 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakta Svenska Recept | Frågor, Recepttips & Feedback</title>
-  <meta name="description" content="Har du frågor om ett recept eller vill samarbeta med vårt provkök? Kontakta oss här.">
+  <title>Kontakta Svenska Recept | Frågor, Recepttips & Redaktion</title>
+  <meta name="description" content="Har du frågor om ett recept, förslag till provköket eller vill samarbeta med Svenska Recept? Kontakta Astrid Lindqvist och redaktionen här.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/kontakt.html">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": "https://svenska-recept.se/kontakt.html#webpage",
+    "url": "https://svenska-recept.se/kontakt.html",
+    "name": "Kontakta Svenska Recept | Frågor, Recepttips & Redaktion",
+    "description": "Har du frågor om ett recept, förslag till provköket eller vill samarbeta med Svenska Recept? Kontakta Astrid Lindqvist och redaktionen här.",
+    "inLanguage": "sv-SE",
+    "isPartOf": {
+      "@id": "https://svenska-recept.se/#website"
+    },
+    "mainEntity": {
+      "@id": "https://svenska-recept.se/#organization"
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -35,24 +53,31 @@
       </nav>
       <div class="header-actions">
         <a href="recept.html" class="favorites-header-btn" title="Sparade favoritrecept">
-          <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> <span class="fav-text">Favoriter</span> <span class="favorites-badge-count">0</span>
+          <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> <span class="fav-text">Favoriter</span> <span class="favorites-badge-count">0</span>
         </a>
         <a href="recept.html" class="btn-icon-action" aria-label="Sök recept">
-          <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.5"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg> Sök
+          <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.5"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg> Sök
         </a>
         <button class="mobile-menu-btn" aria-label="Meny">☰</button>
       </div>
     </div>
   </header>
 
-  <main class="container section-padding" style="max-width: 760px;">
+  <main class="container section-padding" style="max-width: 780px;">
     <div style="margin-bottom: 2rem; text-align: center;">
       <h1 class="hero-search-title-label" style="font-size: 2.5rem;">Kontakta Provköket</h1>
-      <p style="color: var(--color-text-muted);">Vi älskar att svara på matlagningsfrågor, ta emot receptförslag och samarbeten.</p>
+      <p style="color: var(--color-text-muted); font-size: 1.05rem;">Vi älskar att svara på matlagningsfrågor, ta emot önskemål om klassiska recept och hjälpa dig lyckas i köket.</p>
+    </div>
+
+    <div style="background: #F8FAFC; padding: 1.5rem 2rem; border-radius: var(--radius-md); border: 1px solid var(--color-border); margin-bottom: 2rem; display: grid; gap: 0.75rem;">
+      <div><strong>Redaktion & Provkök:</strong> Svenska Recept Provkök, Stockholm</div>
+      <div><strong>Ansvarig receptkreatör:</strong> <a href="om-oss.html#astrid" style="color: var(--color-accent); font-weight: 600;">Astrid Lindqvist</a></div>
+      <div><strong>E-post:</strong> <a href="mailto:redaktionen@svenska-recept.se" style="color: var(--color-accent); font-weight: 600;">redaktionen@svenska-recept.se</a> (Svarstid normalt inom 24–48 timmar på vardagar)</div>
     </div>
 
     <div style="background: #FFFFFF; padding: 2.5rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);">
-      <form onsubmit="event.preventDefault(); alert('Tack för ditt meddelande! Vi återkopplar inom 24 timmar.'); this.reset();">
+      <h2 style="font-family: var(--font-serif); color: var(--color-primary); margin-top: 0; margin-bottom: 1.25rem;">Skicka ett meddelande direkt</h2>
+      <form onsubmit="event.preventDefault(); alert('Tack för ditt meddelande till Svenska Recept Provkök! Vi återkopplar inom 24–48 timmar.'); this.reset();">
         <div style="margin-bottom: 1.25rem;">
           <label style="display:block; font-weight:600; margin-bottom:0.5rem;">Ditt namn</label>
           <input type="text" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);">
@@ -62,7 +87,7 @@
           <input type="email" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);">
         </div>
         <div style="margin-bottom: 1.5rem;">
-          <label style="display:block; font-weight:600; margin-bottom:0.5rem;">Meddelande</label>
+          <label style="display:block; font-weight:600; margin-bottom:0.5rem;">Meddelande (t.ex. fråga om ett recept eller receptönskemål)</label>
           <textarea rows="5" required style="width:100%; padding:0.85rem 1rem; border:1px solid var(--color-border); border-radius:var(--radius-sm); font-size:1rem; font-family:var(--font-body);"></textarea>
         </div>
         <button type="submit" class="btn-koket-search" style="width:100%; justify-content:center; padding:1rem; font-size:1.05rem;">Skicka meddelande</button>
@@ -72,12 +97,54 @@
 
   <footer class="site-footer">
     <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="margin-bottom: 1.25rem;">
+            <a href="index.html" class="site-logo">
+              <img src="assets/images/logo.svg" alt="Svenska Recept" class="site-logo-img" style="filter: brightness(0) invert(1);" width="200" height="40">
+            </a>
+          </div>
+          <p>Sveriges mest pålitliga provkök för klassisk svensk husmanskost, fika och högtidsmat. Alla recept är provlagade minst tre gånger och näringsberäknade.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Kategorier</h4>
+          <ul>
+            <li><a href="kategorier/husmanskost.html">Klassisk Husmanskost</a></li>
+            <li><a href="kategorier/fika-och-bakning.html">Fika & Bageri</a></li>
+            <li><a href="kategorier/hogtider-och-smorgasbord.html">Högtider & Smörgåsbord</a></li>
+            <li><a href="recept.html?q=under-30">Snabba Vardagsmiddagar</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Populära Recept</h4>
+          <ul>
+            <li><a href="recept/klassisk-kramig-kladdkaka.html">Klassisk Kladdkaka</a></li>
+            <li><a href="recept/klassiska-svenska-kottbullar-graddsas.html">Svenska Köttbullar</a></li>
+            <li><a href="recept/saftiga-kanelbullar-kardemumma.html">Saftiga Kanelbullar</a></li>
+            <li><a href="recept/traditionell-vasterbottensostpaj.html">Västerbottensostpaj</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Om Provköket</h4>
+          <ul>
+            <li><a href="om-oss.html">Om Astrid Lindqvist</a></li>
+            <li><a href="om-oss.html#riktlinjer">Redaktionella Riktlinjer</a></li>
+            <li><a href="kontakt.html">Kontakta Redaktionen</a></li>
+            <li><a href="integritetspolicy.html">Integritetspolicy</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="footer-bottom">
-        <div>© 2026 Svenska Recept. Alla rättigheter förbehållna.</div>
+        <p>&copy; 2026 Svenska Recept Provkök (svenska-recept.se). Alla rättigheter förbehållna.</p>
+        <div class="footer-legal-links">
+          <a href="om-oss.html">Om oss</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="integritetspolicy.html">Integritet & Cookies</a>
+        </div>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/recipe-engine.js"></script>
+  <script src="assets/js/recipe-engine.js?v=2.1"></script>
 </body>
 </html>

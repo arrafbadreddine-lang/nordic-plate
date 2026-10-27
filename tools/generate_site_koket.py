@@ -808,7 +808,7 @@ def render_recipe_page(r):
         timer_btn = ""
         if s.get("timer"):
             timer_btn = f'<button class="step-timer-knapp" data-minuter="{s["timer"]}">{ICON_CLOCK} Starta timer ({s["timer"]} min)</button>'
-        inst_html += f'''<div class="instruction-step">
+        inst_html += f'''<div class="instruction-step" id="steg-{s['step']}">
   <div class="step-num-badge">{s['step']}</div>
   <div class="step-body">
     <h3 class="step-title">{s['title']}</h3>
@@ -922,17 +922,21 @@ def render_recipe_page(r):
                 "keywords": r["keywords"],
                 "author": {
                     "@type": "Person",
+                    "@id": "https://svenska-recept.se/om-oss.html#astrid",
                     "name": "Astrid Lindqvist",
                     "jobTitle": "Receptskapare & Kock",
                     "url": "https://svenska-recept.se/om-oss.html"
                 },
                 "publisher": {
                     "@type": "Organization",
+                    "@id": "https://svenska-recept.se/#organization",
                     "name": "Svenska Recept",
                     "url": "https://svenska-recept.se/",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "https://svenska-recept.se/assets/images/logo.png"
+                        "url": "https://svenska-recept.se/assets/images/logo.png",
+                        "width": 600,
+                        "height": 120
                     }
                 },
                 "datePublished": pub_date,
@@ -962,7 +966,14 @@ def render_recipe_page(r):
                     for grp in r["ingredients"] for itm in grp["items"]
                 ],
                 "recipeInstructions": [
-                    {"@type": "HowToStep", "name": s["title"], "text": s["text"], "position": s["step"]}
+                    {
+                        "@type": "HowToStep",
+                        "name": s["title"],
+                        "text": s["text"],
+                        "position": s["step"],
+                        "url": f"https://svenska-recept.se/recept/{r['file']}#steg-{s['step']}",
+                        "image": f"https://svenska-recept.se/assets/images/recept/{r['img']}-16x9.jpg"
+                    }
                     for s in r["instructions"]
                 ]
             }
@@ -1035,7 +1046,7 @@ def render_recipe_page(r):
           <div class="author-info">
             <div class="author-avatar-initial">AL</div>
             <div>
-              <span class="author-name">Astrid Lindqvist</span>
+              <a href="../om-oss.html#astrid" class="author-name" rel="author" style="color: inherit; text-decoration: none;">Astrid Lindqvist</a>
               <div style="font-size: 0.8rem; color: var(--color-text-muted);">Svenska Recept Provkök • Uppdaterad 2026</div>
             </div>
           </div>
@@ -1240,6 +1251,50 @@ def generate_homepage():
     carousel_smorgasbord = render_horizontal_carousel("Högtider & Smörgåsbord", "Perfekta recept till midsommar, påsk, kräftskiva och julbord", c_smorgasbord)
     carousel_under30 = render_horizontal_carousel("⏱️ Snabba Vardagsfavoriter under 30 min", "Smakrika och mättande middagar som går blixtsnabbt att laga i vardagen", c_under30)
 
+    homepage_schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://svenska-recept.se/#organization",
+                "name": "Svenska Recept",
+                "alternateName": "Svenska Recept Provkök",
+                "url": "https://svenska-recept.se/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://svenska-recept.se/assets/images/logo.png",
+                    "width": 600,
+                    "height": 120
+                },
+                "founder": {
+                    "@type": "Person",
+                    "@id": "https://svenska-recept.se/om-oss.html#astrid",
+                    "name": "Astrid Lindqvist",
+                    "url": "https://svenska-recept.se/om-oss.html"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://svenska-recept.se/#website",
+                "url": "https://svenska-recept.se/",
+                "name": "Svenska Recept",
+                "description": "Sveriges mest pålitliga provkök för klassisk svensk husmanskost, fika och högtidsmat.",
+                "inLanguage": "sv-SE",
+                "publisher": {
+                    "@id": "https://svenska-recept.se/#organization"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://svenska-recept.se/recept.html?q={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            }
+        ]
+    }
+
     html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -1254,6 +1309,9 @@ def generate_homepage():
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
+  <script type="application/ld+json">
+{json.dumps(homepage_schema, ensure_ascii=False, indent=2)}
+  </script>
 </head>
 <body>
 {get_header_html(active_nav="hem", depth="")}
@@ -1433,6 +1491,28 @@ def generate_categories():
         cat_recipes = [r for r in reversed(RECIPES) if r["cat_key"] == cat["key"]]
         cards_html = "\n".join([render_recipe_card(r, depth="../") for r in cat_recipes])
 
+        cat_schema = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://svenska-recept.se/"},
+                        {"@type": "ListItem", "position": 2, "name": cat["title"], "item": f"https://svenska-recept.se/kategorier/{cat['slug']}.html"}
+                    ]
+                },
+                {
+                    "@type": "CollectionPage",
+                    "@id": f"https://svenska-recept.se/kategorier/{cat['slug']}.html#collection",
+                    "url": f"https://svenska-recept.se/kategorier/{cat['slug']}.html",
+                    "name": f"{cat['title']} – Bästa Provlagade Recepten | Svenska Recept",
+                    "description": cat["desc"],
+                    "inLanguage": "sv-SE",
+                    "isPartOf": {"@id": "https://svenska-recept.se/#website"}
+                }
+            ]
+        }
+
         html = f'''<!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -1447,6 +1527,9 @@ def generate_categories():
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/recipe.css">
+  <script type="application/ld+json">
+{json.dumps(cat_schema, ensure_ascii=False, indent=2)}
+  </script>
 </head>
 <body>
 {get_header_html(active_nav=cat['key'], depth="../")}

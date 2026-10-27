@@ -20,6 +20,51 @@
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://svenska-recept.se/#organization",
+      "name": "Svenska Recept",
+      "alternateName": "Svenska Recept Provkök",
+      "url": "https://svenska-recept.se/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://svenska-recept.se/assets/images/logo.png",
+        "width": 600,
+        "height": 120
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://svenska-recept.se/om-oss.html#astrid",
+        "name": "Astrid Lindqvist",
+        "url": "https://svenska-recept.se/om-oss.html"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://svenska-recept.se/#website",
+      "url": "https://svenska-recept.se/",
+      "name": "Svenska Recept",
+      "description": "Sveriges mest pålitliga provkök för klassisk svensk husmanskost, fika och högtidsmat.",
+      "inLanguage": "sv-SE",
+      "publisher": {
+        "@id": "https://svenska-recept.se/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://svenska-recept.se/recept.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
   <header class="site-header">

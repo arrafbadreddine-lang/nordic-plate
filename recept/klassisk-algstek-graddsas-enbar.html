@@ -73,17 +73,21 @@
       "keywords": "älgstek, klassisk älgstek, älgstek gräddsås, älgstek ugn, saftig älgstek, viltsås älgstek, älgkött recept",
       "author": {
         "@type": "Person",
+        "@id": "https://svenska-recept.se/om-oss.html#astrid",
         "name": "Astrid Lindqvist",
         "jobTitle": "Receptskapare & Kock",
         "url": "https://svenska-recept.se/om-oss.html"
       },
       "publisher": {
         "@type": "Organization",
+        "@id": "https://svenska-recept.se/#organization",
         "name": "Svenska Recept",
         "url": "https://svenska-recept.se/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://svenska-recept.se/assets/images/logo.png"
+          "url": "https://svenska-recept.se/assets/images/logo.png",
+          "width": 600,
+          "height": 120
         }
       },
       "datePublished": "2026-10-17T10:00:00+02:00",
@@ -222,37 +226,49 @@
           "@type": "HowToStep",
           "name": "Temperera & bryn köttet",
           "text": "Ta fram älgsteken i rumstemperatur minst 45 minuter före tillagning. Klappa köttet torrt och krydda rikligt runt om med salt, peppar och hälften av de krossade enbären. Bryn steken i rikligt med smör i en het gjutjärnspanna så att den får en vacker gyllenbrun stekyta runtom.",
-          "position": 1
+          "position": 1,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-1",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Baka i ugn på låg värme",
           "text": "Sätt ugnen på 125°C över-/undervärme. Lägg morotsbitar, lök, timjan och resterande enbär i botten på en ugnsform. Placera den brynta älgsteken ovanpå och häll viltfonden runt grönsakerna. Stick in en digital stektermometer i köttets tjockaste del.",
-          "position": 2
+          "position": 2,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-2",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Stek till perfekt innertemperatur",
           "text": "Ställ in formen i nedre delen av ugnen. Låt steken gå tills termometern visar 56°C för rosa eller 60°C för svagt rosa. Det tar ca 1–1,5 timme beroende på stekens form och temperatur.",
-          "position": 3
+          "position": 3,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-3",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Vila steken",
           "text": "Ta ut steken och linda in den löst i smörpapper eller aluminiumfolie. Låt den vila på en skärbräda i 15 minuter så att köttsafterna stannar kvar i köttet.",
-          "position": 4
+          "position": 4,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-4",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Koka den krämiga gräddsåsen",
           "text": "Sila ner den smakrika stekskyn från ugnsformen i en kastrull. Koka upp och tillsätt vispgrädde, svartvinbärsgelé, soja och krossade enbär. Låt sjuda i 5 minuter. Vispa ut mjölet i lite kallt vatten och red såsen till önskad krämig konsistens. Smaka av med salt och vitpeppar.",
-          "position": 5
+          "position": 5,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-5",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Tranchera & servera",
           "text": "Skär upp älgsteken i tunna, fina skivor tvärs över köttfibrerna. Servera på ett varmt fat med den heta gräddsåsen, kokt mandelpotatis eller hasselbackspotatis, pressgurka och rårörda lingon.",
-          "position": 6
+          "position": 6,
+          "url": "https://svenska-recept.se/recept/klassisk-algstek-graddsas-enbar.html#steg-6",
+          "image": "https://svenska-recept.se/assets/images/recept/algstek-16x9.jpg"
         }
       ]
     },
@@ -334,7 +350,7 @@
           <div class="author-info">
             <div class="author-avatar-initial">AL</div>
             <div>
-              <span class="author-name">Astrid Lindqvist</span>
+              <a href="../om-oss.html#astrid" class="author-name" rel="author" style="color: inherit; text-decoration: none;">Astrid Lindqvist</a>
               <div style="font-size: 0.8rem; color: var(--color-text-muted);">Svenska Recept Provkök • Uppdaterad 2026</div>
             </div>
           </div>
@@ -483,7 +499,7 @@
       <!-- Tillagningskolumn -->
       <section class="recipe-instructions-content">
         <h2>Gör så här</h2>
-        <div class="instruction-step">
+        <div class="instruction-step" id="steg-1">
   <div class="step-num-badge">1</div>
   <div class="step-body">
     <h3 class="step-title">Temperera & bryn köttet</h3>
@@ -491,7 +507,7 @@
     <button class="step-timer-knapp" data-minuter="8"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (8 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-2">
   <div class="step-num-badge">2</div>
   <div class="step-body">
     <h3 class="step-title">Baka i ugn på låg värme</h3>
@@ -499,7 +515,7 @@
     <button class="step-timer-knapp" data-minuter="5"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (5 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-3">
   <div class="step-num-badge">3</div>
   <div class="step-body">
     <h3 class="step-title">Stek till perfekt innertemperatur</h3>
@@ -507,7 +523,7 @@
     <button class="step-timer-knapp" data-minuter="75"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (75 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-4">
   <div class="step-num-badge">4</div>
   <div class="step-body">
     <h3 class="step-title">Vila steken</h3>
@@ -515,7 +531,7 @@
     <button class="step-timer-knapp" data-minuter="15"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (15 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-5">
   <div class="step-num-badge">5</div>
   <div class="step-body">
     <h3 class="step-title">Koka den krämiga gräddsåsen</h3>
@@ -523,7 +539,7 @@
     <button class="step-timer-knapp" data-minuter="10"><svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Starta timer (10 min)</button>
   </div>
 </div>
-<div class="instruction-step">
+<div class="instruction-step" id="steg-6">
   <div class="step-num-badge">6</div>
   <div class="step-body">
     <h3 class="step-title">Tranchera & servera</h3>
