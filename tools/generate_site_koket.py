@@ -797,8 +797,8 @@ def get_recipe_dates(r, idx=None):
             tz = "+01:00" if pub_d.month < 4 or pub_d.month > 10 else "+02:00"
             pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
 
-    # Ensure mod_str reflects at least the Oct 18 sitewide structural & schema overhaul
-    mod_str = r.get("date_modified", "2026-10-18T10:30:00+02:00")
+    # Ensure mod_str reflects the Oct 28 content & review quality overhaul
+    mod_str = "2026-10-28T14:00:00+01:00"
     if mod_str < pub_str:
         mod_str = pub_str
     return pub_str, mod_str
@@ -850,66 +850,6 @@ def get_related_recipes(r, count=6):
     scored.sort(key=lambda item: (item[0], item[1]), reverse=True)
     return [item[2] for item in scored[:count]]
 
-def render_storage_and_serving_guide(r):
-    card_title = r.get("card_title", "rätten")
-    cat = r.get("cat_key", "husmanskost")
-    portions = f"{r.get('portions_num', 4)} {r.get('portions_unit', 'portioner')}"
-    prep_str = r.get("prep_time_str", "15 min")
-    cook_str = r.get("cook_time_str", "20 min")
-
-    ing_names = []
-    for grp in r.get("ingredients", []):
-        for itm in grp.get("items", []):
-            n = itm.get("name", "").split(",")[0].split("(")[0].strip().lower()
-            if n and n not in ("salt", "vatten", "svartpeppar", "nymalen svartpeppar"):
-                ing_names.append(n)
-    top_ings = ", ".join(ing_names[:3]) if ing_names else "utvalda svenska råvaror"
-
-    if cat == "fika":
-        storage_text = (
-            f"Förvara {card_title.lower()} i en lufttät burk eller väl inplastad i rumstemperatur (eller svalt i kylskåp om bakverket innehåller glasyr, grädde eller färskost) i upp till 4–5 dagar. "
-            f"Kombinationen av {top_ings} gör att bakverket behåller sin saftighet utmärkt även dag två och tre."
-        )
-        freeze_text = (
-            f"Det går alldeles utmärkt att frysa in {card_title.lower()} i upp till 3 månader. Dela gärna upp satsen om {portions} i färdiga serveringsbitar med smörpapper emellan, "
-            f"och låt tina långsamt i rumstemperatur under bakduk i cirka 30–45 minuter före servering."
-        )
-        prep_text = (
-            f"Plocka fram kalla ingredienser i god tid (förberedelsetid ca {prep_str} och gräddning {cook_str}) så att smör, ägg och degvätska håller rätt temperatur – det ger bäst volym och jämnast gräddning."
-        )
-    elif cat == "smorgasbord":
-        storage_text = (
-            f"{card_title} håller sig fräsch i tätslutande glasburk eller matlåda i kylskåp (högst +4 °C) i 3–4 dagar. "
-            f"Tack vare smakbasen av {top_ings} mognar och fördjupas aromerna ofta ännu mer om rätten får vila över natten."
-        )
-        freeze_text = (
-            f"Beroende på om rätten serveras kall eller varm kan tillagade komponenter frysas i upp till 2–3 månader, medan rätter med majonnäs, gräddfil eller rå lök blir allra bäst kylskåpskalla utan infrysning."
-        )
-        prep_text = (
-            f"Perfekt att förbereda inför helg och högtid! Med {prep_str} i förberedelse och {cook_str} i tillagning för {portions} kan du duka fram i lugn och ro när gästerna anländer."
-        )
-    else:
-        storage_text = (
-            f"Kyl ner eventuella rester av {card_title.lower()} snabbt och förvara i en tätslutande matlåda i kylskåp i upp till 3–4 dagar. "
-            f"Smakerna från {top_ings} sätter sig fint i kylen, vilket gör rätten helt suverän som matlåda dagen efter."
-        )
-        freeze_text = (
-            f"{card_title} går utmärkt att frysa in i portionsförpackningar i upp till 3 månader. Tina långsamt i kylskåp över natten och värm varsamt upp på medelvärme i kastrull eller ugn (tillsätt gärna en skvätt vatten, buljong eller grädde så blir konsistensen som nylagad)."
-        )
-        prep_text = (
-            f"Receptet är beräknat för {portions} (förberedelse {prep_str}, tillagning {cook_str}). Du kan enkelt skala antalet portioner upp eller ner med portionsväljaren ovan om du lagar storkok för hela veckan."
-        )
-
-    return f'''        <!-- Förvaring, Hållbarhet & Förberedelse -->
-        <section class="recipe-storage-box" style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 1.5rem; margin: 1.75rem 0;">
-          <h3 style="margin-top: 0; margin-bottom: 0.85rem; font-size: 1.2rem; color: var(--color-primary);">🥡 Förvaring, Hållbarhet & Matlådetips för {card_title}</h3>
-          <ul style="margin: 0; padding-left: 1.2rem; display: grid; gap: 0.65rem; color: var(--color-text); line-height: 1.6;">
-            <li><strong>Hållbarhet i kylskåp:</strong> {storage_text}</li>
-            <li><strong>Frysa in & tina:</strong> {freeze_text}</li>
-            <li><strong>Förbereda & skala portioner:</strong> {prep_text}</li>
-          </ul>
-        </section>'''
-
 def render_recipe_page(r):
     pub_date, mod_date = get_recipe_dates(r)
     revs = r.get("community_reviews", [])
@@ -958,9 +898,6 @@ def render_recipe_page(r):
   <h4>🍷 Kockens Dryckestips</h4>
   <p>{r.get("drink_pairing", "")}</p>
 </div>''' if r.get("drink_pairing") else ""
-
-    # Storage & Serving Guide inside <main>
-    storage_guide_html = render_storage_and_serving_guide(r)
 
     # FAQ Section & Schema
     faq_schema_items = []
@@ -1257,8 +1194,6 @@ def render_recipe_page(r):
 
         {drink_html}
 
-{storage_guide_html}
-
         <!-- Näringsinformation -->
         <div class="nutrition-facts-box">
           <h3>Näringsvärde per portion</h3>
@@ -1366,6 +1301,33 @@ def generate_homepage():
     # 1. New & Trending Carousel (top 16 latest recipes first)
     rev_recipes = list(reversed(RECIPES))
     c_trending = rev_recipes[:16]
+
+    # 1b. Historical Traffic Winners ("Läsarnas Storfavoriter") for direct Homepage PageRank
+    favorite_slugs = [
+        "klassisk-cowboysoppa-kottfars-potatis",
+        "klassisk-ungersk-gulaschsoppa-hogrev",
+        "gammaldags-kottsoppa-hogrev-klimp",
+        "klassisk-silviakaka-langpanna",
+        "saftiga-kanelbullemuffins",
+        "klassisk-svensk-kottfarssas-spaghetti",
+        "kramig-lovbiffsgryta-dijon-champinjoner",
+        "klassisk-kalpudding-sirap-lingon",
+        "gammaldags-appelkram-kanel-kall-mjolk",
+        "klassisk-biff-rydberg-oxfile-aggula",
+        "klassisk-ryttarkaka-kokostosca",
+        "klassiska-inlagda-rodbetor-mormors-recept",
+        "klassiska-mazariner-mandelmassa-glasyr",
+        "klassisk-rulltarta-hallonsylt",
+        "gammaldags-mjuk-appelkaka-kanel",
+        "kramig-rotfruktsgratang-vasterbottensost",
+        "hemlagat-appelmos-kanel-citron",
+        "klassisk-skomakarlada-biff-bacon-potatismos",
+        "klassisk-kramig-kladdkaka",
+        "klassiska-svenska-kottbullar"
+    ]
+    slug_map = {r["slug"]: r for r in RECIPES}
+    c_favorites = [slug_map[s] for s in favorite_slugs if s in slug_map]
+
     # 2. Category Carousels (newest recipes in each category so all recent batches get direct homepage crawl equity)
     c_husman = [r for r in rev_recipes if r["cat_key"] == "husmanskost"][:15]
     c_fika = [r for r in rev_recipes if r["cat_key"] == "fika"][:15]
@@ -1373,10 +1335,53 @@ def generate_homepage():
     c_under30 = [r for r in rev_recipes if r.get("time", 30) <= 30][:12]
 
     carousel_trending = render_horizontal_carousel("🔥 Trendande & Nyinkommet i Provköket", "De allra senaste provlagade recepten och hetaste favoriterna just nu", c_trending)
+    carousel_favorites = render_horizontal_carousel("🏆 Läsarnas Storfavoriter – Mest Sökta & Älskade Recept", "Våra mest uppskattade soppor, grytor, husmansklassiker och långpannekakor", c_favorites)
     carousel_husman = render_horizontal_carousel("Klassisk Svensk Husmanskost", "Från saftiga köttbullar till frasiga raggmunkar, Wallenbergare och långkokt Kalops", c_husman)
     carousel_fika = render_horizontal_carousel("Bakat och gott till fikat", "Ljuvliga kanelbullar, kladdkaka, toscakaka, saftiga kärleksmums och semlor", c_fika)
     carousel_smorgasbord = render_horizontal_carousel("Högtider & Smörgåsbord", "Perfekta recept till midsommar, påsk, kräftskiva och julbord", c_smorgasbord)
     carousel_under30 = render_horizontal_carousel("⏱️ Snabba Vardagsfavoriter under 30 min", "Smakrika och mättande middagar som går blixtsnabbt att laga i vardagen", c_under30)
+
+    # 3. Complete Click-Depth-1 Recipe Index grouped by category (restores Click Depth 1 internal link equity to all 165 recipes)
+    all_husman_links = "".join([
+        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
+        for r in RECIPES if r["cat_key"] == "husmanskost"
+    ])
+    all_fika_links = "".join([
+        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
+        for r in RECIPES if r["cat_key"] == "fika"
+    ])
+    all_smorgas_links = "".join([
+        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
+        for r in RECIPES if r["cat_key"] == "smorgasbord"
+    ])
+
+    complete_directory_html = f'''  <!-- Komplett Receptregister (Click Depth 1 för alla {len(RECIPES)} recept) -->
+  <section class="container" style="margin: 3rem auto 3.5rem auto; padding: 2rem; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 16px;">
+    <div style="margin-bottom: 1.5rem;">
+      <h2 style="margin: 0 0 0.4rem 0; font-size: 1.45rem; color: var(--color-primary);">📚 Komplett Receptregister – Alla {len(RECIPES)} Provlagade Svenska Recept</h2>
+      <p style="margin: 0; color: var(--color-text-muted); font-size: 0.95rem;">Utforska hela vårt receptarkiv direkt från startsidan, sorterat efter kategori.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+      <div>
+        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🍲 Husmanskost & Middag</h3>
+        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
+          {all_husman_links}
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🧁 Fika, Kakor & Bakning</h3>
+        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
+          {all_fika_links}
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🥂 Högtider & Smörgåsbord</h3>
+        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
+          {all_smorgas_links}
+        </ul>
+      </div>
+    </div>
+  </section>'''
 
     homepage_schema = {
         "@context": "https://schema.org",
@@ -1532,10 +1537,13 @@ def generate_homepage():
   </section>
 
   <!-- Kategori-Karuseller -->
+{carousel_favorites}
 {carousel_husman}
 {carousel_fika}
 {carousel_smorgasbord}
 {carousel_under30}
+
+{complete_directory_html}
 
 {get_footer_html(depth="")}
 
