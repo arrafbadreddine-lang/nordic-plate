@@ -155,6 +155,12 @@ def render_recipe_card(r, depth=""):
         </article>'''
 
 def render_carousel_card(r, depth=""):
+    desc_html = f'\n              <p class="carousel-card-desc">{r["desc"]}</p>' if depth == "" else ""
+    footer_html = f'''
+              <div class="carousel-card-footer">
+                <span>{ICON_FLAME} {r['calories']} kcal</span>
+                <span>{ICON_USERS} {r['portions_num']} {r['portions_unit']}</span>
+              </div>''' if depth == "" else ""
     return f'''          <div class="carousel-card">
             <div class="carousel-card-media">
               <a href="{depth}recept/{r['file']}">
@@ -170,12 +176,7 @@ def render_carousel_card(r, depth=""):
                 <span>{ICON_STAR} <strong>{r['rating']}</strong> ({r['review_count']})</span>
                 <span>{ICON_CLOCK} {r['time_str']}</span>
               </div>
-              <h3 class="carousel-card-title"><a href="{depth}recept/{r['file']}">{r['card_title']}</a></h3>
-              <p class="carousel-card-desc">{r['desc']}</p>
-              <div class="carousel-card-footer">
-                <span>{ICON_FLAME} {r['calories']} kcal</span>
-                <span>{ICON_USERS} {r['portions_num']} {r['portions_unit']}</span>
-              </div>
+              <h3 class="carousel-card-title"><a href="{depth}recept/{r['file']}">{r['card_title']}</a></h3>{desc_html}{footer_html}
             </div>
           </div>'''
 
