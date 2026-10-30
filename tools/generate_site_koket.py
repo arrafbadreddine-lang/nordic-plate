@@ -798,8 +798,8 @@ def get_recipe_dates(r, idx=None):
             tz = "+01:00" if pub_d.month < 4 or pub_d.month > 10 else "+02:00"
             pub_str = f"{pub_d.isoformat()}T09:00:00{tz}"
 
-    # Ensure mod_str reflects the Oct 28 content & review quality overhaul
-    mod_str = "2026-10-28T14:00:00+01:00"
+    # Use authentic per-recipe / per-batch modification date (avoid mass identical lastmod across 165 URLs)
+    mod_str = r.get("date_modified", pub_str)
     if mod_str < pub_str:
         mod_str = pub_str
     return pub_str, mod_str
@@ -1017,15 +1017,6 @@ def render_recipe_page(r):
                     "calories": f"{r['calories']} calories",
                     "servingSize": f"1 {r['portions_unit'][:-1] if r['portions_unit'].endswith('er') else r['portions_unit']}"
                 },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": str(avg_rating),
-                    "reviewCount": str(rev_count),
-                    "ratingCount": str(rev_count),
-                    "bestRating": "5",
-                    "worstRating": "1"
-                },
-                "review": schema_reviews,
                 "recipeIngredient": [
                     f"{itm['val']} {itm['unit']} {itm['name']}".strip()
                     for grp in r["ingredients"] for itm in grp["items"]
@@ -1061,7 +1052,7 @@ def render_recipe_page(r):
   <meta name="description" content="{r['long_desc']}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/recept/{r['file']}">
-  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/feed.xml">
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
   
   <!-- Open Graph / Google Discover (1900x900) -->
@@ -1342,48 +1333,6 @@ def generate_homepage():
     carousel_smorgasbord = render_horizontal_carousel("Högtider & Smörgåsbord", "Perfekta recept till midsommar, påsk, kräftskiva och julbord", c_smorgasbord)
     carousel_under30 = render_horizontal_carousel("⏱️ Snabba Vardagsfavoriter under 30 min", "Smakrika och mättande middagar som går blixtsnabbt att laga i vardagen", c_under30)
 
-    # 3. Complete Click-Depth-1 Recipe Index grouped by category (restores Click Depth 1 internal link equity to all 165 recipes)
-    all_husman_links = "".join([
-        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
-        for r in RECIPES if r["cat_key"] == "husmanskost"
-    ])
-    all_fika_links = "".join([
-        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
-        for r in RECIPES if r["cat_key"] == "fika"
-    ])
-    all_smorgas_links = "".join([
-        f'<li><a href="recept/{r["file"]}" style="color: var(--color-text); text-decoration: none; font-size: 0.92rem;">{r["card_title"]}</a></li>\n'
-        for r in RECIPES if r["cat_key"] == "smorgasbord"
-    ])
-
-    complete_directory_html = f'''  <!-- Komplett Receptregister (Click Depth 1 för alla {len(RECIPES)} recept) -->
-  <section class="container" style="margin: 3rem auto 3.5rem auto; padding: 2rem; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 16px;">
-    <div style="margin-bottom: 1.5rem;">
-      <h2 style="margin: 0 0 0.4rem 0; font-size: 1.45rem; color: var(--color-primary);">📚 Komplett Receptregister – Alla {len(RECIPES)} Provlagade Svenska Recept</h2>
-      <p style="margin: 0; color: var(--color-text-muted); font-size: 0.95rem;">Utforska hela vårt receptarkiv direkt från startsidan, sorterat efter kategori.</p>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
-      <div>
-        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🍲 Husmanskost & Middag</h3>
-        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
-          {all_husman_links}
-        </ul>
-      </div>
-      <div>
-        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🧁 Fika, Kakor & Bakning</h3>
-        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
-          {all_fika_links}
-        </ul>
-      </div>
-      <div>
-        <h3 style="font-size: 1.1rem; color: var(--color-primary); border-bottom: 2px solid #E2E8F0; padding-bottom: 0.5rem; margin-bottom: 0.75rem;">🥂 Högtider & Smörgåsbord</h3>
-        <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem;">
-          {all_smorgas_links}
-        </ul>
-      </div>
-    </div>
-  </section>'''
-
     homepage_schema = {
         "@context": "https://schema.org",
         "@graph": [
@@ -1438,7 +1387,7 @@ def generate_homepage():
   <meta name="description" content="Hitta Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar, kladdkaka, köttbullar och smörgåsbord.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/">
-  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/feed.xml">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
@@ -1544,8 +1493,6 @@ def generate_homepage():
 {carousel_smorgasbord}
 {carousel_under30}
 
-{complete_directory_html}
-
 {get_footer_html(depth="")}
 
   <script src="assets/js/recipe-engine.js?v=2.1"></script>
@@ -1569,7 +1516,7 @@ def generate_catalog():
   <meta name="description" content="Sök bland alla våra provlagade svenska recept. Filtrera på husmanskost, fika, högtider, tillagningstid och vegetariskt.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/recept.html">
-  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/feed.xml">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/recipe.css">
@@ -1660,7 +1607,7 @@ def generate_categories():
   <meta name="description" content="{cat['desc']}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://svenska-recept.se/kategorier/{cat['slug']}.html">
-  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Svenska Recept – Senaste Recepten" href="https://svenska-recept.se/feed.xml">
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/recipe.css">
@@ -1758,9 +1705,7 @@ def generate_sitemaps():
 
     with open(os.path.join(BASE_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap_xml_content)
-    with open(os.path.join(BASE_DIR, "sitemap_sv.xml"), "w", encoding="utf-8") as f:
-        f.write(sitemap_xml_content)
-    print("Generated dynamic sitemaps (sitemap.xml & sitemap_sv.xml)")
+    print("Generated dynamic sitemap (sitemap.xml)")
 
     # Generate dynamic RSS 2.0 Feed (latest 25 recipes sorted by publication date)
     recipes_with_dates = []
@@ -1804,16 +1749,14 @@ def generate_sitemaps():
     <description>Sveriges bästa provlagade recept på klassisk husmanskost, fika, kanelbullar och festmat.</description>
     <language>sv</language>
     <lastBuildDate>{build_rfc}</lastBuildDate>
-    <atom:link href="https://svenska-recept.se/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://svenska-recept.se/feed.xml" rel="self" type="application/rss+xml" />
 {chr(10).join(rss_items)}
   </channel>
 </rss>'''
 
-    with open(os.path.join(BASE_DIR, "rss.xml"), "w", encoding="utf-8") as f:
-        f.write(rss_xml_content)
     with open(os.path.join(BASE_DIR, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(rss_xml_content)
-    print("Generated dynamic RSS 2.0 feed (rss.xml & feed.xml)")
+    print("Generated dynamic RSS 2.0 feed (feed.xml)")
 
 def main():
     for r in RECIPES:
