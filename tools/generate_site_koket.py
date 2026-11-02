@@ -352,13 +352,13 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         ]
     },
     "knackig-appelpaj-havre": {
-        "title": "☕ Fler Ljuvliga Höstkakor & Fikaklassiker",
-        "desc": "Knäckig äppelpaj är fantastisk med vaniljsås! Upptäck fler underbara höstkakor och bagerifavoriter:",
+        "title": "☕ Fler Ljuvliga Höstkakor & Äppelfavoriter",
+        "desc": "Knäckig äppelpaj är fantastisk med vaniljsås! Upptäck fler underbara äppelrecept och långpannekakor:",
         "slugs": [
-            "saftig-appelkaka-i-langpanna",
-            "klassiska-vaniljbullar-solbullar",
-            "klassisk-fluffig-chokladmousse",
-            "saftig-plommonkaka-mandelmassa-kardemumma"
+            "gammaldags-mjuk-appelkaka-kanel",
+            "gammaldags-appelkram-kanel-kall-mjolk",
+            "klassisk-silviakaka-langpanna",
+            "saftiga-kanelbullemuffins"
         ]
     },
     "gammaldags-appelkram-kanel-kall-mjolk": {
@@ -465,10 +465,10 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🥘 Mustiga Höstgrytor & Klassisk Husmanskost",
         "desc": "Långkokt mör kalops med kryddpeppar och rödbetor – upptäck fler värmande middagsfavoriter:",
         "slugs": [
-            "mustig-alggryta-kantareller-rodvin",
-            "klassiska-oxrullader-graddsas-pressgurka",
-            "kramig-korvgryta-falukorv-paprika",
-            "saftiga-tjocka-revbensspjall-i-ugn"
+            "gammaldags-kottsoppa-hogrev-klimp",
+            "klassisk-cowboysoppa-kottfars-potatis",
+            "klassisk-ungersk-gulaschsoppa-hogrev",
+            "klassiska-inlagda-rodbetor-mormors-recept"
         ]
     },
     "kramig-lovbiffsgryta-dijon-champinjoner": {
@@ -638,38 +638,38 @@ def render_editorial_recommendations(r):
             title = "🍂 Provkökets Rekommenderade Höstfavoriter"
             desc = "Utforska fler provlagade och uppskattade svenska vardagsfavoriter, grytor och soppor:"
             pool = [
-                "mustig-gulaschsoppa-kottfars",
-                "kramig-champinjonsoppa-timjan",
-                "klassisk-frasig-hasselbackspotatis",
-                "klassiska-frasiga-rarakor-stekt-flask",
-                "mustig-alggryta-kantareller-rodvin",
-                "klassiska-sma-plattar",
-                "klassisk-skomakarlada-biff-bacon-potatismos",
-                "klassisk-kasslergratang-ris-curry"
+                "gammaldags-kottsoppa-hogrev-klimp",
+                "klassisk-cowboysoppa-kottfars-potatis",
+                "klassisk-ungersk-gulaschsoppa-hogrev",
+                "kramig-lovbiffsgryta-dijon-champinjoner",
+                "klassisk-kalpudding-sirap-lingon",
+                "klassisk-svensk-kottfarssas-spaghetti",
+                "klassiska-inlagda-rodbetor-mormors-recept",
+                "baconlindad-kottfarslimpa-graddsas"
             ]
         elif r["cat_key"] == "fika":
             title = "☕ Höstens Bästa Fika, Kladdkakans Dag & Fars Dag"
             desc = "Sprid doften av hembakat i köket – här är fler omtyckta recept från bageriet:"
             pool = [
-                "klassiska-saftiga-kardemummabullar",
-                "saftiga-appelmuffins-kanelsmul",
-                "kramig-appelkladdkaka-kanel",
-                "klassisk-fars-dag-tarta-choklad-bar",
-                "klassisk-kanelbullekladdkaka",
                 "klassisk-silviakaka-langpanna",
-                "klassiska-sproda-pepparkakor-mormors-recept",
+                "gammaldags-mjuk-appelkaka-kanel",
+                "gammaldags-appelkram-kanel-kall-mjolk",
+                "saftiga-kanelbullemuffins",
+                "klassiska-mazariner-mandelmassa-glasyr",
+                "knackig-appelpaj-havre",
+                "klassiska-saftiga-karleksmums",
                 "klassisk-seg-kladdkaka-i-langpanna"
             ]
         else:
             title = "🍽️ Festmåltider & Högtidsfavoriter"
             desc = "Gör helgen och högtiden extra minnesvärd med dessa provlagade delikatesser:"
             pool = [
-                "klassisk-frasig-hasselbackspotatis",
-                "mustig-alggryta-kantareller-rodvin",
-                "klassisk-fars-dag-tarta-choklad-bar",
-                "klassisk-inlagd-sill-1-2-3-lag",
-                "klassisk-rakmacka-handskalade-rakor-agg",
-                "klassisk-plankstek-oxfile-duchessemos"
+                "klassiska-inlagda-rodbetor-mormors-recept",
+                "klassisk-biff-rydberg-oxfile-aggula",
+                "hemlagat-appelmos-kanel-citron",
+                "klassiskt-dillkott-hogrev-sotsur-dillsas",
+                "klassisk-porterstek-svartvinbar-graddsas",
+                "mustig-hogrevsgryta-rodvin-svamp"
             ]
 
         n_pool = len(pool)
@@ -1280,15 +1280,15 @@ def render_recipe_page(r):
     print(f"Generated recipe: {r['file']}")
 
 def generate_homepage():
-    # 2 Large stories (Editorial Highlights)
-    large_story_1 = [r for r in RECIPES if r["slug"] == "kramig-svensk-laxsoppa"][0] # Nya Laxsoppa
-    large_story_2 = [r for r in RECIPES if r["slug"] == "traditionell-vasterbottensostpaj"][0] # Västerbottensostpaj
+    # 2 Large stories (Editorial Highlights - Top Historical Winners)
+    large_story_1 = [r for r in RECIPES if r["slug"] == "gammaldags-kottsoppa-hogrev-klimp"][0] # #1 All-time Winner
+    large_story_2 = [r for r in RECIPES if r["slug"] == "klassisk-cowboysoppa-kottfars-potatis"][0] # #2 All-time Winner
     
-    # 4 Square tiles
-    square_1 = [r for r in RECIPES if r["slug"] == "klassiska-saftiga-karleksmums"][0] # Kärleksmums
-    square_2 = [r for r in RECIPES if r["slug"] == "klassisk-flygande-jacob"][0] # Flygande Jacob
-    square_3 = [r for r in RECIPES if r["slug"] == "klassisk-toast-skagen"][0] # Toast Skagen
-    square_4 = [r for r in RECIPES if r["slug"] == "klassisk-langkokt-kalops"][0] # Kalops
+    # 4 Square tiles (Top Historical Winners #3-#6)
+    square_1 = [r for r in RECIPES if r["slug"] == "klassisk-ungersk-gulaschsoppa-hogrev"][0] # #3 Winner
+    square_2 = [r for r in RECIPES if r["slug"] == "klassisk-silviakaka-langpanna"][0] # #4 Winner
+    square_3 = [r for r in RECIPES if r["slug"] == "gammaldags-mjuk-appelkaka-kanel"][0] # #5 Winner
+    square_4 = [r for r in RECIPES if r["slug"] == "saftiga-kanelbullemuffins"][0] # #7 Winner
 
     # 1. New & Trending Carousel (top 16 latest recipes first)
     rev_recipes = list(reversed(RECIPES))
@@ -1426,11 +1426,6 @@ def generate_homepage():
     </div>
   </section>
 
-  <!-- 1. TRENDANDE & NYINKOMMET I PROVKÖKET (NEWEST RECIPES FIRST) -->
-  <div id="trending-section">
-{carousel_trending}
-  </div>
-
   <!-- Mosaik Hero Grid (Köket.se Editorial Signature) -->
   <section class="container mosaic-section">
     <div class="mosaic-grid">
@@ -1439,8 +1434,8 @@ def generate_homepage():
       <a href="recept/{large_story_1['file']}" class="mosaic-item-large">
         <img src="assets/images/recept/{large_story_1['img']}.jpg" alt="{large_story_1['alt']}" width="800" height="500" loading="eager">
         <div class="mosaic-item-overlay">
-          <span class="mosaic-tag">Nyhet i Provköket</span>
-          <h2 class="mosaic-title-large">{large_story_1['card_title']} med Dill & Purjolök</h2>
+          <span class="mosaic-tag">Läsarnas #1 Favorit</span>
+          <h2 class="mosaic-title-large">{large_story_1['card_title']}</h2>
           <p class="mosaic-desc-large">{large_story_1['desc']}</p>
         </div>
       </a>
@@ -1448,8 +1443,8 @@ def generate_homepage():
       <a href="recept/{large_story_2['file']}" class="mosaic-item-large">
         <img src="assets/images/recept/{large_story_2['img']}.jpg" alt="{large_story_2['alt']}" width="800" height="500" loading="eager">
         <div class="mosaic-item-overlay">
-          <span class="mosaic-tag">Fest & Smörgåsbord</span>
-          <h2 class="mosaic-title-large">{large_story_2['card_title']} med Löjrom & Gräddfil</h2>
+          <span class="mosaic-tag">Värmande Husman</span>
+          <h2 class="mosaic-title-large">{large_story_2['card_title']}</h2>
           <p class="mosaic-desc-large">{large_story_2['desc']}</p>
         </div>
       </a>
@@ -1458,40 +1453,41 @@ def generate_homepage():
       <a href="recept/{square_1['file']}" class="mosaic-item-square">
         <img src="assets/images/recept/{square_1['img']}.jpg" alt="{square_1['alt']}" width="400" height="300" loading="lazy">
         <div class="mosaic-item-overlay">
-          <h3 class="mosaic-title-square">{square_1['card_title']} med Kaffeglasyr</h3>
+          <h3 class="mosaic-title-square">{square_1['card_title']}</h3>
         </div>
       </a>
 
       <a href="recept/{square_2['file']}" class="mosaic-item-square">
         <img src="assets/images/recept/{square_2['img']}.jpg" alt="{square_2['alt']}" width="400" height="300" loading="lazy">
         <div class="mosaic-item-overlay">
-          <h3 class="mosaic-title-square">{square_2['card_title']} med Banan & Bacon</h3>
+          <h3 class="mosaic-title-square">{square_2['card_title']}</h3>
         </div>
       </a>
 
       <a href="recept/{square_3['file']}" class="mosaic-item-square">
         <img src="assets/images/recept/{square_3['img']}.jpg" alt="{square_3['alt']}" width="400" height="300" loading="lazy">
         <div class="mosaic-item-overlay">
-          <h3 class="mosaic-title-square">{square_3['card_title']} med Handskalade Räkor</h3>
+          <h3 class="mosaic-title-square">{square_3['card_title']}</h3>
         </div>
       </a>
 
       <a href="recept/{square_4['file']}" class="mosaic-item-square">
         <img src="assets/images/recept/{square_4['img']}.jpg" alt="{square_4['alt']}" width="400" height="300" loading="lazy">
         <div class="mosaic-item-overlay">
-          <h3 class="mosaic-title-square">{square_4['card_title']} med Kryddpeppar</h3>
+          <h3 class="mosaic-title-square">{square_4['card_title']}</h3>
         </div>
       </a>
 
     </div>
   </section>
 
-  <!-- Kategori-Karuseller -->
+  <!-- Kategori-Karuseller (Läsarnas Storfavoriter överst!) -->
 {carousel_favorites}
 {carousel_husman}
 {carousel_fika}
 {carousel_smorgasbord}
 {carousel_under30}
+{carousel_trending}
 
 {get_footer_html(depth="")}
 
