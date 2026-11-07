@@ -1754,9 +1754,36 @@ def generate_sitemaps():
         f.write(rss_xml_content)
     print("Generated dynamic RSS 2.0 feed (feed.xml)")
 
+def generate_legacy_redirects():
+    redirects = {
+        "gammaldags-kottsoppa-hogrev-klimp.html": "klassisk-kottsoppa-med-klimp-och-hogrev.html",
+        "hemlagat-appelmos-kanel-kanel-och-citron.html": "hemlagat-appelmos-kanel-citron.html",
+        "klassisk-kottfarssas-spaghetti.html": "klassisk-svensk-kottfarssas-spaghetti.html",
+    }
+    for old_file, new_file in redirects.items():
+        target_url = f"https://svenska-recept.se/recept/{new_file}"
+        stub_html = f'''<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Omdirigerar till Svenska Recept...</title>
+  <link rel="canonical" href="{target_url}">
+  <meta http-equiv="refresh" content="0; url={target_url}">
+  <script>window.location.replace("{target_url}");</script>
+</head>
+<body>
+  <p>Receptet har flyttats till <a href="{target_url}">{target_url}</a>.</p>
+</body>
+</html>
+'''
+        with open(os.path.join(BASE_DIR, "recept", old_file), "w", encoding="utf-8") as f:
+            f.write(stub_html)
+    print(f"Generated {len(redirects)} legacy canonical redirect stubs.")
+
 def main():
     for r in RECIPES:
         render_recipe_page(r)
+    generate_legacy_redirects()
     generate_homepage()
     generate_catalog()
     generate_categories()

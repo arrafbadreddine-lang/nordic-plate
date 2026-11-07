@@ -53,6 +53,9 @@ def validera_recept():
         with open(filvag, "r", encoding="utf-8") as f:
             innehall = f.read()
 
+        if 'http-equiv="refresh"' in innehall:
+            continue
+
         # Extrahera JSON-LD
         match = re.search(r'<script type="application/ld\+json">(.*?)</script>', innehall, re.DOTALL)
         if not match:
