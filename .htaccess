@@ -10,6 +10,7 @@
   # 2. Legacy recipe slug 301 redirects (from Google Search Console coverage)
   RewriteRule ^recept/hemlagat-appelmos-kanel-kanel-och-citron\.html$ https://svenska-recept.se/recept/hemlagat-appelmos-kanel-citron.html [L,R=301]
   RewriteRule ^recept/klassisk-kottfarssas-spaghetti\.html$ https://svenska-recept.se/recept/klassisk-svensk-kottfarssas-spaghetti.html [L,R=301]
+  RewriteRule ^recept/gammaldags-kottsoppa-hogrev-klimp\.html$ https://svenska-recept.se/recept/klassisk-kottsoppa-med-klimp-och-hogrev.html [L,R=301]
 </IfModule>
 
 # 3. Ensure HTML & XML Sitemaps are always fresh for Googlebot (override 1-year static cache)

@@ -311,7 +311,7 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
             "klassisk-seg-kladdkaka-i-langpanna"
         ]
     },
-    "gammaldags-kottsoppa-hogrev-klimp": {
+    "klassisk-kottsoppa-med-klimp-och-hogrev": {
         "title": "🍲 Fler Gammaldags Husmansfavoriter & Soppor",
         "desc": "Klassisk svensk köttsoppa på högrev är oslagbar – prova även dessa rustika och värmande höstfavoriter:",
         "slugs": [
@@ -465,7 +465,7 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
         "title": "🥘 Mustiga Höstgrytor & Klassisk Husmanskost",
         "desc": "Långkokt mör kalops med kryddpeppar och rödbetor – upptäck fler värmande middagsfavoriter:",
         "slugs": [
-            "gammaldags-kottsoppa-hogrev-klimp",
+            "klassisk-kottsoppa-med-klimp-och-hogrev",
             "klassisk-cowboysoppa-kottfars-potatis",
             "klassisk-ungersk-gulaschsoppa-hogrev",
             "klassiska-inlagda-rodbetor-mormors-recept"
@@ -598,7 +598,7 @@ EDITORIAL_RECOMMENDATIONS_MAP = {
             "klassisk-kramig-svampstuvning",
             "klassisk-cowboysoppa-kottfars-potatis",
             "klassisk-ungersk-gulaschsoppa-hogrev",
-            "gammaldags-kottsoppa-hogrev-klimp"
+            "klassisk-kottsoppa-med-klimp-och-hogrev"
         ]
     }
 }
@@ -638,7 +638,7 @@ def render_editorial_recommendations(r):
             title = "🍂 Provkökets Rekommenderade Höstfavoriter"
             desc = "Utforska fler provlagade och uppskattade svenska vardagsfavoriter, grytor och soppor:"
             pool = [
-                "gammaldags-kottsoppa-hogrev-klimp",
+                "klassisk-kottsoppa-med-klimp-och-hogrev",
                 "klassisk-cowboysoppa-kottfars-potatis",
                 "klassisk-ungersk-gulaschsoppa-hogrev",
                 "kramig-lovbiffsgryta-dijon-champinjoner",
@@ -1281,7 +1281,7 @@ def render_recipe_page(r):
 
 def generate_homepage():
     # 2 Large stories (Editorial Highlights - Top Historical Winners)
-    large_story_1 = [r for r in RECIPES if r["slug"] == "gammaldags-kottsoppa-hogrev-klimp"][0] # #1 All-time Winner
+    large_story_1 = [r for r in RECIPES if r["slug"] == "klassisk-kottsoppa-med-klimp-och-hogrev"][0] # #1 All-time Winner
     large_story_2 = [r for r in RECIPES if r["slug"] == "klassisk-cowboysoppa-kottfars-potatis"][0] # #2 All-time Winner
     
     # 4 Square tiles (Top Historical Winners #3-#6)
@@ -1298,7 +1298,7 @@ def generate_homepage():
     favorite_slugs = [
         "klassisk-cowboysoppa-kottfars-potatis",
         "klassisk-ungersk-gulaschsoppa-hogrev",
-        "gammaldags-kottsoppa-hogrev-klimp",
+        "klassisk-kottsoppa-med-klimp-och-hogrev",
         "klassisk-silviakaka-langpanna",
         "saftiga-kanelbullemuffins",
         "klassisk-svensk-kottfarssas-spaghetti",
