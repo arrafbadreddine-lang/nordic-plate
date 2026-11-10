@@ -1181,7 +1181,7 @@ def render_recipe_page(r):
         <!-- Kockens Tips -->
         <div class="pro-tips-card">
           <h3>{ICON_LIGHTBULB} Kockens Bästa Tips</h3>
-          <p>{r['pro_tips']}</p>
+          {''.join(f'<p style="margin-bottom:0.6rem;">• {t}</p>' for t in r['pro_tips']) if isinstance(r['pro_tips'], list) else f'<p>{r["pro_tips"]}</p>'}
         </div>
 
         {drink_html}
