@@ -590,12 +590,18 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'En kall svensk pilsner eller klassisk mjölk.',
   'equipment': ['Gjutjärnspanna', 'Grovt rivjärn', 'Vispskål'],
-  'faqs': [{'a': 'Fast potatis som Asterix, King Edward eller Folva ger krispigast yta och bästa konsistens.',
-            'q': 'Vilken potatissort är bäst till raggmunk?'},
-           {'a': 'Ja! Häll raggmunksmeten i en välsmord långpanna (eller lägg ut det stekta fläsket i botten och häll '
-                 'smeten över) och grädda på 225°C i ca 25–30 minuter tills ytan är gyllenbrun och frasig. Perfekt när '
-                 'du lagar till många!',
-            'q': 'Kan man göra raggmunk i långpanna?'}],
+  'faqs': [{'q': 'Hur får man raggmunk riktigt frasig i kanterna?',
+            'a': 'Stek i en riktigt het gjutjärnspanna i en blandning av smör och utsmält fett från det stekta '
+                 'sidfläsket, och bred ut smeten tunt i pannan så att kanterna blir gyllenbruna och knapriga.'},
+           {'q': 'Ska man ha fast eller mjölig potatis till raggmunk?',
+            'a': 'Fast potatis (eller en normalfast sort) är bäst till klassisk raggmunk eftersom potatisstrimlorna '
+                 'behåller sin spänst och ger fin textur i pannkakan utan att koka sönder till mos.'},
+           {'q': 'Vad är skillnaden mellan raggmunk och rårakor?',
+            'a': 'Raggmunk görs på riven rå potatis som blandas ner i en smet av mjölk, vetemjöl och ägg. Rårakor görs '
+                 'däremot enbart på riven rå potatis och salt (utan ägg, mjöl och mjölk) som steks krispiga i smör.'},
+           {'q': 'Kan man hålla nystekta raggmunkar varma i ugnen medan man steker resten?',
+            'a': 'Ja! Lägg de färdigstekta raggmunkarna i ett enkelt lager (inte staplade på varandra) på ett '
+                 'ugnsgaller i 100 grader varm ugn så behåller de sin frasighet.'}],
   'file': 'frasig-raggmunk-stekt-flask.html',
   'img': 'raggmunk',
   'ingredients': [{'group': 'Raggmunksmet',
@@ -643,9 +649,11 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT15M',
   'prep_time_str': '15 min',
-  'pro_tips': 'Blanda i den rivna potatisen omedelbart i smeten – kontakten med mjölk och mjöl förhindrar att '
-              'potatisen oxiderar. Vill du spara tid till många kan du grädda raggmunk i långpanna på 225°C i 25 '
-              'minuter!',
+  'pro_tips': ['Krama inte ur den rivna potatisen om du vill ha riktigt sammanhållna raggmunkar: Stärkelsen i '
+               'potatisvätskan hjälper våfflan att binda ihop med pannkakssmeten (men blanda ner potatisen precis före '
+               'stekning så mörknar den inte).',
+               'Stek raggmunkarna i det utsmälta fläskfettet blandat med en klick smör i gjutjärnspanna: Det ger '
+               'oslagbart frasiga, spetsiga kanter och äkta husmanssmak!'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'frasig-raggmunk-stekt-flask',
@@ -654,7 +662,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '35 min',
   'title': 'Frasig Raggmunk med Stekt Fläsk och Rårörda Lingon',
   'total_time': 'PT35M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Klassisk Toast Skagen med handskalade räkor, majonnäs, pepparrot, Kalixlöjrom och färsk dill på smörstekt '
          'bröd',
   'calories': 380,
@@ -1284,12 +1292,18 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'Ett friskt och krispigt vitt vin som tysk Riesling eller en kall svensk ljus lager.',
   'equipment': ['Gjutjärnsgryta eller rymlig kastrull', 'Skärbräda & kockkniv', 'Soppslev'],
-  'faqs': [{'a': 'Ja, det går utmärkt! Tina laxen i kylskåp och torka av den lätt med hushållspapper innan den skärs i '
-                 'kuber.',
-            'q': 'Kan man använda fryst lax?'},
-           {'a': 'Du kan koka soppbasen med potatis och grönsaker i förväg. Värm upp den och tillsätt laxen och dillen '
-                 'precis före servering så håller sig fisken perfekt mör.',
-            'q': 'Går soppan att förbereda dagen innan?'}],
+  'faqs': [{'q': 'Hur länge ska laxen koka i krämig laxsoppa?',
+            'a': 'Skär laxen i 2x2 cm stora kuber och lägg ner dem i den varma, sjudande soppan de allra sista 3–4 '
+                 'minuterna utan att soppan stormkokar. Då blir laxen smältande mör och saftig.'},
+           {'q': 'Kan man göra svensk laxsoppa på fryst laxfilé?',
+            'a': 'Ja, fryst laxfilé fungerar perfekt! Låt laxen halvtina i kylskåp i ca 30 minuter så går den '
+                 'superlätt att skära i jämna, snygga tärningar.'},
+           {'q': 'Vilka grönsaker och rotfrukter är godast i laxsoppa?',
+            'a': 'Fast potatis, morot, purjolök och lite finstrimlad fänkål utgör den klassiska svenska grunden, som '
+                 'sedan toppas med massor av färsk hackad dill och en skvätt citronsaft.'},
+           {'q': 'Vad serverar man till krämig laxsoppa?',
+            'a': 'Ett varmt vitlöksbröd, nygräddade surdegsbaguetter med vispat smör eller en klick krämig '
+                 'saffransaioli passar magiskt bra till laxsoppa.'}],
   'file': 'kramig-svensk-laxsoppa.html',
   'img': 'laxsoppa',
   'ingredients': [{'group': 'Soppbas',
@@ -1340,8 +1354,11 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT10M',
   'prep_time_str': '10 min',
-  'pro_tips': 'Låt aldrig soppan stormkoka efter att laxen lagts i. Laxen fortsätter att eftertillagas i den heta '
-              'gräddbuljongen och blir silkeslen.',
+  'pro_tips': ['Lägg i laxtärningarna på eftervärmen de sista 3–4 minuterna: Lax blir torr om den stormkokar. När '
+               'potatisen och rotfrukterna är mjuka drar du ner värmen och låter laxen sjuda försiktigt tills den '
+               'precis skivar sig.',
+               'Fräs tomatpuré, fänkål och vitlök i smör innan buljongen hälls på: Det ger laxsoppan den där rika, '
+               'varma färgen och restaurangsmaken som lyfter fiskbuljongen.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'kramig-svensk-laxsoppa',
@@ -1350,7 +1367,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '30 min',
   'title': 'Krämig Svensk Laxsoppa med Dill och Purjolök',
   'total_time': 'PT30M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Närbild på saftig kärleksmums chokladruta med tjock mörk glasyr, riven kokos och en bit tagen',
   'calories': 265,
   'card_title': 'Kärleksmums (Mockarutor)',
@@ -1504,18 +1521,20 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Mycket enkel',
   'drink_pairing': 'En kall svensk lager eller ett fruktigt rött vin som Pinot Noir.',
   'equipment': ['Ugnssäker form', 'Stekpanna till bacon', 'Bunke & ballongvisp'],
-  'faqs': [{'a': 'Rätten skapades på 1970-talet av Ove Jacobsson, som arbetade inom flygfrakt och ville bjuda sina '
-                 'vänner på en snabb, god och festlig bjudrätt.',
-            'q': 'Varför heter det Flygande Jacob?'},
-           {'a': 'Ja, rostade cashewnötter eller pumpakärnor och solrosfrön fungerar utmärkt som nötfria alternativ.',
-            'q': 'Kan man byta ut jordnötterna vid allergi?'},
-           {'q': 'Kan man göra Flygande Jacob med kycklingfilé istället för grillad kyckling?',
-            'a': 'Ja, skär ca 600 g kycklingfilé eller lårfilé i munsbitar, krydda med salt, svartpeppar och lite '
-                 'curry, och bryn dem gyllene i smör så att de precis är genomstekta innan du lägger dem i '
-                 'ugnsformen.'},
-           {'q': 'Vad serverar man till klassisk Flygande Jacob?',
-            'a': 'Servera rykande het direkt ur ugnsformen med nykokt jasminris eller långkornigt ris, en krispig '
-                 'grönsallad med tomat och gurka samt extra salta jordnötter och knaperstekt bacon i skålar bredvid.'}],
+  'faqs': [{'q': 'Kan man göra Flygande Jacob med grillad kyckling eller kycklingfilé?',
+            'a': 'Ja! Originalreceptet från 1976 görs med 1 hel urbenad grillad kyckling (vilket går supersnabbt till '
+                 'vardags), men det blir precis lika gott och saftigt med ca 600 g strimlad och smörstekt '
+                 'kycklingbröstfilé eller kycklinglårfilé kryddad med lite salladskrydda.'},
+           {'q': 'Kan man göra Flygande Jacob med kassler istället för kyckling?',
+            'a': 'Absolut! Flygande Jacob med strimlad eller tärnad kassler (ca 500 g) är en mycket populär svensk '
+                 'husmansvariant som inte ens behöver förstekas innan den läggs i gratängformen.'},
+           {'q': 'Hur länge ska Flygande Jacob vara i ugnen på 225 grader?',
+            'a': 'Flygande Jacob gräddas i mitten av ugnen på 225 grader (över- och undervärme) i ca 15–20 minuter '
+                 'tills chilisåsgrädden har fått vacker gyllenbrun färg och bubblar i kanterna.'},
+           {'q': 'Vilken krydda är hemligheten i klassisk Flygande Jacob?',
+            'a': 'Italiensk salladskrydda! I Ove Jacobssons originalrecept från Allt om Mat 1976 kryddas kycklingen '
+                 'med 1–2 tsk italiensk salladskrydda som gifter sig magiskt med chilisås, banan, vispgrädde, bacon '
+                 'och jordnötter.'}],
   'file': 'klassisk-flygande-jacob.html',
   'img': 'flygande-jacob',
   'ingredients': [{'group': 'Gratängbas',
@@ -1571,10 +1590,12 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT10M',
   'prep_time_str': '10 min',
-  'pro_tips': 'För att din Flygande Jacob ska få perfekt krämig konsistens utan att bli rinnig i ugnen ska du vispa '
-              'grädden ganska fast (nästan som till tårta) innan du vänder ner chilisåsen och curryn. Stek baconet '
-              'krispigt vid sidan om och strö det tillsammans med de salta jordnötterna över gratängen precis vid '
-              'servering så att de behåller sitt härliga tuggmotstånd.',
+  'pro_tips': ['Vispa grädden lagom fast innan chilisåsen vänds ner: Om grädden är lättvispad och luftig (inte rinnig '
+               'och inte smörig) sjunker den inte ihop i ugnen utan bildar ett gyllene, suffléliknande täcke över '
+               'kycklingen och bananerna.',
+               'Stek baconet krispigt vid sidan om och strö över tillsammans med jordnötterna de sista 5 minuterna: Då '
+               'behåller både bacon och salta jordnötter sin perfekta krispighet istället för att bli mjuka i '
+               'gräddsåsen.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'klassisk-flygande-jacob',
@@ -1583,7 +1604,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '30 min',
   'title': 'Klassisk Flygande Jacob med Kyckling, Bacon och Jordnötter',
   'total_time': 'PT30M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Närbild på en gaffel som drar i mört långkokt kött i mörk kryddpepparsås med morötter och kokt potatis',
   'calories': 490,
   'card_title': 'Klassisk Kalops',
@@ -6761,11 +6782,21 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'En krämig cappuccino, bryggkaffe eller en kopp chaite.',
   'equipment': ['Springform (ca 24 cm) eller liten långpanna', 'Rivjärn', 'Elvisp'],
-  'faqs': [{'a': 'Morotskaka med cream cheese-frosting förvaras i kylskåp under lock eller plastfolie. Den håller sig '
-                 'fantastiskt saftig i upp till 5 dagar.',
-            'q': 'Hur förvaras morotskaka bäst?'},
-           {'a': 'Ja, kakan går utmärkt att frysa in både med och utan frosting i portionsbitar.',
-            'q': 'Kan man frysa morotskaka?'}],
+  'faqs': [{'q': 'Varför blir min cream cheese-frosting till morotskaka lös och rinnig?',
+            'a': 'Färskost (cream cheese) släpper vätska om den vispas för länge eller om den är för varm. Vispa '
+                 'alltid smör och florsocker fluffigt först och vispa sedan bara snabbt ner kylskåpskall färskost '
+                 '(minst 23% fett, inte lättvariant) i några sekunder.'},
+           {'q': 'Vilken olja är bäst att baka saftig morotskaka med?',
+            'a': 'En neutral rapsolja eller solrosolja är allra bäst. Olja är flytande även i kylskåpstemperatur (till '
+                 'skillnad från smör som stelnar i kylen), vilket gör att morotskakan känns nybakad och saftig direkt '
+                 'från kylskåpet.'},
+           {'q': 'Kan man frysa in morotskaka med frosting på?',
+            'a': 'Ja, morotskaka går utmärkt att frysa in både med och utan cream cheese-frosting! Ställ kakan (eller '
+                 'bitarna) på en bricka i frysen i 1 timme tills frostingen stelnat och packa sedan i tätslutande burk '
+                 'i upp till 3 månader.'},
+           {'q': 'Hur länge ska morotskaka gräddas i 175 grader?',
+            'a': 'I en rund springform på 24 cm gräddas morotskakan längst ner eller i mitten av ugnen på 175 grader i '
+                 'ca 35–40 minuter tills en provsticka i mitten kommer ut helt torr.'}],
   'file': 'saftig-morotskaka-cream-cheese-frosting.html',
   'img': 'morotskaka',
   'ingredients': [{'group': 'Saftig Morotskakesmet',
@@ -6828,8 +6859,11 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'bitar',
   'prep_time': 'PT20M',
   'prep_time_str': '20 min',
-  'pro_tips': 'Vispa inte frostingen för länge efter att du tillsatt färskosten – då kan den bli rinnig. Vispa smöret '
-              'och florsockret fluffigt först, vänd sedan snabbt ner färskosten tills frostingen precis gått ihop.',
+  'pro_tips': ['Finriv morötterna på den fina sidan av rivjärnet: Fint rivna morötter smälter in i kakan under '
+               'gräddningen och gör morotskakan extremt saftig utan att ge tuggmotstånd av grova morotsstrimlor.',
+               'Vispa rumsvarmt smör och kall färskost i rätt ordning till frostingen: Vispa först det rumsvarma '
+               'smöret med florsocker och vanilj i 3 minuter tills det är helt vitt och fluffigt, och vänd därefter '
+               'ner kylskåpskall Philadelphiaost på låg hastighet – då spricker eller rinner frostingen aldrig!'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'saftig-morotskaka-cream-cheese-frosting',
@@ -6838,7 +6872,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '45 min',
   'title': 'Saftig Morotskaka med Krämig Cream Cheese-frosting & Valnötter',
   'total_time': 'PT45M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Närbild på en glasburk fylld med glänsande inlagd sill, lila rödlöksringar, morotsslantar, kryddpepparkorn '
          'och färsk dill',
   'calories': 180,
@@ -7871,12 +7905,21 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'En svensk pilsner eller en krispig akvavit (t.ex. Lysholm Linie eller Läckö Slott).',
   'equipment': ['Skål & visp', 'Glasburk med lock (ca 1 liter)', 'Skärbräda'],
-  'faqs': [{'a': 'Senapssill håller sig utmärkt i en tät glasburk i kylskåp i ca 10–14 dagar.',
-            'q': 'Hur länge håller hemgjord senapssill i kylen?'},
-           {'a': 'Ja, traditionell skånsk senapssås görs enbart på senap, ättika, socker och olja. Crème fraiche är '
-                 'ett modernt tillskott för extra krämighet som kan uteslutas om man vill ha en renare '
-                 'hovmästarsås-känsla.',
-            'q': 'Kan man göra senapssillen utan crème fraiche?'}],
+  'faqs': [{'q': 'Hur långt i förväg ska man göra klassisk senapssill?',
+            'a': 'Gör gärna senapssillen 1–2 dygn före servering och låt den dra i en väl rengjord glasburk i '
+                 'kylskåpet – då gifter sig smakerna av senap, dill och ättika med sillen.'},
+           {'q': 'Hur länge håller hemlagad senapssill i kylskåp?',
+            'a': 'I en tättslutande, väl rengjord glasburk i kallt kylskåp (max +4 grader) håller senapssill utan '
+                 'problem i 10–14 dagar, vilket gör att du kan förbereda den i god tid före jul, påsk eller '
+                 'midsommar.'},
+           {'q': 'Vilken sill ska man använda till senapssill – 5-minuterssill eller inläggningssill?',
+            'a': 'För snabbast resultat använder du färdig 5-minuterssill som bara hälls av och skärs i bitar. Vill du '
+                 'använda vanlig inläggningssill lägger du först in den i en 1-2-3-lag över natten och låter den rinna '
+                 'av väl.'},
+           {'q': 'Varför skär sig senapssåsen till senapssill och hur räddar man den?',
+            'a': 'Såsen kan skära sig om oljan hälls i för snabbt eller om oljan är iskall medan senapen är rumsvarm. '
+                 'Om den skär sig: vispa upp 1 äggula eller 1 tsk senap i en ny skål och vispa långsamt ner den skurna '
+                 'såsen droppvis.'}],
   'file': 'klassisk-senapssill-hovmastarsas-dill.html',
   'img': 'senapssill',
   'ingredients': [{'group': 'Krämig Senapssås',
@@ -7934,8 +7977,10 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT15M',
   'prep_time_str': '15 min',
-  'pro_tips': 'Droppa i rapsoljan långsamt i början precis som när du gör majonnäs – då binder såsen perfekt och blir '
-              'härligt tjock och glänsande!',
+  'pro_tips': ['Droppa i rapsoljan långsamt under kraftig vispning precis som när du gör majonnäs: Då emulgerar '
+               'senapen och oljan till en tjock, blank och krämig senapssås som fäster perfekt runt sillbitarna.',
+               'Blanda sötstark grov senap med lite skånsk senap eller dijonsenap: Det ger senapssillen den perfekta '
+               'balansen mellan sötma, syra och kryddig hetta.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'klassisk-senapssill-hovmastarsas-dill',
@@ -7944,7 +7989,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '15 min (+ 4 tim vila)',
   'title': 'Klassisk Senapssill i Krämig Hovmästarsås med Färsk Dill',
   'total_time': 'PT15M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Närbild på gyllenbruna frasiga hjärtvåfflor toppade med vispgrädde, röd jordgubbssylt och florsocker på en '
          'rustik tallrik',
   'calories': 280,
@@ -9299,11 +9344,19 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'Ett mjukt rött vin som Chianti eller Côtes du Rhône, eller ett stort glas kall mjölk.',
   'equipment': ['Ugnsfast form ca 20x30 cm', 'Stekpanna', 'Mandolin eller vass kockkniv'],
-  'faqs': [{'a': 'Ja, absolut! Bygg ihop gratängen i formen på förmiddagen, plasta in och ställ i kylen. Grädda den '
-                 'sedan direkt före servering (lägg till 5 minuter på gräddningstiden om den är kylskåpskall).',
-            'q': 'Kan man förbereda gratängen i förväg?'},
-           {'a': 'Ja, byt grädde och mjölk mot havregrädde och använd en smakrik växtbaserad ost som smälter bra.',
-            'q': 'Går det att göra gratängen mejerifri?'}],
+  'faqs': [{'q': 'Måste man förkoka potatisen till köttfärsgratäng med potatis?',
+            'a': 'Om du skivar rå potatis tunt (ca 2–3 mm) och sjuder skivorna i lättsaltat vatten eller gräddmjölk i '
+                 '5 minuter innan du varvar gratängen halveras ugnstiden till 25 minuter och potatisen blir garanterat '
+                 'mjuk rakt igenom.'},
+           {'q': 'Kan man göra köttfärsgratäng på överbliven kokt potatis eller potatismos?',
+            'a': "Absolut! Skivad kall kokt potatis (eller ett täcke av fluffigt potatismos som i Shepherd's Pie) "
+                 'fungerar perfekt ovanpå köttfärssåsen med riven lagrad ost överst.'},
+           {'q': 'Vilken ost är bäst till klassisk köttfärsgratäng?',
+            'a': 'En vällagrad svensk hårdost som Prästost, Herrgårdsost eller Västerbottensost smälter jämnt, ger en '
+                 'gyllenbrun gratängyta och massor av smak.'},
+           {'q': 'Hur länge ska köttfärsgratäng med potatis stå i ugnen på 200 grader?',
+            'a': 'Med lätt förkokt eller kokt potatis tar det ca 20–25 minuter i mitten av ugnen på 200 grader. '
+                 'Använder du helt rå skivad potatis behöver gratängen ca 40–45 minuter.'}],
   'file': 'klassisk-kottfarsgratang-potatis-ost.html',
   'img': 'kottfarsgratang',
   'ingredients': [{'group': 'Köttfärsfyllning',
@@ -9358,8 +9411,11 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT20M',
   'prep_time_str': '20 min',
-  'pro_tips': 'Skiva potatisen riktigt tunt! Om du har tjocka potatisskivor kan du koka dem hastigt i lättsaltat '
-              'vatten i 3-4 minuter innan du lägger dem i gratängen.',
+  'pro_tips': ['Låt köttfärssåsen koka ihop lite kortare och fastare än till pasta: Eftersom potatisen och ostsåsen '
+               'också släpper ifrån sig saft i ugnen ger en mustig, välreducerad köttfärsröra en fast och skärbar '
+               'gratäng.',
+               'Skiva potatisen i 3 mm tunna skivor och förkoka den i 5 minuter (eller i gräddmjölk): Då blir '
+               'potatisen garanterat mjuk och krämig på 25 minuter i ugnen utan hårda skivor i mitten.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'klassisk-kottfarsgratang-potatis-ost',
@@ -9368,7 +9424,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '50 min',
   'title': 'Klassisk Köttfärsgratäng med Potatis & Gratinerad Ost',
   'total_time': 'PT50M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Klassisk svensk prinsesstårta med grönt marsipanlock, pudrat florsocker och rosa marsipanros',
   'calories': 390,
   'card_title': 'Klassisk Prinsesstårta',
@@ -9737,12 +9793,19 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Medel',
   'drink_pairing': 'Ett glas varm kryddig glögg med mandel och russin eller en kopp nybryggt kaffe med mjölk.',
   'equipment': ['Hushållsassistent eller stor bunke', 'Bakplåtar med bakplåtspapper', 'Bakpensel', 'Mortel'],
-  'faqs': [{'a': 'Saffran torkar naturligt ut jäsdegar. Genom att tillsätta kesella och inte överarbeta med för mycket '
-                 'mjöl i degen behåller lussekatterna sin saftighet i flera dagar.',
-            'q': 'Varför blir lussekatter ofta torra och hur undviker man det?'},
-           {'a': 'Ja, absolut! Frys in dem så fort de har svalnat helt efter gräddning. Tina i rumstemperatur eller '
-                 'värm dem hastigt i ugnen på 150°C i 3-4 minuter så smakar de som nybakade.',
-            'q': 'Kan man frysa in lussekatter?'}],
+  'faqs': [{'q': 'Hur får man lussekatter riktigt saftiga så att de inte blir torra?',
+            'a': 'De tre viktigaste knepen för saftiga lussekatter är: 1) Använd 250 g Kesella (kvarg 10%) i degen, 2) '
+                 'Använd rumsvarmt (ej smält) smör så att du behöver mindre vetemjöl, och 3) Grädda dem kort på hög '
+                 'värme (225 grader i endast 7–8 minuter).'},
+           {'q': 'Hur länge ska lussekatter gräddas på 225 grader?',
+            'a': 'Klassiska lussekatter gräddas i mitten av ugnen på 225 grader (över- och undervärme) i exakt 7–8 '
+                 'minuter tills de precis fått en lätt gyllene ton. Övergrädda aldrig saffransbullar!'},
+           {'q': 'Varför blir russinen i lussekatterna brända och torra i ugnen?',
+            'a': 'Torra russin drar åt sig fukt ur degen och bränns i ugnsvärmen. Lägg alltid russinen i blöt i kallt '
+                 'vatten i 15–20 minuter före utbakningen och tryck ner dem djupt i bullarna.'},
+           {'q': 'När ska man frysa in nybakade lussekatter?',
+            'a': 'Frys in lussekatterna i tätslutande fryspåsar så snart de svalnat till fingervärme på bakbordet '
+                 '(samma dag som de bakats). Då bevaras all fukt och de smakar som helt nybakade när de tinas!'}],
   'file': 'klassiska-lussekatter-saffransbullar-kesella.html',
   'img': 'lussekatter',
   'ingredients': [{'group': 'Saffransdeg (ca 30 bullar)',
@@ -9802,8 +9865,11 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'bullar',
   'prep_time': 'PT60M',
   'prep_time_str': '60 min',
-  'pro_tips': 'Blötlägg alltid russinen i hett vatten i 30 minuter före gräddning! Torra russin suger fukt ur bullen '
-              'under gräddningen och bränns lätt vid i ugnen.',
+  'pro_tips': ['Stöt saffranet med lite strösocker och låt det dra i varm degvätska eller konjak: Det frigör maximal '
+               'arom och ger lussekatterna den djupa, gyllengula färgen.',
+               'Arbeta ner rumsvarmt smör i klickar och använd Kesella (kvarg 10%): Kesella och äkta smör som knådas '
+               'in i degen i 10 minuter gör att glutenet kapslar in fukten, så att lussekatterna blir fluffiga som '
+               'bomull och inte torra.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'klassiska-lussekatter-saffransbullar-kesella',
@@ -9812,7 +9878,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '90 min',
   'title': 'Klassiska Lussekatter – Saftiga Saffransbullar med Kesella',
   'total_time': 'PT90M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Klassisk ugnsbakad julskinka med gyllene senapsgriljering och nejlikor på en träskärbräda',
   'calories': 260,
   'card_title': 'Klassisk Julskinka',
@@ -11386,12 +11452,19 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'Ett krispigt vitt vin som Sauvignon Blanc, ett ljust lageröl eller ett stort glas kall mjölk.',
   'equipment': ['Stor kastrull eller gryta', 'Stavmixer', 'Skärbräda och vass kockkniv', 'Stekpanna till krutonger'],
-  'faqs': [{'a': 'Mjölig potatis som King Edward eller Mandelpotatis ger den allra lenaste och fylligaste konsistensen '
-                 'då stärkelsen reder soppan naturligt när den mixas.',
-            'q': 'Vilken potatissort är bäst för potatis- och purjolökssoppa?'},
-           {'a': 'Ja, soppan går utmärkt att frysa in! Tillsätt gärna grädden först efter upptining och uppvärmning '
-                 'för bästa textur.',
-            'q': 'Kan soppan frysas in?'}],
+  'faqs': [{'q': 'Vilken potatissort är bäst till potatis- och purjolökssoppa?',
+            'a': 'Mjölig potatis (t.ex. King Edward eller Mandelpotatis) är överlägset bäst eftersom stärkelsen i '
+                 'potatisen gör soppan naturligt sammetslen när den mixas.'},
+           {'q': 'Varför blir potatis- och purjolökssoppa klistrig om man mixar för länge?',
+            'a': 'Om kokt potatis körs på högsta hastighet i matberedare eller blender under lång tid frigörs för '
+                 'mycket fri stärkelse. Mixa soppan kort med stavmixer bara precis tills den är slät, eller passera '
+                 'den genom en sil.'},
+           {'q': 'Vad är gott att toppa potatis- och purjolökssoppa med?',
+            'a': 'Knaperstekt tärnat bacon eller sidfläsk, smörstekta brödkrutonger med vitlök, fint skuren gräslök '
+                 'och några droppar god olivolja är klassiska tillbehör.'},
+           {'q': 'Kan man göra potatis- och purjolökssoppa vegansk eller mjölkfri?',
+            'a': 'Ja! Byt bara ut smöret mot mjölkfritt margarin eller olivolja och ersätt vispgrädden med havregrädde '
+                 '(iMat) så blir soppan lika krämig och 100% vegansk.'}],
   'file': 'klassisk-potatis-purjolokssoppa.html',
   'img': 'potatispurjolokssoppa',
   'ingredients': [{'group': 'Soppbas',
@@ -11444,8 +11517,10 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT15M',
   'prep_time_str': '15 min',
-  'pro_tips': 'Använd mjölig potatissort (som King Edward) – stärkelsen gör soppan naturligt fyllig utan redning. Vill '
-              'du lyxa till det kan du toppa med knaperstekt bacon eller riven Västerbottensost.',
+  'pro_tips': ['Fräs purjolöken mjuk i rikligt med smör på låg värme utan att den tar färg: Det lockar fram '
+               'purjolökens naturliga sötma och ger soppan dess lena, smöriga smak.',
+               'Spara lite av det gröna på purjolöken och strimla supertunt till garnering: Och vill du äta soppan '
+               'kall en varm sommardag har du en äkta fransk Vichyssoise!'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'klassisk-potatis-purjolokssoppa',
@@ -11454,7 +11529,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '35 min',
   'title': 'Klassisk Potatis- och Purjolökssoppa – Krämig & Enkel',
   'total_time': 'PT35M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Mustig krämig trattkantarellsoppa toppad med smörstekta trattkantareller och färsk timjan i mörk keramikskål',
   'calories': 340,
   'card_title': 'Trattkantarellsoppa',
@@ -14072,12 +14147,20 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'drink_pairing': 'Ett friskt torrt vitt vin som en Chablis eller Sauvignon Blanc, eller en frisk alkoholfri '
                    'äppelmust.',
   'equipment': ['Pajform (ca 26–28 cm i diameter)', 'Kavel eller pajtryckare', 'Stekpanna', 'Vispskål'],
-  'faqs': [{'a': 'Ja! Både varmrökt, kallrökt och färsk rå laxfilé (i kuber) fungerar utmärkt. Varmrökt ger dock en '
-                 'särskilt saftig konsistens och fyllig rökighet som passar magiskt med Västerbottensosten.',
-            'q': 'Kan man använda gravad eller kallrökt lax istället för varmrökt?'},
-           {'a': 'Absolut! Laxpaj är minst lika god ljummen eller kall dagen efter, vilket gör den perfekt för kalas '
-                 'och buffébjudningar.',
-            'q': 'Kan pajen förberedas dagen innan?'}],
+  'faqs': [{'q': 'Ska man ha rå, kallrökt eller varmrökt lax i laxpaj?',
+            'a': 'Alla tre fungerar utmärkt! Rå laxfilé i kuber blir otroligt saftig när den bakas i äggstanningen, '
+                 'medan kallrökt eller varmrökt lax ger en djupare rökig smak som passar perfekt till spenat och '
+                 'Västerbottensost.'},
+           {'q': 'Hur vet man när laxpajen är klar i ugnen?',
+            'a': 'En laxpaj är färdiggräddad efter ca 30–35 minuter i mitten av ugnen på 200 grader när äggstanningen '
+                 'har stannat i mitten (den ska inte längre gunga som vätska när du skakar formen) och osten fått '
+                 'gyllenbrun färg.'},
+           {'q': 'Går det att förbereda och frysa in laxpaj med spenat?',
+            'a': 'Ja, laxpaj är perfekt bjudmat att baka dagen innan! Förvara i kylskåp och värm i 150 grader i 15 '
+                 'minuter före servering, eller frys in den färdiggräddade pajen i upp till 3 månader.'},
+           {'q': 'Vad passar att servera till krämig laxpaj?',
+            'a': 'En krispig grönsallad med citronvinägrett, sockerärtor, lite kall romsås eller en klick crème '
+                 'fraiche med färsk dill och rödlök.'}],
   'file': 'kramig-laxpaj-spenat-vasterbottensost.html',
   'img': 'laxpaj',
   'ingredients': [{'group': 'Frasigt Pajskal',
@@ -14136,8 +14219,10 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'portions_unit': 'portioner',
   'prep_time': 'PT25M',
   'prep_time_str': '25 min',
-  'pro_tips': 'Förgrädda alltid pajskalet i 10 minuter och låt den frästa spenaten rinna av ordentligt! Då undviker du '
-              'en blöt pajbotten och får ett underbart frasigt resultat.',
+  'pro_tips': ['Förgrädda pajskalet i 10 minuter och nagga botten: Då blir pajbotten frasig rakt igenom och aldrig '
+               'degig av äggstanningen.',
+               'Krama ur all vätska ur den frästa spenaten och torka av laxen: Ju mindre överflödig vätska i '
+               'fyllningen, desto krämigare och fastare stannar äggstanningen med Västerbottensost.'],
   'rating': 4.8,
   'review_count': 4,
   'slug': 'kramig-laxpaj-spenat-vasterbottensost',
@@ -14146,7 +14231,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '60 min',
   'title': 'Krämig Laxpaj med Varmrökt Lax, Spenat & Västerbottensost',
   'total_time': 'PT60M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-12T12:00:00+01:00'},
  {'alt': 'Glaserade saftiga tjocka revbensspjäll skurna på träskärbräda med färsk rosmarin och flingsalt',
   'calories': 620,
   'card_title': 'Tjocka Revbensspjäll',
