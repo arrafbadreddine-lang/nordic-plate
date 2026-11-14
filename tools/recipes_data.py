@@ -2326,7 +2326,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '65 min',
   'title': 'Klassisk Kålpudding med Sirap, Gräddsås & Potatismos',
   'total_time': 'PT65M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Rykande het röd gulaschsoppa i mörk keramikskål med mört högrev, potatis, paprika, kummin och en klick vit '
          'gräddfil',
   'calories': 460,
@@ -2452,7 +2452,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '75 min',
   'title': 'Klassisk Gulaschsoppa – Mustigt Recept på Högrev & Paprika',
   'total_time': 'PT75M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på en gyllengul krämig saffransfisksoppa i vit skål med lax, torsk, räkor, dill och en klick '
          'hemgjord aioli',
   'calories': 480,
@@ -3313,11 +3313,19 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'difficulty': 'Enkel',
   'drink_pairing': 'En kopp nymalet bryggkaffe, klassiskt svart te eller ett glas kall äppelmust.',
   'equipment': ['Springform (24 cm med löstagbar botten)', 'Elvisp & bunke', 'Skalkniv & skärbräda'],
-  'faqs': [{'a': 'Syrliga och fasta äppelsorter som Ingrid Marie, Gravenstein eller Aroma ger bäst balans mot den söta '
-                 'kakan och behåller sin form.',
-            'q': 'Vilka äpplen är bäst att baka med?'},
-           {'a': 'Ja, mjuk äppelkaka går utmärkt att frysa hel eller i bitar och kan snabbt tinas och värmas i ugnen.',
-            'q': 'Kan kakan frysas?'}],
+  'faqs': [{'q': 'Vilka äpplen är bäst till gammaldags mjuk äppelkaka?',
+            'a': 'Fasta, syrliga svenska höstäpplen som Ingrid Marie, Cox Orange, Gravensteiner eller Aroma är allra '
+                 'bäst eftersom de behåller sin form i ugnen och ger frisk syra mot den söta sockerkakssmeten.'},
+           {'q': 'Hur får man mjuk äppelkaka riktigt saftig i flera dagar?',
+            'a': 'Genom att vispa rumsvarmt smör och socker riktigt poröst (eller vända ner smält smör och mjölk '
+                 'varsamt), inte övergrädda kakan på 175 grader och trycka ner tätt med kanel- och sockervända '
+                 'äppelklyftor som släpper saft i kakan.'},
+           {'q': 'Kan man frysa in gammaldags mjuk äppelkaka?',
+            'a': 'Ja, mjuk äppelkaka går utmärkt att frysa in både hel och i bitar i upp till 3 månader. Tina i '
+                 'rumstemperatur och värm gärna några minuter i ugnen före servering med vaniljsås.'},
+           {'q': 'Hur länge ska mjuk äppelkaka vara i ugnen på 175 grader?',
+            'a': 'I en vanlig springform på 24 cm gräddas mjuk äppelkaka i nedre delen eller mitten av ugnen på 175 '
+                 'grader i ca 35–40 minuter tills en provsticka kommer ut torr.'}],
   'file': 'gammaldags-mjuk-appelkaka-kanel.html',
   'img': 'appelkaka',
   'ingredients': [{'group': 'Saftig Kakbotten',
@@ -3390,7 +3398,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '45 min',
   'title': 'Gammaldags Mjuk Äppelkaka med Kanel & Hemgjord Vaniljsås',
   'total_time': 'PT45M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på en djup tallrik med al dente spaghetti täckt med mustig mörkröd köttfärssås, riven parmesanost '
          'och färsk basilika',
   'calories': 530,
@@ -3522,7 +3530,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '45 min',
   'title': 'Klassisk Svensk Köttfärssås & Spaghetti – Bästa Receptet',
   'total_time': 'PT45M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på en skål varm krämig cowboysoppa med köttfärs, potatisbitar, majs, bönor, gräslök och vitlöksbröd '
          'på kanten',
   'calories': 460,
@@ -3650,7 +3658,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '35 min',
   'title': 'Klassisk Cowboysoppa med Köttfärs, Potatis, Majs & Grädde',
   'total_time': 'PT35M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på nygräddade rykande varma frasiga scones delade på mitten med smältande smör, clotted cream och '
          'jordgubbssylt',
   'calories': 290,
@@ -4239,7 +4247,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '35 min',
   'title': 'Klassisk Silviakaka i Långpanna – Saftig Kaka med Vaniljglasyr',
   'total_time': 'PT35M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på en gjutjärnspanna med krämig kycklinggryta, gyllene kycklingfiléer, stekta champinjoner, färska '
          'dragonblad och sås',
   'calories': 520,
@@ -5558,7 +5566,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '1 tim 30 min',
   'title': 'Gammaldags Köttsoppa med Högrev, Rotfrukter & Klimp',
   'total_time': 'PT90M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på gyllenbruna saftiga pannbiffar täckta av karamelliserad lök, krämig gräddsås, nykokt dillpotatis '
          'och rårörda lingon',
   'calories': 520,
@@ -6741,7 +6749,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '20 min',
   'title': 'Gammaldags Äppelkräm med Kanel & Iskall Mjölk',
   'total_time': 'PT20M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Närbild på en saftig bit morotskaka med tjock vit cream cheese-frosting, rivet limeskal och hackade '
          'valnötter på ett fikafat',
   'calories': 340,
@@ -13894,7 +13902,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '25 min',
   'title': 'Krämig Lövbiffsgryta med Dijonsenap & Champinjoner (20 min)',
   'total_time': 'PT25M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Gyllenrostade knapriga pumpakärnor med havssalt och paprika i keramikskål på bakplåtspapper',
   'calories': 180,
   'card_title': 'Rostade Pumpakärnor',
@@ -16438,7 +16446,7 @@ RECIPES = [{'alt': 'Klassisk krämig kladdkaka med frasig yta och kladdig kärna
   'time_str': '27 min',
   'title': 'Saftiga Kanelbullemuffins med Pärlsocker – Enkelt & Snabbt Fika',
   'total_time': 'PT27M',
-  'date_modified': '2026-10-24T22:05:00+02:00'},
+  'date_modified': '2026-11-14T22:00:00+01:00'},
  {'alt': 'Klassisk krämig hemlagad vaniljsås som hälls ur en såssnipa över en dessert med synliga svarta vaniljkorn',
   'calories': 185,
   'card_title': 'Klassisk Hemlagad Vaniljsås',
